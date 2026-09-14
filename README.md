@@ -1,20 +1,24 @@
 # Biblioteca de Conciencia Lingüística
 
-Repositorio para organizar materiales, actividades, referencias y recursos relacionados con conciencia lingüística.
+Repositorio editable de la Biblioteca de Conciencia Lingüística.
 
-## Enlace público de la biblioteca
+## Enlace público de consulta
 
-Cuando GitHub Pages esté activado, la biblioteca se podrá consultar aquí:
+La biblioteca funcional para estudiantes y colegas está publicada aquí:
 
-https://profedanielvr-lgtm.github.io/biblioteca-conciencia-linguistica/
+https://biblioteca-cl-master-spaans.daniel-vr.chatgpt.site
+
+## Archivo principal de contenido
+
+El contenido consultable de la biblioteca se edita en:
+
+`content/biblioteca.json`
+
+El profesorado con permisos de colaborador puede abrir ese archivo en GitHub, pulsar el icono del lápiz y modificar, añadir o retirar recursos. La página web carga ese archivo como fuente de contenido.
 
 ## Repositorio editable
 
-El contenido fuente está en este repositorio:
-
 https://github.com/profedanielvr-lgtm/biblioteca-conciencia-linguistica
-
-El profesorado que deba modificar información necesita acceso como colaborador en GitHub. Para editar contenidos, debe entrar al repositorio, abrir el archivo correspondiente y usar el icono del lápiz.
 
 ## Propósito
 
@@ -24,6 +28,7 @@ Esta biblioteca reúne recursos para apoyar el trabajo didáctico, académico y 
 
 | Carpeta | Función |
 | --- | --- |
+| `content/` | Archivo de datos que alimenta la web publicada. |
 | `materiales/` | Materiales didácticos listos para usar o adaptar. |
 | `actividades/` | Propuestas de aula, secuencias y tareas. |
 | `referencias/` | Bibliografía, marcos teóricos y fuentes relevantes. |
@@ -32,11 +37,11 @@ Esta biblioteca reúne recursos para apoyar el trabajo didáctico, académico y 
 
 ## Cómo contribuir
 
-1. Coloca cada recurso en la carpeta correspondiente.
-2. Usa nombres de archivo claros y descriptivos.
-3. Incluye una breve descripción del recurso, su finalidad y el contexto de uso.
-4. Registra fuentes, autoría y condiciones de uso cuando corresponda.
+1. Edita `content/biblioteca.json` para actualizar los recursos visibles en la web.
+2. Usa títulos claros y descripciones breves.
+3. Mantén los campos de cada recurso: `title`, `type`, `level`, `tags`, `summary`, `goal`, `content`, `use`, `task`.
+4. Revisa que el archivo conserve formato JSON válido antes de guardar.
 
 ## Estado
 
-Sitio web preparado para GitHub Pages. Falta activar Pages en la configuración del repositorio si aún no aparece publicado.
+Versión inicial funcional publicada. El contenido debe ampliarse y validarse por el equipo docente.
