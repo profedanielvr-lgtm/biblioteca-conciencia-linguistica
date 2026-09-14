@@ -1,0 +1,235 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Biblioteca de Conciencia Lingüística</title>
+  <style>
+    :root {
+      color-scheme: light;
+      --ink: #1f2933;
+      --muted: #596575;
+      --line: #d8dee8;
+      --paper: #ffffff;
+      --soft: #f4f7fb;
+      --brand: #0f766e;
+      --brand-dark: #115e59;
+      --accent: #b45309;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      color: var(--ink);
+      background: var(--soft);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--brand-dark);
+      color: white;
+      padding: 44px 20px 34px;
+    }
+
+    .wrap {
+      width: min(1080px, calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 4vw, 3.3rem);
+      line-height: 1.08;
+      letter-spacing: 0;
+    }
+
+    h2 {
+      margin: 0 0 14px;
+      font-size: 1.35rem;
+      letter-spacing: 0;
+    }
+
+    h3 {
+      margin: 0 0 8px;
+      font-size: 1.05rem;
+      letter-spacing: 0;
+    }
+
+    p {
+      margin: 0 0 14px;
+    }
+
+    .lead {
+      max-width: 760px;
+      margin: 0;
+      color: #dff7f4;
+      font-size: 1.08rem;
+    }
+
+    nav {
+      background: white;
+      border-bottom: 1px solid var(--line);
+    }
+
+    nav .wrap {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      padding: 12px 0;
+    }
+
+    nav a,
+    .button {
+      display: inline-flex;
+      align-items: center;
+      min-height: 38px;
+      padding: 8px 12px;
+      border: 1px solid var(--line);
+      border-radius: 6px;
+      color: var(--brand-dark);
+      text-decoration: none;
+      background: white;
+      font-weight: 700;
+      font-size: 0.94rem;
+    }
+
+    nav a:hover,
+    .button:hover {
+      border-color: var(--brand);
+      color: var(--brand);
+    }
+
+    main {
+      padding: 28px 0 52px;
+    }
+
+    section {
+      margin: 0 0 28px;
+      padding: 24px;
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 8px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 14px;
+    }
+
+    .item {
+      min-height: 150px;
+      padding: 18px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      background: #fbfcfe;
+    }
+
+    .item a {
+      color: var(--brand-dark);
+      font-weight: 700;
+      text-decoration: none;
+    }
+
+    .item a:hover {
+      text-decoration: underline;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 0.94rem;
+    }
+
+    .notice {
+      border-left: 4px solid var(--accent);
+      padding-left: 14px;
+    }
+
+    footer {
+      padding: 24px 0 40px;
+      color: var(--muted);
+      font-size: 0.92rem;
+    }
+
+    @media (max-width: 640px) {
+      header {
+        padding-top: 34px;
+      }
+
+      section {
+        padding: 18px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Biblioteca de Conciencia Lingüística</h1>
+      <p class="lead">Recursos, actividades, fichas y referencias para apoyar el trabajo didáctico y académico sobre conciencia lingüística.</p>
+    </div>
+  </header>
+
+  <nav aria-label="Secciones principales">
+    <div class="wrap">
+      <a href="#secciones">Secciones</a>
+      <a href="#uso">Uso</a>
+      <a href="#profesores">Profesorado</a>
+      <a href="https://github.com/profedanielvr-lgtm/biblioteca-conciencia-linguistica">Repositorio</a>
+    </div>
+  </nav>
+
+  <main class="wrap">
+    <section id="secciones">
+      <h2>Secciones de la biblioteca</h2>
+      <div class="grid">
+        <article class="item">
+          <h3>Materiales</h3>
+          <p class="meta">Materiales didácticos listos para usar o adaptar.</p>
+          <a href="materiales/">Abrir materiales</a>
+        </article>
+        <article class="item">
+          <h3>Actividades</h3>
+          <p class="meta">Propuestas de aula, secuencias y tareas.</p>
+          <a href="actividades/">Abrir actividades</a>
+        </article>
+        <article class="item">
+          <h3>Referencias</h3>
+          <p class="meta">Bibliografía, marcos teóricos y fuentes relevantes.</p>
+          <a href="referencias/">Abrir referencias</a>
+        </article>
+        <article class="item">
+          <h3>Fichas</h3>
+          <p class="meta">Fichas breves de conceptos, recursos o prácticas.</p>
+          <a href="fichas/">Abrir fichas</a>
+        </article>
+        <article class="item">
+          <h3>Plantillas</h3>
+          <p class="meta">Modelos reutilizables para documentar nuevos recursos.</p>
+          <a href="plantillas/">Abrir plantillas</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="uso">
+      <h2>Uso para estudiantes y colegas</h2>
+      <p>Esta página funciona como punto de entrada a la biblioteca. Los recursos se irán incorporando y organizando progresivamente en las secciones correspondientes.</p>
+      <p>Quien solo necesite consultar la biblioteca puede usar el enlace público de esta página.</p>
+    </section>
+
+    <section id="profesores">
+      <h2>Acceso para profesorado</h2>
+      <p class="notice">Para modificar contenidos, el profesorado debe tener acceso como colaborador en GitHub. Una vez autorizado, podrá editar archivos desde el repositorio.</p>
+      <a class="button" href="https://github.com/profedanielvr-lgtm/biblioteca-conciencia-linguistica">Editar en GitHub</a>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">Biblioteca en construcción. Última estructura inicial publicada en GitHub.</div>
+  </footer>
+</body>
+</html>
