@@ -1,235 +1,54 @@
 <!doctype html>
-<html lang="es">
-<head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Biblioteca de Conciencia Lingüística</title>
-  <style>
-    :root {
-      color-scheme: light;
-      --ink: #1f2933;
-      --muted: #596575;
-      --line: #d8dee8;
-      --paper: #ffffff;
-      --soft: #f4f7fb;
-      --brand: #0f766e;
-      --brand-dark: #115e59;
-      --accent: #b45309;
-    }
-
-    * {
-      box-sizing: border-box;
-    }
-
-    body {
-      margin: 0;
-      font-family: Arial, Helvetica, sans-serif;
-      color: var(--ink);
-      background: var(--soft);
-      line-height: 1.6;
-    }
-
-    header {
-      background: var(--brand-dark);
-      color: white;
-      padding: 44px 20px 34px;
-    }
-
-    .wrap {
-      width: min(1080px, calc(100% - 32px));
-      margin: 0 auto;
-    }
-
-    h1 {
-      margin: 0 0 12px;
-      font-size: clamp(2rem, 4vw, 3.3rem);
-      line-height: 1.08;
-      letter-spacing: 0;
-    }
-
-    h2 {
-      margin: 0 0 14px;
-      font-size: 1.35rem;
-      letter-spacing: 0;
-    }
-
-    h3 {
-      margin: 0 0 8px;
-      font-size: 1.05rem;
-      letter-spacing: 0;
-    }
-
-    p {
-      margin: 0 0 14px;
-    }
-
-    .lead {
-      max-width: 760px;
-      margin: 0;
-      color: #dff7f4;
-      font-size: 1.08rem;
-    }
-
-    nav {
-      background: white;
-      border-bottom: 1px solid var(--line);
-    }
-
-    nav .wrap {
-      display: flex;
-      gap: 10px;
-      flex-wrap: wrap;
-      padding: 12px 0;
-    }
-
-    nav a,
-    .button {
-      display: inline-flex;
-      align-items: center;
-      min-height: 38px;
-      padding: 8px 12px;
-      border: 1px solid var(--line);
-      border-radius: 6px;
-      color: var(--brand-dark);
-      text-decoration: none;
-      background: white;
-      font-weight: 700;
-      font-size: 0.94rem;
-    }
-
-    nav a:hover,
-    .button:hover {
-      border-color: var(--brand);
-      color: var(--brand);
-    }
-
-    main {
-      padding: 28px 0 52px;
-    }
-
-    section {
-      margin: 0 0 28px;
-      padding: 24px;
-      background: var(--paper);
-      border: 1px solid var(--line);
-      border-radius: 8px;
-    }
-
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 14px;
-    }
-
-    .item {
-      min-height: 150px;
-      padding: 18px;
-      border: 1px solid var(--line);
-      border-radius: 8px;
-      background: #fbfcfe;
-    }
-
-    .item a {
-      color: var(--brand-dark);
-      font-weight: 700;
-      text-decoration: none;
-    }
-
-    .item a:hover {
-      text-decoration: underline;
-    }
-
-    .meta {
-      color: var(--muted);
-      font-size: 0.94rem;
-    }
-
-    .notice {
-      border-left: 4px solid var(--accent);
-      padding-left: 14px;
-    }
-
-    footer {
-      padding: 24px 0 40px;
-      color: var(--muted);
-      font-size: 0.92rem;
-    }
-
-    @media (max-width: 640px) {
-      header {
-        padding-top: 34px;
-      }
-
-      section {
-        padding: 18px;
-      }
-    }
-  </style>
-</head>
-<body>
-  <header>
-    <div class="wrap">
-      <h1>Biblioteca de Conciencia Lingüística</h1>
-      <p class="lead">Recursos, actividades, fichas y referencias para apoyar el trabajo didáctico y académico sobre conciencia lingüística.</p>
-    </div>
-  </header>
-
-  <nav aria-label="Secciones principales">
-    <div class="wrap">
-      <a href="#secciones">Secciones</a>
-      <a href="#uso">Uso</a>
-      <a href="#profesores">Profesorado</a>
-      <a href="https://github.com/profedanielvr-lgtm/biblioteca-conciencia-linguistica">Repositorio</a>
-    </div>
-  </nav>
-
-  <main class="wrap">
-    <section id="secciones">
-      <h2>Secciones de la biblioteca</h2>
-      <div class="grid">
-        <article class="item">
-          <h3>Materiales</h3>
-          <p class="meta">Materiales didácticos listos para usar o adaptar.</p>
-          <a href="materiales/">Abrir materiales</a>
-        </article>
-        <article class="item">
-          <h3>Actividades</h3>
-          <p class="meta">Propuestas de aula, secuencias y tareas.</p>
-          <a href="actividades/">Abrir actividades</a>
-        </article>
-        <article class="item">
-          <h3>Referencias</h3>
-          <p class="meta">Bibliografía, marcos teóricos y fuentes relevantes.</p>
-          <a href="referencias/">Abrir referencias</a>
-        </article>
-        <article class="item">
-          <h3>Fichas</h3>
-          <p class="meta">Fichas breves de conceptos, recursos o prácticas.</p>
-          <a href="fichas/">Abrir fichas</a>
-        </article>
-        <article class="item">
-          <h3>Plantillas</h3>
-          <p class="meta">Modelos reutilizables para documentar nuevos recursos.</p>
-          <a href="plantillas/">Abrir plantillas</a>
-        </article>
-      </div>
-    </section>
-
-    <section id="uso">
-      <h2>Uso para estudiantes y colegas</h2>
-      <p>Esta página funciona como punto de entrada a la biblioteca. Los recursos se irán incorporando y organizando progresivamente en las secciones correspondientes.</p>
-      <p>Quien solo necesite consultar la biblioteca puede usar el enlace público de esta página.</p>
-    </section>
-
-    <section id="profesores">
-      <h2>Acceso para profesorado</h2>
-      <p class="notice">Para modificar contenidos, el profesorado debe tener acceso como colaborador en GitHub. Una vez autorizado, podrá editar archivos desde el repositorio.</p>
-      <a class="button" href="https://github.com/profedanielvr-lgtm/biblioteca-conciencia-linguistica">Editar en GitHub</a>
-    </section>
-  </main>
-
-  <footer>
-    <div class="wrap">Biblioteca en construcción. Última estructura inicial publicada en GitHub.</div>
-  </footer>
-</body>
-</html>
+<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Biblioteca del Master Leraar Spaans. Conciencia lingüística: teoría, actividades y materiales organizados por resultados de aprendizaje."><title>Conciencia lingüística | Fontys Spaans</title>
+<style>
+:root{color-scheme:light;--ink:#233b35;--muted:#566a63;--green:#11685c;--line:#d7e3dd;--soft:#f2f7f4}*{box-sizing:border-box;letter-spacing:0}body{margin:0;font:16px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:white}h1,h2,h3{line-height:1.2;font-weight:650;margin:0 0 18px}h1{font-size:34px}h2{font-size:25px}h3{font-size:20px}p{margin:0 0 18px}a{color:var(--green);text-underline-offset:4px}button,input,select{font:inherit}button{cursor:pointer}a:focus-visible,button:focus-visible,input:focus-visible,select:focus-visible,summary:focus-visible{outline:3px solid #ac791a;outline-offset:4px}.skip{position:absolute;top:-80px;left:12px;z-index:50;padding:12px;background:white}.skip:focus{top:12px}.mast{padding:18px 32px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;align-items:center}.brand{font-size:24px;font-weight:750;text-decoration:none;color:#164e44}.brand span{font-weight:400}.mast small{display:block;color:var(--muted);font-size:14px}.shell{display:grid;grid-template-columns:250px minmax(0,1fr);min-height:calc(100vh - 92px)}aside{padding:28px 22px;background:var(--soft);border-right:1px solid var(--line)}aside nav{position:sticky;top:26px}.label{text-transform:uppercase;font-size:12px;color:var(--muted);letter-spacing:1px;margin:24px 12px 8px}.label:first-child{margin-top:0}aside a{display:block;padding:9px 12px;margin:3px 0;color:var(--ink);text-decoration:none;border-left:3px solid transparent;font-size:15px}aside a[aria-current=page]{border-color:var(--green);background:#dcebe3;font-weight:650}aside a:hover{background:#e5eee8}.num{color:var(--green);font-weight:650;display:inline-block;width:25px}main{padding:32px 44px 60px;max-width:1300px;min-width:0;width:100%}.crumb,.meta{font-size:14px;color:var(--muted)}.crumb{margin-bottom:24px}.eyebrow{font-size:13px;color:var(--green);text-transform:uppercase;letter-spacing:1px;font-weight:650;margin-bottom:12px}.intro{font-size:18px;color:var(--muted);max-width:730px}.linehead{display:flex;gap:18px;justify-content:space-between;align-items:baseline;margin:30px 0 18px}.linehead h2{margin:0}.routes{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}.route{display:flex;flex-direction:column;border:1px solid var(--line);border-top:4px solid var(--green);border-radius:5px;padding:23px;text-decoration:none;color:var(--ink)}.route:nth-child(2){border-top-color:#753a76}.route:nth-child(3){border-top-color:#a1711b}.route:hover{background:#f6faf7;border-color:var(--green)}.route h3{font-size:23px;margin-top:14px}.route p{font-size:15px;color:var(--muted)}.route strong{font-size:15px;color:var(--green);margin-top:auto}.band{margin:30px 0;padding:25px 0;border-top:1px solid var(--line);border-bottom:1px solid var(--line)}.two{display:grid;grid-template-columns:1fr 1fr;gap:32px}.toolbar{display:grid;grid-template-columns:minmax(180px,1fr) 190px 180px;gap:14px;margin:25px 0 18px}label{font-size:14px;font-weight:600}input,select{width:100%;padding:10px 12px;border:1px solid #9eb5a9;border-radius:4px;background:white;min-height:46px;margin-top:6px}.resource{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:20px;align-items:center;padding:22px 0;border-bottom:1px solid var(--line)}.resource h3{margin:5px 0 8px}.resource h3 a{text-decoration:none}.resource h3 a:hover{text-decoration:underline}.resource p{margin:0;max-width:730px;font-size:15px;color:var(--muted)}.badge{font-size:13px;font-weight:650;color:#753a76}.button{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:10px 16px;background:var(--green);color:white;border:1px solid var(--green);border-radius:4px;text-decoration:none;font-weight:650}.secondary{background:white;color:var(--green)}.actions{display:flex;flex-wrap:wrap;align-items:center;gap:14px}.reading{max-width:810px}.reading h2{margin-top:30px}.reading h3{margin-top:24px}.reading li{margin-bottom:12px}.reading ol{padding-left:24px}.reading blockquote{border-left:3px solid var(--green);padding:16px 20px;margin:24px 0;background:var(--soft)}.reading blockquote p:last-child{margin:0}details{border-bottom:1px solid var(--line);padding:18px 0}summary{cursor:pointer;font-weight:650}details p{margin-top:14px}.note{border-left:3px solid #a1711b;padding:14px 18px;background:#fcfaf2;font-size:14px;margin:24px 0}.steps{list-style:none;padding:0!important;counter-reset:step}.steps li{display:grid;grid-template-columns:38px 1fr;gap:14px;padding:20px 0;border-bottom:1px solid var(--line)}.steps li:before{counter-increment:step;content:counter(step,decimal-leading-zero);font-size:21px;color:var(--green);font-weight:650}.steps a{font-size:18px;font-weight:650}.steps p{font-size:15px;color:var(--muted);margin:6px 0 0}.pager{display:flex;justify-content:space-between;gap:24px;margin-top:32px;border-top:1px solid var(--line);padding-top:22px}.pager a{max-width:46%}.tablewrap{overflow-x:auto}table{border-collapse:collapse;width:100%;margin:22px 0;font-size:15px}th,td{border:1px solid var(--line);text-align:left;padding:12px;vertical-align:top}th{background:var(--soft)}.empty{padding:30px 0}footer{margin-top:40px;padding-top:24px;border-top:1px solid var(--line);font-size:13px;color:var(--muted)}#view:focus{outline:none}.mobile{display:none}svg{width:20px;height:20px;flex-shrink:0}.reading,.resource,.route{overflow-wrap:anywhere}
+@media(max-width:1100px){.routes{grid-template-columns:1fr}.route{padding:20px}.route h3{margin:8px 0 10px}.toolbar{grid-template-columns:1fr 1fr}.toolbar label:first-child{grid-column:1/-1}main{padding:28px}}
+@media(max-width:700px){.shell{display:block}.mast{padding:16px 20px}.mast>div:last-child{display:none}aside{padding:12px 20px;border-bottom:1px solid var(--line);border-right:0}aside nav{position:static;display:none}aside.open nav{display:block;margin-top:15px}.mobile{display:flex;width:100%;justify-content:space-between;padding:6px 0;border:0;background:transparent;color:var(--ink);font-weight:650}main{padding:24px 20px 40px}h1{font-size:28px}.intro{font-size:16px}.two{grid-template-columns:1fr;gap:22px}.toolbar{grid-template-columns:1fr}.toolbar label:first-child{grid-column:auto}.resource{grid-template-columns:1fr}.resource>.button{justify-self:start}.linehead{flex-wrap:wrap;gap:10px}}
+@media print{aside,.mast,.actions,.pager,.toolbar,footer,.crumb{display:none!important}.shell{display:block}main{padding:0;max-width:none}.reading{max-width:none}a{color:inherit}h2,h3{break-after:avoid}table,blockquote{break-inside:avoid}}
+</style></head><body>
+<a class="skip" href="#view">Saltar al contenido</a>
+<header class="mast"><div><a class="brand" href="#inicio">Fontys <span>Spaans</span></a><small>Master Leraar Spaans · Biblioteca de estudio</small></div><div><strong>Conciencia lingüística</strong><small>Taalbewustzijn</small></div></header>
+<div class="shell"><aside><button class="mobile" id="menu" aria-controls="navigation" aria-expanded="false">Menú del módulo <span aria-hidden="true">☰</span></button><nav id="navigation" aria-label="Biblioteca del módulo"><div class="label">Módulo</div><a href="#inicio">Inicio</a><a href="#modulo">Resultados de aprendizaje</a><div class="label">Recorridos de aprendizaje</div><a href="#ruta/1"><span class="num">01</span>Lengua y contexto</a><a href="#ruta/2"><span class="num">02</span>Análisis del español</a><a href="#ruta/3"><span class="num">03</span>Evaluación y mejora</a><div class="label">Consulta</div><a href="#biblioteca">Todos los recursos</a><a href="#teoria">Teoría</a><a href="#actividades">Actividades</a><a href="#materiales">Materiales y plantillas</a><a href="#referencias">Referencias</a><div class="label">Equipo docente</div><a href="#profesorado">Profesorado</a></nav></aside><main><div class="crumb" id="crumb">Fontys Spaans / Conciencia lingüística</div><div id="view" tabindex="-1"><h1>Conciencia lingüística</h1><p>Biblioteca de estudio del Master Leraar Spaans.</p><noscript><p>Activa JavaScript para consultar las lecturas, actividades y materiales de esta biblioteca.</p></noscript></div><footer>Master Leraar Spaans · Conciencia lingüística<br>Materiales de apoyo en desarrollo. Las propuestas de esta biblioteca no sustituyen las indicaciones del equipo docente.</footer></main></div>
+<script>
+'use strict';
+const REPO='https://github.com/profedanielvr-lgtm/biblioteca-conciencia-linguistica';
+const SOURCE='Voorstel_nieuwe_LUKs_master_Spaans_10 04 2026.xlsx';
+const DOWNLOAD='<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="7 10 12 15 17 10"/><line x1="12" y1="15" x2="12" y2="3"/></svg>';
+const paths=[
+{id:1,title:'Lengua y contexto',question:'¿Qué lenguas, variedades y actitudes están presentes en mi aula?',summary:'Analiza la diversidad lingüística y fundamenta sus implicaciones para tu enseñanza del español.',original:'Ik analyseer taalvariatie, meertaligheid en taalattitudes rond het leren van Spaans in mijn onderwijspraktijk en onderbouw de didactische implicaties voor mijn onderwijspraktijk met sociolinguïstische en taalverwervingsliteratuur.',cell:'L2',version:'10 april 2026',translation:'Analizo la variación lingüística, el plurilingüismo y las actitudes lingüísticas en torno al aprendizaje del español en mi práctica educativa y fundamento sus implicaciones didácticas con bibliografía sociolingüística y de adquisición de lenguas.',ids:['diversidad','repertorios','mapa-aula','ficha-contexto'],product:'Un análisis del contexto lingüístico del grupo y una decisión didáctica fundamentada.'},
+{id:2,title:'Análisis del español',question:'¿Cómo convierto un análisis lingüístico en una explicación útil?',summary:'Relaciona forma, significado, función y contexto con materiales de instrucción y feedback.',original:'Ik analyseer en verklaar complexe taalkundige verschijnselen van het Spaans met behulp van relevante taalkundige concepten. Daarbij maak ik de samenhang tussen vorm, betekenis, functie en context zichtbaar en vertaal ik mijn analyse naar inhoudelijk verantwoord instructiemateriaal en passende feedback, afgestemd op de behoeften van leerlingen of studenten in mijn lessen Spaans.',cell:'O3',version:'17 juli 2026',translation:'Analizo y explico fenómenos lingüísticos complejos del español mediante conceptos lingüísticos pertinentes. Hago visible la relación entre forma, significado, función y contexto, y traduzco mi análisis en materiales de instrucción fundamentados y feedback adecuado a las necesidades del alumnado.',ids:['analisis','interlengua','taller-peticiones','ficha-analisis'],product:'Un análisis lingüístico acompañado de un material de instrucción y feedback adaptado al grupo.'},
+{id:3,title:'Evaluación y mejora',question:'¿Qué evidencia me permite decidir cómo continuar la enseñanza?',summary:'Vincula diagnóstico, criterios explícitos, feedback y ajustes de la enseñanza.',original:'Ik ontwerp en verantwoord een formatieve en diagnostische aanpak, aangevuld met passende summatieve toetsing, ondersteund door expliciete kwaliteitscriteria zoals rubrics en toetsinstrumenten, om taalbewustzijn en taalontwikkeling zichtbaar te maken en mijn onderwijs doelgericht en onderbouwd bij te stellen.',cell:'L4',version:'10 april 2026',translation:'Diseño y fundamento un enfoque formativo y diagnóstico, complementado con evaluación sumativa adecuada y apoyado en criterios de calidad explícitos, para hacer visible la conciencia y el desarrollo lingüísticos y ajustar mi enseñanza de forma fundamentada.',ids:['evaluacion','criterios','ciclo-feedback','ficha-evaluacion'],product:'Un diseño de evaluación con criterios, evidencias y una justificación del ajuste de la enseñanza.'}
+];
+// Contenido académico editable. Mantener los identificadores para conservar los enlaces compartidos.
+const resources=[
+{id:'diversidad',type:'Teoría',luk:1,title:'Variación, plurilingüismo y actitudes lingüísticas',summary:'Tres dimensiones para analizar el contexto de enseñanza antes de tomar decisiones didácticas.',body:'<h2>El punto de partida: una situación de enseñanza</h2><p>El resultado de aprendizaje 1 sitúa el análisis de la lengua en la propia práctica educativa. La explicación del documento distingue variación, plurilingüismo y actitudes. No basta con enumerarlas: se espera relacionarlas con decisiones sobre la enseñanza del español.</p><h2>Tres preguntas diferentes</h2><div class="tablewrap"><table><thead><tr><th>Dimensión</th><th>Qué observar</th><th>Pregunta de análisis</th></tr></thead><tbody><tr><td>Variación</td><td>Diferencias entre situaciones, grupos o lugares.</td><td>¿Qué usos del español aparecen en los materiales y cuáles quedan fuera?</td></tr><tr><td>Plurilingüismo</td><td>Lenguas y variedades que conoce o utiliza el alumnado.</td><td>¿Cómo intervienen esos repertorios en el aprendizaje del español?</td></tr><tr><td>Actitudes</td><td>Valoraciones de lenguas, variedades y hablantes.</td><td>¿Qué se considera español «bueno» o «bonito», y con qué argumentos?</td></tr></tbody></table></div><h2>De la observación a la decisión</h2><p>Separa un dato observable de tu interpretación. «El material presenta una sola variedad» describe una selección. «El alumnado rechaza otras variedades» es una interpretación que requiere evidencia adicional. Después, explica qué cambiarías en tu enseñanza y por qué ese cambio responde al análisis.</p><h3>Pregunta para tu práctica</h3><p>Piensa en una actividad reciente. ¿Qué lengua o variedad estaba representada? ¿Qué datos necesitarías para comprender cómo la vivió tu grupo?</p>',source:'Síntesis en español de L2 y M2; preguntas orientadoras propuestas.'},
+{id:'repertorios',type:'Teoría',luk:1,title:'Del repertorio lingüístico a una decisión didáctica',summary:'Conecta el contexto del grupo con un análisis fundamentado de tu práctica.',body:'<h2>Describir no es todavía analizar</h2><p>La explicación del LUK 1 señala que el alumnado conoce o utiliza varias lenguas y que eso influye en su aprendizaje del español. El análisis debe explicar esa relación en una situación concreta.</p><h2>Una cadena de razonamiento propuesta</h2><ol><li><strong>Situación:</strong> identifica qué hacía el grupo y qué demanda lingüística planteaba la tarea.</li><li><strong>Observación:</strong> describe un uso de las lenguas, una comparación o una valoración que hayas registrado.</li><li><strong>Interpretación:</strong> plantea una explicación y una alternativa. Indica qué datos faltan para distinguirlas.</li><li><strong>Fundamentación:</strong> conecta la interpretación con una lectura pertinente, indicando el pasaje concreto.</li><li><strong>Implicación:</strong> justifica qué conservarías o cambiarías en la actividad.</li></ol><h2>Un límite del análisis</h2><p>No atribuyas automáticamente una dificultad a la lengua familiar de una persona. Para sostener esa explicación necesitas datos del caso y fundamentación. Esta cautela forma parte de la guía propuesta aquí, no de una rúbrica oficial.</p><h2>Lectura complementaria</h2><p>CARAP/FREPA reúne descriptores de conocimientos, actitudes y habilidades vinculados a enfoques plurales. Puedes consultar sus <a href="https://carap.ecml.at/Documents" target="_blank" rel="noopener">documentos y descriptores</a> y justificar cuáles resultan pertinentes para tu pregunta.</p>',source:'Guía didáctica propuesta a partir de L2 y M2. Complemento: European Centre for Modern Languages. (s. f.). Documents. CARAP/FREPA.'},
+{id:'mapa-aula',type:'Actividad',luk:1,title:'Analizar el contexto lingüístico de mi grupo',summary:'Delimita un caso, organiza observaciones y justifica una adaptación de la enseñanza.',body:'<h2>Propósito y material de partida</h2><p>Relacionar variación, plurilingüismo o actitudes con una decisión didáctica. Recupera una actividad de español, notas de observación sin nombres y una lectura pertinente. Si no tienes datos de aula, trabaja con el material y limita tus conclusiones a lo que permite observar.</p><h2>Secuencia de trabajo</h2><ol><li><strong>Delimita:</strong> describe el grupo, la finalidad comunicativa y una pregunta concreta. Por ejemplo: ¿qué variedades representa el material?</li><li><strong>Observa:</strong> registra tres ejemplos con su contexto. No mezcles lo que ves con lo que interpretas.</li><li><strong>Analiza:</strong> relaciona cada ejemplo con variación, repertorio o actitud. Puede requerir más de una perspectiva.</li><li><strong>Contrasta:</strong> vincula una interpretación con una lectura. Explica también qué no puedes concluir.</li><li><strong>Decide:</strong> propón una adaptación concreta e indica qué nueva observación permitiría valorar su utilidad.</li></ol><h2>Producto de trabajo</h2><p>Una ficha con la pregunta, los datos, la interpretación, el fundamento y la adaptación. Utiliza la <a href="#recurso/ficha-contexto">plantilla de análisis del contexto</a>.</p><h2>Revisión entre colegas</h2><p>La persona que revisa comprueba si cada conclusión se apoya en un dato, si la lectura ayuda a explicar el caso y si la adaptación responde a la necesidad identificada. Registra una sugerencia y explica cómo la incorporas.</p>',source:'Actividad original de apoyo al LUK 1. No constituye una tarea oficial del módulo.'},
+{id:'ficha-contexto',type:'Material',luk:1,title:'Plantilla de análisis del contexto lingüístico',summary:'Ficha editable para ordenar datos, interpretaciones, bibliografía y decisiones.',fields:['Pregunta de análisis','Contexto del grupo y actividad observada','Dato 1 y contexto','Dato 2 y contexto','Dato 3 y contexto','Dimensión: variación, plurilingüismo o actitudes','Interpretación y explicación alternativa','Referencia y pasaje que fundamentan el análisis','Adaptación didáctica propuesta','Evidencia para revisar la decisión','Feedback recibido y revisión realizada'],body:'<h2>Ficha de trabajo</h2><p>Organiza un caso delimitado. Describe primero los datos y después tus explicaciones. Descarga la plantilla para completarla en tu editor de texto. Esta web no recoge respuestas ni datos del alumnado.</p><h2>Qué debe quedar visible</h2><p>El vínculo entre observación, interpretación fundamentada y decisión de enseñanza. Cuando un apartado carezca de datos, indica «información no disponible» y concreta cómo la obtendrías.</p>',source:'Plantilla original de apoyo al LUK 1, pendiente de validación docente.'},
+{id:'analisis',type:'Teoría',luk:2,title:'Forma, significado, función y contexto',summary:'El núcleo del análisis lingüístico en la propuesta más reciente del LUK 2.',body:'<h2>Qué pide el resultado</h2><p>La columna «Nieuwe LUKs (17 juli 2026)» explicita cuatro dimensiones: forma, significado, función y contexto. Su relación debe quedar visible en el análisis, antes de traducirlo a materiales de instrucción y feedback.</p><div class="tablewrap"><table><thead><tr><th>Dimensión</th><th>Pregunta orientadora propuesta</th></tr></thead><tbody><tr><td>Forma</td><td>¿Qué elementos lingüísticos se observan y cómo se organizan?</td></tr><tr><td>Significado</td><td>¿Qué contenido se expresa y qué interpretación admite?</td></tr><tr><td>Función</td><td>¿Qué acción comunicativa realiza el enunciado?</td></tr><tr><td>Contexto</td><td>¿Quién habla con quién, para qué y en qué situación?</td></tr></tbody></table></div><h2>Elegir el nivel de análisis</h2><p>La celda P3 menciona niveles fonético-fonológico, morfológico, sintáctico, semántico, textual y pragmático. No exige que cada producto abarque todos: se eligen y justifican los pertinentes. La amplitud del dominio se hace visible a lo largo de la EVL.</p><h2>Del análisis a la enseñanza</h2><p>El análisis del docente puede ser más profundo que la explicación destinada al alumnado. La selección de términos, ejemplos y feedback debe responder a sus necesidades. Explica qué simplificas y qué distinciones preservas para no deformar el fenómeno.</p>',source:'Síntesis en español de O3 y P3; matriz orientadora propuesta.'},
+{id:'interlengua',type:'Teoría',luk:2,title:'Interpretar una producción del aprendiente',summary:'Distingue la descripción de un patrón, su explicación y la respuesta docente.',body:'<h2>La producción como punto de partida</h2><p>La explicación del LUK 2 pide analizar por qué ciertos fenómenos resultan difíciles y qué errores o patrones aparecen. La finalidad es convertir ese conocimiento en explicaciones, materiales y feedback adecuados al grupo.</p><h2>Interlengua: lectura complementaria</h2><p>El Instituto Cervantes presenta la interlengua como el sistema que el aprendiente construye durante la adquisición. Esta perspectiva permite examinar regularidades y cambios en sus producciones, en lugar de considerar cada desviación aisladamente. Consulta la entrada de <a href="https://cvc.cervantes.es/ensenanza/biblioteca_ele/diccio_ele/diccionario/interlengua.htm" target="_blank" rel="noopener">Interlengua</a>.</p><h2>Tres decisiones de análisis</h2><ol><li><strong>Describe:</strong> identifica qué aparece y en qué contextos. Una producción aislada no basta para establecer una regularidad.</li><li><strong>Explica:</strong> contrasta interpretaciones sin atribuir automáticamente el fenómeno a transferencia del neerlandés.</li><li><strong>Intervén:</strong> decide qué contraste, pregunta o ejemplo puede ayudar y qué producción posterior observarías.</li></ol><h3>Revisar el feedback</h3><p>¿Tu comentario permite comprender qué revisar y por qué, o solo señala que algo debe cambiar? Conserva la conexión entre el análisis y la intervención.</p>',source:'Guía propuesta vinculada a M3. Complemento: Instituto Cervantes. (s. f.). Interlengua. Diccionario de términos clave de ELE.'},
+{id:'taller-peticiones',type:'Actividad',luk:2,title:'Taller de análisis: formular una petición',summary:'Ejemplos completos para analizar la lengua y preparar una explicación contextualizada.',body:'<h2>Material de partida</h2><p>Ejemplos creados para esta actividad; no son transcripciones de producciones de estudiantes.</p><blockquote><p>A. «Abre la ventana, por favor.»</p><p>B. «¿Puedes abrir la ventana?»</p><p>C. «¿Te importaría abrir la ventana?»</p><p>D. «Aquí hace mucho calor.»</p></blockquote><h2>Dos situaciones</h2><p><strong>1.</strong> Dos compañeros preparan el aula y uno está al lado de la ventana. <strong>2.</strong> Una persona visita por primera vez un despacho y habla con quien lo ocupa. Considera qué información falta sobre su relación e intención.</p><h2>Secuencia de trabajo</h2><ol><li>Identifica las diferencias gramaticales entre los cuatro ejemplos.</li><li>Distingue qué expresa literalmente cada enunciado y qué acción podría realizar.</li><li>Justifica cómo cambia la interpretación según la situación. No ordenes los ejemplos por cortesía sin especificar el contexto.</li><li>Contrasta tu análisis con una fuente lingüística o pragmática identificable.</li><li>Prepara dos preguntas de observación y una tarea de producción. Justifica su adecuación a las necesidades de tu grupo.</li><li>Redacta feedback para una producción hipotética y explica su fundamento lingüístico.</li></ol><details><summary>Orientación para contrastar el análisis</summary><p>A presenta forma imperativa; B y C tienen forma interrogativa. D es declarativa y, dependiendo del contexto, podría interpretarse como observación o petición indirecta. No hay una opción universalmente adecuada para todas las relaciones y situaciones.</p></details><h2>Producto de trabajo</h2><p>La <a href="#recurso/ficha-analisis">matriz de análisis</a>, una explicación para el alumnado, una tarea contextualizada y un ejemplo de feedback.</p>',source:'Actividad y ejemplos originales de apoyo al LUK 2. La orientación no es una solución oficial de evaluación.'},
+{id:'ficha-analisis',type:'Material',luk:2,title:'Plantilla de análisis e instrucción',summary:'Conecta el fenómeno lingüístico con una explicación, una tarea y feedback.',fields:['Pregunta y fenómeno lingüístico','Grupo destinatario y necesidades','Ejemplos y procedencia','Forma: descripción y conceptos utilizados','Significado: interpretación','Función comunicativa','Contexto y cambios de interpretación','Niveles de análisis elegidos y justificación','Referencia lingüística y pasaje utilizado','Explicación destinada al alumnado','Actividad y producción esperada','Feedback y fundamento lingüístico','Límites del análisis y revisión'],body:'<h2>Del conocimiento lingüístico al aula</h2><p>Completa el análisis antes de redactar la explicación. Haz explícitas las decisiones de adaptación al grupo. Los ejemplos deben tener una procedencia identificable o estar marcados como creados para la actividad.</p><h2>Pregunta de revisión</h2><p>¿Puede otra persona seguir el vínculo entre tu análisis, el ejemplo seleccionado y el feedback? Revisa cualquier intervención que no se apoye en ese vínculo.</p>',source:'Plantilla original de apoyo a O3 y P3; no es un formulario oficial de entrega.'},
+{id:'evaluacion',type:'Teoría',luk:3,title:'Diagnóstico, evaluación formativa y ajuste docente',summary:'Relaciona la recogida de información con decisiones sobre la enseñanza.',body:'<h2>El propósito del LUK 3</h2><p>El documento propone un enfoque diagnóstico y formativo, complementado por evaluación sumativa adecuada. Sitúa en el centro criterios de calidad explícitos, la visibilidad del aprendizaje y el ajuste de la enseñanza.</p><h2>De la información a la decisión</h2><p>La explicación menciona tareas, observaciones y feedback. No basta con acumular información: hay que mostrar qué permite comprender sobre el aprendizaje y cómo conduce a una decisión.</p><div class="tablewrap"><table><thead><tr><th>Elemento</th><th>Pregunta propuesta</th></tr></thead><tbody><tr><td>Diagnóstico</td><td>¿Qué necesito conocer del punto de partida?</td></tr><tr><td>Criterio</td><td>¿Qué rasgo de calidad espero observar?</td></tr><tr><td>Evidencia</td><td>¿Qué tarea permite observarlo?</td></tr><tr><td>Feedback</td><td>¿Qué orientación ayuda a mejorar la producción?</td></tr><tr><td>Ajuste</td><td>¿Qué decisión se deriva de la información?</td></tr></tbody></table></div><h2>Alcance de esta biblioteca</h2><p>El archivo disponible no documenta calendario de entregas, ponderaciones ni rúbricas definitivas. Este recorrido no asigna puntuaciones ni constituye el procedimiento oficial de evaluación.</p>',source:'Síntesis de L4 y M4. La tabla es una guía derivada, no una rúbrica institucional.'},
+{id:'criterios',type:'Teoría',luk:3,title:'Hacer explícitos los criterios de calidad',summary:'Relaciona cada criterio con una producción y una decisión docente.',body:'<h2>Qué aporta el documento</h2><p>El LUK 3 menciona criterios explícitos, como rúbricas e instrumentos. Su explicación los presenta como expectativas claras sobre un trabajo de calidad y pide fundamentar las decisiones con teoría.</p><h2>Preguntas para diseñar un criterio</h2><ol><li>¿Qué aspecto del aprendizaje quiero observar?</li><li>¿Qué parte de la producción ofrece información sobre ese aspecto?</li><li>¿Cómo describiría una diferencia relevante en el desempeño?</li><li>¿Qué acción docente podría seguir a cada patrón observado?</li></ol><h2>Ejemplo propuesto</h2><p>En el taller de peticiones puedes observar si el estudiante justifica su elección en relación con los interlocutores y la situación. Conserva por separado la corrección formal y la justificación contextual para explicar qué información aporta cada una.</p><h2>Contrastar con un colega</h2><p>Aplicad el criterio a una misma producción y comparad interpretaciones. Si las diferencias se deben a una formulación ambigua, reformuladla y documentad el motivo. Ese acuerdo no convierte el instrumento en una rúbrica oficial.</p>',source:'Guía y ejemplo originales derivados de L4 y M4, para revisión docente.'},
+{id:'ciclo-feedback',type:'Actividad',luk:3,title:'Diseñar un ciclo de evidencia y feedback',summary:'Del diagnóstico a una segunda producción y un ajuste fundamentado.',body:'<h2>Preparación</h2><p>Recupera el <a href="#recurso/taller-peticiones">taller de peticiones</a> o una actividad propia. Delimita un aspecto observable, por ejemplo la relación entre una elección lingüística y su contexto.</p><h2>Secuencia de trabajo</h2><ol><li><strong>Diagnóstico:</strong> plantea una situación y pide una respuesta con explicación. Concreta qué información necesitas.</li><li><strong>Criterios:</strong> formula dos criterios observables e indica qué fragmento de la respuesta permitiría valorar cada uno.</li><li><strong>Feedback:</strong> prepara una orientación para una respuesta hipotética. Relaciónala con un criterio.</li><li><strong>Nueva producción:</strong> cambia la situación manteniendo el aspecto que observas. Explica qué permite comparar ambas producciones.</li><li><strong>Ajuste:</strong> define qué harías si mejora el desempeño y qué harías si persiste la dificultad. Fundamenta la decisión.</li><li><strong>Revisión:</strong> explica qué aportaría una evaluación sumativa adecuada y qué debe acordarse con el equipo.</li></ol><h2>Producto de trabajo</h2><p>Completa la <a href="#recurso/ficha-evaluacion">ficha del ciclo de evaluación</a>. Si todavía no aplicaste la tarea, identifica los resultados como previstos, no observados.</p><h2>Revisión entre colegas</h2><p>Comprueba si la tarea permite observar lo que declara el criterio y si el feedback permite actuar sobre ello. Registra qué modificarías antes de utilizarla.</p>',source:'Actividad original de apoyo al LUK 3. No establece requisitos oficiales de evaluación.'},
+{id:'ficha-evaluacion',type:'Material',luk:3,title:'Plantilla del ciclo de evaluación y mejora',summary:'Documenta criterios, evidencia, feedback y ajuste de la enseñanza.',fields:['Aspecto del aprendizaje que se quiere observar','Grupo y punto de partida','Tarea diagnóstica','Criterio 1 y evidencia observable','Criterio 2 y evidencia observable','Instrumento de recogida de información','Feedback y relación con los criterios','Segunda tarea y condiciones de comparación','Resultados: observados o previstos','Decisión de ajuste y fundamento','Papel de la evaluación sumativa: propuesta para acordar','Bibliografía y pasajes utilizados','Feedback de un colega y cambios'],body:'<h2>Un registro de decisiones</h2><p>Recoge tanto el diseño como su revisión. Distingue lo esperado de lo observado realmente. No introduzcas nombres ni datos que permitan identificar al alumnado.</p><h2>Antes de cerrar la ficha</h2><p>Revisa que cada decisión remita a información concreta y que las limitaciones estén identificadas. Esta plantilla no genera una nota ni sustituye el procedimiento de evaluación.</p>',source:'Plantilla original de apoyo al LUK 3, pendiente de validación docente.'}
+];
+const view=document.getElementById('view');
+const normalize=s=>s.toLocaleLowerCase('es').normalize('NFD').replace(/[\u0300-\u036f]/g,'');
+const link=id=>'<a href="#recurso/'+id+'">'+resources.find(r=>r.id===id).title+'</a>';
+function original(p){return '<details><summary>Formulación original y procedencia</summary><p lang="nl">'+p.original+'</p><p class="meta">'+SOURCE+', celda '+p.cell+', columna «Nieuwe LUKs ('+p.version+')». El texto en español es una traducción de apoyo.</p></details>';}
+function home(){return '<p class="eyebrow">Conciencia lingüística · Taalbewustzijn</p><h1>Biblioteca del módulo</h1><p class="intro">Comprender el contexto lingüístico, analizar el español y fundamentar decisiones de enseñanza.</p><div class="linehead"><h2>Tres recorridos de aprendizaje</h2><a href="#modulo">Ver los resultados de aprendizaje</a></div><div class="routes">'+paths.map(p=>'<a class="route" href="#ruta/'+p.id+'"><span class="meta">0'+p.id+' · LUK '+p.id+'</span><h3>'+p.title+'</h3><p>'+p.summary+'</p><strong>Consultar el recorrido →</strong></a>').join('')+'</div><div class="band two"><div><h2>Consulta directa</h2><p>Teoría, actividades desarrolladas y plantillas para trabajar sobre tu propia práctica educativa.</p><a href="#biblioteca">Ver todos los recursos →</a></div><div><h2>De la pregunta a la decisión</h2><p>Cada recorrido conecta un resultado de aprendizaje con lecturas, una actividad y un producto de trabajo propuesto.</p><a href="#materiales">Consultar las plantillas →</a></div></div><p class="meta">Los recorridos son propuestas de apoyo basadas en los resultados disponibles. La secuencia y los productos no son requisitos oficiales de entrega.</p>';}
+function modulePage(){return '<div class="reading"><p class="eyebrow">El módulo</p><h1>Resultados de aprendizaje</h1><p>Conciencia lingüística aparece como <strong>Taalbewustzijn</strong> en el documento del proyecto. Estos tres resultados orientan la biblioteca.</p><div class="note">Base documental: <strong>'+SOURCE+'</strong>. Se muestra la formulación más reciente no vacía de cada LUK. El archivo contiene propuestas; su aprobación institucional no está documentada en los archivos disponibles.</div>'+paths.map(p=>'<h2>LUK '+p.id+' · '+p.title+'</h2><p>'+p.translation+'</p>'+original(p)+'<p><a href="#ruta/'+p.id+'">Abrir el recorrido →</a></p>').join('')+'<h2>Información no documentada</h2><p>No constan calendario, lecturas obligatorias, rúbricas definitivas ni instrucciones de entrega. Las actividades y plantillas de esta biblioteca son propuestas de apoyo.</p></div>';}
+function pathway(p){return '<div class="reading"><p class="eyebrow">Recorrido 0'+p.id+' · LUK '+p.id+'</p><h1>'+p.title+'</h1><p class="intro">'+p.question+'</p><p>'+p.translation+'</p>'+original(p)+'<h2>Secuencia de trabajo propuesta</h2><ol class="steps">'+p.ids.map(id=>{const r=resources.find(r=>r.id===id);return '<li><div><span class="badge">'+r.type+'</span><br>'+link(id)+'<p>'+r.summary+'</p></div></li>';}).join('')+'</ol><h2>Producto de trabajo propuesto</h2><p>'+p.product+'</p><p class="meta">Contrasta la secuencia y el producto con las indicaciones del equipo docente. Este recorrido no fija plazos ni calificaciones.</p><a class="button" href="#recurso/'+p.ids[0]+'">Comenzar la primera lectura →</a></div>';}
+function library(route){const names={biblioteca:'Todos los recursos',teoria:'Teoría',actividades:'Actividades',materiales:'Materiales y plantillas'};return '<p class="eyebrow">Biblioteca de consulta</p><h1>'+names[route]+'</h1><div class="toolbar"><label>Buscar<input type="search" id="search" placeholder="Tema, concepto o actividad…"></label><label>Resultado de aprendizaje<select id="luk"><option value="">Todos los resultados</option>'+paths.map(p=>'<option value="'+p.id+'">LUK '+p.id+' · '+p.title+'</option>').join('')+'</select></label><label>Tipo de recurso<select id="type"><option value="">Todos los tipos</option><option>Teoría</option><option>Actividad</option><option>Material</option></select></label></div><p class="meta" id="count" aria-live="polite"></p><div id="results"></div>';}
+function filter(){const query=normalize(document.getElementById('search').value.trim()),luk=document.getElementById('luk').value,type=document.getElementById('type').value;const selected=resources.filter(r=>(!luk||r.luk===Number(luk))&&(!type||r.type===type)&&normalize(r.title+' '+r.summary+' '+r.body).includes(query));document.getElementById('count').textContent=selected.length+' recursos';document.getElementById('results').innerHTML=selected.length?selected.map(r=>'<article class="resource"><div><span class="badge">'+r.type+' · LUK '+r.luk+'</span><h3>'+link(r.id)+'</h3><p>'+r.summary+'</p></div><a class="button secondary" aria-label="Consultar: '+r.title+'" href="#recurso/'+r.id+'">Consultar →</a></article>').join(''):'<div class="empty"><h2>No hay coincidencias</h2><p>Prueba otro término o amplía los filtros.</p><button class="button secondary" id="reset">Restablecer filtros</button></div>';document.getElementById('reset')?.addEventListener('click',()=>{['search','luk','type'].forEach(id=>document.getElementById(id).value='');filter();});}
+function resourcePage(r){const p=paths.find(p=>p.id===r.luk),i=p.ids.indexOf(r.id),prev=p.ids[i-1],next=p.ids[i+1];return '<div class="reading"><p class="eyebrow">'+r.type+' · <a href="#ruta/'+p.id+'">LUK '+p.id+' / '+p.title+'</a></p><h1>'+r.title+'</h1><p class="intro">'+r.summary+'</p><div class="actions"><button class="button secondary" id="download">'+DOWNLOAD+' Descargar '+(r.fields?'plantilla':'lectura')+'</button><a href="#ruta/'+p.id+'">Volver al recorrido</a></div>'+r.body+(r.fields?'<h2>Apartados de la plantilla</h2><ol>'+r.fields.map(f=>'<li>'+f+'</li>').join('')+'</ol>':'')+'<div class="note"><strong>Procedencia y alcance</strong><br>'+r.source+'<br>Documento de referencia: '+SOURCE+'. Las lecturas externas son complementarias, no bibliografía oficial.</div><nav class="pager" aria-label="Pasos del recorrido">'+(prev?link(prev):'<span></span>')+(next?link(next):'<a href="#ruta/'+p.id+'">Volver al recorrido →</a>')+'</nav></div>';}
+function references(){return '<div class="reading"><p class="eyebrow">Fuentes y lecturas</p><h1>Referencias</h1><h2>Base documental del módulo</h2><p><strong>'+SOURCE+'</strong></p><p>Organización derivada de L2/M2, O3/P3 y L4/M4. El archivo no contiene la bibliografía oficial del módulo. No se publica aquí el documento interno completo.</p><a href="#modulo">Consultar las formulaciones utilizadas →</a><h2>Lecturas complementarias</h2><p class="meta">Fuentes externas de consulta; no son lecturas obligatorias de Fontys.</p><article class="resource"><div><h3>Interlengua</h3><p>Instituto Cervantes. (s. f.). Interlengua. En <em>Diccionario de términos clave de ELE</em>.</p><p>Para el análisis de producciones del aprendiente, en el recorrido 2.</p><a href="https://cvc.cervantes.es/ensenanza/biblioteca_ele/diccio_ele/diccionario/interlengua.htm" target="_blank" rel="noopener">Leer la entrada ↗</a></div></article><article class="resource"><div><h3>CARAP / FREPA</h3><p>European Centre for Modern Languages. (s. f.). <em>Documents</em>. CARAP/FREPA.</p><p>Documentos y descriptores sobre enfoques plurales, para el recorrido 1.</p><a href="https://carap.ecml.at/Documents" target="_blank" rel="noopener">Consultar los documentos ↗</a></div></article><article class="resource"><div><h3>Conciencia lingüística</h3><p>Association for Language Awareness. (s. f.). <em>Association for Language Awareness</em>.</p><a href="https://languageawareness.org/" target="_blank" rel="noopener">Consultar la asociación ↗</a></div></article><h2>Lectura crítica</h2><p>Registra el argumento y la página o apartado que fundamenta tu decisión. Distingue lo que afirma la fuente de la aplicación que propones para tu aula.</p></div>';}
+function teachers(){return '<div class="reading"><p class="eyebrow">Equipo docente</p><h1>Profesorado</h1><p>Los materiales están organizados por los tres resultados de Conciencia lingüística. Las actividades y plantillas requieren revisión antes de adoptarse como materiales oficiales.</p><h2>Actualizar la biblioteca</h2><p>La edición se realiza en GitHub con una cuenta autorizada por la persona responsable del repositorio. El acceso público permite consultar, pero no modificar.</p><p><a class="button" href="'+REPO+'/edit/main/index.html" target="_blank" rel="noopener">Editar la biblioteca en GitHub ↗</a></p><h2>Revisión académica</h2><p>Comprueba la correspondencia con el resultado, la fundamentación, la pertinencia para el grupo y la procedencia de los materiales. Separa las propuestas de apoyo de los requisitos oficiales.</p><h2>Estado documental</h2><p>Se han utilizado las últimas formulaciones no vacías disponibles para cada LUK en '+SOURCE+'. No está documentada su aprobación institucional ni una planificación completa del módulo.</p></div>';}
+function download(r){const element=document.createElement('div');element.innerHTML=r.body.replace(/<\/(p|h2|h3|li|tr)>/g,'</$1>\n\n');const body=r.fields?r.fields.map((f,i)=>(i+1)+'. '+f+'\n\n____________________________________________________________\n').join('\n'):element.textContent;const data='FONTYS SPAANS | CONCIENCIA LINGÜÍSTICA\n'+r.title+'\nLUK '+r.luk+' | Material de apoyo propuesto\n\n'+body+'\n\n'+r.source+'\nDocumento: '+SOURCE+'\n';const url=URL.createObjectURL(new Blob([data],{type:'text/plain;charset=utf-8'}));const a=document.createElement('a');a.href=url;a.download=r.id+'.txt';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
+function render(){const route=location.hash.slice(1)||'inicio',parts=route.split('/');let title='Biblioteca del módulo';if(route==='inicio')view.innerHTML=home();else if(route==='modulo'){view.innerHTML=modulePage();title='Resultados de aprendizaje';}else if(parts[0]==='ruta'&&paths.some(p=>String(p.id)===parts[1])){const p=paths.find(p=>String(p.id)===parts[1]);view.innerHTML=pathway(p);title=p.title;}else if(parts[0]==='recurso'&&resources.some(r=>r.id===parts[1])){const r=resources.find(r=>r.id===parts[1]);view.innerHTML=resourcePage(r);title=r.title;document.getElementById('download').addEventListener('click',()=>download(r));}else if(['biblioteca','teoria','actividades','materiales'].includes(route)){view.innerHTML=library(route);document.getElementById('type').value={teoria:'Teoría',actividades:'Actividad',materiales:'Material'}[route]||'';['search','luk','type'].forEach(id=>document.getElementById(id).addEventListener('input',filter));filter();title=view.querySelector('h1').textContent;}else if(route==='referencias'){view.innerHTML=references();title='Referencias';}else if(route==='profesorado'){view.innerHTML=teachers();title='Profesorado';}else{view.innerHTML='<h1>Recurso no encontrado</h1><p>Este enlace no corresponde a un recurso de la biblioteca.</p><a class="button" href="#biblioteca">Consultar todos los recursos</a>';title='Recurso no encontrado';}document.title=title+' | Fontys Spaans';document.getElementById('crumb').textContent='Fontys Spaans / Conciencia lingüística / '+title;document.querySelectorAll('#navigation a').forEach(a=>{let active=a.hash==='#'+route;if(parts[0]==='recurso'){const r=resources.find(r=>r.id===parts[1]);active=r&&a.hash==='#ruta/'+r.luk;}if(active)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});document.querySelector('aside').classList.remove('open');document.getElementById('menu').setAttribute('aria-expanded','false');window.scrollTo(0,0);}
+document.getElementById('menu').addEventListener('click',()=>{const open=document.querySelector('aside').classList.toggle('open');document.getElementById('menu').setAttribute('aria-expanded',String(open));});
+document.querySelector('.skip').addEventListener('click',event=>{event.preventDefault();view.focus();});
+window.addEventListener('hashchange',()=>{render();view.focus({preventScroll:true});});render();
+</script></body></html>

@@ -1,47 +1,31 @@
-# Biblioteca de Conciencia Lingüística
+# Fontys Spaans · Conciencia lingüística
 
-Repositorio editable de la Biblioteca de Conciencia Lingüística.
+Biblioteca de estudio del Master Leraar Spaans.
 
-## Enlace público de consulta
+## Página para estudiantes
 
-La biblioteca funcional para estudiantes y colegas está publicada aquí:
+[Consultar la biblioteca](https://profedanielvr-lgtm.github.io/biblioteca-conciencia-linguistica/)
 
-https://biblioteca-cl-master-spaans.daniel-vr.chatgpt.site
+El contenido está incluido en `index.html`: funciona publicado en GitHub Pages y también al abrir el HTML localmente. No depende de una base de datos ni de la carga de archivos externos.
 
-## Archivo principal de contenido
+## Organización
 
-El contenido consultable de la biblioteca se edita en:
+1. Lengua y contexto: variación, plurilingüismo y actitudes (LUK 1).
+2. Análisis del español: forma, significado, función y contexto (LUK 2).
+3. Evaluación y mejora: diagnóstico, criterios y feedback (LUK 3).
 
-`content/biblioteca.json`
+Cada recorrido enlaza dos lecturas, una actividad y una plantilla descargable. La biblioteca incluye búsqueda, filtros y enlaces directos compartibles a cada recurso.
 
-El profesorado con permisos de colaborador puede abrir ese archivo en GitHub, pulsar el icono del lápiz y modificar, añadir o retirar recursos. La página web carga ese archivo como fuente de contenido.
+## Edición por el profesorado
 
-## Repositorio editable
+Se necesita una cuenta de GitHub con permiso de escritura en este repositorio. Abrir `index.html`, seleccionar el lápiz y editar los registros de `resources`. Mantener los identificadores `id` para conservar los enlaces compartidos. Cada recurso contiene `title`, `summary`, `body`, `type`, `luk` y `source`; las plantillas incluyen `fields`.
 
-https://github.com/profedanielvr-lgtm/biblioteca-conciencia-linguistica
+La navegación por resultados se define en `paths`. Revisar la correspondencia de sus `ids` con los recursos antes de guardar. Tras confirmar los cambios en `main`, GitHub Pages actualiza la web.
 
-## Propósito
+`content/biblioteca.json` se conserva como contenido de la versión anterior, pero ya no alimenta esta página. Las antiguas páginas de carpetas redirigen a las secciones actuales.
 
-Esta biblioteca reúne recursos para apoyar el trabajo didáctico, académico y profesional sobre conciencia lingüística, con especial atención a la enseñanza y aprendizaje de lenguas.
+## Base documental y alcance
 
-## Estructura inicial
+Se ha utilizado `Voorstel_nieuwe_LUKs_master_Spaans_10 04 2026.xlsx`, celdas L2/M2, O3/P3 y L4/M4. El archivo interno completo no se publica en este repositorio. La biblioteca distingue las formulaciones documentadas, traducciones de apoyo, síntesis y actividades propuestas.
 
-| Carpeta | Función |
-| --- | --- |
-| `content/` | Archivo de datos que alimenta la web publicada. |
-| `materiales/` | Materiales didácticos listos para usar o adaptar. |
-| `actividades/` | Propuestas de aula, secuencias y tareas. |
-| `referencias/` | Bibliografía, marcos teóricos y fuentes relevantes. |
-| `fichas/` | Fichas breves de conceptos, recursos o prácticas. |
-| `plantillas/` | Modelos reutilizables para documentar nuevos recursos. |
-
-## Cómo contribuir
-
-1. Edita `content/biblioteca.json` para actualizar los recursos visibles en la web.
-2. Usa títulos claros y descripciones breves.
-3. Mantén los campos de cada recurso: `title`, `type`, `level`, `tags`, `summary`, `goal`, `content`, `use`, `task`.
-4. Revisa que el archivo conserve formato JSON válido antes de guardar.
-
-## Estado
-
-Versión inicial funcional publicada. El contenido debe ampliarse y validarse por el equipo docente.
+No se afirma aprobación institucional ni se establecen lecturas obligatorias, plazos, calificaciones o rúbricas definitivas. Las actividades y plantillas deben validarse por el equipo docente.
