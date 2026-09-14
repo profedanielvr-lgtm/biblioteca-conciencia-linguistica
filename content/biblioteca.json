@@ -1,0 +1,114 @@
+{
+  "resources": [
+    {
+      "title": "Qué entendemos por conciencia lingüística",
+      "type": "Teoría",
+      "level": "Inicio",
+      "tags": ["concepto", "marco común", "formación docente"],
+      "summary": "Definición operativa para el máster y relación con observación, análisis, comparación y explicación lingüística.",
+      "goal": "Distinguir conciencia lingüística de conocimiento gramatical aislado.",
+      "content": "La conciencia lingüística se aborda como una capacidad profesional para observar fenómenos lingüísticos, formular hipótesis, comparar usos y convertir el análisis en decisiones didácticas. Incluye dimensiones formales, comunicativas, plurilingües y críticas.",
+      "use": "Lectura inicial antes de diseñar actividades o analizar producciones de estudiantes.",
+      "task": "Escribe un ejemplo de una explicación gramatical tradicional y transfórmala en una pregunta de conciencia lingüística."
+    },
+    {
+      "title": "Dimensiones de análisis de un recurso",
+      "type": "Ficha",
+      "level": "Inicio",
+      "tags": ["análisis", "materiales", "rúbrica"],
+      "summary": "Guía rápida para revisar si un material trabaja forma, uso, comparación y reflexión crítica.",
+      "goal": "Analizar materiales con una mirada didáctica más completa.",
+      "content": "Un recurso puede revisarse desde cuatro preguntas: qué rasgo lingüístico hace visible, para qué uso comunicativo sirve, qué comparaciones entre lenguas permite y qué supuestos sobre lengua o hablantes reproduce.",
+      "use": "Antes de seleccionar un texto, una actividad de manual o una producción de estudiantes.",
+      "task": "Elige una actividad de un manual y marca qué dimensión está más presente y cuál falta."
+    },
+    {
+      "title": "Plantilla para crear una actividad",
+      "type": "Material",
+      "level": "Aula",
+      "tags": ["plantilla", "diseño", "actividad"],
+      "summary": "Estructura mínima para documentar actividades: objetivo, input, preguntas, producción y evidencia.",
+      "goal": "Diseñar actividades reutilizables y compartibles entre docentes.",
+      "content": "La plantilla propone registrar destinatarios, duración, fenómeno lingüístico, datos de entrada, preguntas de observación, interacción, producto final, criterios de calidad y adaptaciones.",
+      "use": "Para preparar actividades nuevas o adaptar propuestas existentes.",
+      "task": "Completa la plantilla con un fenómeno lingüístico que cause dificultad frecuente a aprendientes neerlandófonos."
+    },
+    {
+      "title": "Observación guiada de input",
+      "type": "Actividad",
+      "level": "Aula",
+      "tags": ["input", "patrones", "hipótesis"],
+      "summary": "Actividad para que el alumnado observe patrones en ejemplos auténticos o adaptados.",
+      "goal": "Pasar de la exposición a reglas a la construcción guiada de hipótesis.",
+      "content": "El docente ofrece un conjunto breve de ejemplos. El alumnado subraya patrones, agrupa casos, formula una regla provisional y la prueba con nuevos ejemplos. El cierre conecta el patrón con una tarea comunicativa.",
+      "use": "Clases de gramática en contexto, análisis de textos o preparación de explicación docente.",
+      "task": "Diseña una tabla con diez ejemplos y tres preguntas de observación."
+    },
+    {
+      "title": "Contraste español-neerlandés",
+      "type": "Actividad",
+      "level": "Aula",
+      "tags": ["comparación", "transferencia", "neerlandés"],
+      "summary": "Secuencia para analizar similitudes, diferencias y posibles transferencias entre español y neerlandés.",
+      "goal": "Usar la comparación entre lenguas como recurso de aprendizaje, no como lista de errores.",
+      "content": "La actividad parte de frases paralelas o producciones de estudiantes. El grupo identifica diferencias de forma y uso, discute qué transferencias son productivas y cuáles requieren atención didáctica.",
+      "use": "Formación docente, análisis de errores, preparación de mini-lecciones.",
+      "task": "Selecciona un contraste y formula una explicación para estudiantes de B1."
+    },
+    {
+      "title": "Conciencia crítica del lenguaje",
+      "type": "Teoría",
+      "level": "Profundización",
+      "tags": ["discurso", "ideologías", "variación"],
+      "summary": "Introducción a la relación entre lenguaje, poder, identidad, norma y legitimidad.",
+      "goal": "Ampliar el análisis lingüístico hacia preguntas sociales y críticas.",
+      "content": "La conciencia crítica del lenguaje invita a analizar cómo los discursos construyen posiciones, jerarquías y representaciones. En ELE, permite trabajar variación, acentos, registros y estereotipos sin presentar una única variedad como legítima.",
+      "use": "Debates, análisis de textos mediáticos, selección de materiales culturales.",
+      "task": "Busca un texto donde aparezca una ideología lingüística y prepara tres preguntas de discusión."
+    },
+    {
+      "title": "Diario metalingüístico",
+      "type": "Material",
+      "level": "Investigación",
+      "tags": ["portafolio", "reflexión", "evidencia"],
+      "summary": "Formato para registrar observaciones, hipótesis, feedback y cambios en la comprensión.",
+      "goal": "Generar evidencias acumulativas de desarrollo profesional.",
+      "content": "Cada entrada del diario incluye fenómeno observado, contexto, interpretación inicial, relación con bibliografía, implicación didáctica y pregunta pendiente.",
+      "use": "Portafolio, evaluación programática, práctica profesional o investigación aplicada.",
+      "task": "Redacta una entrada a partir de una dificultad real observada en clase."
+    },
+    {
+      "title": "Análisis de errores como evidencia",
+      "type": "Ficha",
+      "level": "Profundización",
+      "tags": ["errores", "feedback", "evaluación"],
+      "summary": "Criterios para interpretar errores sin reducirlos a fallos individuales.",
+      "goal": "Transformar errores en datos para la enseñanza y el feedback.",
+      "content": "Un error puede señalar transferencia, sobregeneralización, hipótesis interlingüística, falta de exposición o demanda discursiva. La respuesta docente debería ayudar a comprender el patrón y mejorar la producción.",
+      "use": "Revisión de producciones escritas, diseño de feedback, tutorías.",
+      "task": "Clasifica cinco errores y propone una intervención para cada uno."
+    },
+    {
+      "title": "Marco FREPA y enfoques plurales",
+      "type": "Referencia",
+      "level": "Investigación",
+      "tags": ["FREPA", "plurilingüismo", "competencias"],
+      "summary": "Referencia para integrar repertorios lingüísticos y culturales en el aula.",
+      "goal": "Conectar conciencia lingüística con enfoques plurales y repertorios del alumnado.",
+      "content": "FREPA ofrece descriptores para conocimientos, actitudes y habilidades vinculadas a enfoques plurales. Puede orientar actividades de comparación, mediación y reflexión intercultural.",
+      "use": "Diseño curricular, fundamentación de actividades, rúbricas.",
+      "task": "Selecciona dos descriptores FREPA y vincúlalos con una actividad de español."
+    },
+    {
+      "title": "MCER Volumen complementario",
+      "type": "Referencia",
+      "level": "Investigación",
+      "tags": ["MCER", "mediación", "plurilingüismo"],
+      "summary": "Referencia para mediación, repertorios plurilingües y descriptores de competencia.",
+      "goal": "Relacionar actividades de conciencia lingüística con competencias comunicativas y mediación.",
+      "content": "El volumen complementario del MCER amplía el papel de la mediación, la competencia plurilingüe y la reflexión sobre repertorios. Es útil para justificar resultados de aprendizaje.",
+      "use": "Diseño curricular, alineación de objetivos, fundamentación de evaluación.",
+      "task": "Elige un descriptor de mediación y diseña una evidencia observable."
+    }
+  ]
+}
