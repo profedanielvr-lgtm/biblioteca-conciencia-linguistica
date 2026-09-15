@@ -3,44 +3,182 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
-<title>Autoscan Conciencia Lingüística</title>
+<title>Autoscan Conciencia Lingüística — Máster</title>
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
 <header>
 <div class="header-inner">
 <h1>Autoscan de Conciencia Lingüística</h1>
-<div class="sub">Máster de Profesorado de Español · conocimientos previos, ruta de aprendizaje y orientación para la profundización</div>
+<div class="sub">Máster Leraar Spaans · conocimientos de entrada + profundización a nivel máster</div>
 </div>
 </header>
+
 <main>
-<div class="top">
-<section class="panel">
+<div class="steps">
+<div class="step active" data-step="1">1. Inicio</div>
+<div class="step" data-step="2">2. Basischeck</div>
+<div class="step" data-step="3">3. Masterverdieping</div>
+<div class="step" data-step="4">4. Ruta y tema</div>
+<div class="step" data-step="5">5. Resultado</div>
+</div>
+
+<section id="view1" class="view active">
+<div class="panel hero">
+<h2>Dos capas con funciones diferentes</h2>
+<p><strong>La Basischeck</strong> comprueba conocimientos que ya deberías traer de la bachelor y que quizá necesites volver a activar. No convierte una laguna básica en un tema de investigación.</p>
+<p><strong>La Masterverdieping</strong> comprueba si puedes analizar fenómenos lingüísticos con más profundidad, trabajar con datos, comparar explicaciones y reconocer qué se puede concluir y qué no. Esta parte sí puede ayudarte a localizar un posible ámbito de profundización.</p>
+</div>
+
+<div class="two">
+<div class="panel">
 <h2>Datos del estudiante</h2>
 <div class="inputs">
 <div><label class="small" for="studentName">Nombre</label><input id="studentName" type="text" placeholder="Nombre y apellidos"></div>
 <div><label class="small" for="scanDate">Fecha</label><input id="scanDate" type="date"></div>
 </div>
-<p class="note">Este autoscan no es una prueba y no genera una nota. Te ayuda a identificar qué conocimientos de Conciencia Lingüística ya dominas, qué necesitas refrescar y qué necesitas aprender.</p>
-<div class="privacy-note"><strong>Privacidad y uso de tus datos</strong><p>Tus respuestas permanecen en este dispositivo y en este navegador. No se envían automáticamente a Fontys, no se guardan en GitHub y no se almacenan en ningún servidor de esta página. Si se te pide compartir el resultado, descarga el PDF al finalizar y entrégalo únicamente a través del canal indicado por tu docente, por ejemplo Canvas o Portflow.</p></div>
-<div class="savebox"><button type="button" id="exportBtn">Descargar copia para continuar después</button><button type="button" id="importBtn">Continuar desde una copia guardada</button><input id="progressFile" class="hidden-file" type="file" accept=".json,application/json"></div>
-</section>
-<section class="panel">
-<h2>Tu progreso</h2>
-<div class="stats"><div class="stat g"><b id="gc">0</b>Lo tengo claro</div><div class="stat o"><b id="oc">0</b>Necesito refrescarlo</div><div class="stat r"><b id="rc">0</b>Necesito estudiarlo</div><div class="stat n"><b id="bc">0</b>Sin responder</div></div>
-<div class="progress-label"><strong id="progressText">0 de 0 respondidas</strong><span id="progressPct">0 %</span></div>
-<div id="prog" class="progress" role="progressbar" aria-label="Progreso del autoscan" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
-<div id="statusChip" class="status-chip status-provisional">Resultado provisional</div>
-</section>
+<div class="privacy"><strong>Privacidad</strong><br><span class="note">Tus respuestas permanecen en este navegador. La aplicación no las envía automáticamente a Fontys ni a GitHub.</span></div>
+<div class="savebox">
+<button id="exportBtn" type="button">Descargar copia para continuar después</button>
+<button id="importBtn" type="button">Continuar desde una copia guardada</button>
+<input id="progressFile" class="hidden" type="file" accept=".json,application/json">
 </div>
-<div class="legend"><div class="box g"><b>Lo tengo claro</b><br><span class="note">Puedo reconocerlo, explicarlo o aplicarlo con suficiente seguridad.</span></div><div class="box o"><b>Necesito refrescarlo</b><br><span class="note">Lo conozco, pero necesito volver a activarlo o revisarlo brevemente.</span></div><div class="box r"><b>Necesito estudiarlo</b><br><span class="note">Todavía no lo conozco suficientemente o necesito trabajarlo con más profundidad.</span></div><div class="box n"><b>Sin responder</b><br><span class="note">Todavía no he elegido una opción.</span></div></div>
-<div class="callout"><strong>Cómo usar el autoscan:</strong> responde cada afirmación y marca también ⭐ <em>Me interesa profundizar</em> en los ámbitos que despierten tu interés. La ruta de aprendizaje se basa en lo que necesitas aprender o repasar. El interés se muestra por separado para ayudarte a elegir un posible tema de profundización.</div>
-<section class="panel navpanel"><div><label class="small" for="sectionJump">Ir directamente a un bloque</label><select id="sectionJump"></select></div><button class="primary" type="button" id="openBlockBtn">Abrir bloque</button><button type="button" id="nextUnansweredBtn">Siguiente sin responder</button></section>
-<div class="autoscan-wrap"><div id="sections"></div><div class="toolbar"><button class="primary" type="button" id="routeBtn">Ver mi ruta de aprendizaje</button><button type="button" id="clearBtn">Borrar respuestas</button></div></div>
-<section id="route" class="panel"><h2>Mi ruta personal de aprendizaje</h2><div id="routeStatus" class="warning">La ruta es provisional mientras no completes todo el autoscan.</div><p>La ruta se calcula solo a partir de lo que has marcado como <strong>Necesito estudiarlo</strong> o <strong>Necesito refrescarlo</strong>. Tu interés personal se muestra por separado y no altera esta prioridad.</p><div class="route-grid"><div><h3>Áreas prioritarias para estudiar o refrescar</h3><div id="learningRoute"></div></div><div><h3>Fortalezas actuales</h3><div id="strengths"></div></div></div><h3>Necesidad × interés</h3><div id="matrixView" class="matrix"></div><div class="toolbar"><button class="primary" type="button" id="researchBtn">Pasar a posibles temas de profundización</button></div></section>
-<section id="research" class="panel research-edit"><h2>De mi autoscan a un posible tema de profundización</h2><p>Las sugerencias combinan dos cosas que se muestran por separado: <strong>necesidad de estudio</strong> e <strong>interés personal</strong>. Esto no decide tu tema por ti.</p><div class="research-grid"><div><h3>Temas sugeridos</h3><div id="suggestions"></div><h3>Elegir otro tema</h3><label class="small" for="allTopics">Puedes elegir cualquiera de los 20 bloques, aunque no aparezca entre las sugerencias.</label><select id="allTopics"></select><button type="button" id="addAnyTopicBtn">Añadir este tema</button><h3>Mis temas seleccionados</h3><div id="selectedTopicList"></div></div><div class="research-fields"><h3>Conectar el tema con mi práctica docente</h3><label class="small" for="qInterest">¿Qué fenómeno lingüístico me interesa especialmente?</label><textarea id="qInterest" placeholder="Ej.: el uso de se, los pasados, tú/vos/usted..."></textarea><label class="small" for="qPractice">¿Qué observo en mi propia práctica docente?</label><textarea id="qPractice" placeholder="¿Qué ocurre en tus clases, materiales o producciones del alumnado?"></textarea><label class="small" for="qStudents">¿Qué dificultades, dudas o patrones observo en mi alumnado?</label><textarea id="qStudents"></textarea><label class="small" for="qData">¿Qué datos reales podría analizar?</label><textarea id="qData" placeholder="Ej.: textos del alumnado, grabaciones, materiales didácticos, corpus, muestras auténticas..."></textarea><label class="small" for="qUnderstand">¿Qué quiero comprender mejor?</label><textarea id="qUnderstand"></textarea><div class="eligibility"><strong>Antes de convertirlo en un posible tema de indagación</strong><label><input id="checkPractice" type="checkbox"> Este fenómeno aparece realmente en mi práctica o contexto.</label><label><input id="checkData" type="checkbox"> Tengo acceso a datos o ejemplos que puedo analizar.</label><label><input id="checkInterest" type="checkbox"> Quiero comprender este fenómeno mejor.</label><div id="eligibilityStatus" class="note"></div></div><label class="small" for="qProvisional">Posible pregunta de partida</label><textarea id="qProvisional" placeholder="Puedes escribir tu propia pregunta o adaptar una de las preguntas de partida sugeridas."></textarea><h4>Preguntas de partida sugeridas</h4><div id="generatedQuestions"></div></div></div><div class="toolbar"><button class="primary" type="button" id="summaryBtn">Ver mi resumen final</button></div></section>
-<section id="results" class="panel"><h2 id="summaryTitle">Resumen provisional de mi autoscan</h2><p id="intro"></p><h3>Resultado por tema</h3><div id="sectionResults"></div><h3>Prioridad alta: necesito estudiarlo</h3><ul id="redList" class="priority"></ul><h3>Prioridad media: necesito refrescarlo</h3><ul id="orangeList" class="priority"></ul><h3>Posibles temas de profundización seleccionados</h3><div id="chosenTopics"></div><h3>Orientación para mi indagación en la práctica docente</h3><div id="researchSummary"></div><div class="pdf-box"><h3>Guardar mi resultado</h3><p><strong>Resumen para mi portfolio:</strong> incluye perfil, ruta, temas seleccionados y orientación para la indagación.</p><p><strong>Informe completo para mí:</strong> añade todas las respuestas individuales del autoscan.</p><div id="pdfWarning"></div><div class="pdf-actions"><button class="pdf" type="button" data-mode="summary">Descargar resumen para mi portfolio</button><button class="pdf" type="button" data-mode="full">Descargar informe completo para mí</button></div><div class="toolbar"><button class="danger" type="button" id="eraseDeviceBtn">Borrar mis datos de este dispositivo</button></div></div></section>
+</div>
+
+<div class="panel">
+<h2>Cómo responder</h2>
+<div class="legend">
+<div class="box g"><strong>Lo tengo claro</strong><br><span class="note">Puedo reconocerlo, explicarlo o aplicarlo con suficiente seguridad.</span></div>
+<div class="box o"><strong>Necesito refrescarlo</strong><br><span class="note">Lo conozco, pero necesito volver a activarlo o revisarlo brevemente.</span></div>
+<div class="box r"><strong>Necesito estudiarlo</strong><br><span class="note">Todavía necesito trabajarlo con más profundidad.</span></div>
+</div>
+<p class="note">No intentes responder “como debería ser”. El valor del autoscan está en detectar qué necesitas activar antes de trabajar a nivel máster.</p>
+<div class="toolbar"><button class="primary" id="startBtn" type="button">Empezar la Basischeck</button></div>
+</div>
+</div>
+</section>
+
+<section id="view2" class="view">
+<div class="panel">
+<div class="stage-intro">
+<strong>Basischeck</strong>
+<p>Comprueba conocimientos de entrada de la bachelor en ocho ámbitos amplios. Los resultados de esta parte sirven para priorizar qué necesitas reactivar; <strong>no se utilizan para sugerir tu tema de profundización</strong>.</p>
+</div>
+<div class="progress-label"><strong id="basisProgressText">0 de 24 respondidas</strong><span id="basisPct">0 %</span></div>
+<div id="basisProgress" class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+<div id="basisDomains"></div>
+<div class="toolbar">
+<button id="basisNextMissing" type="button">Siguiente sin responder</button>
+<button class="primary" id="toMasterBtn" type="button">Continuar a Masterverdieping</button>
+</div>
+</div>
+</section>
+
+<section id="view3" class="view">
+<div class="panel">
+<div class="stage-intro">
+<strong>Masterverdieping</strong>
+<p>Aquí no se pregunta simplemente si recuerdas una regla. Se trata de comprobar si puedes analizar un fenómeno, trabajar con datos, comparar explicaciones y justificar tus conclusiones.</p>
+</div>
+<div class="progress-label"><strong id="masterProgressText">0 de 36 respondidas</strong><span id="masterPct">0 %</span></div>
+<div id="masterProgress" class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+<p class="note">Marca ⭐ <strong>Me interesa profundizar</strong> solo en ámbitos que realmente te atraigan como posible línea de indagación.</p>
+<div id="masterDomains"></div>
+<div class="toolbar">
+<button id="masterNextMissing" type="button">Siguiente sin responder</button>
+<button class="primary" id="toRouteBtn" type="button">Ver mi ruta y posibles temas</button>
+</div>
+</div>
+</section>
+
+<section id="view4" class="view">
+<div class="panel">
+<h2>Mi ruta personal</h2>
+<div id="routeWarning"></div>
+<div class="route-grid">
+<div>
+<h3>1. Base que conviene reactivar</h3>
+<p class="note">Estas áreas proceden únicamente de la Basischeck.</p>
+<div id="basisRoute"></div>
+</div>
+<div>
+<h3>2. Desarrollo a nivel máster</h3>
+<p class="note">Estas áreas proceden únicamente de Masterverdieping.</p>
+<div id="masterRoute"></div>
+</div>
+</div>
+</div>
+
+<div class="panel">
+<h2>De interés a posible tema de profundización</h2>
+<p>No todo lo que necesitas estudiar debe convertirse en tu tema. Un buen candidato combina <strong>interés</strong>, <strong>presencia en tu práctica</strong> y <strong>datos accesibles</strong>.</p>
+<div class="research-grid">
+<div>
+<h3>Ámbitos que pueden merecer exploración</h3>
+<div id="topicSuggestions"></div>
+<h3>Elegir otro ámbito</h3>
+<select id="allMasterTopics"></select>
+<button id="addTopicBtn" type="button">Añadir este ámbito</button>
+<h3>Mis ámbitos seleccionados</h3>
+<div id="selectedTopics"></div>
+</div>
+<div>
+<h3>Conectar con mi práctica</h3>
+<label class="small" for="qPractice">¿Qué observo en mi práctica, materiales o alumnado?</label>
+<textarea id="qPractice"></textarea>
+<label class="small" for="qData">¿Qué datos reales podría analizar?</label>
+<textarea id="qData" placeholder="Textos, grabaciones, materiales, corpus, interacciones, muestras auténticas…"></textarea>
+<label class="small" for="qUnderstand">¿Qué quiero comprender mejor?</label>
+<textarea id="qUnderstand"></textarea>
+<div class="info">
+<strong>Comprobación del tema</strong>
+<label><input id="checkPractice" type="checkbox"> El fenómeno aparece realmente en mi contexto.</label><br>
+<label><input id="checkData" type="checkbox"> Tengo acceso a datos o ejemplos analizables.</label><br>
+<label><input id="checkInterest" type="checkbox"> Quiero comprenderlo mejor.</label>
+<div id="topicCheckStatus" class="note" style="margin-top:7px"></div>
+</div>
+<h3>Posibles preguntas de partida</h3>
+<div id="questionSuggestions"></div>
+<label class="small" for="qProvisional">Mi pregunta provisional</label>
+<textarea id="qProvisional"></textarea>
+</div>
+</div>
+<div class="toolbar"><button class="primary" id="toResultsBtn" type="button">Ver resultado completo</button></div>
+</div>
+</section>
+
+<section id="view5" class="view">
+<div class="panel">
+<h2>Resultado del autoscan</h2>
+<div id="overallStatus"></div>
+<div class="stats">
+<div class="stat g"><b id="greenCount">0</b>Lo tengo claro</div>
+<div class="stat o"><b id="orangeCount">0</b>Necesito refrescarlo</div>
+<div class="stat r"><b id="redCount">0</b>Necesito estudiarlo</div>
+<div class="stat"><b id="blankCount">0</b>Sin responder</div>
+</div>
+
+<h3>Basischeck</h3>
+<div id="basisSummary"></div>
+<h3>Masterverdieping</h3>
+<div id="masterSummary"></div>
+<h3>Posible profundización</h3>
+<div id="researchSummary"></div>
+
+<div class="info" style="margin-top:16px">
+<strong>Interpretación</strong>
+<span class="note">La Basischeck sirve para detectar conocimientos de entrada que conviene reactivar. La Masterverdieping muestra tu autopercepción sobre capacidades de análisis lingüístico a nivel máster. Ninguna de las dos constituye una evaluación sumativa ni determina automáticamente tu tema.</span>
+</div>
+
+<div class="toolbar">
+<button class="primary" data-pdf="summary" type="button">Descargar resumen para mi portfolio</button>
+<button data-pdf="full" type="button">Descargar informe completo para mí</button>
+<button id="eraseBtn" class="danger" type="button">Borrar mis datos de este dispositivo</button>
+</div>
+</div>
+</section>
 </main>
+
 <script src="sections-1.js"></script>
 <script src="sections-2.js"></script>
 <script src="config.js"></script>
