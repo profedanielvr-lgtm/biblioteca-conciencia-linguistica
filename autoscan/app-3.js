@@ -1,95 +1,62 @@
-function suggestedTopicOrder(){
- return SECTIONS.map((s,si)=>({si,title:s.title,need:needScore(si),interest:interestMarked(si),c:counts(si)}))
- .filter(x=>x.c.total-x.c.blank>0 || x.interest)
- .sort((a,b)=>{
-   const aHH=(a.interest&&needLevel(a.si)==="alta")?1:0,bHH=(b.interest&&needLevel(b.si)==="alta")?1:0;
-   if(aHH!==bHH)return bHH-aHH;
-   if(a.interest!==b.interest)return b.interest-a.interest;
-   return b.need-a.need;
- }).slice(0,8);
+function renderQuestions(){
+ const sel=getSelectedTopics();dom.questionSuggestions.innerHTML=sel.length?sel.map(si=>{
+   const q=MASTER[si].question.replace("{contexto}",contextPhrase());
+   return `<div class="generated-q"><strong>${esc(MASTER[si].title)}</strong><br>${esc(q)}<br><button type="button" class="useQ" data-si="${si}">Usar como punto de partida</button></div>`;
+ }).join(""):`<p class="note">Selecciona uno o más ámbitos para generar preguntas de partida.</p>`;
+ dom.questionSuggestions.querySelectorAll(".useQ").forEach(b=>b.addEventListener("click",()=>{dom.qProvisional.value=MASTER[Number(b.dataset.si)].question.replace("{contexto}",contextPhrase());update()}));
 }
-function renderSuggestions(){
- const preserve=new Set(getSelectedTopics().concat(window._savedSelected||[]));
- dom.suggestions.innerHTML="";
- suggestedTopicOrder().forEach(x=>{
-   const [cls,label,desc]=matrixType(x.si);
-   const d=document.createElement("div");d.className="suggestion";
-   d.innerHTML=`<strong>${esc(x.title)}</strong><div class="scoreline">${label}</div><div class="note">${desc}</div><label class="topic-choice"><input class="topicSelect" data-si="${x.si}" type="checkbox" ${preserve.has(x.si)?"checked":""}> Añadir a mis posibles temas de profundización</label>`;
-   dom.suggestions.appendChild(d);
- });
- window._savedSelected=[];
- document.querySelectorAll(".topicSelect").forEach(e=>e.addEventListener("change",()=>{
-   enforceTopicLimit(e);renderSelectedTopics();renderGeneratedQuestions();renderSummary(totalCounts());save();
- }));
-}
-function getSelectedTopics(){return [...document.querySelectorAll(".topicSelect:checked")].map(e=>Number(e.dataset.si))}
-function enforceTopicLimit(changed){
- const checked=getSelectedTopics();if(checked.length>3){changed.checked=false;alert("Puedes seleccionar como máximo tres temas.");}
-}
-function addSelectedTopic(si){
- if(getSelectedTopics().includes(si))return;
- const current=getSelectedTopics();if(current.length>=3){alert("Puedes seleccionar como máximo tres temas.");return;}
- let checkbox=document.querySelector(`.topicSelect[data-si="${si}"]`);
- if(!checkbox){
-   const d=document.createElement("div");d.className="suggestion";d.dataset.manual="1";
-   d.innerHTML=`<strong>${esc(SECTIONS[si].title)}</strong><div class="scoreline">Tema elegido por ti</div><label class="topic-choice"><input class="topicSelect" data-si="${si}" type="checkbox" checked> Añadido a mis posibles temas de profundización</label>`;
-   dom.suggestions.appendChild(d);checkbox=d.querySelector("input");checkbox.addEventListener("change",()=>{renderSelectedTopics();renderGeneratedQuestions();renderSummary(totalCounts());save()});
- }else checkbox.checked=true;
- update();
-}
-function renderSelectedTopics(){
- const selected=getSelectedTopics();
- dom.selectedTopicList.innerHTML=selected.length?selected.map(si=>`<div class="route-card"><strong>${esc(SECTIONS[si].title)}</strong><button type="button" data-remove="${si}">Quitar</button></div>`).join(""):'<p class="note">Todavía no has seleccionado temas.</p>';
- dom.selectedTopicList.querySelectorAll("[data-remove]").forEach(b=>b.addEventListener("click",()=>{
-   const cb=document.querySelector(`.topicSelect[data-si="${b.dataset.remove}"]`);if(cb)cb.checked=false;update();
- }));
-}
-function renderEligibility(){
+function renderTopicCheck(){
  const n=[dom.checkPractice.checked,dom.checkData.checked,dom.checkInterest.checked].filter(Boolean).length;
- dom.eligibilityStatus.textContent=n===3?"El tema reúne las tres condiciones para convertirse en un buen candidato de indagación.":`${n} de 3 condiciones comprobadas.`;
+ dom.topicCheckStatus.textContent=n===3?"El ámbito cumple las tres condiciones para seguir desarrollándolo como posible indagación.":`${n} de 3 condiciones comprobadas.`;
 }
-function contextPhrase(){
- if(dom.qPractice.value.trim())return "mi práctica docente";
- if(dom.qStudents.value.trim())return "las producciones de mi alumnado";
- return "mi contexto educativo";
+function renderResults(){
+ const bt=totalCounts("basis"),mt=totalCounts("master"),all={green:bt.green+mt.green,orange:bt.orange+mt.orange,red:bt.red+mt.red,blank:bt.blank+mt.blank,total:bt.total+mt.total};
+ dom.greenCount.textContent=all.green;dom.orangeCount.textContent=all.orange;dom.redCount.textContent=all.red;dom.blankCount.textContent=all.blank;
+ dom.overallStatus.innerHTML=all.blank?`<div class="warning">Resultado provisional: faltan ${all.blank} respuestas.</div>`:`<div class="success">Autoscan completo: ${all.total} de ${all.total} respuestas.</div>`;
+ dom.basisSummary.innerHTML=BASIS.map((s,si)=>summaryRow(s.title,counts("basis",si))).join("");
+ dom.masterSummary.innerHTML=MASTER.map((s,si)=>summaryRow(s.title,counts("master",si))).join("");
+ const sel=getSelectedTopics(),rows=[
+   ["Ámbitos seleccionados",sel.map(si=>MASTER[si].title).join("; ")],
+   ["Lo que observo en mi práctica",dom.qPractice.value],
+   ["Datos que podría analizar",dom.qData.value],
+   ["Lo que quiero comprender mejor",dom.qUnderstand.value],
+   ["Pregunta provisional",dom.qProvisional.value]
+ ].filter(x=>String(x[1]||"").trim());
+ dom.researchSummary.innerHTML=rows.length?rows.map(([a,b])=>`<p><strong>${esc(a)}</strong><br>${esc(b)}</p>`).join(""):`<p class="note">Todavía no has completado esta parte.</p>`;
 }
-function renderGeneratedQuestions(){
- const selected=getSelectedTopics();
- dom.generatedQuestions.innerHTML=selected.length?selected.map(si=>{
-   let q=QUESTION_TEMPLATES[si].replace("{contexto}",contextPhrase()).replace("{tema}",SECTIONS[si].title.toLowerCase());
-   return `<div class="generated-q"><strong>${esc(SECTIONS[si].title)}</strong><br>${esc(q)}<br><button type="button" class="useQuestion" data-si="${si}" style="margin-top:7px">Usar como punto de partida</button></div>`;
- }).join(""):'<p class="note">Selecciona uno o más temas para generar preguntas de partida.</p>';
- dom.generatedQuestions.querySelectorAll(".useQuestion").forEach(b=>b.addEventListener("click",()=>{
-   const si=Number(b.dataset.si);
-   dom.qProvisional.value=QUESTION_TEMPLATES[si].replace("{contexto}",contextPhrase()).replace("{tema}",SECTIONS[si].title.toLowerCase());
-   update();
- }));
+function summaryRow(title,c){return `<div class="summary-row"><div>${esc(title)}</div><div class="bar">${bars(c)}</div><div class="note">${c.green}/${c.orange}/${c.red}</div></div>`}
+function state(){
+ const answers={};document.querySelectorAll('input[type=radio]:checked').forEach(e=>answers[e.name]=e.value);
+ const interest={};MASTER.forEach((_,si)=>interest[si]=masterInterest(si));
+ return {schemaVersion:SCHEMA_VERSION,name:dom.studentName.value,date:dom.scanDate.value,answers,interest,selected:getSelectedTopics(),qPractice:dom.qPractice.value,qData:dom.qData.value,qUnderstand:dom.qUnderstand.value,qProvisional:dom.qProvisional.value,checks:{practice:dom.checkPractice.checked,data:dom.checkData.checked,interest:dom.checkInterest.checked}};
 }
-function renderSummary(t){
- const complete=t.blank===0;
- dom.intro.innerHTML=`<strong>${esc(dom.studentName.value||"Estudiante")}</strong>${dom.scanDate.value?" · "+esc(dom.scanDate.value):""}<br>${t.total-t.blank} de ${t.total} afirmaciones respondidas. <span class="badge green">${t.green} lo tengo claro</span> <span class="badge orange">${t.orange} necesito refrescarlo</span> <span class="badge red">${t.red} necesito estudiarlo</span>. ${complete?"<strong>Autoscan completo.</strong>":"<strong>Resultado provisional.</strong>"}`;
- dom.sectionResults.innerHTML="";
- SECTIONS.forEach((s,si)=>{const c=counts(si),row=document.createElement("div");row.className="result-row";row.innerHTML=`<div>${esc(s.title)}</div><div class="bar">${bars(c)}</div><div class="note">${c.green} / ${c.orange} / ${c.red}</div>`;dom.sectionResults.appendChild(row)});
- fillLists();
- const selected=getSelectedTopics();
- dom.chosenTopics.innerHTML=selected.length?selected.map(si=>`<p><strong>${esc(SECTIONS[si].title)}</strong></p>`).join(""):'<p class="note">Todavía no has seleccionado temas de profundización.</p>';
- const rows=[["Fenómeno que me interesa",dom.qInterest.value],["Lo que observo en mi práctica",dom.qPractice.value],["Dificultades o patrones del alumnado",dom.qStudents.value],["Datos que podría analizar",dom.qData.value],["Lo que quiero comprender mejor",dom.qUnderstand.value],["Posible pregunta de partida",dom.qProvisional.value]].filter(x=>x[1].trim());
- dom.researchSummary.innerHTML=rows.length?rows.map(x=>`<p><strong>${esc(x[0])}</strong><br>${esc(x[1])}</p>`).join(""):'<p class="note">Todavía no has completado esta parte.</p>';
+function validate(s){
+ if(!s||typeof s!=="object"||Number(s.schemaVersion)!==SCHEMA_VERSION)return false;
+ const allowed=new Set(["green","orange","red"]);
+ for(const [k,v] of Object.entries(s.answers||{})){if(!/^(basis|master)_\d+_\d+$/.test(k)||!allowed.has(v))return false}
+ return true;
 }
-function fillLists(){
- const rr=[],oo=[];SECTIONS.forEach((s,si)=>s.items.forEach((txt,ii)=>{const v=document.querySelector(`input[name="${k(si,ii)}"]:checked`)?.value;if(v==="red")rr.push([s.title,txt]);if(v==="orange")oo.push([s.title,txt])}));
- fill(dom.redList,rr,"red","Necesito estudiarlo");fill(dom.orangeList,oo,"orange","Necesito refrescarlo");
+function applyState(s){
+ dom.studentName.value=s.name||"";dom.scanDate.value=s.date||"";
+ Object.entries(s.answers||{}).forEach(([n,v])=>{const e=document.querySelector(`input[name="${n}"][value="${v}"]`);if(e)e.checked=true});
+ Object.entries(s.interest||{}).forEach(([i,v])=>{const e=$("interest_"+i);if(e)e.checked=!!v});
+ window._restoreTopics=(s.selected||[]).map(Number);
+ dom.qPractice.value=s.qPractice||"";dom.qData.value=s.qData||"";dom.qUnderstand.value=s.qUnderstand||"";dom.qProvisional.value=s.qProvisional||"";
+ const c=s.checks||{};dom.checkPractice.checked=!!c.practice;dom.checkData.checked=!!c.data;dom.checkInterest.checked=!!c.interest;
 }
-function fill(el,arr,cls,label){el.innerHTML=arr.length?arr.map(x=>`<li><span class="badge ${cls}">${label}</span> <strong>${esc(x[0])}</strong><br>${esc(x[1])}</li>`).join(""):'<li class="note">No hay contenidos marcados en esta categoría.</li>'}
-function clearAll(){
- if(!confirm("¿Quieres borrar todas tus respuestas de este autoscan?"))return;
- document.querySelectorAll('input[type=radio],input[type=checkbox]').forEach(e=>e.checked=false);document.querySelectorAll("textarea").forEach(e=>e.value="");dom.studentName.value="";dom.scanDate.value=new Date().toISOString().slice(0,10);localStorage.removeItem(STORAGE_KEY);update();
+function migrateLegacy(){
+ const raw=localStorage.getItem(STORAGE_KEY);if(!raw)return;
+ try{const s=JSON.parse(raw);if(Number(s.schemaVersion)!==SCHEMA_VERSION)localStorage.setItem(STORAGE_KEY+"_legacy",raw)}catch(e){}
 }
-function eraseDeviceData(){
- if(!confirm("Esto borrará del navegador todas las respuestas guardadas de este autoscan. ¿Continuar?"))return;
- localStorage.removeItem(STORAGE_KEY);clearAll();
+function saveState(){localStorage.setItem(STORAGE_KEY,JSON.stringify(state()))}
+function loadState(){try{const s=JSON.parse(localStorage.getItem(STORAGE_KEY)||"null");if(validate(s))applyState(s)}catch(e){}}
+function exportState(){
+ const blob=new Blob([JSON.stringify(state(),null,2)],{type:"application/json"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="copia_autoscan_conciencia_linguistica_v6.json";a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
 }
-
-/* PDF autónomo */
-function pdfEsc(s){return String(s).replace(/\\/g,"\\\\").replace(/\(/g,"\\(").replace(/\)/g,"\\)")}
-function winAnsiBytes(str){const map={8364:128,8218:130,402:131,8222:132,8230:133,8224:134,8225:135,710:136,8240:137,352:138,8249:139,338:140,381:142,8216:145,8217:146,8220:147,8221:148,8226:149,8211:150,8212:151,732:152,8482:153,353:154,8250:155,339:156,382:158,376:159};const out=[];for(const ch of str){let c=ch.codePointAt(0);if(c<=255)out.push(c);else if(map[c])out.push(map[c]);else out.push(63)}return new Uint8Array(out)}
+function importState(ev){
+ const f=ev.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const s=JSON.parse(r.result);if(!validate(s))throw new Error();document.querySelectorAll('input[type=radio],input[type=checkbox]').forEach(e=>e.checked=false);applyState(s);update();alert("Copia recuperada correctamente.")}catch(e){alert("Esta copia no corresponde a esta versión del autoscan.")}};r.readAsText(f);ev.target.value="";
+}
+function eraseAll(){
+ if(!confirm("¿Quieres borrar todas las respuestas guardadas en este dispositivo?"))return;
+ localStorage.removeItem(STORAGE_KEY);document.querySelectorAll('input[type=radio],input[type=checkbox]').forEach(e=>e.checked=false);document.querySelectorAll("textarea").forEach(e=>e.value="");dom.studentName.value="";dom.scanDate.value=new Date().toISOString().slice(0,10);update();showView(1);
+}
