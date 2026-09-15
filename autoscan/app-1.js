@@ -1,160 +1,108 @@
-const SECTIONS=[...window.SECTIONS_PART1,...window.SECTIONS_PART2];
-const AREA_MAP=window.AREA_MAP;
-const GLOSSARY=window.GLOSSARY;
-const QUESTION_TEMPLATES=window.QUESTION_TEMPLATES;
-const STORAGE_KEY="autoscan_conciencia_linguistica_master";
-const SCHEMA_VERSION=5;
-
 const $=id=>document.getElementById(id);
-const dom={};
-["studentName","scanDate","gc","oc","rc","bc","progressText","progressPct","prog","statusChip","sectionJump",
-"sections","routeStatus","learningRoute","strengths","matrixView","suggestions","allTopics","selectedTopicList",
-"qInterest","qPractice","qStudents","qData","qUnderstand","checkPractice","checkData","checkInterest",
-"eligibilityStatus","qProvisional","generatedQuestions","summaryTitle","intro","sectionResults","redList","orangeList",
-"chosenTopics","researchSummary","pdfWarning","progressFile"].forEach(id=>dom[id]=$(id));
-
-const k=(s,i)=>`s${s}_i${i}`;
 const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const dom={};
+["studentName","scanDate","basisDomains","masterDomains","basisProgressText","basisPct","basisProgress","masterProgressText","masterPct","masterProgress",
+"basisRoute","masterRoute","topicSuggestions","allMasterTopics","selectedTopics","qPractice","qData","qUnderstand","checkPractice","checkData","checkInterest",
+"topicCheckStatus","questionSuggestions","qProvisional","overallStatus","greenCount","orangeCount","redCount","blankCount","basisSummary","masterSummary",
+"researchSummary","routeWarning","progressFile"].forEach(id=>dom[id]=$(id));
 
-function helpFor(text){
- const lower=text.toLowerCase();
- for(const [term,desc] of Object.entries(GLOSSARY)){
-   if(lower.includes(term.toLowerCase())) return desc;
- }
+function responseChoice(name,val,label,cls){
+ const id=name+"_"+val;
+ return `<div class="choice"><input type="radio" id="${id}" name="${name}" value="${val}"><label class="${cls}" for="${id}">${label}</label></div>`;
+}
+function glossaryFor(text){
+ const l=text.toLowerCase();
+ for(const [term,def] of Object.entries(GLOSSARY)){if(l.includes(term.toLowerCase()))return def}
  return "";
 }
-function choice(key,val,label){
- const id=key+"_"+val;
- return `<div class="choice"><input type="radio" name="${key}" id="${id}" value="${val}"><label for="${id}" class="${val}">${label}</label></div>`;
-}
-function build(){
- let currentArea="";
- SECTIONS.forEach((s,si)=>{
-   const [letter,area]=AREA_MAP[String(si)];
-   if(area!==currentArea){
-     currentArea=area;
-     const ah=document.createElement("div");ah.className="area-heading";
-     ah.innerHTML=`<strong>${letter}. ${esc(area)}</strong><span class="note">Bloques relacionados con esta área.</span>`;
-     dom.sections.appendChild(ah);
-   }
-
-   const opt=document.createElement("option");opt.value=si;opt.textContent=`${letter}. ${s.title}`;dom.sectionJump.appendChild(opt);
-   const opt2=document.createElement("option");opt2.value=si;opt2.textContent=s.title;dom.allTopics.appendChild(opt2);
-
-   const el=document.createElement("section");el.className="section";el.id="section_"+si;
+function buildDomains(list,type,target){
+ list.forEach((section,si)=>{
+   const el=document.createElement("section");el.className="domain";el.id=`${type}_domain_${si}`;
+   const interest=type==="master"?`<label class="interest"><input id="interest_${si}" type="checkbox"> ⭐ Me interesa profundizar</label>`:"";
    el.innerHTML=`
-   <div class="section-head">
-     <button class="section-toggle" type="button" aria-expanded="${si===0?'true':'false'}" aria-controls="section_body_${si}" data-si="${si}">
-       <h3>${esc(s.title)} <span id="chev_${si}" class="chev">${si===0?'▲':'▼'}</span></h3>
-     </button>
-     <div class="section-meta">
-       <span id="complete_${si}" class="complete-chip">Incompleto</span>
-       <span id="score_${si}" class="note score"></span>
-       <label class="interest"><input type="checkbox" id="interest_${si}"> ⭐ Me interesa profundizar</label>
-     </div>
+   <div class="domain-head">
+    <button class="domain-toggle" type="button" data-type="${type}" data-si="${si}" aria-expanded="false">${esc(section.title)} ▾</button>
+    <div class="domain-meta"><span id="${type}_chip_${si}" class="chip">Incompleto</span><span id="${type}_score_${si}" class="note"></span>${interest}</div>
    </div>
-   <div class="section-body" id="section_body_${si}">
-     <div id="items_${si}"></div>
-     <div class="section-footer">
-       <button type="button" ${si===0?'disabled':''} data-prev="${si-1}">← Anterior</button>
-       <button type="button" ${si===SECTIONS.length-1?'disabled':''} data-next="${si+1}">Siguiente →</button>
-     </div>
-   </div>`;
-   dom.sections.appendChild(el);
-   if(si===0)el.classList.add("open");
-
-   const box=$("items_"+si);
-   s.items.forEach((txt,ii)=>{
-      const row=document.createElement("div");row.className="item";const key=k(si,ii);
-      const help=helpFor(txt);
-      const helpId=`help_${si}_${ii}`;
-      row.innerHTML=`
-      <fieldset>
-        <legend>
-          <span class="statement">${esc(txt)}</span>
-          ${help?`<button type="button" class="help-btn" aria-expanded="false" aria-controls="${helpId}" data-help="${helpId}">?</button>`:""}
-          ${help?`<div class="help-text" id="${helpId}">${esc(help)}</div>`:""}
-        </legend>
-        <div class="choice-wrap">
-          ${choice(key,"green","Lo tengo claro")}
-          ${choice(key,"orange","Necesito refrescarlo")}
-          ${choice(key,"red","Necesito estudiarlo")}
-        </div>
-      </fieldset>`;
-      box.appendChild(row);
+   <div class="domain-body" id="${type}_body_${si}"></div>`;
+   target.appendChild(el);
+   const body=el.querySelector(".domain-body");
+   section.items.forEach((txt,ii)=>{
+     const name=`${type}_${si}_${ii}`,help=glossaryFor(txt),helpId=`help_${type}_${si}_${ii}`;
+     const row=document.createElement("div");row.className="item";
+     row.innerHTML=`<fieldset><legend>${esc(txt)} ${help?`<button type="button" class="help-btn" data-help="${helpId}" aria-expanded="false">?</button><div id="${helpId}" class="help">${esc(help)}</div>`:""}</legend>
+     <div class="choice-wrap">
+       ${responseChoice(name,"green","Lo tengo claro","green")}
+       ${responseChoice(name,"orange","Necesito refrescarlo","orange")}
+       ${responseChoice(name,"red","Necesito estudiarlo","red")}
+     </div></fieldset>`;
+     body.appendChild(row);
    });
  });
-
- document.querySelectorAll(".section-toggle").forEach(b=>b.addEventListener("click",()=>toggleSection(Number(b.dataset.si))));
- document.querySelectorAll("[data-prev]").forEach(b=>b.addEventListener("click",()=>openSection(Number(b.dataset.prev))));
- document.querySelectorAll("[data-next]").forEach(b=>b.addEventListener("click",()=>openSection(Number(b.dataset.next))));
+}
+function build(){
+ buildDomains(BASIS,"basis",dom.basisDomains);
+ buildDomains(MASTER,"master",dom.masterDomains);
+ MASTER.forEach((s,si)=>{const o=document.createElement("option");o.value=si;o.textContent=s.title;dom.allMasterTopics.appendChild(o)});
+ document.querySelectorAll(".domain-toggle").forEach(b=>b.addEventListener("click",()=>toggleDomain(b.dataset.type,Number(b.dataset.si))));
  document.querySelectorAll(".help-btn").forEach(b=>b.addEventListener("click",()=>toggleHelp(b)));
  document.querySelectorAll("input,textarea,select").forEach(e=>{e.addEventListener("input",update);e.addEventListener("change",update)});
-
- $("openBlockBtn").addEventListener("click",()=>openSection(Number(dom.sectionJump.value)));
- $("nextUnansweredBtn").addEventListener("click",goNextUnanswered);
- $("routeBtn").addEventListener("click",()=>$("route").scrollIntoView({behavior:"smooth",block:"start"}));
- $("researchBtn").addEventListener("click",()=>$("research").scrollIntoView({behavior:"smooth",block:"start"}));
- $("summaryBtn").addEventListener("click",()=>$("results").scrollIntoView({behavior:"smooth",block:"start"}));
- $("clearBtn").addEventListener("click",clearAll);
- $("eraseDeviceBtn").addEventListener("click",eraseDeviceData);
- $("exportBtn").addEventListener("click",exportProgress);
+ $("startBtn").addEventListener("click",()=>showView(2));
+ $("toMasterBtn").addEventListener("click",()=>showView(3));
+ $("toRouteBtn").addEventListener("click",()=>showView(4));
+ $("toResultsBtn").addEventListener("click",()=>showView(5));
+ $("basisNextMissing").addEventListener("click",()=>nextMissing("basis"));
+ $("masterNextMissing").addEventListener("click",()=>nextMissing("master"));
+ $("addTopicBtn").addEventListener("click",()=>addTopic(Number(dom.allMasterTopics.value)));
+ $("exportBtn").addEventListener("click",exportState);
  $("importBtn").addEventListener("click",()=>dom.progressFile.click());
- dom.progressFile.addEventListener("change",importProgress);
- $("addAnyTopicBtn").addEventListener("click",()=>addSelectedTopic(Number(dom.allTopics.value)));
- document.querySelectorAll("[data-mode]").forEach(b=>b.addEventListener("click",()=>requestPDF(b.dataset.mode)));
-
+ dom.progressFile.addEventListener("change",importState);
+ $("eraseBtn").addEventListener("click",eraseAll);
+ document.querySelectorAll("[data-pdf]").forEach(b=>b.addEventListener("click",()=>downloadPDF(b.dataset.pdf)));
  migrateLegacy();
- load();
+ loadState();
  if(!dom.scanDate.value)dom.scanDate.value=new Date().toISOString().slice(0,10);
  update();
 }
-function toggleHelp(btn){
- const box=$(btn.dataset.help),open=box.classList.toggle("show");btn.setAttribute("aria-expanded",String(open));
-}
-function toggleSection(si){
- const el=$("section_"+si),isOpen=el.classList.contains("open");
- el.classList.toggle("open");el.querySelector(".section-toggle").setAttribute("aria-expanded",String(!isOpen));$("chev_"+si).textContent=!isOpen?"▲":"▼";
-}
-function openSection(si){
- if(si<0||si>=SECTIONS.length)return;
- document.querySelectorAll(".section").forEach((el,idx)=>{
-   const open=idx===si;el.classList.toggle("open",open);el.querySelector(".section-toggle").setAttribute("aria-expanded",String(open));$("chev_"+idx).textContent=open?"▲":"▼";
+function showView(n){
+ document.querySelectorAll(".view").forEach(v=>v.classList.remove("active"));
+ $("view"+n).classList.add("active");
+ document.querySelectorAll(".step").forEach(s=>{
+   const sn=Number(s.dataset.step);s.classList.toggle("active",sn===n);s.classList.toggle("done",sn<n);
  });
- dom.sectionJump.value=si;$("section_"+si).scrollIntoView({behavior:"smooth",block:"start"});
+ window.scrollTo({top:0,behavior:"smooth"});
 }
-function firstUnanswered(){
- for(let si=0;si<SECTIONS.length;si++){
-   for(let ii=0;ii<SECTIONS[si].items.length;ii++){
-     if(!document.querySelector(`input[name="${k(si,ii)}"]:checked`))return {si,ii};
-   }
- }
- return null;
+function toggleDomain(type,si){
+ const el=$(`${type}_domain_${si}`),open=el.classList.toggle("open");
+ const b=el.querySelector(".domain-toggle");b.setAttribute("aria-expanded",String(open));b.innerHTML=esc((type==="basis"?BASIS:MASTER)[si].title)+(open?" ▴":" ▾");
 }
-function goNextUnanswered(){
- const f=firstUnanswered();
- if(!f){alert("Has respondido todas las afirmaciones.");return;}
- openSection(f.si);
- setTimeout(()=>document.querySelector(`input[name="${k(f.si,f.ii)}"]`)?.closest(".item")?.scrollIntoView({behavior:"smooth",block:"center"}),350);
+function toggleHelp(b){
+ const box=$(b.dataset.help),open=box.classList.toggle("show");b.setAttribute("aria-expanded",String(open));
 }
-function counts(si){
- const c={green:0,orange:0,red:0,blank:0,total:SECTIONS[si].items.length};
- SECTIONS[si].items.forEach((_,ii)=>{const v=document.querySelector(`input[name="${k(si,ii)}"]:checked`)?.value;if(v)c[v]++;else c.blank++});
+function counts(type,si){
+ const list=type==="basis"?BASIS:MASTER,c={green:0,orange:0,red:0,blank:0,total:list[si].items.length};
+ list[si].items.forEach((_,ii)=>{const v=document.querySelector(`input[name="${type}_${si}_${ii}"]:checked`)?.value;if(v)c[v]++;else c.blank++});
  return c;
 }
-function totalCounts(){
- const t={green:0,orange:0,red:0,blank:0,total:0};
- SECTIONS.forEach((_,si)=>{const c=counts(si);Object.keys(t).forEach(x=>t[x]+=c[x]||0)});return t;
+function totalCounts(type){
+ const list=type==="basis"?BASIS:MASTER,t={green:0,orange:0,red:0,blank:0,total:0};
+ list.forEach((_,si)=>{const c=counts(type,si);["green","orange","red","blank","total"].forEach(k=>t[k]+=c[k])});return t;
 }
-function needScore(si){
- const c=counts(si),answered=c.total-c.blank;
- if(answered===0)return 0;
- return (c.red*2+c.orange)/c.total;
+function needScore(type,si){
+ const c=counts(type,si);if(c.total===0)return 0;return (c.red*2+c.orange)/c.total;
 }
-function interestMarked(si){return $("interest_"+si).checked}
-function needLevel(si){
- const s=needScore(si);
- if(s>=0.85)return "alta";
- if(s>=0.35)return "media";
- return "baja";
+function bars(c){
+ const d=c.total||1;return `<span style="width:${c.green/d*100}%;background:var(--green)"></span><span style="width:${c.orange/d*100}%;background:var(--orange)"></span><span style="width:${c.red/d*100}%;background:var(--red)"></span>`;
 }
+function nextMissing(type){
+ const list=type==="basis"?BASIS:MASTER;
+ for(let si=0;si<list.length;si++)for(let ii=0;ii<list[si].items.length;ii++){
+   if(!document.querySelector(`input[name="${type}_${si}_${ii}"]:checked`)){
+     const el=$(`${type}_domain_${si}`);if(!el.classList.contains("open"))toggleDomain(type,si);
+     setTimeout(()=>document.querySelector(`input[name="${type}_${si}_${ii}"]`)?.closest(".item")?.scrollIntoView({behavior:"smooth",block:"center"}),200);return;
+   }
+ }
+ alert("Has respondido todas las afirmaciones de esta parte.");
+}
+function getSelectedTopics(){return [...document.querySelectorAll(".topicPick:checked")].map(x=>Number(x.dataset.si))}
+function masterInterest(si){return $("interest_"+si)?.checked||false}
