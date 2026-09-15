@@ -13,7 +13,6 @@
 <div class="sub">Máster de Profesorado de Español · conocimientos previos, ruta de aprendizaje y orientación para la profundización</div>
 </div>
 </header>
-
 <main>
 <div class="top">
 <section class="panel">
@@ -23,172 +22,32 @@
 <div><label class="small" for="scanDate">Fecha</label><input id="scanDate" type="date"></div>
 </div>
 <p class="note">Este autoscan no es una prueba y no genera una nota. Te ayuda a identificar qué conocimientos de Conciencia Lingüística ya dominas, qué necesitas refrescar y qué necesitas aprender.</p>
-<div class="privacy-note">
-<strong>Privacidad y uso de tus datos</strong>
-<p>Tus respuestas permanecen en este dispositivo y en este navegador. No se envían automáticamente a Fontys, no se guardan en GitHub y no se almacenan en ningún servidor de esta página. Si se te pide compartir el resultado, descarga el PDF al finalizar y entrégalo únicamente a través del canal indicado por tu docente, por ejemplo Canvas o Portflow.</p>
-</div>
-<div class="savebox">
-<button type="button" id="exportBtn">Descargar copia para continuar después</button>
-<button type="button" id="importBtn">Continuar desde una copia guardada</button>
-<input id="progressFile" class="hidden-file" type="file" accept=".json,application/json">
-</div>
+<div class="privacy-note"><strong>Privacidad y uso de tus datos</strong><p>Tus respuestas permanecen en este dispositivo y en este navegador. No se envían automáticamente a Fontys, no se guardan en GitHub y no se almacenan en ningún servidor de esta página. Si se te pide compartir el resultado, descarga el PDF al finalizar y entrégalo únicamente a través del canal indicado por tu docente, por ejemplo Canvas o Portflow.</p></div>
+<div class="savebox"><button type="button" id="exportBtn">Descargar copia para continuar después</button><button type="button" id="importBtn">Continuar desde una copia guardada</button><input id="progressFile" class="hidden-file" type="file" accept=".json,application/json"></div>
 </section>
-
 <section class="panel">
 <h2>Tu progreso</h2>
-<div class="stats">
-<div class="stat g"><b id="gc">0</b>Lo tengo claro</div>
-<div class="stat o"><b id="oc">0</b>Necesito refrescarlo</div>
-<div class="stat r"><b id="rc">0</b>Necesito estudiarlo</div>
-<div class="stat n"><b id="bc">0</b>Sin responder</div>
-</div>
+<div class="stats"><div class="stat g"><b id="gc">0</b>Lo tengo claro</div><div class="stat o"><b id="oc">0</b>Necesito refrescarlo</div><div class="stat r"><b id="rc">0</b>Necesito estudiarlo</div><div class="stat n"><b id="bc">0</b>Sin responder</div></div>
 <div class="progress-label"><strong id="progressText">0 de 0 respondidas</strong><span id="progressPct">0 %</span></div>
 <div id="prog" class="progress" role="progressbar" aria-label="Progreso del autoscan" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
 <div id="statusChip" class="status-chip status-provisional">Resultado provisional</div>
 </section>
 </div>
-
-<div class="legend">
-<div class="box g"><b>Lo tengo claro</b><br><span class="note">Puedo reconocerlo, explicarlo o aplicarlo con suficiente seguridad.</span></div>
-<div class="box o"><b>Necesito refrescarlo</b><br><span class="note">Lo conozco, pero necesito volver a activarlo o revisarlo brevemente.</span></div>
-<div class="box r"><b>Necesito estudiarlo</b><br><span class="note">Todavía no lo conozco suficientemente o necesito trabajarlo con más profundidad.</span></div>
-<div class="box n"><b>Sin responder</b><br><span class="note">Todavía no he elegido una opción.</span></div>
-</div>
-
-<div class="callout">
-<strong>Cómo usar el autoscan:</strong> responde cada afirmación y marca también ⭐ <em>Me interesa profundizar</em> en los ámbitos que despierten tu interés. La ruta de aprendizaje se basa en lo que necesitas aprender o repasar. El interés se muestra por separado para ayudarte a elegir un posible tema de profundización.
-</div>
-
-<section class="panel navpanel">
-<div>
-<label class="small" for="sectionJump">Ir directamente a un bloque</label>
-<select id="sectionJump"></select>
-</div>
-<button class="primary" type="button" id="openBlockBtn">Abrir bloque</button>
-<button type="button" id="nextUnansweredBtn">Siguiente sin responder</button>
-</section>
-
-<div class="autoscan-wrap">
-<div id="sections"></div>
-<div class="toolbar">
-<button class="primary" type="button" id="routeBtn">Ver mi ruta de aprendizaje</button>
-<button type="button" id="clearBtn">Borrar respuestas</button>
-</div>
-</div>
-
-<section id="route" class="panel">
-<h2>Mi ruta personal de aprendizaje</h2>
-<div id="routeStatus" class="warning">La ruta es provisional mientras no completes todo el autoscan.</div>
-<p>La ruta se calcula solo a partir de lo que has marcado como <strong>Necesito estudiarlo</strong> o <strong>Necesito refrescarlo</strong>. Tu interés personal se muestra por separado y no altera esta prioridad.</p>
-<div class="route-grid">
-<div>
-<h3>Áreas prioritarias para estudiar o refrescar</h3>
-<div id="learningRoute"></div>
-</div>
-<div>
-<h3>Fortalezas actuales</h3>
-<div id="strengths"></div>
-</div>
-</div>
-
-<h3>Necesidad × interés</h3>
-<div id="matrixView" class="matrix"></div>
-
-<div class="toolbar"><button class="primary" type="button" id="researchBtn">Pasar a posibles temas de profundización</button></div>
-</section>
-
-<section id="research" class="panel research-edit">
-<h2>De mi autoscan a un posible tema de profundización</h2>
-<p>Las sugerencias combinan dos cosas que se muestran por separado: <strong>necesidad de estudio</strong> e <strong>interés personal</strong>. Esto no decide tu tema por ti.</p>
-
-<div class="research-grid">
-<div>
-<h3>Temas sugeridos</h3>
-<div id="suggestions"></div>
-
-<h3>Elegir otro tema</h3>
-<label class="small" for="allTopics">Puedes elegir cualquiera de los 20 bloques, aunque no aparezca entre las sugerencias.</label>
-<select id="allTopics"></select>
-<button type="button" id="addAnyTopicBtn">Añadir este tema</button>
-
-<h3>Mis temas seleccionados</h3>
-<div id="selectedTopicList"></div>
-</div>
-
-<div class="research-fields">
-<h3>Conectar el tema con mi práctica docente</h3>
-<label class="small" for="qInterest">¿Qué fenómeno lingüístico me interesa especialmente?</label>
-<textarea id="qInterest" placeholder="Ej.: el uso de se, los pasados, tú/vos/usted..."></textarea>
-
-<label class="small" for="qPractice">¿Qué observo en mi propia práctica docente?</label>
-<textarea id="qPractice" placeholder="¿Qué ocurre en tus clases, materiales o producciones del alumnado?"></textarea>
-
-<label class="small" for="qStudents">¿Qué dificultades, dudas o patrones observo en mi alumnado?</label>
-<textarea id="qStudents"></textarea>
-
-<label class="small" for="qData">¿Qué datos reales podría analizar?</label>
-<textarea id="qData" placeholder="Ej.: textos del alumnado, grabaciones, materiales didácticos, corpus, muestras auténticas..."></textarea>
-
-<label class="small" for="qUnderstand">¿Qué quiero comprender mejor?</label>
-<textarea id="qUnderstand"></textarea>
-
-<div class="eligibility">
-<strong>Antes de convertirlo en un posible tema de indagación</strong>
-<label><input id="checkPractice" type="checkbox"> Este fenómeno aparece realmente en mi práctica o contexto.</label>
-<label><input id="checkData" type="checkbox"> Tengo acceso a datos o ejemplos que puedo analizar.</label>
-<label><input id="checkInterest" type="checkbox"> Quiero comprender este fenómeno mejor.</label>
-<div id="eligibilityStatus" class="note"></div>
-</div>
-
-<label class="small" for="qProvisional">Posible pregunta de partida</label>
-<textarea id="qProvisional" placeholder="Puedes escribir tu propia pregunta o adaptar una de las preguntas de partida sugeridas."></textarea>
-
-<h4>Preguntas de partida sugeridas</h4>
-<div id="generatedQuestions"></div>
-</div>
-</div>
-
-<div class="toolbar"><button class="primary" type="button" id="summaryBtn">Ver mi resumen final</button></div>
-</section>
-
-<section id="results" class="panel">
-<h2 id="summaryTitle">Resumen provisional de mi autoscan</h2>
-<p id="intro"></p>
-
-<h3>Resultado por tema</h3>
-<div id="sectionResults"></div>
-
-<h3>Prioridad alta: necesito estudiarlo</h3>
-<ul id="redList" class="priority"></ul>
-
-<h3>Prioridad media: necesito refrescarlo</h3>
-<ul id="orangeList" class="priority"></ul>
-
-<h3>Posibles temas de profundización seleccionados</h3>
-<div id="chosenTopics"></div>
-
-<h3>Orientación para mi indagación en la práctica docente</h3>
-<div id="researchSummary"></div>
-
-<div class="pdf-box">
-<h3>Guardar mi resultado</h3>
-<p><strong>Resumen para mi portfolio:</strong> incluye perfil, ruta, temas seleccionados y orientación para la indagación.</p>
-<p><strong>Informe completo para mí:</strong> añade todas las respuestas individuales del autoscan.</p>
-<div id="pdfWarning"></div>
-<div class="pdf-actions">
-<button class="pdf" type="button" data-mode="summary">Descargar resumen para mi portfolio</button>
-<button class="pdf" type="button" data-mode="full">Descargar informe completo para mí</button>
-</div>
-<div class="toolbar">
-<button class="danger" type="button" id="eraseDeviceBtn">Borrar mis datos de este dispositivo</button>
-</div>
-</div>
-</section>
+<div class="legend"><div class="box g"><b>Lo tengo claro</b><br><span class="note">Puedo reconocerlo, explicarlo o aplicarlo con suficiente seguridad.</span></div><div class="box o"><b>Necesito refrescarlo</b><br><span class="note">Lo conozco, pero necesito volver a activarlo o revisarlo brevemente.</span></div><div class="box r"><b>Necesito estudiarlo</b><br><span class="note">Todavía no lo conozco suficientemente o necesito trabajarlo con más profundidad.</span></div><div class="box n"><b>Sin responder</b><br><span class="note">Todavía no he elegido una opción.</span></div></div>
+<div class="callout"><strong>Cómo usar el autoscan:</strong> responde cada afirmación y marca también ⭐ <em>Me interesa profundizar</em> en los ámbitos que despierten tu interés. La ruta de aprendizaje se basa en lo que necesitas aprender o repasar. El interés se muestra por separado para ayudarte a elegir un posible tema de profundización.</div>
+<section class="panel navpanel"><div><label class="small" for="sectionJump">Ir directamente a un bloque</label><select id="sectionJump"></select></div><button class="primary" type="button" id="openBlockBtn">Abrir bloque</button><button type="button" id="nextUnansweredBtn">Siguiente sin responder</button></section>
+<div class="autoscan-wrap"><div id="sections"></div><div class="toolbar"><button class="primary" type="button" id="routeBtn">Ver mi ruta de aprendizaje</button><button type="button" id="clearBtn">Borrar respuestas</button></div></div>
+<section id="route" class="panel"><h2>Mi ruta personal de aprendizaje</h2><div id="routeStatus" class="warning">La ruta es provisional mientras no completes todo el autoscan.</div><p>La ruta se calcula solo a partir de lo que has marcado como <strong>Necesito estudiarlo</strong> o <strong>Necesito refrescarlo</strong>. Tu interés personal se muestra por separado y no altera esta prioridad.</p><div class="route-grid"><div><h3>Áreas prioritarias para estudiar o refrescar</h3><div id="learningRoute"></div></div><div><h3>Fortalezas actuales</h3><div id="strengths"></div></div></div><h3>Necesidad × interés</h3><div id="matrixView" class="matrix"></div><div class="toolbar"><button class="primary" type="button" id="researchBtn">Pasar a posibles temas de profundización</button></div></section>
+<section id="research" class="panel research-edit"><h2>De mi autoscan a un posible tema de profundización</h2><p>Las sugerencias combinan dos cosas que se muestran por separado: <strong>necesidad de estudio</strong> e <strong>interés personal</strong>. Esto no decide tu tema por ti.</p><div class="research-grid"><div><h3>Temas sugeridos</h3><div id="suggestions"></div><h3>Elegir otro tema</h3><label class="small" for="allTopics">Puedes elegir cualquiera de los 20 bloques, aunque no aparezca entre las sugerencias.</label><select id="allTopics"></select><button type="button" id="addAnyTopicBtn">Añadir este tema</button><h3>Mis temas seleccionados</h3><div id="selectedTopicList"></div></div><div class="research-fields"><h3>Conectar el tema con mi práctica docente</h3><label class="small" for="qInterest">¿Qué fenómeno lingüístico me interesa especialmente?</label><textarea id="qInterest" placeholder="Ej.: el uso de se, los pasados, tú/vos/usted..."></textarea><label class="small" for="qPractice">¿Qué observo en mi propia práctica docente?</label><textarea id="qPractice" placeholder="¿Qué ocurre en tus clases, materiales o producciones del alumnado?"></textarea><label class="small" for="qStudents">¿Qué dificultades, dudas o patrones observo en mi alumnado?</label><textarea id="qStudents"></textarea><label class="small" for="qData">¿Qué datos reales podría analizar?</label><textarea id="qData" placeholder="Ej.: textos del alumnado, grabaciones, materiales didácticos, corpus, muestras auténticas..."></textarea><label class="small" for="qUnderstand">¿Qué quiero comprender mejor?</label><textarea id="qUnderstand"></textarea><div class="eligibility"><strong>Antes de convertirlo en un posible tema de indagación</strong><label><input id="checkPractice" type="checkbox"> Este fenómeno aparece realmente en mi práctica o contexto.</label><label><input id="checkData" type="checkbox"> Tengo acceso a datos o ejemplos que puedo analizar.</label><label><input id="checkInterest" type="checkbox"> Quiero comprender este fenómeno mejor.</label><div id="eligibilityStatus" class="note"></div></div><label class="small" for="qProvisional">Posible pregunta de partida</label><textarea id="qProvisional" placeholder="Puedes escribir tu propia pregunta o adaptar una de las preguntas de partida sugeridas."></textarea><h4>Preguntas de partida sugeridas</h4><div id="generatedQuestions"></div></div></div><div class="toolbar"><button class="primary" type="button" id="summaryBtn">Ver mi resumen final</button></div></section>
+<section id="results" class="panel"><h2 id="summaryTitle">Resumen provisional de mi autoscan</h2><p id="intro"></p><h3>Resultado por tema</h3><div id="sectionResults"></div><h3>Prioridad alta: necesito estudiarlo</h3><ul id="redList" class="priority"></ul><h3>Prioridad media: necesito refrescarlo</h3><ul id="orangeList" class="priority"></ul><h3>Posibles temas de profundización seleccionados</h3><div id="chosenTopics"></div><h3>Orientación para mi indagación en la práctica docente</h3><div id="researchSummary"></div><div class="pdf-box"><h3>Guardar mi resultado</h3><p><strong>Resumen para mi portfolio:</strong> incluye perfil, ruta, temas seleccionados y orientación para la indagación.</p><p><strong>Informe completo para mí:</strong> añade todas las respuestas individuales del autoscan.</p><div id="pdfWarning"></div><div class="pdf-actions"><button class="pdf" type="button" data-mode="summary">Descargar resumen para mi portfolio</button><button class="pdf" type="button" data-mode="full">Descargar informe completo para mí</button></div><div class="toolbar"><button class="danger" type="button" id="eraseDeviceBtn">Borrar mis datos de este dispositivo</button></div></div></section>
 </main>
-
 <script src="sections-1.js"></script>
 <script src="sections-2.js"></script>
 <script src="config.js"></script>
-<script src="app.js"></script>
+<script src="app-1.js"></script>
+<script src="app-2.js"></script>
+<script src="app-3.js"></script>
+<script src="app-4.js"></script>
+<script src="boot.js"></script>
 </body>
 </html>
