@@ -1,41 +1,144 @@
+function theoryAdviceHTML(){
+ const d=textualSummaryData();
+ const priorities=[
+   ...d.b.study.map(x=>({area:x,type:"basis",status:"study"})),
+   ...d.m.study.map(x=>({area:x,type:"master",status:"study"})),
+   ...d.b.refresh.map(x=>({area:x,type:"basis",status:"refresh"})),
+   ...d.m.refresh.map(x=>({area:x,type:"master",status:"refresh"}))
+ ];
+ if(!priorities.length)return `<div class="theory-guide"><h4>Cómo seguir con la teoría</h4><p class="note">No aparecen prioridades claras de repaso o estudio. Utiliza el dashboard por pregunta para elegir un ámbito que quieras consolidar o profundizar.</p></div>`;
+ const cards=priorities.slice(0,6).map(({area,type,status})=>{
+   const rr=RESOURCES[`${type}_${area.si}`]||{web:[],bib:[]};
+   const firstWeb=(rr.web||[]).map(id=>WEB[id]).find(Boolean);
+   const firstBib=(rr.bib||[]).map(id=>BIB[id]).find(Boolean);
+   const how=type==="basis"
+     ? (status==="study"
+       ? "Empieza por una explicación accesible. Haz después 3–5 ejemplos nuevos y comprueba si puedes explicar el fenómeno sin mirar la fuente."
+       : "Haz un repaso breve, explica el concepto con tus propias palabras y compruébalo con uno o dos ejemplos nuevos.")
+     : (status==="study"
+       ? "Empieza por el marco conceptual, continúa con bibliografía académica y termina contrastando la explicación con datos reales o un corpus."
+       : "Reactiva el marco conceptual y compruébalo con ejemplos auténticos antes de utilizarlo en una microanálisis.");
+   const links=[
+     firstWeb?`<a href="${firstWeb.url}" target="_blank" rel="noopener">${esc(firstWeb.provider)}: ${esc(firstWeb.title)} ↗</a>`:"",
+     firstBib?`<div class="note"><strong>Después:</strong> ${esc(firstBib)}</div>`:""
+   ].join("");
+   return `<div class="theory-start"><strong>${status==="study"?"Estudiar":"Refrescar"} · ${esc(area.title)}</strong><div class="theory-method">${esc(how)}</div>${links}</div>`;
+ }).join("");
+ return `<div class="theory-guide"><h4>Dónde y cómo adquirir la teoría que necesitas</h4><p class="note">No intentes estudiar todos los recursos. Empieza por la primera fuente de cada prioridad y pasa a la bibliografía del EVL cuando necesites más profundidad.</p>${cards}</div>`;
+}
+
+function renderTextualResults(){
+ const d=textualSummaryData(),allIncomplete=[...d.b.incomplete,...d.m.incomplete];
+ dom.textSummary.innerHTML=d.parts.map(p=>`<p>${esc(p)}</p>`).join("")+
+   `<p class="note">Este resumen describe tu <strong>autopercepción</strong>. No sustituye una evaluación de desempeño ni demuestra por sí mismo el dominio de un ámbito.</p>`+
+   theoryAdviceHTML();
+ const strengths=[...d.b.strength.map(x=>({ ...x,layer:"Basischeck"})),...d.m.strength.map(x=>({...x,layer:"Masterverdieping"}))];
+ const partial=[
+   ...BASIS.map((s,si)=>({title:s.title,c:counts("basis",si),layer:"Basischeck"})),
+   ...MASTER.map((s,si)=>({title:s.title,c:counts("master",si),layer:"Masterverdieping"}))
+ ].filter(x=>x.c.green>=2&&x.c.red===0&&x.c.green<x.c.total);
+ let strengthHtml=strengths.map(x=>`<div class="result-box strength"><strong>${esc(x.title)}</strong><div class="note">${x.layer} · 3 de 3 afirmaciones marcadas como «Lo tengo claro».</div></div>`).join("");
+ strengthHtml+=partial.map(x=>`<div class="result-box strength"><strong>${esc(x.title)}</strong><div class="note">${x.layer} · fortaleza parcial: ${x.c.green} verdes y ninguna respuesta roja.</div></div>`).join("");
+ dom.strengthSummary.innerHTML=strengthHtml||`<p class="note">Todavía no aparece un ámbito claramente asentado. Utiliza el dashboard por pregunta para localizar respuestas verdes concretas.</p>`;
+ const studies=[...d.b.study.map(x=>({...x,layer:"Basischeck"})),...d.m.study.map(x=>({...x,layer:"Masterverdieping"}))];
+ const refresh=[...d.b.refresh.map(x=>({...x,layer:"Basischeck"})),...d.m.refresh.map(x=>({...x,layer:"Masterverdieping"}))];
+ let action="";
+ studies.forEach(x=>action+=`<div class="priority-card study"><strong>Estudiar: ${esc(x.title)}</strong><div class="note">${x.layer} · aparece al menos una respuesta roja.</div><div class="nextstep"><strong>Siguiente paso:</strong> reconstruye la explicación, compruébala con ejemplos o datos reales y vuelve después a este ámbito.</div></div>`);
+ refresh.forEach(x=>action+=`<div class="priority-card refresh"><strong>Refrescar: ${esc(x.title)}</strong><div class="note">${x.layer} · aparece naranja, pero ninguna respuesta roja.</div><div class="nextstep"><strong>Siguiente paso:</strong> repasa el concepto, explícalo sin mirar la fuente y compruébalo con uno o dos ejemplos nuevos.</div></div>`);
+ if(!action)action='<p class="note">No aparecen prioridades completas de estudio o repaso con las respuestas actuales.</p>';
+ dom.actionSummary.className="priority-grid";dom.actionSummary.innerHTML=action;
+ const priorities=[
+   ...d.b.study.map(x=>({area:x,type:"basis",status:"study"})),
+   ...d.m.study.map(x=>({area:x,type:"master",status:"study"})),
+   ...d.b.refresh.map(x=>({area:x,type:"basis",status:"refresh"})),
+   ...d.m.refresh.map(x=>({area:x,type:"master",status:"refresh"}))
+ ];
+ dom.resourceRecommendations.innerHTML=priorities.length?priorities.map((x,i)=>resourceHTML(x.type,x.area,x.status,i)).join(""):`<p class="note">Cuando marques algún ámbito como «Necesito estudiarlo» o «Necesito refrescarlo», aquí aparecerán recomendaciones de estudio y fuentes concretas.</p>`;
+ const r=researchDirectionData(),first=firstPrioritySource();
+ let nextTheory="";
+ if(first&&first.web)nextTheory=` Para empezar con la teoría, abre primero ${first.web.provider}: ${first.web.title}.`;
+ dom.textSummary.innerHTML+=`<div class="direction-next"><strong>Tu siguiente paso:</strong> ${esc(r.next)}${nextTheory?`<div class="note" style="margin-top:5px">${esc(nextTheory)}</div>`:""}</div>`;
+}
+
+
+function answerPill(v){
+ const labels={green:"Lo tengo claro",orange:"Necesito refrescarlo",red:"Necesito estudiarlo",blank:"Sin responder"};
+ return `<span class="answer-pill ${v||"blank"}">${labels[v||"blank"]}</span>`;
+}
+function renderQuestionDashboard(){
+ dom.questionDashboard.className="question-dashboard";
+ dom.questionDashboard.innerHTML=[["Basischeck",BASIS,"basis"],["Masterverdieping",MASTER,"master"]].map(([heading,list,type])=>{
+   const cards=list.map((s,si)=>{
+     const c=counts(type,si);
+     const rows=s.items.map((txt,ii)=>{
+       const v=document.querySelector(`input[name="${type}_${si}_${ii}"]:checked`)?.value||"blank";
+       return `<div class="question-row"><div class="question-text">${esc(txt)}</div><div>${answerPill(v)}</div></div>`;
+     }).join("");
+     return `<details><summary>${esc(s.title)} · ${c.green} verde · ${c.orange} naranja · ${c.red} rojo</summary>${rows}</details>`;
+   }).join("");
+   return `<h4>${heading}</h4>${cards}`;
+ }).join("");
+}
+
+function renderResults(){
+ const bt=totalCounts("basis"),mt=totalCounts("master"),all={green:bt.green+mt.green,orange:bt.orange+mt.orange,red:bt.red+mt.red,blank:bt.blank+mt.blank,total:bt.total+mt.total};
+  dom.overallStatus.innerHTML=all.blank?`<div class="warning">Resultado provisional: faltan ${all.blank} respuestas.</div>`:`<div class="success">Autoscan completo: ${all.total} de ${all.total} respuestas.</div>`;
+ dom.basisSummary.innerHTML=BASIS.map((s,si)=>summaryRow(s.title,counts("basis",si))).join("");
+ dom.masterSummary.innerHTML=MASTER.map((s,si)=>summaryRow(s.title,counts("master",si))).join("");
+ renderMissingActions();
+ renderResultOverview();
+ renderTextualResults();
+ renderQuestionDashboard();
+ renderResearchDirection();
+ const sel=getSelectedTopics(),rows=[
+   ["Ámbitos seleccionados",sel.map(si=>MASTER[si].title).join("; ")],
+   ["Tema concreto",dom.qTopic.value],
+   ["Grupo o contexto",dom.qContext.value],
+   ["Cantidad o periodo",dom.qScope.value],
+   ["Comparación u observación",dom.qCompare.value],
+   ["Qué queda fuera",dom.qBoundary.value],
+   ["Lo que observo en mi práctica",dom.qPractice.value],
+   ["Datos que podría analizar",dom.qData.value],
+   ["Lo que quiero comprender mejor",dom.qUnderstand.value],
+   ["Pregunta provisional",dom.qProvisional.value]
+ ].filter(x=>String(x[1]||"").trim());
+ dom.researchSummary.innerHTML=rows.length?rows.map(([a,b])=>`<p><strong>${esc(a)}</strong><br>${esc(b)}</p>`).join(""):`<p class="note">Todavía no has completado esta parte.</p>`;
+}
+function summaryRow(title,c){return `<div class="summary-row"><div>${esc(title)}</div><div class="bar">${bars(c)}</div><div class="note">${c.green}/${c.orange}/${c.red}</div></div>`}
+function state(){
+ const answers={};document.querySelectorAll('input[type=radio]:checked').forEach(e=>answers[e.name]=e.value);
+ const interest={};MASTER.forEach((_,si)=>interest[si]=masterInterest(si));
+ return {schemaVersion:SCHEMA_VERSION,name:dom.studentName.value,date:dom.scanDate.value,answers,interest,selected:getSelectedTopics(),qTopic:dom.qTopic.value,qContext:dom.qContext.value,qScope:dom.qScope.value,qCompare:dom.qCompare.value,qBoundary:dom.qBoundary.value,qPractice:dom.qPractice.value,qData:dom.qData.value,qUnderstand:dom.qUnderstand.value,qProvisional:dom.qProvisional.value,checks:{practice:dom.checkPractice.checked,data:dom.checkData.checked,interest:dom.checkInterest.checked,scope:$("checkScope").checked}};
+}
+function validate(s){
+ if(!s||typeof s!=="object"||![6,7,8,9,SCHEMA_VERSION].includes(Number(s.schemaVersion)))return false;
+ const allowed=new Set(["green","orange","red"]);
+ for(const [k,v] of Object.entries(s.answers||{})){if(!/^(basis|master)_\d+_\d+$/.test(k)||!allowed.has(v))return false}
+ return true;
+}
+function applyState(s){
+ dom.studentName.value=s.name||"";dom.scanDate.value=s.date||"";
+ Object.entries(s.answers||{}).forEach(([n,v])=>{const e=document.querySelector(`input[name="${n}"][value="${v}"]`);if(e)e.checked=true});
+ Object.entries(s.interest||{}).forEach(([i,v])=>{const e=$("interest_"+i);if(e)e.checked=!!v});
+ window._restoreTopics=(s.selected||[]).map(Number);
+ dom.qTopic.value=s.qTopic||"";dom.qContext.value=s.qContext||"";dom.qScope.value=s.qScope||"";dom.qCompare.value=s.qCompare||"";dom.qBoundary.value=s.qBoundary||"";dom.qPractice.value=s.qPractice||"";dom.qData.value=s.qData||"";dom.qUnderstand.value=s.qUnderstand||"";dom.qProvisional.value=s.qProvisional||"";
+ const c=s.checks||{};dom.checkPractice.checked=!!c.practice;dom.checkData.checked=!!c.data;dom.checkInterest.checked=!!c.interest;$("checkScope").checked=!!c.scope;
+}
+function migrateLegacy(){
+ const raw=localStorage.getItem(STORAGE_KEY);if(!raw)return;
+ try{const s=JSON.parse(raw);if(Number(s.schemaVersion)!==SCHEMA_VERSION)localStorage.setItem(STORAGE_KEY+"_legacy",raw)}catch(e){}
+}
+function saveState(){localStorage.setItem(STORAGE_KEY,JSON.stringify(state()))}
+function loadState(){try{const s=JSON.parse(localStorage.getItem(STORAGE_KEY)||"null");if(validate(s))applyState(s)}catch(e){}}
+function exportState(){
+ const blob=new Blob([JSON.stringify(state(),null,2)],{type:"application/json"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="copia_autoscan_conciencia_linguistica_v10.json";a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
+}
+function importState(ev){
+ const f=ev.target.files[0];if(!f)return;const r=new FileReader();r.onload=()=>{try{const s=JSON.parse(r.result);if(!validate(s))throw new Error();document.querySelectorAll('input[type=radio],input[type=checkbox]').forEach(e=>e.checked=false);applyState(s);update();alert("Copia recuperada correctamente.")}catch(e){alert("Esta copia no corresponde a esta versión del autoscan.")}};r.readAsText(f);ev.target.value="";
+}
+function eraseAll(){
+ if(!confirm("¿Quieres borrar todas las respuestas guardadas en este dispositivo?"))return;
+ localStorage.removeItem(STORAGE_KEY);document.querySelectorAll('input[type=radio],input[type=checkbox]').forEach(e=>e.checked=false);document.querySelectorAll("textarea").forEach(e=>e.value="");dom.qTopic.value="";dom.qContext.value="";dom.qScope.value="";dom.qCompare.value="";dom.qBoundary.value="";dom.studentName.value="";dom.scanDate.value=new Date().toISOString().slice(0,10);update();showView(1);
+}
+
 /* PDF autónomo */
-function pdfEsc(s){return String(s).replace(/\\/g,"\\\\").replace(/\(/g,"\\(").replace(/\)/g,"\\)")}
-function bytes(str){const map={8364:128,8218:130,402:131,8222:132,8230:133,8224:134,8225:135,710:136,8240:137,352:138,8249:139,338:140,381:142,8216:145,8217:146,8220:147,8221:148,8226:149,8211:150,8212:151,732:152,8482:153,353:154,8250:155,339:156,382:158,376:159};const out=[];for(const ch of str){let c=ch.codePointAt(0);out.push(c<=255?c:(map[c]||63))}return new Uint8Array(out)}
-function wrap(t,n){const w=String(t).split(/\s+/),l=[];let x="";w.forEach(a=>{const q=x?x+" "+a:a;if(q.length>n){if(x)l.push(x);x=a}else x=q});if(x)l.push(x);return l}
-function aLabel(v){return v==="green"?"LO TENGO CLARO":v==="orange"?"NECESITO REFRESCARLO":v==="red"?"NECESITO ESTUDIARLO":"SIN RESPONDER"}
-function report(mode){
- const lines=[],bt=totalCounts("basis"),mt=totalCounts("master");
- lines.push({t:"AUTOSCAN DE CONCIENCIA LINGÜÍSTICA",b:true,s:16});lines.push({t:"Basischeck + Masterverdieping",b:true,s:11});lines.push({t:""});
- lines.push({t:"Estudiante: "+(dom.studentName.value||"—"),b:true});lines.push({t:"Fecha: "+(dom.scanDate.value||"—")});lines.push({t:""});
- lines.push({t:"BASISCHECK",b:true,s:13});lines.push({t:`Lo tengo claro: ${bt.green} · Necesito refrescarlo: ${bt.orange} · Necesito estudiarlo: ${bt.red} · Sin responder: ${bt.blank}`});
- BASIS.forEach((s,si)=>{const c=counts("basis",si);lines.push({t:`${s.title}: ${c.green}/${c.orange}/${c.red}`})});
- lines.push({t:""});lines.push({t:"MASTERVERDIEPING",b:true,s:13});lines.push({t:`Lo tengo claro: ${mt.green} · Necesito refrescarlo: ${mt.orange} · Necesito estudiarlo: ${mt.red} · Sin responder: ${mt.blank}`});
- MASTER.forEach((s,si)=>{const c=counts("master",si);lines.push({t:`${s.title}: ${c.green}/${c.orange}/${c.red}`})});
- lines.push({t:""});lines.push({t:"POSIBLE PROFUNDIZACIÓN",b:true,s:13});getSelectedTopics().forEach(si=>lines.push({t:MASTER[si].title,b:true}));
- [["Lo que observo en mi práctica",dom.qPractice.value],["Datos que podría analizar",dom.qData.value],["Lo que quiero comprender mejor",dom.qUnderstand.value],["Pregunta provisional",dom.qProvisional.value]].forEach(([a,b])=>{lines.push({t:a+":",b:true});lines.push({t:b||"—"})});
- if(mode==="full"){
-   lines.push({t:""});lines.push({t:"TODAS MIS RESPUESTAS",b:true,s:13});
-   [["BASISCHECK",BASIS,"basis"],["MASTERVERDIEPING",MASTER,"master"]].forEach(([h,list,type])=>{lines.push({t:h,b:true,s:12});list.forEach((s,si)=>{lines.push({t:s.title,b:true});s.items.forEach((txt,ii)=>{const v=document.querySelector(`input[name="${type}_${si}_${ii}"]:checked`)?.value||"";lines.push({t:`[${aLabel(v)}] ${txt}`})})})});
- }
- lines.push({t:""});lines.push({t:"La Basischeck diagnostica conocimientos de entrada. Masterverdieping orienta el desarrollo y la posible profundización. Este autoscan no es una evaluación sumativa."});
- return lines;
-}
-function makePDF(lines){
- const W=595,H=842,left=46,top=58,bottom=52;let y=H-top,pages=[[]];
- const addPage=()=>{pages.push([]);y=H-top};
- const addLine=(txt,bold=false,size=10)=>{const parts=txt===""?[""]:wrap(txt,Math.max(34,Math.floor((W-2*left)/(size*.52))));for(const line of parts){const lh=size*1.35;if(y-lh<bottom)addPage();pages[pages.length-1].push({x:left,y,text:line,bold,size});y-=lh}y-=size*.18};
- lines.forEach(o=>addLine(o.t,o.b||false,o.s||10));
- const objs=[],add=o=>{objs.push(o);return objs.length},catalog=add(""),pagesObj=add(""),f1=add("<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica /Encoding /WinAnsiEncoding >>"),f2=add("<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding >>"),refs=[];
- pages.forEach(items=>{let content="BT\n";items.forEach(it=>content+=`/${it.bold?"F2":"F1"} ${it.size} Tf\n1 0 0 1 ${it.x} ${it.y} Tm\n(${pdfEsc(it.text)}) Tj\n`);content+="ET\n";const bb=bytes(content),st=add({stream:bb,dict:`<< /Length ${bb.length} >>`});refs.push(add(`<< /Type /Page /Parent ${pagesObj} 0 R /MediaBox [0 0 ${W} ${H}] /Resources << /Font << /F1 ${f1} 0 R /F2 ${f2} 0 R >> >> /Contents ${st} 0 R >>`))});
- objs[catalog-1]=`<< /Type /Catalog /Pages ${pagesObj} 0 R >>`;objs[pagesObj-1]=`<< /Type /Pages /Kids [${refs.map(r=>r+" 0 R").join(" ")}] /Count ${refs.length} >>`;
- const chunks=[];let off=0;const push=b=>{chunks.push(b);off+=b.length},enc=s=>bytes(s);push(enc("%PDF-1.4\n%\xE2\xE3\xCF\xD3\n"));const offsets=[0];
- objs.forEach((o,i)=>{offsets.push(off);push(enc(`${i+1} 0 obj\n`));if(typeof o==="string")push(enc(o+"\n"));else{push(enc(o.dict+"\nstream\n"));push(o.stream);push(enc("\nendstream\n"))}push(enc("endobj\n"))});
- const x=off;push(enc(`xref\n0 ${objs.length+1}\n0000000000 65535 f \n`));for(let i=1;i<offsets.length;i++)push(enc(String(offsets[i]).padStart(10,"0")+" 00000 n \n"));push(enc(`trailer\n<< /Size ${objs.length+1} /Root ${catalog} 0 R >>\nstartxref\n${x}\n%%EOF`));
- const total=chunks.reduce((n,b)=>n+b.length,0),all=new Uint8Array(total);let p=0;chunks.forEach(b=>{all.set(b,p);p+=b.length});return new Blob([all],{type:"application/pdf"});
-}
-function downloadPDF(mode){
- const bt=totalCounts("basis"),mt=totalCounts("master"),blanks=bt.blank+mt.blank;
- if(blanks&&!confirm(`Todavía faltan ${blanks} respuestas. ¿Quieres descargar un resultado provisional?`))return;
- const blob=makePDF(report(mode)),a=document.createElement("a"),safe=(dom.studentName.value||"estudiante").replace(/[^\wáéíóúüñÁÉÍÓÚÜÑ-]+/g,"_");
- a.href=URL.createObjectURL(blob);a.download=`Autoscan_Conciencia_Linguistica_${mode==="full"?"completo":"resumen"}_${safe}.pdf`;a.click();setTimeout(()=>URL.revokeObjectURL(a.href),1000);
-}
