@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
+<title>Autoscan Conciencia Lingüística — versión actual</title>
+<style>html,body{margin:0;padding:0;font-family:Arial,sans-serif;background:#f5f6f8;color:#20242a}.loading{max-width:760px;margin:60px auto;padding:24px;background:white;border:1px solid #ddd;border-radius:12px}</style>
+</head>
+<body>
+<div class="loading" id="loading"><strong>Cargando la versión actual del autoscan…</strong></div>
+<script>
+(async()=>{
+  const build='v12-20260916-1015';
+  try{
+    const r=await fetch('./index.html?'+build,{cache:'no-store'});
+    if(!r.ok) throw new Error('No se pudo cargar index.html');
+    let h=await r.text();
+    h=h.replace('href="style.css"','href="style.css?'+build+'"');
+    for(const f of ['sections-1.js','sections-2.js','config.js','app-1.js','app-2.js','app-3.js','app-4.js','boot.js']){
+      h=h.replace('src="'+f+'"','src="'+f+'?'+build+'"');
+    }
+    document.open();document.write(h);document.close();
+  }catch(e){
+    document.getElementById('loading').innerHTML='<strong>No se pudo cargar el autoscan.</strong><br>Actualiza la página o abre <a href="./index.html?'+build+'">la versión actual</a>.';
+  }
+})();
+</script>
+</body>
+</html>
