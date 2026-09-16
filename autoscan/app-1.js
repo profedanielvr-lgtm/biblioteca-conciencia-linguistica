@@ -1,11 +1,3 @@
-const $=id=>document.getElementById(id);
-const esc=s=>String(s).replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-const dom={};
-["studentName","scanDate","basisDomains","masterDomains","basisProgressText","basisPct","basisProgress","masterProgressText","masterPct","masterProgress",
-"basisRoute","masterRoute","topicSuggestions","allMasterTopics","selectedTopics","qPractice","qData","qUnderstand","checkPractice","checkData","checkInterest",
-"topicCheckStatus","questionSuggestions","qProvisional","overallStatus","greenCount","orangeCount","redCount","blankCount","basisSummary","masterSummary",
-"researchSummary","routeWarning","progressFile"].forEach(id=>dom[id]=$(id));
-
 function responseChoice(name,val,label,cls){
  const id=name+"_"+val;
  return `<div class="choice"><input type="radio" id="${id}" name="${name}" value="${val}"><label class="${cls}" for="${id}">${label}</label></div>`;
@@ -17,11 +9,11 @@ function glossaryFor(text){
 }
 function buildDomains(list,type,target){
  list.forEach((section,si)=>{
-   const el=document.createElement("section");el.className="domain";el.id=`${type}_domain_${si}`;
-   const interest=type==="master"?`<label class="interest"><input id="interest_${si}" type="checkbox"> ⭐ Me interesa profundizar</label>`:"";
+   const el=document.createElement("section");el.className="domain open";el.id=`${type}_domain_${si}`;
+   const interest=type==="master"?`<label class="interest"><input id="interest_${si}" type="checkbox"> ⭐ Me interesa este tema para profundizar</label>`:"";
    el.innerHTML=`
    <div class="domain-head">
-    <button class="domain-toggle" type="button" data-type="${type}" data-si="${si}" aria-expanded="false">${esc(section.title)} ▾</button>
+    <button class="domain-toggle" type="button" data-type="${type}" data-si="${si}" aria-expanded="true">${esc(section.title)} ▴</button>
     <div class="domain-meta"><span id="${type}_chip_${si}" class="chip">Incompleto</span><span id="${type}_score_${si}" class="note"></span>${interest}</div>
    </div>
    <div class="domain-body" id="${type}_body_${si}"></div>`;
@@ -58,6 +50,9 @@ function build(){
  $("importBtn").addEventListener("click",()=>dom.progressFile.click());
  dom.progressFile.addEventListener("change",importState);
  $("eraseBtn").addEventListener("click",eraseAll);
+ dom.topicHelpDomain.addEventListener("change",renderTopicHelpExamples);
+ $("useTopicHelpBtn").addEventListener("click",useTopicHelp);
+ initTopicHelp();
  document.querySelectorAll("[data-pdf]").forEach(b=>b.addEventListener("click",()=>downloadPDF(b.dataset.pdf)));
  migrateLegacy();
  loadState();
@@ -72,9 +67,15 @@ function showView(n){
  });
  window.scrollTo({top:0,behavior:"smooth"});
 }
+function setDomainOpen(type,si,open){
+ const el=$(`${type}_domain_${si}`);if(!el)return;
+ el.classList.toggle("open",open);
+ const b=el.querySelector(".domain-toggle");
+ if(b){b.setAttribute("aria-expanded",String(open));b.innerHTML=esc((type==="basis"?BASIS:MASTER)[si].title)+(open?" ▴":" ▾");}
+}
 function toggleDomain(type,si){
- const el=$(`${type}_domain_${si}`),open=el.classList.toggle("open");
- const b=el.querySelector(".domain-toggle");b.setAttribute("aria-expanded",String(open));b.innerHTML=esc((type==="basis"?BASIS:MASTER)[si].title)+(open?" ▴":" ▾");
+ const el=$(`${type}_domain_${si}`),open=!el.classList.contains("open");
+ setDomainOpen(type,si,open);
 }
 function toggleHelp(b){
  const box=$(b.dataset.help),open=box.classList.toggle("show");b.setAttribute("aria-expanded",String(open));
@@ -94,15 +95,42 @@ function needScore(type,si){
 function bars(c){
  const d=c.total||1;return `<span style="width:${c.green/d*100}%;background:var(--green)"></span><span style="width:${c.orange/d*100}%;background:var(--orange)"></span><span style="width:${c.red/d*100}%;background:var(--red)"></span>`;
 }
-function nextMissing(type){
+
+function firstMissingInDomain(type,si){
  const list=type==="basis"?BASIS:MASTER;
- for(let si=0;si<list.length;si++)for(let ii=0;ii<list[si].items.length;ii++){
-   if(!document.querySelector(`input[name="${type}_${si}_${ii}"]:checked`)){
-     const el=$(`${type}_domain_${si}`);if(!el.classList.contains("open"))toggleDomain(type,si);
-     setTimeout(()=>document.querySelector(`input[name="${type}_${si}_${ii}"]`)?.closest(".item")?.scrollIntoView({behavior:"smooth",block:"center"}),200);return;
-   }
+ for(let ii=0;ii<list[si].items.length;ii++){
+   if(!document.querySelector(`input[name="${type}_${si}_${ii}"]:checked`))return ii;
  }
- alert("Has respondido todas las afirmaciones de esta parte.");
+ return -1;
+}
+function goToMissing(type,si=null){
+ const list=type==="basis"?BASIS:MASTER;
+ let targetSi=si,targetIi=-1;
+ if(targetSi===null){
+   for(let s=0;s<list.length;s++){
+     const ii=firstMissingInDomain(type,s);
+     if(ii>=0){targetSi=s;targetIi=ii;break}
+   }
+ }else{
+   targetIi=firstMissingInDomain(type,targetSi);
+ }
+ if(targetSi===null || targetIi<0)return;
+ showView(type==="basis"?2:3);
+ setDomainOpen(type,targetSi,true);
+ setTimeout(()=>{
+   const el=document.querySelector(`input[name="${type}_${targetSi}_${targetIi}"]`)?.closest(".item");
+   if(el){
+     el.scrollIntoView({behavior:"smooth",block:"center"});
+     el.classList.add("missing-focus");
+     setTimeout(()=>el.classList.remove("missing-focus"),1800);
+   }
+ },220);
+}
+
+function nextMissing(type){
+ const t=totalCounts(type);
+ if(t.blank===0){alert("Has respondido todas las afirmaciones de esta parte.");return}
+ goToMissing(type,null);
 }
 function getSelectedTopics(){return [...document.querySelectorAll(".topicPick:checked")].map(x=>Number(x.dataset.si))}
 function masterInterest(si){return $("interest_"+si)?.checked||false}
