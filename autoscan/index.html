@@ -110,8 +110,8 @@
 </div>
 
 <div class="panel">
-<h2>De interés a posible tema de profundización</h2>
-<p>No todo lo que necesitas estudiar debe convertirse en tu tema. Un buen candidato combina <strong>interés</strong>, <strong>presencia en tu práctica</strong> y <strong>datos accesibles</strong>.</p>
+<h2>De un ámbito amplio a una pregunta investigable</h2>
+<p>No todo lo que necesitas estudiar debe convertirse en tu tema. Aquí vas a pasar de un <strong>ámbito amplio</strong> a un <strong>fenómeno concreto</strong>, situado en tu práctica y delimitado por los datos que realmente puedes analizar.</p>
 <div class="research-grid">
 <div>
 <h3>Ámbitos que pueden merecer exploración</h3>
@@ -124,20 +124,55 @@
 </div>
 <div>
 <h3>Conectar con mi práctica</h3>
-<label class="small" for="qPractice">¿Qué observo en mi práctica, materiales o alumnado?</label>
-<textarea id="qPractice"></textarea>
-<label class="small" for="qData">¿Qué datos reales podría analizar?</label>
-<textarea id="qData" placeholder="Textos, grabaciones, materiales, corpus, interacciones, muestras auténticas…"></textarea>
-<label class="small" for="qUnderstand">¿Qué quiero comprender mejor?</label>
-<textarea id="qUnderstand"></textarea>
+<div class="topic-help-panel always-open">
+<div class="topic-help-title">
+<strong>Ayuda para elegir y delimitar un tema</strong>
+<span class="note">No tienes que inventar el tema desde cero.</span>
+</div>
+<p class="note">Elige primero un ámbito de Masterverdieping y después un tema concreto. La propuesta sirve solo como punto de partida: el siguiente paso es delimitarla a tu grupo, tus datos y una pregunta manejable.</p>
+<label class="small" for="topicHelpDomain">1. Ámbito de Masterverdieping</label>
+<select id="topicHelpDomain"></select>
+<label class="small" for="topicHelpExample">2. Posibles temas dentro de ese ámbito</label>
+<select id="topicHelpExample"></select>
+<button id="useTopicHelpBtn" type="button" class="primary">Usar este tema y seguir delimitándolo</button>
+</div>
+
+<label class="small" for="qTopic">Tema concreto que quiero explorar</label>
+<input id="qTopic" type="text" placeholder="Ej.: contraste indefinido/imperfecto en narraciones de 5 havo">
+
+<label class="small" for="qContext">3. Grupo o contexto</label>
+<input id="qContext" type="text" placeholder="Ej.: 5 havo, clase de español, 22 estudiantes">
+
+<label class="small" for="qPractice">4. ¿Qué observas exactamente en tu práctica?</label>
+<textarea id="qPractice" placeholder="Ej.: en las narraciones, varios estudiantes usan el imperfecto donde esperaba indefinido y explican su elección con reglas memorizadas."></textarea>
+
+<label class="small" for="qData">5. ¿Qué datos reales puedes analizar?</label>
+<textarea id="qData" placeholder="Ej.: 12 narraciones de 5 havo + feedback escrito del docente + ejemplos de un corpus."></textarea>
+
+<label class="small" for="qScope">6. Delimita la cantidad o el periodo</label>
+<input id="qScope" type="text" placeholder="Ej.: 12 textos producidos durante la unidad 3; no todo el curso escolar.">
+
+<label class="small" for="qCompare">7. ¿Qué quieres comparar u observar?</label>
+<input id="qCompare" type="text" placeholder="Ej.: elecciones de indefinido/imperfecto antes y después de feedback; opcional.">
+
+<label class="small" for="qBoundary">8. ¿Qué dejarás fuera?</label>
+<input id="qBoundary" type="text" placeholder="Ej.: otros tiempos del pasado y el progreso general de nivel.">
+
+<label class="small" for="qUnderstand">9. ¿Qué quieres llegar a comprender mejor?</label>
+<textarea id="qUnderstand" placeholder="Ej.: qué patrones aparecen en las elecciones verbales y qué explicaciones lingüísticas ayudan a interpretarlos."></textarea>
+
+<div id="scopeCoach" class="scope-coach"></div>
+<div id="researchDirection" class="research-direction"></div>
 <div class="info">
 <strong>Comprobación del tema</strong>
 <label><input id="checkPractice" type="checkbox"> El fenómeno aparece realmente en mi contexto.</label><br>
 <label><input id="checkData" type="checkbox"> Tengo acceso a datos o ejemplos analizables.</label><br>
-<label><input id="checkInterest" type="checkbox"> Quiero comprenderlo mejor.</label>
+<label><input id="checkInterest" type="checkbox"> Quiero comprenderlo mejor.</label><br>
+<label><input id="checkScope" type="checkbox"> El alcance es suficientemente pequeño para poder analizarlo con profundidad.</label>
 <div id="topicCheckStatus" class="note" style="margin-top:7px"></div>
 </div>
 <h3>Posibles preguntas de partida</h3>
+<p class="note">La herramienta te ayuda en tres pasos: primero eliges un tema concreto, después lo conectas con tu contexto y tus datos, y finalmente eliges qué tipo de pregunta te resulta más útil. Puedes partir de una pregunta para <strong>describir</strong>, <strong>analizar y explicar</strong> o <strong>conectar el análisis con la enseñanza</strong>.</p>
 <div id="questionSuggestions"></div>
 <label class="small" for="qProvisional">Mi pregunta provisional</label>
 <textarea id="qProvisional"></textarea>
@@ -151,18 +186,44 @@
 <div class="panel">
 <h2>Resultado del autoscan</h2>
 <div id="overallStatus"></div>
-<div class="stats">
-<div class="stat g"><b id="greenCount">0</b>Lo tengo claro</div>
-<div class="stat o"><b id="orangeCount">0</b>Necesito refrescarlo</div>
-<div class="stat r"><b id="redCount">0</b>Necesito estudiarlo</div>
-<div class="stat"><b id="blankCount">0</b>Sin responder</div>
+<div id="missingActions"></div>
+<div id="resultOverview"></div>
+
+<h3>Cómo leer tus resultados</h3>
+<div id="textSummary" class="narrative-card"></div>
+
+<div class="result-grid">
+<div>
+<h3>Lo que ya tienes bien asentado</h3>
+<div id="strengthSummary"></div>
+</div>
+<div>
+<h3>Qué conviene trabajar ahora</h3>
+<div id="actionSummary"></div>
+</div>
 </div>
 
-<h3>Basischeck</h3>
-<div id="basisSummary"></div>
-<h3>Masterverdieping</h3>
-<div id="masterSummary"></div>
-<h3>Posible profundización</h3>
+<h3>Fuentes y ruta para estudiar o refrescar</h3>
+<p class="note">Estas recomendaciones aparecen únicamente en los ámbitos en los que has marcado <strong>Necesito estudiarlo</strong> o <strong>Necesito refrescarlo</strong>. Los recursos abiertos complementan la bibliografía del EVL; no sustituyen las indicaciones del docente.</p>
+<div id="resourceRecommendations"></div>
+
+<h3>Dashboard detallado</h3>
+<p class="note">Cada gráfico por ámbito resume tres afirmaciones. Debajo puedes abrir cada ámbito para ver el color de <strong>cada pregunta</strong>.</p>
+<div class="dashboard-legend">
+<span class="answer-pill green">Lo tengo claro</span>
+<span class="answer-pill orange">Necesito refrescarlo</span>
+<span class="answer-pill red">Necesito estudiarlo</span>
+<span class="answer-pill blank">Sin responder</span>
+</div>
+<div class="two">
+<div><h4>Basischeck — gráfico por ámbitos</h4><div id="basisSummary"></div></div>
+<div><h4>Masterverdieping — gráfico por ámbitos</h4><div id="masterSummary"></div></div>
+</div>
+<h4>Colores por cada pregunta</h4>
+<div id="questionDashboard"></div>
+
+<h3>Dirección posible para tu profundización</h3>
+<div id="researchDirectionFinal" class="research-direction"></div>
 <div id="researchSummary"></div>
 
 <div class="info" style="margin-top:16px">
@@ -171,14 +232,13 @@
 </div>
 
 <div class="toolbar">
-<button class="primary" data-pdf="summary" type="button">Descargar resumen para mi portfolio</button>
-<button data-pdf="full" type="button">Descargar informe completo para mí</button>
+<button class="primary" data-pdf="summary" type="button">Descargar resumen visual para mi portfolio</button>
+<button data-pdf="full" type="button">Descargar informe completo con dashboard</button>
 <button id="eraseBtn" class="danger" type="button">Borrar mis datos de este dispositivo</button>
 </div>
 </div>
 </section>
 </main>
-
 <script src="sections-1.js"></script>
 <script src="sections-2.js"></script>
 <script src="config.js"></script>
