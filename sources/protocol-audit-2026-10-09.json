@@ -1,0 +1,1385 @@
+{
+  "checked": "2026-10-09",
+  "samples": 26,
+  "referenceCount": 57,
+  "method": "Illustrative purposive selection, not representative corpus search",
+  "regionalCoverageComplete": false,
+  "audioPlaybackVerified": false,
+  "geoAreas": [
+    {
+      "id": "espana",
+      "label": {
+        "es": "España septentrional y meridional",
+        "nl": "Noordelijk en zuidelijk Spanje"
+      },
+      "scope": {
+        "es": "España septentrional; Andalucía, Canarias, Murcia y Extremadura. Otras zonas españolas se identifican por separado.",
+        "nl": "Noord-Spanje; Andalusië, Canarische Eilanden, Murcia en Extremadura. Andere Spaanse gebieden worden afzonderlijk aangeduid."
+      }
+    },
+    {
+      "id": "mexico-centroamerica",
+      "label": {
+        "es": "México y Centroamérica",
+        "nl": "Mexico en Midden-Amerika"
+      },
+      "scope": {
+        "es": "México, Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica y Panamá.",
+        "nl": "Mexico, Guatemala, El Salvador, Honduras, Nicaragua, Costa Rica en Panama."
+      }
+    },
+    {
+      "id": "caribe",
+      "label": {
+        "es": "Caribe hispano",
+        "nl": "Spaanstalig Caribisch gebied"
+      },
+      "scope": {
+        "es": "Cuba, República Dominicana, Puerto Rico y costas de Colombia y Venezuela.",
+        "nl": "Cuba, Dominicaanse Republiek, Puerto Rico en de kusten van Colombia en Venezuela."
+      }
+    },
+    {
+      "id": "andina",
+      "label": {
+        "es": "Área andina",
+        "nl": "Andesgebied"
+      },
+      "scope": {
+        "es": "Altiplano colombiano, Ecuador, Perú, Bolivia y zonas andinas del norte argentino y de Chile. La pertenencia de un país no prueba procedencia andina de una muestra.",
+        "nl": "Colombiaanse hooglanden, Ecuador, Peru, Bolivia en Andesgebieden van Noord-Argentinië en Chili. Een landnaam bewijst geen Andesherkomst van een voorbeeld."
+      }
+    },
+    {
+      "id": "cono-sur",
+      "label": {
+        "es": "Cono Sur",
+        "nl": "Zuidelijke Kegel"
+      },
+      "scope": {
+        "es": "Argentina, Uruguay, Chile y Paraguay; se conservan ciudad y subregión para evitar tratar cada país como un geolecto uniforme.",
+        "nl": "Argentinië, Uruguay, Chili en Paraguay; stad en subregio blijven zichtbaar om landen niet als uniforme geolecten te behandelen."
+      }
+    }
+  ],
+  "items": [
+    {
+      "id": "grupo-singular",
+      "source": "concordancia",
+      "text": "Un grupo de jóvenes se encaramó ayer a la verja de acceso.",
+      "language": "es",
+      "genre": "prensa",
+      "locator": {
+        "es": "NGLE, §33.8; cita de El Mundo, España, 10 de mayo de 1995.",
+        "nl": "NGLE, §33.8; citaat uit El Mundo, Spanje, 10 mei 1995."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Concordancia con un grupo: singular",
+          "nl": "Congruentie bij un grupo: enkelvoud"
+        },
+        "levels": [
+          "morfosintactico"
+        ],
+        "country": {
+          "es": "España, según la cita de prensa de la NGLE.",
+          "nl": "Spanje, volgens het NGLE-perscitaat."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Periodístico escrito; no se equipara a conversación espontánea.",
+          "nl": "Geschreven journalistiek; niet gelijkgesteld aan spontane gesprekken."
+        },
+        "normative": {
+          "es": "La NGLE documenta alternativas de concordancia con nombres de grupo; no se extrapola a cualquier discordancia.",
+          "nl": "De NGLE documenteert congruentievarianten bij groepsnaamwoorden; niet uitgebreid naar willekeurige incongruentie."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "grupo-plural",
+      "source": "concordancia",
+      "text": "Un grupo de jóvenes lanzaron las botellas inflamables por una ventana",
+      "language": "es",
+      "genre": "prensa",
+      "locator": {
+        "es": "NGLE, §33.8; cita de El País, España, 20 de septiembre de 1977.",
+        "nl": "NGLE, §33.8; citaat uit El País, Spanje, 20 september 1977."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Concordancia con un grupo: plural",
+          "nl": "Congruentie bij un grupo: meervoud"
+        },
+        "levels": [
+          "morfosintactico"
+        ],
+        "country": {
+          "es": "España, según la cita de prensa de la NGLE.",
+          "nl": "Spanje, volgens het NGLE-perscitaat."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Periodístico escrito; no se equipara a conversación espontánea.",
+          "nl": "Geschreven journalistiek; niet gelijkgesteld aan spontane gesprekken."
+        },
+        "normative": {
+          "es": "La NGLE documenta alternativas de concordancia con nombres de grupo; no se extrapola a cualquier discordancia.",
+          "nl": "De NGLE documenteert congruentievarianten bij groepsnaamwoorden; niet uitgebreid naar willekeurige incongruentie."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "quijote-inicio",
+      "source": "dato-quijote",
+      "text": "En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo",
+      "language": "es",
+      "genre": "literatura",
+      "locator": {
+        "es": "Primera parte, capítulo I, primera oración.",
+        "nl": "Eerste deel, hoofdstuk I, eerste zin."
+      },
+      "provenance": "direct",
+      "protocol": {
+        "phenomenon": {
+          "es": "Un referente nuevo y un pasado narrativo",
+          "nl": "Een nieuwe referent en een verhalend verleden"
+        },
+        "levels": [
+          "morfosintactico",
+          "pragmatico"
+        ],
+        "country": {
+          "es": "No comprobado para el hablante o texto original.",
+          "nl": "Niet gecontroleerd voor de spreker of oorspronkelijke tekst."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Literario; voz narrativa o personaje, no habla autobiográfica del autor.",
+          "nl": "Literair; vertelstem of personage, niet de autobiografische stem van de auteur."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "gabo-perspectiva",
+      "source": "dato-gabo",
+      "text": "había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo",
+      "language": "es",
+      "genre": "literatura",
+      "locator": {
+        "es": "Noticia de Padilla; cita del comienzo de Cien años de soledad.",
+        "nl": "Bericht van Padilla; citaat uit het begin van Cien años de soledad."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Pasado, anticipación y memoria",
+          "nl": "Verleden, vooruitblik en herinnering"
+        },
+        "levels": [
+          "morfosintactico",
+          "pragmatico"
+        ],
+        "country": {
+          "es": "No comprobado para el hablante o texto original.",
+          "nl": "Niet gecontroleerd voor de spreker of oorspronkelijke tekst."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Literario; voz narrativa o personaje, no habla autobiográfica del autor.",
+          "nl": "Literair; vertelstem of personage, niet de autobiografische stem van de auteur."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "coca-se",
+      "source": "dato-coca",
+      "text": "Las mejores cosas de la vida se comparten.",
+      "language": "es",
+      "genre": "publicidad",
+      "locator": {
+        "es": "Página Comparte una Coca-Cola, primer párrafo.",
+        "nl": "Pagina Comparte una Coca-Cola, eerste alinea."
+      },
+      "provenance": "direct",
+      "protocol": {
+        "phenomenon": {
+          "es": "La pasiva en una invitación publicitaria",
+          "nl": "Passief gebruik in een reclameboodschap"
+        },
+        "levels": [
+          "morfosintactico",
+          "pragmatico"
+        ],
+        "country": {
+          "es": "No comprobado para el hablante o texto original.",
+          "nl": "Niet gecontroleerd voor de spreker of oorspronkelijke tekst."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Publicitario y persuasivo; dirigido a un público construido por la campaña.",
+          "nl": "Reclame en overtuiging; gericht op de door de campagne geconstrueerde doelgroep."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "coca-vosotros",
+      "source": "dato-coca",
+      "text": "brindad juntos por los momentos que os unen.",
+      "language": "es",
+      "genre": "publicidad",
+      "locator": {
+        "es": "Misma página, fragmento del primer párrafo.",
+        "nl": "Dezelfde pagina, fragment uit de eerste alinea."
+      },
+      "provenance": "direct",
+      "protocol": {
+        "phenomenon": {
+          "es": "Destinatarios plurales en publicidad española",
+          "nl": "Meervoudige aanspreking in Spaanse reclame"
+        },
+        "levels": [
+          "morfosintactico",
+          "pragmatico"
+        ],
+        "country": {
+          "es": "No comprobado para el hablante o texto original.",
+          "nl": "Niet gecontroleerd voor de spreker of oorspronkelijke tekst."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Publicitario y persuasivo; dirigido a un público construido por la campaña.",
+          "nl": "Reclame en overtuiging; gericht op de door de campagne geconstrueerde doelgroep."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "apeldoorn",
+      "source": "dato-apeldoorn",
+      "text": "Even Apeldoorn bellen",
+      "language": "nl",
+      "genre": "publicidad",
+      "locator": {
+        "es": "Lema en el archivo oficial de anuncios de Centraal Beheer.",
+        "nl": "Slogan in het officiële reclamearchief van Centraal Beheer."
+      },
+      "provenance": "direct",
+      "protocol": {
+        "phenomenon": {
+          "es": "Una llamada sugerida con infinitivo",
+          "nl": "Een voorgestelde oproep met een infinitief"
+        },
+        "levels": [
+          "pragmatico"
+        ],
+        "country": {
+          "es": "Procedencia institucional o editorial indicada en la fuente; origen del hablante no inferido.",
+          "nl": "Institutionele of redactionele herkomst in de bron; sprekerherkomst niet afgeleid."
+        },
+        "geolect": {
+          "es": "Muestra neerlandesa para contraste; fuera del recuento panhispánico.",
+          "nl": "Nederlandstalig vergelijkingsmateriaal; buiten de panhispanische telling."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Publicitario y persuasivo; dirigido a un público construido por la campaña.",
+          "nl": "Reclame en overtuiging; gericht op de door de campagne geconstrueerde doelgroep."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "ns-directivas",
+      "source": "dato-ns",
+      "text": "houd afstand · houd rechts · mondkapje",
+      "language": "nl",
+      "genre": "senaletica",
+      "locator": {
+        "es": "Noticia oficial de NS; textos de adhesivos mencionados en el primer bloque. El punto medio separa tres rótulos distintos.",
+        "nl": "Officieel NS-bericht; stickerteksten in het eerste tekstblok. De middenpunt scheidt drie afzonderlijke teksten."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Instrucciones de estación y contexto histórico",
+          "nl": "Stationsinstructies en historische context"
+        },
+        "levels": [
+          "morfosintactico",
+          "pragmatico"
+        ],
+        "country": {
+          "es": "Procedencia institucional o editorial indicada en la fuente; origen del hablante no inferido.",
+          "nl": "Institutionele of redactionele herkomst in de bron; sprekerherkomst niet afgeleid."
+        },
+        "geolect": {
+          "es": "Muestra neerlandesa para contraste; fuera del recuento panhispánico.",
+          "nl": "Nederlandstalig vergelijkingsmateriaal; buiten de panhispanische telling."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Institucional y directivo; depende del espacio y la fecha.",
+          "nl": "Institutioneel en directief; afhankelijk van ruimte en datum."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "ns-infinitivos",
+      "source": "dato-ns",
+      "text": "Instappen is opzetten",
+      "language": "nl",
+      "genre": "senaletica",
+      "locator": {
+        "es": "La misma noticia, apartado Instappen is opzetten.",
+        "nl": "Hetzelfde bericht, paragraaf Instappen is opzetten."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Inferencias en un lema ferroviario",
+          "nl": "Inferenties bij een spoorwegslogan"
+        },
+        "levels": [
+          "pragmatico"
+        ],
+        "country": {
+          "es": "Procedencia institucional o editorial indicada en la fuente; origen del hablante no inferido.",
+          "nl": "Institutionele of redactionele herkomst in de bron; sprekerherkomst niet afgeleid."
+        },
+        "geolect": {
+          "es": "Muestra neerlandesa para contraste; fuera del recuento panhispánico.",
+          "nl": "Nederlandstalig vergelijkingsmateriaal; buiten de panhispanische telling."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Institucional y directivo; depende del espacio y la fecha.",
+          "nl": "Institutioneel en directief; afhankelijk van ruimte en datum."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "dgt-directiva",
+      "source": "dato-dgt",
+      "text": "si bebes, no conduzcas",
+      "language": "es",
+      "genre": "publicidad",
+      "locator": {
+        "es": "Infografía retrospectiva de la DGT, campaña de 1985.",
+        "nl": "Terugblikkende DGT-infografiek, campagne uit 1985."
+      },
+      "provenance": "direct",
+      "protocol": {
+        "phenomenon": {
+          "es": "Condición y prohibición en una campaña vial",
+          "nl": "Voorwaarde en verbod in een verkeerscampagne"
+        },
+        "levels": [
+          "morfosintactico",
+          "pragmatico"
+        ],
+        "country": {
+          "es": "No comprobado para el hablante o texto original.",
+          "nl": "Niet gecontroleerd voor de spreker of oorspronkelijke tekst."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Publicitario y persuasivo; dirigido a un público construido por la campaña.",
+          "nl": "Reclame en overtuiging; gericht op de door de campagne geconstrueerde doelgroep."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "picante-sea",
+      "source": "dato-picante",
+      "text": "¿Por qué hay personas a las que les gusta el picante aunque sea un dolor?",
+      "language": "es",
+      "genre": "video",
+      "locator": {
+        "es": "Título de la página de Hablando claro; vídeo de 10:55. No es una transcripción de una intervención.",
+        "nl": "Paginatitel van Hablando claro; video van 10:55. Geen transcriptie van een gesproken beurt."
+      },
+      "provenance": "direct",
+      "protocol": {
+        "phenomenon": {
+          "es": "Aunque con información presentada como conocida",
+          "nl": "Aunque bij als bekend gepresenteerde informatie"
+        },
+        "levels": [
+          "morfosintactico"
+        ],
+        "country": {
+          "es": "No comprobado para el hablante o texto original.",
+          "nl": "Niet gecontroleerd voor de spreker of oorspronkelijke tekst."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Presentación editorial de material audiovisual; registro del habla no comprobado.",
+          "nl": "Redactionele presentatie van audiovisueel materiaal; spreekregister niet gecontroleerd."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "llorente-sea",
+      "source": "dato-llorente",
+      "text": "La final de Copa se debe jugar, aunque sea a puerta cerrada",
+      "language": "es",
+      "genre": "video",
+      "locator": {
+        "es": "Declaración citada en el título de la entrevista de RTVE.",
+        "nl": "Uitspraak geciteerd in de titel van het RTVE-interview."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Una concesión dentro de una propuesta",
+          "nl": "Een concessie binnen een voorstel"
+        },
+        "levels": [
+          "morfosintactico",
+          "pragmatico"
+        ],
+        "country": {
+          "es": "No comprobado para el hablante o texto original.",
+          "nl": "Niet gecontroleerd voor de spreker of oorspronkelijke tekst."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Presentación editorial de material audiovisual; registro del habla no comprobado.",
+          "nl": "Redactionele presentatie van audiovisueel materiaal; spreekregister niet gecontroleerd."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "nos-futuro",
+      "source": "dato-nos",
+      "text": "Ondanks de buien wordt het vannacht niet koud.",
+      "language": "nl",
+      "genre": "prensa",
+      "locator": {
+        "es": "Artículo de NOS, apartado sobre la noche.",
+        "nl": "NOS-artikel, passage over de nacht."
+      },
+      "provenance": "direct",
+      "protocol": {
+        "phenomenon": {
+          "es": "Presente con referencia futura en neerlandés",
+          "nl": "Tegenwoordige tijd met toekomstige verwijzing"
+        },
+        "levels": [
+          "morfosintactico"
+        ],
+        "country": {
+          "es": "Procedencia institucional o editorial indicada en la fuente; origen del hablante no inferido.",
+          "nl": "Institutionele of redactionele herkomst in de bron; sprekerherkomst niet afgeleid."
+        },
+        "geolect": {
+          "es": "Muestra neerlandesa para contraste; fuera del recuento panhispánico.",
+          "nl": "Nederlandstalig vergelijkingsmateriaal; buiten de panhispanische telling."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Periodístico escrito; no se equipara a conversación espontánea.",
+          "nl": "Geschreven journalistiek; niet gelijkgesteld aan spontane gesprekken."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "nos-modalidad",
+      "source": "dato-nos",
+      "text": "het zou ook op andere plaatsen flink kunnen gaan onweren",
+      "language": "nl",
+      "genre": "prensa",
+      "locator": {
+        "es": "Mismo artículo, pasaje sobre posibles tormentas en otras zonas.",
+        "nl": "Hetzelfde artikel, passage over mogelijke buien elders."
+      },
+      "provenance": "direct",
+      "protocol": {
+        "phenomenon": {
+          "es": "Incertidumbre en un pronóstico",
+          "nl": "Onzekerheid in een weerbericht"
+        },
+        "levels": [
+          "morfosintactico",
+          "pragmatico"
+        ],
+        "country": {
+          "es": "Procedencia institucional o editorial indicada en la fuente; origen del hablante no inferido.",
+          "nl": "Institutionele of redactionele herkomst in de bron; sprekerherkomst niet afgeleid."
+        },
+        "geolect": {
+          "es": "Muestra neerlandesa para contraste; fuera del recuento panhispánico.",
+          "nl": "Nederlandstalig vergelijkingsmateriaal; buiten de panhispanische telling."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Periodístico escrito; no se equipara a conversación espontánea.",
+          "nl": "Geschreven journalistiek; niet gelijkgesteld aan spontane gesprekken."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "ojala-deseo",
+      "source": "dato-ojala",
+      "text": "Ojalá que las hojas no te toquen el cuerpo",
+      "language": "es",
+      "genre": "cancion",
+      "locator": {
+        "es": "Primera línea de la letra en la web oficial del autor.",
+        "nl": "Eerste regel van de liedtekst op de officiële auteurswebsite."
+      },
+      "provenance": "direct",
+      "protocol": {
+        "phenomenon": {
+          "es": "Deseo en una letra de canción",
+          "nl": "Wens in een liedtekst"
+        },
+        "levels": [
+          "morfosintactico"
+        ],
+        "country": {
+          "es": "No comprobado para el hablante o texto original.",
+          "nl": "Niet gecontroleerd voor de spreker of oorspronkelijke tekst."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Poético musical; no se atribuye automáticamente a conversación ordinaria.",
+          "nl": "Poëtische liedtekst; niet automatisch alledaagse gesprekstaal."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "papel-nosotros",
+      "source": "dato-papel",
+      "text": "Tú y yo somos la resistencia",
+      "language": "es",
+      "genre": "serie",
+      "locator": {
+        "es": "Texto de Antena 3 que cita a Berlín. Contiene información del desenlace.",
+        "nl": "Antena 3-tekst die Berlín citeert. Bevat informatie over de ontknoping."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Un nosotros construido en ficción",
+          "nl": "Een geconstrueerd wij in fictie"
+        },
+        "levels": [
+          "morfosintactico",
+          "pragmatico"
+        ],
+        "country": {
+          "es": "No comprobado para el hablante o texto original.",
+          "nl": "Niet gecontroleerd voor de spreker of oorspronkelijke tekst."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Diálogo de ficción transmitido por la cadena; interpretación situada.",
+          "nl": "Fictiedialoog overgenomen via de omroep; gesitueerde interpretatie."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "cine-montaje",
+      "source": "dato-cine",
+      "text": "Ocho apellidos vascos",
+      "language": "es",
+      "genre": "cine",
+      "locator": {
+        "es": "Título de la película en la página; montaje de 58 segundos. No se reproduce diálogo.",
+        "nl": "Filmtitel op de pagina; montage van 58 seconden. Geen dialoog overgenomen."
+      },
+      "provenance": "paratext",
+      "protocol": {
+        "phenomenon": {
+          "es": "El contexto audiovisual también crea significado",
+          "nl": "Audiovisuele context vormt ook betekenis"
+        },
+        "levels": [
+          "pragmatico"
+        ],
+        "country": {
+          "es": "No comprobado para el hablante o texto original.",
+          "nl": "Niet gecontroleerd voor de spreker of oorspronkelijke tekst."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Discurso cinematográfico o su presentación editorial; distingue personaje y hablante real.",
+          "nl": "Filmdiscours of redactionele presentatie; onderscheid personage en werkelijke spreker."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "valesco-almenos",
+      "source": "dato-valesco",
+      "text": "§ pero al menos lo he hecho bien",
+      "language": "es",
+      "genre": "conversacion",
+      "locator": {
+        "es": "Pardo Llibrer (2018), p. 260, ejemplo 34, turno 76 A; Val.Es.Co. 2.0, conversación 0028. PDF, página 24.",
+        "nl": "Pardo Llibrer (2018), p. 260, voorbeeld 34, beurt 76 A; Val.Es.Co. 2.0, gesprek 0028. PDF, pagina 24."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Al menos en una interacción documentada",
+          "nl": "Al menos in gedocumenteerde interactie"
+        },
+        "levels": [
+          "pragmatico"
+        ],
+        "country": {
+          "es": "No comprobado para el hablante o texto original.",
+          "nl": "Niet gecontroleerd voor de spreker of oorspronkelijke tekst."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Conversacional o entrevista sociolingüística; véanse turnos y situación completos.",
+          "nl": "Gesprek of sociolinguïstisch interview; raadpleeg volledige beurten en situatie."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "valesco-traelo",
+      "source": "dato-valesco",
+      "text": "pues [tráelo tía=]",
+      "language": "es",
+      "genre": "conversacion",
+      "locator": {
+        "es": "P. 260, ejemplo 33, turno 162 A; Val.Es.Co. 2.0, conversación 0019. PDF, página 24.",
+        "nl": "P. 260, voorbeeld 33, beurt 162 A; Val.Es.Co. 2.0, gesprek 0019. PDF, pagina 24."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Un imperativo con clítico en conversación",
+          "nl": "Een imperatief met clitisch pronomen in gesprek"
+        },
+        "levels": [
+          "morfosintactico",
+          "pragmatico"
+        ],
+        "country": {
+          "es": "No comprobado para el hablante o texto original.",
+          "nl": "Niet gecontroleerd voor de spreker of oorspronkelijke tekst."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Conversacional o entrevista sociolingüística; véanse turnos y situación completos.",
+          "nl": "Gesprek of sociolinguïstisch interview; raadpleeg volledige beurten en situatie."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "valesco-traiga",
+      "source": "dato-valesco",
+      "text": "= que alguien traiga un juego↑",
+      "language": "es",
+      "genre": "conversacion",
+      "locator": {
+        "es": "P. 260, ejemplo 33, comienzo del turno 160 A; conversación 0019. PDF, página 24.",
+        "nl": "P. 260, voorbeeld 33, begin van beurt 160 A; gesprek 0019. PDF, pagina 24."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Una propuesta con que y subjuntivo",
+          "nl": "Een voorstel met que en subjuntivo"
+        },
+        "levels": [
+          "morfosintactico",
+          "pragmatico"
+        ],
+        "country": {
+          "es": "No comprobado para el hablante o texto original.",
+          "nl": "Niet gecontroleerd voor de spreker of oorspronkelijke tekst."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Conversacional o entrevista sociolingüística; véanse turnos y situación completos.",
+          "nl": "Gesprek of sociolinguïstisch interview; raadpleeg volledige beurten en situatie."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "esech-reparacion",
+      "source": "dato-esech",
+      "text": "yo al menos no tengo ningún / ninguna amiga de mi niñez po",
+      "language": "es",
+      "genre": "conversacion",
+      "locator": {
+        "es": "San Martín Núñez y Rojas Inostroza (2020), §4.1.2.2, ejemplo 16, participante M045, corpus ESECH.",
+        "nl": "San Martín Núñez en Rojas Inostroza (2020), §4.1.2.2, voorbeeld 16, deelnemer M045, ESECH-corpus."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Autorreparación en una entrevista de Chile",
+          "nl": "Zelfcorrectie in een Chileens interview"
+        },
+        "levels": [
+          "morfosintactico",
+          "pragmatico"
+        ],
+        "country": {
+          "es": "Chile",
+          "nl": "Chili"
+        },
+        "geolect": {
+          "es": "Habla entrevistada de Santiago de Chile; sin generalización nacional.",
+          "nl": "Geïnterviewde spraak uit Santiago de Chile; geen landelijke generalisatie."
+        },
+        "locality": {
+          "es": "Santiago de Chile, muestra ESECH.",
+          "nl": "Santiago de Chile, ESECH-steekproef."
+        },
+        "areas": [
+          "cono-sur"
+        ],
+        "locationEvidence": {
+          "es": "Artículo original, §3.1 y nota 3, identifica el corpus y la comunidad de Santiago. No se clasifica esta muestra como andina.",
+          "nl": "Het oorspronkelijke artikel, §3.1 en noot 3, identificeert corpus en gemeenschap in Santiago. Dit voorbeeld wordt niet als Andesdata geclassificeerd."
+        },
+        "register": {
+          "es": "Conversacional o entrevista sociolingüística; véanse turnos y situación completos.",
+          "nl": "Gesprek of sociolinguïstisch interview; raadpleeg volledige beurten en situatie."
+        },
+        "normative": {
+          "es": "Se conserva la reparación registrada: una vacilación de producción no prueba una carencia estable de competencia.",
+          "nl": "Het geregistreerde herstel blijft behouden: een productieaarzeling bewijst geen blijvend competentietekort."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "breinrot-prensa",
+      "source": "dato-breinrot",
+      "text": "Vooral gen Z'ers klagen over breinrot.",
+      "language": "nl",
+      "genre": "prensa",
+      "locator": {
+        "es": "ANW, breinrot, ejemplos; cita de De Standaard, 4 de enero de 2025.",
+        "nl": "ANW, breinrot, voorbeelden; citaat uit De Standaard, 4 januari 2025."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Un compuesto neerlandés en prensa",
+          "nl": "Een Nederlandse samenstelling in de pers"
+        },
+        "levels": [
+          "lexico"
+        ],
+        "country": {
+          "es": "Procedencia institucional o editorial indicada en la fuente; origen del hablante no inferido.",
+          "nl": "Institutionele of redactionele herkomst in de bron; sprekerherkomst niet afgeleid."
+        },
+        "geolect": {
+          "es": "Muestra neerlandesa para contraste; fuera del recuento panhispánico.",
+          "nl": "Nederlandstalig vergelijkingsmateriaal; buiten de panhispanische telling."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Periodístico escrito; no se equipara a conversación espontánea.",
+          "nl": "Geschreven journalistiek; niet gelijkgesteld aan spontane gesprekken."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "meme-rick",
+      "source": "dato-meme",
+      "text": "No lo sé, Rick. Parece falso",
+      "language": "es",
+      "genre": "meme",
+      "locator": {
+        "es": "Capítulo de Daniel Muriel, p. 153, descripción de la figura 3; imagen en p. 154. PDF, páginas 155 y 156.",
+        "nl": "Hoofdstuk van Daniel Muriel, p. 153, beschrijving van figuur 3; afbeelding op p. 154. PDF, pagina’s 155 en 156."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Conocimiento compartido en un meme",
+          "nl": "Gedeelde kennis in een meme"
+        },
+        "levels": [
+          "pragmatico"
+        ],
+        "country": {
+          "es": "No comprobado para el hablante o texto original.",
+          "nl": "Niet gecontroleerd voor de spreker of oorspronkelijke tekst."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Humor digital e intertextualidad; interpretación dependiente de una comunidad.",
+          "nl": "Digitale humor en intertekstualiteit; interpretatie afhankelijk van een gemeenschap."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "voseo-subjuntivo",
+      "source": "dato-voseo",
+      "text": "Puede que vos tengás razón",
+      "language": "es",
+      "genre": "literatura",
+      "locator": {
+        "es": "DPD, voseo, §2.1.1; cita identificada como Herrera Casa, Venezuela, 1985.",
+        "nl": "DPD, voseo, §2.1.1; citaat aangeduid als Herrera Casa, Venezuela, 1985."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Voseo y modalidad en una cita literaria",
+          "nl": "Voseo en modaliteit in een literair citaat"
+        },
+        "levels": [
+          "morfosintactico"
+        ],
+        "country": {
+          "es": "Venezuela, según la abreviatura de la cita del DPD; localidad no identificada.",
+          "nl": "Venezuela, volgens de DPD-citaatcode; plaats niet vastgesteld."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Literario; voz narrativa o personaje, no habla autobiográfica del autor.",
+          "nl": "Literair; vertelstem of personage, niet de autobiografische stem van de auteur."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "senorita-pregunta",
+      "source": "dato-senorita",
+      "text": "¿Qué me va usted a contar, señorita?",
+      "language": "es",
+      "genre": "cine",
+      "locator": {
+        "es": "Raquel Elices, RTVE, título y apartado dedicado a la frase final de Mi querida señorita. Contiene información del desenlace.",
+        "nl": "Raquel Elices, RTVE, titel en paragraaf over de slotzin van Mi querida señorita. Bevat informatie over de ontknoping."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Una pregunta de cine que no pide información",
+          "nl": "Een filmvraag die geen informatie vraagt"
+        },
+        "levels": [
+          "morfosintactico",
+          "pragmatico"
+        ],
+        "country": {
+          "es": "No comprobado para el hablante o texto original.",
+          "nl": "Niet gecontroleerd voor de spreker of oorspronkelijke tekst."
+        },
+        "geolect": {
+          "es": "Sin atribución geolectal comprobada.",
+          "nl": "Geen gecontroleerde geolecttoewijzing."
+        },
+        "locality": {
+          "es": "Sin localidad original verificada.",
+          "nl": "Geen geverifieerde oorspronkelijke locatie."
+        },
+        "areas": [],
+        "locationEvidence": {
+          "es": "No se deduce el geolecto a partir de la nacionalidad del autor, del país del medio o del lugar de publicación.",
+          "nl": "Geolect wordt niet afgeleid uit auteursnationaliteit, land van het medium of publicatieplaats."
+        },
+        "register": {
+          "es": "Discurso cinematográfico o su presentación editorial; distingue personaje y hablante real.",
+          "nl": "Filmdiscours of redactionele presentatie; onderscheid personage en werkelijke spreker."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    },
+    {
+      "id": "mexico-crees-pueda",
+      "source": "dato-mexico-subjuntivo",
+      "text": "¿cómo crees que le pueda hacer para/ este chavo?",
+      "language": "es",
+      "genre": "conversacion",
+      "locator": {
+        "es": "Lastra y Martín Butragueño (2012), p. 103, ejemplo 1; entrevista 84, ME-307-11M-07, turno 487. PDF, página 3.",
+        "nl": "Lastra en Martín Butragueño (2012), p. 103, voorbeeld 1; interview 84, ME-307-11M-07, beurt 487. PDF, pagina 3."
+      },
+      "provenance": "mediated",
+      "protocol": {
+        "phenomenon": {
+          "es": "Creer afirmativo y subjuntivo en conversación mexicana",
+          "nl": "Bevestigend creer met subjuntivo in een Mexicaans gesprek"
+        },
+        "levels": [
+          "morfosintactico",
+          "pragmatico"
+        ],
+        "country": {
+          "es": "México",
+          "nl": "Mexico"
+        },
+        "geolect": {
+          "es": "Muestra del corpus de Ciudad de México; no representa todos los geolectos mexicanos.",
+          "nl": "Voorbeeld uit het corpus van Mexico-Stad; niet representatief voor alle Mexicaanse geolecten."
+        },
+        "locality": {
+          "es": "Ciudad de México, corpus sociolingüístico.",
+          "nl": "Mexico-Stad, sociolinguïstisch corpus."
+        },
+        "areas": [
+          "mexico-centroamerica"
+        ],
+        "locationEvidence": {
+          "es": "Lastra y Martín Butragueño (2012), p. 103, entrevista y turno identificados. La localización es del corpus; no se infiere el origen biográfico de la persona entrevistada.",
+          "nl": "Lastra en Martín Butragueño (2012), p. 103, geïdentificeerd interview en beurt. De lokalisering betreft het corpus; de biografische herkomst van de geïnterviewde wordt niet afgeleid."
+        },
+        "register": {
+          "es": "Conversacional o entrevista sociolingüística; véanse turnos y situación completos.",
+          "nl": "Gesprek of sociolinguïstisch interview; raadpleeg volledige beurten en situatie."
+        },
+        "normative": {
+          "es": "No se asigna estatus normativo a partir de una sola ocurrencia. Contrasta construcción, variedad y contexto con una fuente especializada.",
+          "nl": "Geen normstatus op basis van één vindplaats. Toets constructie, variëteit en context aan een specialistische bron."
+        },
+        "stigmaEvidence": {
+          "es": "No se dispone de datos de actitudes sobre esta muestra. Coloquial, no estándar y socialmente estigmatizado no son categorías equivalentes; no se aplica la etiqueta vulgar sin evidencia.",
+          "nl": "Geen attitudedata over dit voorbeeld beschikbaar. Informeel, niet-standaard en sociaal gestigmatiseerd zijn niet equivalent; geen label vulgair zonder bewijs."
+        }
+      }
+    }
+  ]
+}

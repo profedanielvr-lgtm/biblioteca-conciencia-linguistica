@@ -94,3 +94,12 @@ En el editor, abre Muestras reales, selecciona una ficha o pulsa Crear muestra. 
 De Nederlandse versie biedt dezelfde filters, vragen en bewerkbare velden. Analyseer het originele taalfragment; eigen vertalingen zijn geen authentieke citaten. Audiovisuele spraak en prosodie vereisen een eigen gecontroleerde observatie met tijdcode. Bronverwijzingen en gepubliceerde corpusgegevens worden onderscheiden van didactische interpretaties.
 
 El registro completo se encuentra en docs/muestras-reales-2026-10-09.md y sources/authentic-samples-2026-10-09.json.
+
+
+## Protocolo panhispánico y sociolingüístico
+
+Cada muestra tiene campos editables para fenómeno, nivel, geolecto, país, localidad, fundamento documental, registro, norma y valoración social. El banco permite filtrar por atribución regional comprobada. El desglose de cinco áreas se muestra en cada tema, con lagunas explícitas. Su cobertura sigue siendo parcial: país del medio y nacionalidad del autor no se utilizan como sustitutos de procedencia lingüística.
+
+El editor conserva esos campos al migrar borradores anteriores. Los datos sin localización se presentan como tales, no como ejemplos representativos de una región. Los campos normativos distinguen descripción, prescripción y evidencia de estigma. PRESEEA se incluye como recurso de investigación con sus condiciones de uso, no como una extracción ya realizada.
+
+El protocolo y los límites están documentados en docs/protocolo-panhispanico-2026-10-09.md y sources/protocol-audit-2026-10-09.json. Los recuentos anteriores corresponden a versiones anteriores; esta actualización contiene 26 fichas y 57 referencias.
