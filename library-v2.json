@@ -1220,6 +1220,38 @@
     "synChangeSource": {
       "es": "Cambiar esta fuente vaciará su ficha en esta ranura para evitar atribuir las notas a otra obra. Exporta la síntesis si quieres conservarla. ¿Quieres cambiarla?",
       "nl": "Bij een andere bron worden de notities in deze plek gewist, zodat ze niet aan een andere publicatie worden toegeschreven. Exporteer de synthese als je ze wilt bewaren. Wil je de bron wijzigen?"
+    },
+    "resourceVersion": {
+      "es": "Corpus o recurso, versión y fecha de consulta",
+      "nl": "Corpus of bron, versie en raadpleegdatum"
+    },
+    "searchScope": {
+      "es": "Ámbito de búsqueda, lengua, país, fechas, géneros y modalidad",
+      "nl": "Zoekbereik, taal, land, periode, genres en modaliteit"
+    },
+    "sampleSelection": {
+      "es": "Resultados totales, selección de la muestra, exclusiones y duplicados",
+      "nl": "Totaal aantal resultaten, steekproefselectie, uitsluitingen en duplicaten"
+    },
+    "sampleProvenance": {
+      "es": "Procedencia de cada muestra, autor o institución, título, fecha, enlace, localizador y contexto",
+      "nl": "Herkomst per taalvoorbeeld, auteur of instelling, titel, datum, link, vindplaats en context"
+    },
+    "counterexamples": {
+      "es": "Contraejemplos, casos ambiguos y explicaciones alternativas",
+      "nl": "Tegenvoorbeelden, twijfelgevallen en alternatieve verklaringen"
+    },
+    "comparisonLimits": {
+      "es": "Límites de representatividad y comparabilidad, denominador de las frecuencias",
+      "nl": "Beperkingen in representativiteit en vergelijkbaarheid, noemer van frequenties"
+    },
+    "sampleStatus": {
+      "es": "Qué es auténtico, qué está adaptado o construido, qué fuente original falta comprobar",
+      "nl": "Wat authentiek, aangepast of geconstrueerd is en welke oorspronkelijke bron nog gecontroleerd moet worden"
+    },
+    "corpusProvenanceHelp": {
+      "es": "Para prensa, literatura, anuncios, canciones, series o señalética, conserva el contexto y un localizador comprobable. Distingue consulta de la fuente original y cita a través de otra obra. No inventes transcripciones ni atribuciones. Una muestra ilustra un uso; no demuestra su frecuencia ni representatividad. Registra también los contraejemplos.",
+      "nl": "Bewaar bij pers, literatuur, advertenties, liedjes, series en openbare borden de context en een controleerbare vindplaats. Onderscheid raadpleging van de oorspronkelijke bron van een citaat via een andere publicatie. Verzin geen transcripties of toeschrijvingen. Een voorbeeld illustreert gebruik, maar toont geen frequentie of representativiteit aan. Registreer ook tegenvoorbeelden."
     }
   },
   "source": {
@@ -5944,8 +5976,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -5956,7 +5988,7 @@
     {
       "id": "cervantes",
       "title": "Interlengua",
-      "apa": "Instituto Cervantes. (s. f.). Interlengua. En Diccionario de términos clave de ELE.",
+      "apa": "Instituto Cervantes. (s. f.). Interlengua. En Diccionario de términos clave de ELE. Recuperado el 9 de octubre de 2026, de https://cvc.cervantes.es/ensenanza/biblioteca_ele/diccio_ele/diccionario/interlengua.htm",
       "url": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/diccio_ele/diccionario/interlengua.htm",
       "language": "es",
       "note": {
@@ -5988,8 +6020,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6000,7 +6032,7 @@
     {
       "id": "pcic",
       "title": "Plan curricular del Instituto Cervantes: Niveles de referencia para el español",
-      "apa": "Instituto Cervantes. (2006). Plan curricular del Instituto Cervantes: Niveles de referencia para el español. Instituto Cervantes; Biblioteca Nueva.",
+      "apa": "Instituto Cervantes. (2006). Plan curricular del Instituto Cervantes: Niveles de referencia para el español. Biblioteca Nueva. https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/",
       "url": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/plan_curricular/",
       "language": "es",
       "note": {
@@ -6032,8 +6064,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6076,8 +6108,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6120,8 +6152,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6164,8 +6196,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6176,7 +6208,7 @@
     {
       "id": "ans",
       "title": "Algemene Nederlandse Spraakkunst",
-      "apa": "Instituut voor de Nederlandse Taal. (s. f.). Algemene Nederlandse Spraakkunst.",
+      "apa": "Instituut voor de Nederlandse Taal. (s. f.). Algemene Nederlandse Spraakkunst. Recuperado el 9 de octubre de 2026, de https://e-ans.ivdnt.org/",
       "url": "https://e-ans.ivdnt.org/",
       "language": "nl",
       "note": {
@@ -6208,8 +6240,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6220,7 +6252,7 @@
     {
       "id": "taalunie",
       "title": "Meertaligheid in het onderwijs",
-      "apa": "Taalunie. (2022, 7 de noviembre). Meertaligheid in het onderwijs.",
+      "apa": "Taalunie. (2022, 7 de noviembre). Meertaligheid in het onderwijs. https://taalunie.org/dossiers/50/meertaligheid-in-het-onderwijs",
       "url": "https://taalunie.org/dossiers/50/meertaligheid-in-het-onderwijs",
       "language": "nl",
       "note": {
@@ -6252,8 +6284,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6264,7 +6296,7 @@
     {
       "id": "chn",
       "title": "Corpus Hedendaags Nederlands",
-      "apa": "Instituut voor de Nederlandse Taal. (s. f.). Corpus Hedendaags Nederlands.",
+      "apa": "Instituut voor de Nederlandse Taal. (s. f.). Corpus Hedendaags Nederlands. Recuperado el 9 de octubre de 2026, de https://ivdnt.org/corpora-lexica/corpus-hedendaags-nederlands/",
       "url": "https://ivdnt.org/corpora-lexica/corpus-hedendaags-nederlands/",
       "language": "nl",
       "note": {
@@ -6296,8 +6328,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6308,7 +6340,7 @@
     {
       "id": "gtg",
       "title": "Glosario de términos gramaticales",
-      "apa": "Real Academia Española & Asociación de Academias de la Lengua Española. (s. f.). Glosario de términos gramaticales.",
+      "apa": "Real Academia Española, & Asociación de Academias de la Lengua Española. (s. f.). Glosario de términos gramaticales. Recuperado el 9 de octubre de 2026, de https://www.rae.es/gtg/",
       "url": "https://www.rae.es/gtg/",
       "language": "es",
       "note": {
@@ -6340,8 +6372,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6352,7 +6384,7 @@
     {
       "id": "ngle",
       "title": "Nueva gramática de la lengua española",
-      "apa": "Real Academia Española & Asociación de Academias de la Lengua Española. (s. f.). Nueva gramática de la lengua española [Versión en línea].",
+      "apa": "Real Academia Española, & Asociación de Academias de la Lengua Española. (s. f.). Nueva gramática de la lengua española [Versión en línea]. Recuperado el 9 de octubre de 2026, de https://www.rae.es/gramática/",
       "url": "https://www.rae.es/gramática/",
       "language": "es",
       "note": {
@@ -6384,8 +6416,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6396,7 +6428,7 @@
     {
       "id": "se",
       "title": "Se",
-      "apa": "Real Academia Española & Asociación de Academias de la Lengua Española. (s. f.). Se. En Diccionario panhispánico de dudas.",
+      "apa": "Real Academia Española, & Asociación de Academias de la Lengua Española. (s. f.). Se. En Diccionario panhispánico de dudas. Recuperado el 9 de octubre de 2026, de https://www.rae.es/dpd/se",
       "url": "https://www.rae.es/dpd/se",
       "language": "es",
       "note": {
@@ -6428,8 +6460,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6440,7 +6472,7 @@
     {
       "id": "leismo",
       "title": "Leísmo",
-      "apa": "Real Academia Española & Asociación de Academias de la Lengua Española. (s. f.). Leísmo. En Diccionario panhispánico de dudas.",
+      "apa": "Real Academia Española, & Asociación de Academias de la Lengua Española. (s. f.). Leísmo. En Diccionario panhispánico de dudas. Recuperado el 9 de octubre de 2026, de https://www.rae.es/dpd/leísmo",
       "url": "https://www.rae.es/dpd/leísmo",
       "language": "es",
       "note": {
@@ -6472,8 +6504,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6484,7 +6516,7 @@
     {
       "id": "entrar",
       "title": "Entrar",
-      "apa": "Real Academia Española & Asociación de Academias de la Lengua Española. (s. f.). Entrar. En Diccionario panhispánico de dudas.",
+      "apa": "Real Academia Española, & Asociación de Academias de la Lengua Española. (s. f.). Entrar. En Diccionario panhispánico de dudas. Recuperado el 9 de octubre de 2026, de https://www.rae.es/dpd/entrar",
       "url": "https://www.rae.es/dpd/entrar",
       "language": "es",
       "note": {
@@ -6516,8 +6548,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6528,7 +6560,7 @@
     {
       "id": "concordancia",
       "title": "Concordancia con nombres de grupo",
-      "apa": "Real Academia Española & Asociación de Academias de la Lengua Española. (s. f.). La concordancia sujeto–verbo (III). Construcciones pseudopartitivas. La concordancia con los nombres de grupo. En Nueva gramática de la lengua española.",
+      "apa": "Real Academia Española, & Asociación de Academias de la Lengua Española. (s. f.). La concordancia sujeto–verbo (III). Construcciones pseudopartitivas. La concordancia con los nombres de grupo. En Nueva gramática de la lengua española. Recuperado el 9 de octubre de 2026, de https://www.rae.es/gramática/sintaxis/la-concordancia-sujetoverbo-iii-construcciones-pseudopartitivas-la-concordancia-con-los-nombres-de-grupo",
       "url": "https://www.rae.es/gramática/sintaxis/la-concordancia-sujetoverbo-iii-construcciones-pseudopartitivas-la-concordancia-con-los-nombres-de-grupo",
       "language": "es",
       "note": {
@@ -6560,8 +6592,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6572,7 +6604,7 @@
     {
       "id": "corpes",
       "title": "CORPES XXI",
-      "apa": "Real Academia Española. (s. f.). CORPES XXI.",
+      "apa": "Real Academia Española. (s. f.). CORPES XXI. Recuperado el 9 de octubre de 2026, de https://www.rae.es/banco-de-datos/corpes-xxi",
       "url": "https://www.rae.es/banco-de-datos/corpes-xxi",
       "language": "es",
       "note": {
@@ -6604,8 +6636,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6616,7 +6648,7 @@
     {
       "id": "dpd",
       "title": "Diccionario panhispánico de dudas",
-      "apa": "Real Academia Española & Asociación de Academias de la Lengua Española. (s. f.). Diccionario panhispánico de dudas.",
+      "apa": "Real Academia Española, & Asociación de Academias de la Lengua Española. (s. f.). Diccionario panhispánico de dudas. Recuperado el 9 de octubre de 2026, de https://www.rae.es/dpd/",
       "url": "https://www.rae.es/dpd/",
       "language": "es",
       "note": {
@@ -6648,8 +6680,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6660,7 +6692,7 @@
     {
       "id": "sounds",
       "title": "Sounds of Speech: Spanish",
-      "apa": "University of Iowa. (s. f.). Sounds of Speech: Spanish.",
+      "apa": "University of Iowa. (s. f.). Sounds of Speech: Spanish. Recuperado el 9 de octubre de 2026, de https://soundsofspeech.uiowa.edu/spanish",
       "url": "https://soundsofspeech.uiowa.edu/spanish",
       "language": "es",
       "note": {
@@ -6692,8 +6724,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nLa dirección oficial es recuperable, pero su contenido interactivo requiere JavaScript. No se ha comprobado el funcionamiento de cada control, audio o consulta.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nHet officiële adres is bereikbaar, maar de interactieve inhoud vereist JavaScript. Niet elke bediening, opname of zoekopdracht is getest."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6704,7 +6736,7 @@
     {
       "id": "valesco",
       "title": "Corpus Val.Es.Co. 3.0",
-      "apa": "Grupo Val.Es.Co. (s. f.). Corpus Val.Es.Co. 3.0.",
+      "apa": "Grupo Val.Es.Co. (s. f.). Corpus Val.Es.Co. 3.0. Recuperado el 9 de octubre de 2026, de https://www.valesco.es/",
       "url": "https://www.valesco.es/",
       "language": "es",
       "note": {
@@ -6736,8 +6768,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nLa dirección oficial es recuperable, pero su contenido interactivo requiere JavaScript. No se ha comprobado el funcionamiento de cada control, audio o consulta.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nHet officiële adres is bereikbaar, maar de interactieve inhoud vereist JavaScript. Niet elke bediening, opname of zoekopdracht is getest."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6748,7 +6780,7 @@
     {
       "id": "transferencia",
       "title": "Transferencia",
-      "apa": "Instituto Cervantes. (s. f.). Transferencia. En Diccionario de términos clave de ELE.",
+      "apa": "Instituto Cervantes. (s. f.). Transferencia. En Diccionario de términos clave de ELE. Recuperado el 9 de octubre de 2026, de https://cvc.cervantes.es/ensenanza/biblioteca_ele/diccio_ele/diccionario/transferencia.htm",
       "url": "https://cvc.cervantes.es/ensenanza/biblioteca_ele/diccio_ele/diccionario/transferencia.htm",
       "language": "es",
       "note": {
@@ -6780,8 +6812,8 @@
         "nl": "Bepaal of de passage beschrijft, voorschrijft of empirisch bewijs biedt; pas haar reikwijdte niet automatisch op de klas toe."
       },
       "verification": {
-        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.",
-        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling."
+        "es": "Referencia y destino comprobados; se conserva la fecha registrada. No implica una revisión integral.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Verwijzing en bestemming gecontroleerd; geregistreerde datum behouden. Geen integrale beoordeling.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Fuente de base conservada por su función; no se presenta automáticamente como literatura reciente.",
@@ -6828,8 +6860,8 @@
         "nl": "Onderzoekt syntactische functie in Nederlands, Engels en Duits in het voortgezet onderwijs; toepassing op Spaans vraagt aanpassing."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones. El DOI figura en la documentación oficial; su resolución directa no pudo confirmarse con el sistema de comprobación. Utiliza el enlace de verificación como alternativa.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen. De DOI staat in de officiële documentatie; rechtstreekse resolutie kon met het controlesysteem niet worden bevestigd. Gebruik de verificatielink als alternatief."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -6877,8 +6909,8 @@
         "nl": "Onderscheidt antwoord en redenering in vwo 4; geen gevalideerd instrument voor deze EVL."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -6926,8 +6958,8 @@
         "nl": "Stelt onderzoeksvragen en een meertalig perspectief voor; bewijst op zichzelf geen interventie-effectiviteit."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones. El DOI figura en la documentación oficial; su resolución directa no pudo confirmarse con el sistema de comprobación. Utiliza el enlace de verificación como alternativa.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen. De DOI staat in de officiële documentatie; rechtstreekse resolutie kon met het controlesysteem niet worden bevestigd. Gebruik de verificatielink als alternatief."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -6975,8 +7007,8 @@
         "nl": "Bespreekt praktijken, reacties en perspectieven op schriftelijke feedback; schrijft geen universele techniek voor."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -7024,8 +7056,8 @@
         "nl": "Onderzoekt geautomatiseerde feedback en validatie; ervaren nut en juistheid zijn niet hetzelfde."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -7073,8 +7105,8 @@
         "nl": "Richt zich op L2-schrijfbeoordeling; vervangt geen officiële Fontys-regels of criteria."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones. El DOI figura en la documentación oficial; su resolución directa no pudo confirmarse con el sistema de comprobación. Utiliza el enlace de verificación como alternativa.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen. De DOI staat in de officiële documentatie; rechtstreekse resolutie kon met het controlesysteem niet worden bevestigd. Gebruik de verificatielink als alternatief."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -7122,8 +7154,8 @@
         "nl": "Onderzoekt taakbetrokkenheid bij Engels in Iran; betrokkenheid bewijst geen duurzaam Spaans leren."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -7171,8 +7203,8 @@
         "nl": "Vooral studies over Engels en gecontroleerde oefening; onderscheid fonetische nauwkeurigheid, verstaanbaarheid en spontaan gebruik."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones. El DOI figura en la documentación oficial; su resolución directa no pudo confirmarse con el sistema de comprobación. Utiliza el enlace de verificación como alternativa.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen. De DOI staat in de officiële documentatie; rechtstreekse resolutie kon met het controlesysteem niet worden bevestigd. Gebruik de verificatielink als alternatief."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -7220,8 +7252,8 @@
         "nl": "Vergelijkt keuze en productie van conjunctief tussen leeftijdsgroepen; erfgoedsprekers en ELE-leerders zijn niet gelijkgesteld."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones. El DOI figura en la documentación oficial; su resolución directa no pudo confirmarse con el sistema de comprobación. Utiliza el enlace de verificación como alternativa.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen. De DOI staat in de officiële documentatie; rechtstreekse resolutie kon met het controlesysteem niet worden bevestigd. Gebruik de verificatielink als alternatief."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -7269,8 +7301,8 @@
         "nl": "Maakt onderzoek naar morfologisch leren mogelijk; bewijst geen effectieve ELE-leerlijn."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones. El DOI figura en la documentación oficial; su resolución directa no pudo confirmarse con el sistema de comprobación. Utiliza el enlace de verificación como alternativa.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen. De DOI staat in de officiële documentatie; rechtstreekse resolutie kon met het controlesysteem niet worden bevestigd. Gebruik de verificatielink als alternatief."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -7314,8 +7346,8 @@
         "nl": "Beschrijft taalkeuzes in Nederland en Vlaanderen; deze editie bevat geen resultaten voor Suriname."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -7359,8 +7391,8 @@
         "nl": "Beschrijft ervaringen en voorstellen; geen gecontroleerde effectstudie."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -7405,8 +7437,8 @@
         "nl": "Vergelijkt morfologische analyses; toets theorieën aan gegevens in plaats van automatische didactische regels."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. No se ha revisado el texto completo; no se atribuyen resultados a capítulos no consultados.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Volledige tekst niet beoordeeld; geen resultaten toegeschreven aan niet geraadpleegde hoofdstukken."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. No se ha revisado el texto completo; no se atribuyen resultados a capítulos no consultados.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones. El DOI figura en la documentación oficial; su resolución directa no pudo confirmarse con el sistema de comprobación. Utiliza el enlace de verificación como alternativa.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Volledige tekst niet beoordeeld; geen resultaten toegeschreven aan niet geraadpleegde hoofdstukken.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen. De DOI staat in de officiële documentatie; rechtstreekse resolutie kon met het controlesysteem niet worden bevestigd. Gebruik de verificatielink als alternatief."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -7451,8 +7483,8 @@
         "nl": "Biedt een functioneel en variatiegericht perspectief op Spaans; vervangt geen vergelijking van kaders of klasstudie."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. No se ha revisado el texto completo; no se atribuyen resultados a capítulos no consultados.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Volledige tekst niet beoordeeld; geen resultaten toegeschreven aan niet geraadpleegde hoofdstukken."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. No se ha revisado el texto completo; no se atribuyen resultados a capítulos no consultados.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones. El DOI figura en la documentación oficial; su resolución directa no pudo confirmarse con el sistema de comprobación. Utiliza el enlace de verificación como alternativa.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Volledige tekst niet beoordeeld; geen resultaten toegeschreven aan niet geraadpleegde hoofdstukken.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen. De DOI staat in de officiële documentatie; rechtstreekse resolutie kon met het controlesysteem niet worden bevestigd. Gebruik de verificatielink als alternatief."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -7464,7 +7496,7 @@
     {
       "id": "dpd-edition-2025",
       "title": "Diccionario panhispánico de dudas (2.ª ed.)",
-      "apa": "Real Academia Española & Asociación de Academias de la Lengua Española. (2025). Diccionario panhispánico de dudas (2.ª ed.). Taurus. https://www.asale.org/obras-academicas/diccionarios/diccionario-panhispanico-de-dudas-0",
+      "apa": "Real Academia Española, & Asociación de Academias de la Lengua Española. (2025). Diccionario panhispánico de dudas (2.ª ed.). Taurus. https://www.asale.org/obras-academicas/diccionarios/diccionario-panhispanico-de-dudas-0",
       "url": "https://www.asale.org/obras-academicas/diccionarios/diccionario-panhispanico-de-dudas-0",
       "language": "es",
       "note": {
@@ -7497,8 +7529,8 @@
         "nl": "Normatieve waardering is geen frequentie en verklaart op zichzelf geen verwerving of didactische effectiviteit."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. No se ha revisado el texto completo; no se atribuyen resultados a capítulos no consultados.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Volledige tekst niet beoordeeld; geen resultaten toegeschreven aan niet geraadpleegde hoofdstukken."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. No se ha revisado el texto completo; no se atribuyen resultados a capítulos no consultados.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Volledige tekst niet beoordeeld; geen resultaten toegeschreven aan niet geraadpleegde hoofdstukken.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -7543,8 +7575,8 @@
         "nl": "L2-onderwijsadviezen vragen aanpassing van doelen, taken en context aan Spaans en de leerders."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. No se ha revisado el texto completo; no se atribuyen resultados a capítulos no consultados.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Volledige tekst niet beoordeeld; geen resultaten toegeschreven aan niet geraadpleegde hoofdstukken."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. No se ha revisado el texto completo; no se atribuyen resultados a capítulos no consultados.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones. El DOI figura en la documentación oficial; su resolución directa no pudo confirmarse con el sistema de comprobación. Utiliza el enlace de verificación como alternativa.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Volledige tekst niet beoordeeld; geen resultaten toegeschreven aan niet geraadpleegde hoofdstukken.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen. De DOI staat in de officiële documentatie; rechtstreekse resolutie kon met het controlesysteem niet worden bevestigd. Gebruik de verificatielink als alternatief."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -7589,8 +7621,8 @@
         "nl": "Nederlandstalige conceptuele basis uit 2022; aanvulling, geen publicatie uit 2024–2026."
       },
       "verification": {
-        "es": "Metadatos y orientación contrastados con la fuente oficial. No se ha revisado el texto completo; no se atribuyen resultados a capítulos no consultados.",
-        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Volledige tekst niet beoordeeld; geen resultaten toegeschreven aan niet geraadpleegde hoofdstukken."
+        "es": "Metadatos y orientación contrastados con la fuente oficial. No se ha revisado el texto completo; no se atribuyen resultados a capítulos no consultados.\nRegistro o página oficial recuperado en esta auditoría. Esto no acredita lectura íntegra de la obra ni valida todas sus afirmaciones.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Volledige tekst niet beoordeeld; geen resultaten toegeschreven aan niet geraadpleegde hoofdstukken.\nDe officiële registratie of pagina is bij deze audit teruggevonden. Dit toont geen volledige lezing aan en valideert niet alle beweringen."
       },
       "publicationNote": {
         "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
@@ -8511,8 +8543,8 @@
     ]
   },
   "adminGuide": {
-    "es": "Edita con los campos separados para español y neerlandés. Guarda un borrador local y exporta una copia. La vista previa muestra el resultado antes de publicarlo. Verifica ambas lenguas y las referencias. Para publicar utiliza una credencial de GitHub limitada a este repositorio con permiso Contents: read and write. Solo GitHub puede conceder ese permiso; la biblioteca no tiene una contraseña compartida. No pegues la credencial en un chat ni la guardes en el contenido. La interfaz la mantiene únicamente en memoria durante la sesión.\nAñade una fuente con referencia APA, URL real, acceso y fecha de comprobación. Una fuente nueva queda pendiente hasta que marques que la has verificado. Puedes ocultar un tema y volver a publicarlo. Cada publicación crea un commit y GitHub conserva el historial. Una versión puede restaurarse desde el historial del archivo de contenido en GitHub. Los cambios en main se publican mediante GitHub Pages.\nAlternativas consideradas: un CMS como WordPress ofrece edición y roles familiares, pero necesita servidor, actualizaciones y mantenimiento. Un editor ligero sobre GitHub Pages evita servidor y conserva historial, pero depende de permisos y credenciales de GitHub. Se mantiene la segunda opción para conservar el alojamiento existente; la autenticación editorial no utiliza una contraseña incrustada en JavaScript.\nEn Sugerencias de búsqueda puedes editar las etiquetas españolas y neerlandesas y las palabras que conectan consultas con dominios. Son selecciones editoriales, no estadísticas de popularidad. En Fuentes puedes editar la orientación de lectura y los metadatos RIS. Comprueba esos datos antes de publicar. Las muestras comparativas se editan en la página de cada tema. Mi estudio conserva favoritos y fichas en el navegador; su copia se exporta e importa desde esa sección.\nLas preguntas estratégicas finales se editan por tema en Profesorado. Revise ambas versiones y previsualice antes de publicar.\nEl taller de razonamiento utiliza campos separados para foco, caso nuevo, criterios orientativos y contraste con modelos. Se editan por tema en español y neerlandés. Las fuentes recientes tienen campos editables de tipo de evidencia, alcance y verificación. No presente los criterios orientativos como una rúbrica oficial.\nLa ruta opcional de síntesis crítica está dentro del taller de cada tema. Sus instrucciones, títulos y etiquetas se editan en Interfaz, en los campos synthesis y syn, con versiones española y neerlandesa separadas. Las fichas y respuestas del estudiante se guardan localmente y no se editan desde Profesorado. No se generan revisiones automáticas. La publicación utiliza content/library-v2.json.",
-    "nl": "Bewerk Spaanse en Nederlandse velden afzonderlijk. Bewaar een lokaal concept en exporteer een kopie. De preview toont het resultaat vóór publicatie. Controleer beide talen en bronnen. Publiceren vereist een GitHub-credential beperkt tot deze repository met Contents: read and write. Alleen GitHub kan dat recht toekennen; de bibliotheek gebruikt geen gedeeld wachtwoord. Deel de credential niet in een chat en sla haar niet in inhoud op. De interface bewaart haar alleen in het geheugen gedurende de sessie.\nVoeg bronnen toe met APA-verwijzing, echte URL, toegang en controledatum. Een nieuwe bron blijft in afwachting totdat je verificatie bevestigt. Je kunt onderwerpen verbergen en opnieuw publiceren. Iedere publicatie maakt een commit; GitHub bewaart de geschiedenis. Een versie kan vanuit de geschiedenis van het inhoudsbestand worden teruggezet. Wijzigingen op main worden via GitHub Pages gepubliceerd.\nAfgewogen alternatieven: een CMS zoals WordPress biedt vertrouwde redactie en rollen, maar vereist hosting, updates en onderhoud. Een lichte editor bij GitHub Pages vermijdt een server en bewaart geschiedenis, maar vereist GitHub-rechten en credentials. De tweede optie behoudt de bestaande hosting; redactiebeveiliging berust niet op een wachtwoord in JavaScript.\nBij Zoeksuggesties bewerk je Spaanse en Nederlandse labels en de zoekwoorden die naar domeinen verwijzen. Het is een redactionele selectie, geen populariteitsstatistiek. Bij Bronnen bewerk je leesadvies en RIS-metadata. Controleer die vóór publicatie. Contrastieve voorbeelden bewerk je bij het thema. Mijn studie bewaart favorieten en leesfiches in de browser; je exporteert en importeert de kopie vanuit die sectie.\nDe afsluitende strategische vragen zijn per thema te bewerken onder Docenten. Controleer beide taalversies en bekijk de voorvertoning vóór publicatie.\nDe redeneerwerkplaats heeft aparte velden voor focus, nieuwe casus, aandachtspunten en vergelijking met modellen. Bewerk ze per thema in beide talen. Recente bronnen hebben bewerkbare velden voor bewijstype, reikwijdte en verificatie. Presenteer aandachtspunten niet als officiële rubric.\nDe optionele route voor kritische literatuursynthese staat in het redeneeratelier van elk thema. Bewerk instructies, titels en labels via Interface, in de velden synthesis en syn, met afzonderlijke Spaanse en Nederlandse versies. Bronnotities en antwoorden van studenten worden lokaal opgeslagen en niet via de docenteditor bewerkt. Er worden geen automatische literatuurstudies gegenereerd. Publicatie gebruikt content/library-v2.json."
+    "es": "Edita con los campos separados para español y neerlandés. Guarda un borrador local y exporta una copia. La vista previa muestra el resultado antes de publicarlo. Verifica ambas lenguas y las referencias. Para publicar utiliza una credencial de GitHub limitada a este repositorio con permiso Contents: read and write. Solo GitHub puede conceder ese permiso; la biblioteca no tiene una contraseña compartida. No pegues la credencial en un chat ni la guardes en el contenido. La interfaz la mantiene únicamente en memoria durante la sesión.\nAñade una fuente con referencia APA, URL real, acceso y fecha de comprobación. Una fuente nueva queda pendiente hasta que marques que la has verificado. Puedes ocultar un tema y volver a publicarlo. Cada publicación crea un commit y GitHub conserva el historial. Una versión puede restaurarse desde el historial del archivo de contenido en GitHub. Los cambios en main se publican mediante GitHub Pages.\nAlternativas consideradas: un CMS como WordPress ofrece edición y roles familiares, pero necesita servidor, actualizaciones y mantenimiento. Un editor ligero sobre GitHub Pages evita servidor y conserva historial, pero depende de permisos y credenciales de GitHub. Se mantiene la segunda opción para conservar el alojamiento existente; la autenticación editorial no utiliza una contraseña incrustada en JavaScript.\nEn Sugerencias de búsqueda puedes editar las etiquetas españolas y neerlandesas y las palabras que conectan consultas con dominios. Son selecciones editoriales, no estadísticas de popularidad. En Fuentes puedes editar la orientación de lectura y los metadatos RIS. Comprueba esos datos antes de publicar. Las muestras comparativas se editan en la página de cada tema. Mi estudio conserva favoritos y fichas en el navegador; su copia se exporta e importa desde esa sección.\nLas preguntas estratégicas finales se editan por tema en Profesorado. Revise ambas versiones y previsualice antes de publicar.\nEl taller de razonamiento utiliza campos separados para foco, caso nuevo, criterios orientativos y contraste con modelos. Se editan por tema en español y neerlandés. Las fuentes recientes tienen campos editables de tipo de evidencia, alcance y verificación. No presente los criterios orientativos como una rúbrica oficial.\nLa ruta opcional de síntesis crítica está dentro del taller de cada tema. Sus instrucciones, títulos y etiquetas se editan en Interfaz, en los campos synthesis y syn, con versiones española y neerlandesa separadas. Las fichas y respuestas del estudiante se guardan localmente y no se editan desde Profesorado. No se generan revisiones automáticas. La publicación utiliza content/library-v2.json.\nEl laboratorio de corpus incorpora campos de procedencia, versión, selección, contraejemplos y límites. Sus etiquetas y orientaciones se editan en Interfaz. La auditoría distingue identidad documental, disponibilidad del enlace y revisión del texto: no son equivalentes.",
+    "nl": "Bewerk Spaanse en Nederlandse velden afzonderlijk. Bewaar een lokaal concept en exporteer een kopie. De preview toont het resultaat vóór publicatie. Controleer beide talen en bronnen. Publiceren vereist een GitHub-credential beperkt tot deze repository met Contents: read and write. Alleen GitHub kan dat recht toekennen; de bibliotheek gebruikt geen gedeeld wachtwoord. Deel de credential niet in een chat en sla haar niet in inhoud op. De interface bewaart haar alleen in het geheugen gedurende de sessie.\nVoeg bronnen toe met APA-verwijzing, echte URL, toegang en controledatum. Een nieuwe bron blijft in afwachting totdat je verificatie bevestigt. Je kunt onderwerpen verbergen en opnieuw publiceren. Iedere publicatie maakt een commit; GitHub bewaart de geschiedenis. Een versie kan vanuit de geschiedenis van het inhoudsbestand worden teruggezet. Wijzigingen op main worden via GitHub Pages gepubliceerd.\nAfgewogen alternatieven: een CMS zoals WordPress biedt vertrouwde redactie en rollen, maar vereist hosting, updates en onderhoud. Een lichte editor bij GitHub Pages vermijdt een server en bewaart geschiedenis, maar vereist GitHub-rechten en credentials. De tweede optie behoudt de bestaande hosting; redactiebeveiliging berust niet op een wachtwoord in JavaScript.\nBij Zoeksuggesties bewerk je Spaanse en Nederlandse labels en de zoekwoorden die naar domeinen verwijzen. Het is een redactionele selectie, geen populariteitsstatistiek. Bij Bronnen bewerk je leesadvies en RIS-metadata. Controleer die vóór publicatie. Contrastieve voorbeelden bewerk je bij het thema. Mijn studie bewaart favorieten en leesfiches in de browser; je exporteert en importeert de kopie vanuit die sectie.\nDe afsluitende strategische vragen zijn per thema te bewerken onder Docenten. Controleer beide taalversies en bekijk de voorvertoning vóór publicatie.\nDe redeneerwerkplaats heeft aparte velden voor focus, nieuwe casus, aandachtspunten en vergelijking met modellen. Bewerk ze per thema in beide talen. Recente bronnen hebben bewerkbare velden voor bewijstype, reikwijdte en verificatie. Presenteer aandachtspunten niet als officiële rubric.\nDe optionele route voor kritische literatuursynthese staat in het redeneeratelier van elk thema. Bewerk instructies, titels en labels via Interface, in de velden synthesis en syn, met afzonderlijke Spaanse en Nederlandse versies. Bronnotities en antwoorden van studenten worden lokaal opgeslagen en niet via de docenteditor bewerkt. Er worden geen automatische literatuurstudies gegenereerd. Publicatie gebruikt content/library-v2.json.\nHet corpuslaboratorium bevat velden voor herkomst, versie, selectie, tegenvoorbeelden en beperkingen. Bewerk labels en instructies via Interface. De audit onderscheidt documentidentiteit, bereikbaarheid van de link en inhoudelijke beoordeling: dit zijn afzonderlijke controles."
   },
   "glossary": [
     {

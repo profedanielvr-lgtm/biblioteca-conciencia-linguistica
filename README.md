@@ -71,3 +71,13 @@ Las respuestas se guardan localmente con el resto de Mi estudio, se exportan en 
 Las instrucciones se editan en Profesorado, Interfaz, campos synthesis y syn, siempre en español y neerlandés. Se mantienen estructura y dominios del Body of Knowledge. La ruta es opcional para no añadir pasos obligatorios a una consulta breve.
 
 Se corrigió una incoherencia de publicación: el sitio lee content/library-v2.json, mientras que la actualización anterior había colocado el contenido ampliado en la raíz. La entrega actual actualiza expresamente la ruta utilizada por la aplicación y la copia de raíz. La comprobación posterior debe verificar content/library-v2.json, no solo la copia de raíz.
+
+## Auditoría documental y procedencia de datos
+
+La auditoría del 9 de octubre de 2026 comprobó 37 registros oficiales, 44 relaciones temáticas y 102 conexiones entre temas y fuentes, con sus 102 orientaciones de lectura. No encontró identificadores referenciados inexistentes. Completó 16 referencias APA copiables con URL. Diferencia registro documental recuperado, resolución de DOI y funcionamiento interactivo: nueve resoluciones de DOI no pudieron confirmarse por el sistema, aunque hay documentación oficial; Sounds of Speech y Val.Es.Co. requieren comprobación interactiva adicional. No se certifica lectura íntegra de todas las publicaciones ni disponibilidad futura. El detalle se conserva en sources/integrity-audit-2026-10-09.json.
+
+El laboratorio de corpus incorpora versión, ámbito, selección y exclusiones, procedencia por muestra, identificación de material auténtico o construido, contraejemplos y límites de comparación. Se conservan las notas anteriores y se incluyen los campos nuevos en copia y exportación. La validación editorial rechaza muestras auténticas sin fuente vinculada y orientaciones de lectura que no pertenecen a las referencias del tema.
+
+La biblioteca contiene una muestra auténtica incorporada, procedente de prensa y citada a través de la NGLE, y casos construidos identificados. No ofrece todavía una colección representativa de prensa, literatura contemporánea, anuncios, canciones, series y señalética. La selección empírica y la síntesis temática necesitan una pregunta e hipótesis concretas; no se sustituyen por muestras arbitrarias.
+
+Las pruebas leen preferentemente content/library-v2.json, la misma ruta usada por la aplicación. La copia de raíz solo se usa como alternativa en el entorno local cuando esa carpeta no existe.
