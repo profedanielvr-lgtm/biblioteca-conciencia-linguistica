@@ -1234,8 +1234,8 @@
       "nl": "Totaal aantal resultaten, steekproefselectie, uitsluitingen en duplicaten"
     },
     "sampleProvenance": {
-      "es": "Procedencia de cada muestra, autor o institución, título, fecha, enlace, localizador y contexto",
-      "nl": "Herkomst per taalvoorbeeld, auteur of instelling, titel, datum, link, vindplaats en context"
+      "es": "Tipo de comprobación",
+      "nl": "Soort controle"
     },
     "counterexamples": {
       "es": "Contraejemplos, casos ambiguos y explicaciones alternativas",
@@ -1252,6 +1252,174 @@
     "corpusProvenanceHelp": {
       "es": "Para prensa, literatura, anuncios, canciones, series o señalética, conserva el contexto y un localizador comprobable. Distingue consulta de la fuente original y cita a través de otra obra. No inventes transcripciones ni atribuciones. Una muestra ilustra un uso; no demuestra su frecuencia ni representatividad. Registra también los contraejemplos.",
       "nl": "Bewaar bij pers, literatuur, advertenties, liedjes, series en openbare borden de context en een controleerbare vindplaats. Onderscheid raadpleging van de oorspronkelijke bron van een citaat via een andere publicatie. Verzin geen transcripties of toeschrijvingen. Een voorbeeld illustreert gebruik, maar toont geen frequentie of representativiteit aan. Registreer ook tegenvoorbeelden."
+    },
+    "samples": {
+      "es": "Muestras reales",
+      "nl": "Authentieke taalvoorbeelden"
+    },
+    "samplesIntro": {
+      "es": "Explora fragmentos documentados para poner a prueba una explicación lingüística. Las muestras son ilustrativas, no una selección representativa. Sus análisis y preguntas son elaboraciones didácticas de la biblioteca.",
+      "nl": "Onderzoek gedocumenteerde fragmenten om een taalkundige verklaring te toetsen. De voorbeelden zijn illustratief, niet representatief geselecteerd. Analyses en vragen zijn didactische uitwerkingen van de bibliotheek."
+    },
+    "sampleGenre": {
+      "es": "Género de la muestra",
+      "nl": "Genre van het voorbeeld"
+    },
+    "sampleLanguage": {
+      "es": "Lengua de la muestra",
+      "nl": "Taal van het voorbeeld"
+    },
+    "sampleText": {
+      "es": "Fragmento original",
+      "nl": "Origineel fragment"
+    },
+    "sampleContext": {
+      "es": "Contexto y procedencia",
+      "nl": "Context en herkomst"
+    },
+    "sampleAnalysis": {
+      "es": "Lectura lingüística propuesta",
+      "nl": "Voorgestelde taalkundige lezing"
+    },
+    "sampleQuestions": {
+      "es": "Analiza antes de abrir la explicación",
+      "nl": "Analyseer voordat je de uitleg opent"
+    },
+    "sampleTeacher": {
+      "es": "Decisión profesional",
+      "nl": "Professionele beslissing"
+    },
+    "sampleLimits": {
+      "es": "Qué demuestra y qué no demuestra",
+      "nl": "Wat het wel en niet aantoont"
+    },
+    "sampleLocator": {
+      "es": "Localizador reproducible",
+      "nl": "Herleidbare vindplaats"
+    },
+    "sampleDate": {
+      "es": "Fecha de la muestra o documento",
+      "nl": "Datum van het voorbeeld of document"
+    },
+    "sampleCompare": {
+      "es": "Contrasta con otra muestra",
+      "nl": "Vergelijk met een ander voorbeeld"
+    },
+    "sampleSource": {
+      "es": "Fuente de la muestra",
+      "nl": "Bron van het voorbeeld"
+    },
+    "sampleTheory": {
+      "es": "Conecta el dato con una fuente teórica del tema; que una frase exista no demuestra una explicación.",
+      "nl": "Verbind de data met een theoretische bron uit het onderwerp; het bestaan van een zin bewijst geen verklaring."
+    },
+    "sampleCount": {
+      "es": "muestras encontradas",
+      "nl": "gevonden voorbeelden"
+    },
+    "sampleSearch": {
+      "es": "Busca una forma, un fenómeno o un contexto",
+      "nl": "Zoek een vorm, verschijnsel of context"
+    },
+    "sampleNew": {
+      "es": "Crear muestra",
+      "nl": "Voorbeeld maken"
+    },
+    "sampleDelete": {
+      "es": "Eliminar muestra",
+      "nl": "Voorbeeld verwijderen"
+    },
+    "sampleDeleteConfirm": {
+      "es": "¿Eliminar esta muestra y sus enlaces de comparación?",
+      "nl": "Dit voorbeeld en de vergelijkingskoppelingen verwijderen?"
+    },
+    "sampleConnections": {
+      "es": "Relaciones justificadas con los temas",
+      "nl": "Onderbouwde relaties met onderwerpen"
+    },
+    "sampleDirect": {
+      "es": "Texto consultado en la fuente",
+      "nl": "Tekst geraadpleegd in de bron"
+    },
+    "sampleMediated": {
+      "es": "Cita o transcripción transmitida por otra fuente",
+      "nl": "Citaat of transcriptie overgenomen via een andere bron"
+    },
+    "sampleParatext": {
+      "es": "Paratexto comprobado; habla pendiente de observación",
+      "nl": "Paratekst gecontroleerd; gesproken inhoud nog te onderzoeken"
+    },
+    "sampleWorkbench": {
+      "es": "Registrar mi análisis de esta muestra",
+      "nl": "Mijn analyse van dit voorbeeld vastleggen"
+    },
+    "sampleResponse": {
+      "es": "Registro de análisis: localizador, observaciones, hipótesis, alternativa, límites y decisión docente",
+      "nl": "Analyserapport: vindplaats, waarnemingen, hypothese, alternatief, grenzen en didactische beslissing"
+    },
+    "sampleStrategy": {
+      "es": "Preguntas estratégicas finales",
+      "nl": "Strategische slotvragen"
+    },
+    "sampleStrategyText": {
+      "es": "¿Qué premisa de tu explicación deja de sostenerse con otra variedad o contexto? ¿Qué dato refutaría tu lectura? ¿Qué parte procede de la forma lingüística y cuál de tus expectativas? ¿Qué información falta antes de corregir, evaluar o generalizar? ¿Cómo comprobarías que el estudiante comprende el razonamiento y no solo reproduce tu respuesta?",
+      "nl": "Welke aanname in je uitleg houdt niet stand in een andere variëteit of context? Welke data zouden jouw lezing weerleggen? Wat komt uit de taalvorm en wat uit jouw verwachtingen? Welke informatie ontbreekt voordat je verbetert, beoordeelt of generaliseert? Hoe toets je of de student de redenering begrijpt in plaats van je antwoord te herhalen?"
+    },
+    "genre_prensa": {
+      "es": "Prensa",
+      "nl": "Pers"
+    },
+    "genre_literatura": {
+      "es": "Literatura",
+      "nl": "Literatuur"
+    },
+    "genre_publicidad": {
+      "es": "Publicidad",
+      "nl": "Reclame"
+    },
+    "genre_senaletica": {
+      "es": "Señalética",
+      "nl": "Bewegwijzering en opschriften"
+    },
+    "genre_video": {
+      "es": "Vídeos y televisión",
+      "nl": "Video en televisie"
+    },
+    "genre_cancion": {
+      "es": "Canciones",
+      "nl": "Liederen"
+    },
+    "genre_serie": {
+      "es": "Series",
+      "nl": "Series"
+    },
+    "genre_cine": {
+      "es": "Cine y montaje",
+      "nl": "Film en montage"
+    },
+    "genre_conversacion": {
+      "es": "Conversación de corpus",
+      "nl": "Corpusgesprekken"
+    },
+    "genre_meme": {
+      "es": "Memes",
+      "nl": "Memes"
+    },
+    "sampleDateNote": {
+      "es": "Precisiones sobre la fecha",
+      "nl": "Toelichting bij de datum"
+    },
+    "sampleUndated": {
+      "es": "Sin fecha indicada",
+      "nl": "Geen datum vermeld"
+    },
+    "sampleMyNotes": {
+      "es": "Mis análisis de muestras reales",
+      "nl": "Mijn analyses van authentieke voorbeelden"
+    },
+    "sampleHiddenHelp": {
+      "es": "Los fragmentos audiovisuales se estudian mediante el texto comprobado en la página. Para analizar habla o prosodia, escucha el fragmento y anota tu propia transcripción y marca temporal.",
+      "nl": "Audiovisuele voorbeelden worden bestudeerd via de gecontroleerde paginatekst. Beluister het fragment voor gesproken taal of prosodie en noteer je eigen transcriptie en tijdcode."
     }
   },
   "source": {
@@ -1328,7 +1496,10 @@
         "garrett",
         "staat-nederlands-2025",
         "dpd-edition-2025",
-        "hofer-jessner-2026"
+        "hofer-jessner-2026",
+        "concordancia",
+        "dato-breinrot",
+        "dato-voseo"
       ],
       "related": [
         {
@@ -1572,7 +1743,8 @@
         "transferencia",
         "hofer-jessner-2026",
         "godfried-meertaal-2024",
-        "staat-nederlands-2025"
+        "staat-nederlands-2025",
+        "dato-breinrot"
       ],
       "related": [
         {
@@ -1819,7 +1991,8 @@
         "transferencia",
         "thane-subjunctive-2025",
         "zhu-morphology-2025",
-        "loewen-sato-2024"
+        "loewen-sato-2024",
+        "dato-esech"
       ],
       "related": [
         {
@@ -2062,7 +2235,10 @@
         "ans",
         "garrett",
         "dpd-edition-2025",
-        "staat-nederlands-2025"
+        "staat-nederlands-2025",
+        "dato-coca",
+        "dato-cine",
+        "dato-voseo"
       ],
       "related": [
         {
@@ -2302,7 +2478,12 @@
         "ngle",
         "ans",
         "syntax-2025",
-        "handboek-2022"
+        "handboek-2022",
+        "dato-quijote",
+        "dato-gabo",
+        "dato-nos",
+        "dato-valesco",
+        "dato-senorita"
       ],
       "related": [
         {
@@ -2535,7 +2716,15 @@
         "ngle",
         "ans",
         "syntax-2025",
-        "handboek-2022"
+        "handboek-2022",
+        "dato-coca",
+        "dato-dgt",
+        "dato-picante",
+        "dato-llorente",
+        "dato-nos",
+        "dato-ojala",
+        "dato-valesco",
+        "dato-voseo"
       ],
       "related": [
         {
@@ -2783,7 +2972,12 @@
         "concordancia",
         "ans",
         "syntax-2025",
-        "handboek-2022"
+        "handboek-2022",
+        "dato-quijote",
+        "dato-ns",
+        "dato-nos",
+        "dato-papel",
+        "dato-valesco"
       ],
       "related": [
         {
@@ -3080,7 +3274,16 @@
         "ans",
         "valesco",
         "loewen-sato-2024",
-        "handboek-2022"
+        "handboek-2022",
+        "dato-coca",
+        "dato-apeldoorn",
+        "dato-ns",
+        "dato-dgt",
+        "dato-papel",
+        "dato-cine",
+        "dato-valesco",
+        "dato-meme",
+        "dato-senorita"
       ],
       "related": [
         {
@@ -3339,7 +3542,11 @@
         "ans",
         "sounds",
         "amrate-pronunciation-2025",
-        "handboek-2022"
+        "handboek-2022",
+        "dato-picante",
+        "dato-cine",
+        "dato-valesco",
+        "dato-esech"
       ],
       "related": [
         {
@@ -3571,7 +3778,9 @@
         "ans",
         "morphology-2025",
         "zhu-morphology-2025",
-        "handboek-2022"
+        "handboek-2022",
+        "dato-ns",
+        "dato-breinrot"
       ],
       "related": [
         {
@@ -3808,7 +4017,9 @@
         "chn",
         "valesco",
         "zare-corpus-2024",
-        "syntax-2025"
+        "syntax-2025",
+        "dato-llorente",
+        "dato-valesco"
       ],
       "related": [
         {
@@ -4035,7 +4246,10 @@
         "gtg",
         "cervantes",
         "leenders-instrument-2024",
-        "leenders-context-2024"
+        "leenders-context-2024",
+        "dato-gabo",
+        "dato-nos",
+        "dato-valesco"
       ],
       "related": [
         {
@@ -4255,7 +4469,9 @@
         "pcic",
         "gtg",
         "leenders-context-2024",
-        "loewen-sato-2024"
+        "loewen-sato-2024",
+        "dato-apeldoorn",
+        "dato-dgt"
       ],
       "related": [
         {
@@ -4469,7 +4685,10 @@
         "ellis",
         "cervantes",
         "mao-feedback-2024",
-        "shi-feedback-2024"
+        "shi-feedback-2024",
+        "concordancia",
+        "dato-valesco",
+        "dato-esech"
       ],
       "related": [
         {
@@ -4685,7 +4904,9 @@
         "black",
         "sadler",
         "plakans-fairness-2026",
-        "leenders-instrument-2024"
+        "leenders-instrument-2024",
+        "concordancia",
+        "dato-esech"
       ],
       "related": [
         {
@@ -4899,7 +5120,11 @@
         "black",
         "sadler",
         "plakans-fairness-2026",
-        "loewen-sato-2024"
+        "loewen-sato-2024",
+        "concordancia",
+        "dato-ns",
+        "dato-meme",
+        "dato-senorita"
       ],
       "related": [
         {
@@ -5115,7 +5340,10 @@
         "gtg",
         "ans",
         "syntax-2025",
-        "handboek-2022"
+        "handboek-2022",
+        "concordancia",
+        "dato-coca",
+        "dato-llorente"
       ],
       "related": [
         {
@@ -5326,7 +5554,9 @@
         "ngle",
         "ans",
         "syntax-2025",
-        "handboek-2022"
+        "handboek-2022",
+        "dato-quijote",
+        "dato-ojala"
       ],
       "related": [
         {
@@ -5536,7 +5766,11 @@
         "gtg",
         "ans",
         "syntax-2025",
-        "handboek-2022"
+        "handboek-2022",
+        "dato-coca",
+        "dato-picante",
+        "dato-papel",
+        "dato-esech"
       ],
       "related": [
         {
@@ -5557,14 +5791,6 @@
         "Nominale en verbale congruentie",
         "congruencia"
       ],
-      "authentic": {
-        "text": "Un grupo de jóvenes se encaramó ayer a la verja de acceso.",
-        "source": "concordancia",
-        "context": {
-          "es": "Ejemplo citado por la NGLE, § 33.8b, procedente de El Mundo, España, 10 de mayo de 1995. Consulta la fuente antes de atribuir una interpretación al texto completo.",
-          "nl": "Voorbeeld aangehaald in NGLE § 33.8b, uit El Mundo, Spanje, 10 mei 1995. Raadpleeg de bron vóór je conclusies over de volledige tekst trekt."
-        }
-      },
       "contrastSamples": {
         "spanish": "Este libro es interesante. / Estos libros son interesantes.",
         "dutch": "Dit boek is interessant. / Deze boeken zijn interessant.",
@@ -5764,7 +5990,14 @@
         "gtg",
         "ans",
         "syntax-2025",
-        "handboek-2022"
+        "handboek-2022",
+        "dato-gabo",
+        "dato-coca",
+        "dato-picante",
+        "dato-ojala",
+        "dato-valesco",
+        "dato-meme",
+        "dato-senorita"
       ],
       "related": [
         {
@@ -7630,6 +7863,853 @@
       },
       "enrichment": true,
       "verificationUrl": "https://research.hva.nl/en/publications/handboek-taalkunde/"
+    },
+    {
+      "id": "dato-quijote",
+      "title": "El ingenioso hidalgo Don Quijote de la Mancha",
+      "apa": "Cervantes Saavedra, M. de. (s. f.). El ingenioso hidalgo Don Quijote de la Mancha [Edición digital]. Biblioteca Virtual Miguel de Cervantes. (Obra original publicada en 1605). Recuperado el 9 de octubre de 2026, de https://cervantesvirtual.com/obra-visor/el-ingenioso-hidalgo-don-quijote-de-la-mancha-6/html/05f86699-4b53-4d9b-8ab8-b40ab63fb0b3_2.html",
+      "url": "https://cervantesvirtual.com/obra-visor/el-ingenioso-hidalgo-don-quijote-de-la-mancha-6/html/05f86699-4b53-4d9b-8ab8-b40ab63fb0b3_2.html",
+      "language": "es",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "BOOK",
+        "authors": "Cervantes Saavedra, M. de",
+        "year": "",
+        "journal": "",
+        "pages": ""
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://cervantesvirtual.com/obra-visor/el-ingenioso-hidalgo-don-quijote-de-la-mancha-6/html/05f86699-4b53-4d9b-8ab8-b40ab63fb0b3_2.html",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-gabo",
+      "title": "«Cien años de soledad», modelo de uso del idioma español",
+      "apa": "Padilla, N. F. (2017, 29 de junio). «Cien años de soledad», modelo de uso del idioma español. FundéuRAE. [Noticia de El Espectador reproducida por FundéuRAE]. https://www.fundeu.es/noticia/cien-anos-de-soledad-modelo-de-uso-del-idioma-espanol/",
+      "url": "https://www.fundeu.es/noticia/cien-anos-de-soledad-modelo-de-uso-del-idioma-espanol/",
+      "language": "es",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Padilla, N. F.",
+        "year": "2017",
+        "journal": "",
+        "pages": ""
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://www.fundeu.es/noticia/cien-anos-de-soledad-modelo-de-uso-del-idioma-espanol/",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-coca",
+      "title": "Comparte una Coca-Cola",
+      "apa": "Coca-Cola España. (s. f.). Comparte una Coca-Cola [Campaña publicitaria]. Recuperado el 9 de octubre de 2026, de https://www.coca-cola.com/es/es/offerings/share-a-coke",
+      "url": "https://www.coca-cola.com/es/es/offerings/share-a-coke",
+      "language": "es",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Coca-Cola España",
+        "year": "",
+        "journal": "",
+        "pages": ""
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://www.coca-cola.com/es/es/offerings/share-a-coke",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-apeldoorn",
+      "title": "Even Apeldoorn bellen: De reclames",
+      "apa": "Centraal Beheer. (s. f.). Even Apeldoorn bellen: De reclames [Archivo publicitario]. Recuperado el 9 de octubre de 2026, de https://www.centraalbeheer.nl/over-ons/commercials",
+      "url": "https://www.centraalbeheer.nl/over-ons/commercials",
+      "language": "nl",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Centraal Beheer",
+        "year": "",
+        "journal": "",
+        "pages": ""
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://www.centraalbeheer.nl/over-ons/commercials",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-ns",
+      "title": "NS en ProRail nemen afscheid van coronamaatregelen op het station",
+      "apa": "NS. (2021, 27 de septiembre). NS en ProRail nemen afscheid van coronamaatregelen op het station. https://nieuws.ns.nl/ns-en-prorail-nemen-afscheid-van-coronamaatregelen-op-het-station/",
+      "url": "https://nieuws.ns.nl/ns-en-prorail-nemen-afscheid-van-coronamaatregelen-op-het-station/",
+      "language": "nl",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "NS",
+        "year": "2021",
+        "journal": "",
+        "pages": ""
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://nieuws.ns.nl/ns-en-prorail-nemen-afscheid-van-coronamaatregelen-op-het-station/",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-dgt",
+      "title": "30 años de seguridad vial en infografías",
+      "apa": "Dirección General de Tráfico. (2015, noviembre). 30 años de seguridad vial en infografías. Tráfico y Seguridad Vial. https://revista.dgt.es/es/multimedia/infografia/2015/1104infografias-especial-30-anos.shtml",
+      "url": "https://revista.dgt.es/es/multimedia/infografia/2015/1104infografias-especial-30-anos.shtml",
+      "language": "es",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Dirección General de Tráfico",
+        "year": "2015",
+        "journal": "",
+        "pages": ""
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://revista.dgt.es/es/multimedia/infografia/2015/1104infografias-especial-30-anos.shtml",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-picante",
+      "title": "¿Por qué hay personas a las que les gusta el picante aunque sea un dolor?",
+      "apa": "RTVE. (2023, 14 de abril). ¿Por qué hay personas a las que les gusta el picante aunque sea un dolor? [Vídeo de Hablando claro]. https://www.rtve.es/play/videos/hablando-claro/gusta-picante-aunque-sea-dolor/6863031/",
+      "url": "https://www.rtve.es/play/videos/hablando-claro/gusta-picante-aunque-sea-dolor/6863031/",
+      "language": "es",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "RTVE",
+        "year": "2023",
+        "journal": "",
+        "pages": ""
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://www.rtve.es/play/videos/hablando-claro/gusta-picante-aunque-sea-dolor/6863031/",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-llorente",
+      "title": "Entrevista a Diego Llorente: La final de Copa se debe jugar, aunque sea a puerta cerrada",
+      "apa": "RTVE. (2020, 22 de abril). Entrevista a Diego Llorente: «La final de Copa se debe jugar, aunque sea a puerta cerrada» [Vídeo]. https://www.rtve.es/play/videos/futbol/diego-llorente-final-copa-se-debe-jugar-aunque-sea-puerta-cerrada/5562254/",
+      "url": "https://www.rtve.es/play/videos/futbol/diego-llorente-final-copa-se-debe-jugar-aunque-sea-puerta-cerrada/5562254/",
+      "language": "es",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "RTVE",
+        "year": "2020",
+        "journal": "",
+        "pages": ""
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://www.rtve.es/play/videos/futbol/diego-llorente-final-copa-se-debe-jugar-aunque-sea-puerta-cerrada/5562254/",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-nos",
+      "title": "Regen en onweer: Een wisselvallig einde van een recordwarme zomer",
+      "apa": "Kuipers Munneke, P. (2026, 27 de agosto). Regen en onweer: Een wisselvallig einde van een recordwarme zomer. NOS. https://nos.nl/artikel/2628536-regen-en-onweer-een-wisselvallig-einde-van-een-recordwarme-zomer",
+      "url": "https://nos.nl/artikel/2628536-regen-en-onweer-een-wisselvallig-einde-van-een-recordwarme-zomer",
+      "language": "nl",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Kuipers Munneke, P.",
+        "year": "2026",
+        "journal": "",
+        "pages": ""
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://nos.nl/artikel/2628536-regen-en-onweer-een-wisselvallig-einde-van-een-recordwarme-zomer",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-ojala",
+      "title": "Ojalá",
+      "apa": "Rodríguez, S. (1969). Ojalá [Letra de canción; fecha de composición indicada en la página]. Zurrón del aprendiz. https://www.zurrondelaprendiz.com/canciones/ojala",
+      "url": "https://www.zurrondelaprendiz.com/canciones/ojala",
+      "language": "es",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Rodríguez, S.",
+        "year": "1969",
+        "journal": "",
+        "pages": ""
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://www.zurrondelaprendiz.com/canciones/ojala",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-papel",
+      "title": "Berlín se convierte en el líder de la resistencia en el enfrentamiento final",
+      "apa": "Antena 3. (2017, 24 de noviembre). Berlín se convierte en el líder de la resistencia en el enfrentamiento final [Fragmento de La casa de papel y texto de presentación]. https://www.antena3.com/series/casa-de-papel/mejores-momentos/berlin-se-convierte-en-el-lider-de-la-resistencia-en-el-enfrentamiento-final_201711235a1755040cf232e79ce6ce9b.html",
+      "url": "https://www.antena3.com/series/casa-de-papel/mejores-momentos/berlin-se-convierte-en-el-lider-de-la-resistencia-en-el-enfrentamiento-final_201711235a1755040cf232e79ce6ce9b.html",
+      "language": "es",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Antena 3",
+        "year": "2017",
+        "journal": "",
+        "pages": ""
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://www.antena3.com/series/casa-de-papel/mejores-momentos/berlin-se-convierte-en-el-lider-de-la-resistencia-en-el-enfrentamiento-final_201711235a1755040cf232e79ce6ce9b.html",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-cine",
+      "title": "Los Goya rinden homenaje al montaje con un gag terrorífico de Ocho apellidos vascos",
+      "apa": "RTVE. (2024, 10 de febrero). Los Goya rinden homenaje al montaje con un gag terrorífico de «Ocho apellidos vascos» [Vídeo de 58 segundos]. https://www.rtve.es/play/videos/premios-goya/goya-rinden-homenaje-montaje-gag-terrorifico-ocho-apellidos-vascos/15965143/",
+      "url": "https://www.rtve.es/play/videos/premios-goya/goya-rinden-homenaje-montaje-gag-terrorifico-ocho-apellidos-vascos/15965143/",
+      "language": "es",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "RTVE",
+        "year": "2024",
+        "journal": "",
+        "pages": ""
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://www.rtve.es/play/videos/premios-goya/goya-rinden-homenaje-montaje-gag-terrorifico-ocho-apellidos-vascos/15965143/",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-valesco",
+      "title": "Entre la sintaxis y el discurso: El caso de a lo mejor y al menos en la conversación coloquial",
+      "apa": "Pardo Llibrer, A. (2018). Entre la sintaxis y el discurso: El caso de a lo mejor y al menos en la conversación coloquial. Borealis: An International Journal of Hispanic Linguistics, 7(2), 237–266. https://doi.org/10.7557/1.7.2.4318",
+      "url": "https://doi.org/10.7557/1.7.2.4318",
+      "language": "es",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "JOUR",
+        "authors": "Pardo Llibrer, A.",
+        "year": "2018",
+        "journal": "Borealis: An International Journal of Hispanic Linguistics",
+        "pages": "237–266",
+        "volume": "7",
+        "issue": "2"
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus. El DOI consta en la publicación, pero su resolución directa no pudo comprobarse en este entorno. El enlace de comprobación conduce al texto recuperado del editor.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd. De DOI staat in de publicatie, maar directe resolutie kon hier niet worden gecontroleerd. De controlelink leidt naar de geraadpleegde uitgeverstekst."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://septentrio.uit.no/index.php/borealis/article/download/4318/4125",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-esech",
+      "title": "Los operadores escalares en el español hablado de Santiago de Chile",
+      "apa": "San Martín Núñez, A., & Rojas Inostroza, C. (2020). Los operadores escalares en el español hablado de Santiago de Chile: Análisis pragmático y sociolingüístico de sobre todo, al menos y por lo menos. Estudios filológicos, (65), 213–232. https://doi.org/10.4067/S0071-17132020000100213",
+      "url": "https://doi.org/10.4067/S0071-17132020000100213",
+      "language": "es",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "JOUR",
+        "authors": "San Martín Núñez, A.\nRojas Inostroza, C.",
+        "year": "2020",
+        "journal": "Estudios filológicos",
+        "pages": "213–232",
+        "issue": "65"
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus. El DOI consta en la publicación, pero su resolución directa no pudo comprobarse en este entorno. El enlace de comprobación conduce al texto recuperado del editor.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd. De DOI staat in de publicatie, maar directe resolutie kon hier niet worden gecontroleerd. De controlelink leidt naar de geraadpleegde uitgeverstekst."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://www.scielo.cl/scielo.php?pid=S0071-17132020000100213&script=sci_arttext",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-breinrot",
+      "title": "Breinrot",
+      "apa": "Instituut voor de Nederlandse Taal. (s. f.). Breinrot. En Algemeen Nederlands Woordenboek. Recuperado el 9 de octubre de 2026, de https://anw.ivdnt.org/article/breinrot?lang=en",
+      "url": "https://anw.ivdnt.org/article/breinrot?lang=en",
+      "language": "nl",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Instituut voor de Nederlandse Taal",
+        "year": "",
+        "journal": "",
+        "pages": ""
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://anw.ivdnt.org/article/breinrot?lang=en",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-meme",
+      "title": "Ocio y participación social en entornos comunitarios",
+      "apa": "Madariaga Ortuzar, A., & Ponce de León Elizondo, A. (Eds.). (2018). Ocio y participación social en entornos comunitarios. Universidad de La Rioja. https://dialnet.unirioja.es/descarga/libro/727841.pdf",
+      "url": "https://dialnet.unirioja.es/descarga/libro/727841.pdf",
+      "language": "es",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "BOOK",
+        "authors": "Madariaga Ortuzar, A.\nPonce de León Elizondo, A.",
+        "year": "2018",
+        "journal": "",
+        "pages": ""
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://dialnet.unirioja.es/descarga/libro/727841.pdf",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-voseo",
+      "title": "Voseo",
+      "apa": "Real Academia Española & Asociación de Academias de la Lengua Española. (s. f.). Voseo. En Diccionario panhispánico de dudas (2.ª ed.). Recuperado el 9 de octubre de 2026, de https://www.rae.es/dpd/voseo",
+      "url": "https://www.rae.es/dpd/voseo",
+      "language": "es",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Real Academia Española\nAsociación de Academias de la Lengua Española",
+        "year": "",
+        "journal": "",
+        "pages": ""
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "La fecha de la fuente puede diferir de la fecha de la muestra; ambas se indican cuando constan.",
+        "nl": "De brondatum kan verschillen van de datum van het taalvoorbeeld; beide worden vermeld indien bekend."
+      },
+      "verificationUrl": "https://www.rae.es/dpd/voseo",
+      "sampleSource": true
+    },
+    {
+      "id": "dato-senorita",
+      "title": "«¿Qué me va usted a contar, señorita?», el origen de una frase que forma parte del lenguaje popular",
+      "apa": "Elices, R. (2024, 10 de abril). «¿Qué me va usted a contar, señorita?», el origen de una frase que forma parte del lenguaje popular. RTVE. https://www.rtve.es/play/noticias/20220304/querida-senorita-donde-ver-lopez-vazquez-peliculas-va-usted-a-contar/2300427.shtml",
+      "url": "https://www.rtve.es/play/noticias/20220304/querida-senorita-donde-ver-lopez-vazquez-peliculas-va-usted-a-contar/2300427.shtml",
+      "language": "es",
+      "note": {
+        "es": "Documento que permite localizar y contextualizar una muestra de lengua. Su uso como dato no convierte sus afirmaciones en teoría lingüística.",
+        "nl": "Document waarin een taalvoorbeeld kan worden teruggevonden en gecontextualiseerd. Gebruik als taaldata maakt de inhoud niet tot taalkundige theorie."
+      },
+      "access": {
+        "es": "Página o documento consultado de acceso abierto; la reproducción audiovisual puede tener restricciones territoriales.",
+        "nl": "Geraadpleegde pagina of document vrij toegankelijk; audiovisueel afspelen kan geografisch beperkt zijn."
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Elices, R.",
+        "year": "2024"
+      },
+      "readingFocus": {
+        "es": "Localiza el pasaje señalado en la muestra, lee su contexto y separa observación, interpretación y decisión docente.",
+        "nl": "Zoek de aangegeven passage, lees de context en onderscheid waarneming, interpretatie en een didactische beslissing."
+      },
+      "evidenceType": {
+        "es": "Fuente documental de muestras de lengua",
+        "nl": "Documentaire bron van taalvoorbeelden"
+      },
+      "scope": {
+        "es": "La muestra demuestra que una forma está documentada en este contexto. No demuestra su frecuencia ni su representatividad.",
+        "nl": "Het voorbeeld toont aan dat een vorm in deze context is gedocumenteerd. Het toont geen frequentie of representativiteit aan."
+      },
+      "verification": {
+        "es": "Página y pasaje escrito recuperados el 9 de octubre de 2026. No se ha verificado la reproducción audiovisual ni realizado una consulta exhaustiva al corpus.",
+        "nl": "Pagina en geschreven passage teruggevonden op 9 oktober 2026. Audiovisueel afspelen is niet gecontroleerd en er is geen uitputtende corpuszoekopdracht uitgevoerd."
+      },
+      "publicationNote": {
+        "es": "Se utiliza la fecha visible de actualización de 2024, no el año 2022 que conserva la URL.",
+        "nl": "De zichtbare bijgewerkte datum uit 2024 wordt gebruikt, niet het jaar 2022 in de URL."
+      },
+      "verificationUrl": "https://www.rtve.es/play/noticias/20220304/querida-senorita-donde-ver-lopez-vazquez-peliculas-va-usted-a-contar/2300427.shtml",
+      "sampleSource": true
     }
   ],
   "readingGuide": {
@@ -8543,8 +9623,8 @@
     ]
   },
   "adminGuide": {
-    "es": "Edita con los campos separados para español y neerlandés. Guarda un borrador local y exporta una copia. La vista previa muestra el resultado antes de publicarlo. Verifica ambas lenguas y las referencias. Para publicar utiliza una credencial de GitHub limitada a este repositorio con permiso Contents: read and write. Solo GitHub puede conceder ese permiso; la biblioteca no tiene una contraseña compartida. No pegues la credencial en un chat ni la guardes en el contenido. La interfaz la mantiene únicamente en memoria durante la sesión.\nAñade una fuente con referencia APA, URL real, acceso y fecha de comprobación. Una fuente nueva queda pendiente hasta que marques que la has verificado. Puedes ocultar un tema y volver a publicarlo. Cada publicación crea un commit y GitHub conserva el historial. Una versión puede restaurarse desde el historial del archivo de contenido en GitHub. Los cambios en main se publican mediante GitHub Pages.\nAlternativas consideradas: un CMS como WordPress ofrece edición y roles familiares, pero necesita servidor, actualizaciones y mantenimiento. Un editor ligero sobre GitHub Pages evita servidor y conserva historial, pero depende de permisos y credenciales de GitHub. Se mantiene la segunda opción para conservar el alojamiento existente; la autenticación editorial no utiliza una contraseña incrustada en JavaScript.\nEn Sugerencias de búsqueda puedes editar las etiquetas españolas y neerlandesas y las palabras que conectan consultas con dominios. Son selecciones editoriales, no estadísticas de popularidad. En Fuentes puedes editar la orientación de lectura y los metadatos RIS. Comprueba esos datos antes de publicar. Las muestras comparativas se editan en la página de cada tema. Mi estudio conserva favoritos y fichas en el navegador; su copia se exporta e importa desde esa sección.\nLas preguntas estratégicas finales se editan por tema en Profesorado. Revise ambas versiones y previsualice antes de publicar.\nEl taller de razonamiento utiliza campos separados para foco, caso nuevo, criterios orientativos y contraste con modelos. Se editan por tema en español y neerlandés. Las fuentes recientes tienen campos editables de tipo de evidencia, alcance y verificación. No presente los criterios orientativos como una rúbrica oficial.\nLa ruta opcional de síntesis crítica está dentro del taller de cada tema. Sus instrucciones, títulos y etiquetas se editan en Interfaz, en los campos synthesis y syn, con versiones española y neerlandesa separadas. Las fichas y respuestas del estudiante se guardan localmente y no se editan desde Profesorado. No se generan revisiones automáticas. La publicación utiliza content/library-v2.json.\nEl laboratorio de corpus incorpora campos de procedencia, versión, selección, contraejemplos y límites. Sus etiquetas y orientaciones se editan en Interfaz. La auditoría distingue identidad documental, disponibilidad del enlace y revisión del texto: no son equivalentes.",
-    "nl": "Bewerk Spaanse en Nederlandse velden afzonderlijk. Bewaar een lokaal concept en exporteer een kopie. De preview toont het resultaat vóór publicatie. Controleer beide talen en bronnen. Publiceren vereist een GitHub-credential beperkt tot deze repository met Contents: read and write. Alleen GitHub kan dat recht toekennen; de bibliotheek gebruikt geen gedeeld wachtwoord. Deel de credential niet in een chat en sla haar niet in inhoud op. De interface bewaart haar alleen in het geheugen gedurende de sessie.\nVoeg bronnen toe met APA-verwijzing, echte URL, toegang en controledatum. Een nieuwe bron blijft in afwachting totdat je verificatie bevestigt. Je kunt onderwerpen verbergen en opnieuw publiceren. Iedere publicatie maakt een commit; GitHub bewaart de geschiedenis. Een versie kan vanuit de geschiedenis van het inhoudsbestand worden teruggezet. Wijzigingen op main worden via GitHub Pages gepubliceerd.\nAfgewogen alternatieven: een CMS zoals WordPress biedt vertrouwde redactie en rollen, maar vereist hosting, updates en onderhoud. Een lichte editor bij GitHub Pages vermijdt een server en bewaart geschiedenis, maar vereist GitHub-rechten en credentials. De tweede optie behoudt de bestaande hosting; redactiebeveiliging berust niet op een wachtwoord in JavaScript.\nBij Zoeksuggesties bewerk je Spaanse en Nederlandse labels en de zoekwoorden die naar domeinen verwijzen. Het is een redactionele selectie, geen populariteitsstatistiek. Bij Bronnen bewerk je leesadvies en RIS-metadata. Controleer die vóór publicatie. Contrastieve voorbeelden bewerk je bij het thema. Mijn studie bewaart favorieten en leesfiches in de browser; je exporteert en importeert de kopie vanuit die sectie.\nDe afsluitende strategische vragen zijn per thema te bewerken onder Docenten. Controleer beide taalversies en bekijk de voorvertoning vóór publicatie.\nDe redeneerwerkplaats heeft aparte velden voor focus, nieuwe casus, aandachtspunten en vergelijking met modellen. Bewerk ze per thema in beide talen. Recente bronnen hebben bewerkbare velden voor bewijstype, reikwijdte en verificatie. Presenteer aandachtspunten niet als officiële rubric.\nDe optionele route voor kritische literatuursynthese staat in het redeneeratelier van elk thema. Bewerk instructies, titels en labels via Interface, in de velden synthesis en syn, met afzonderlijke Spaanse en Nederlandse versies. Bronnotities en antwoorden van studenten worden lokaal opgeslagen en niet via de docenteditor bewerkt. Er worden geen automatische literatuurstudies gegenereerd. Publicatie gebruikt content/library-v2.json.\nHet corpuslaboratorium bevat velden voor herkomst, versie, selectie, tegenvoorbeelden en beperkingen. Bewerk labels en instructies via Interface. De audit onderscheidt documentidentiteit, bereikbaarheid van de link en inhoudelijke beoordeling: dit zijn afzonderlijke controles."
+    "es": "Edita con los campos separados para español y neerlandés. Guarda un borrador local y exporta una copia. La vista previa muestra el resultado antes de publicarlo. Verifica ambas lenguas y las referencias. Para publicar utiliza una credencial de GitHub limitada a este repositorio con permiso Contents: read and write. Solo GitHub puede conceder ese permiso; la biblioteca no tiene una contraseña compartida. No pegues la credencial en un chat ni la guardes en el contenido. La interfaz la mantiene únicamente en memoria durante la sesión.\nAñade una fuente con referencia APA, URL real, acceso y fecha de comprobación. Una fuente nueva queda pendiente hasta que marques que la has verificado. Puedes ocultar un tema y volver a publicarlo. Cada publicación crea un commit y GitHub conserva el historial. Una versión puede restaurarse desde el historial del archivo de contenido en GitHub. Los cambios en main se publican mediante GitHub Pages.\nAlternativas consideradas: un CMS como WordPress ofrece edición y roles familiares, pero necesita servidor, actualizaciones y mantenimiento. Un editor ligero sobre GitHub Pages evita servidor y conserva historial, pero depende de permisos y credenciales de GitHub. Se mantiene la segunda opción para conservar el alojamiento existente; la autenticación editorial no utiliza una contraseña incrustada en JavaScript.\nEn Sugerencias de búsqueda puedes editar las etiquetas españolas y neerlandesas y las palabras que conectan consultas con dominios. Son selecciones editoriales, no estadísticas de popularidad. En Fuentes puedes editar la orientación de lectura y los metadatos RIS. Comprueba esos datos antes de publicar. Las muestras comparativas se editan en la página de cada tema. Mi estudio conserva favoritos y fichas en el navegador; su copia se exporta e importa desde esa sección.\nLas preguntas estratégicas finales se editan por tema en Profesorado. Revise ambas versiones y previsualice antes de publicar.\nEl taller de razonamiento utiliza campos separados para foco, caso nuevo, criterios orientativos y contraste con modelos. Se editan por tema en español y neerlandés. Las fuentes recientes tienen campos editables de tipo de evidencia, alcance y verificación. No presente los criterios orientativos como una rúbrica oficial.\nLa ruta opcional de síntesis crítica está dentro del taller de cada tema. Sus instrucciones, títulos y etiquetas se editan en Interfaz, en los campos synthesis y syn, con versiones española y neerlandesa separadas. Las fichas y respuestas del estudiante se guardan localmente y no se editan desde Profesorado. No se generan revisiones automáticas. La publicación utiliza content/library-v2.json.\nEl laboratorio de corpus incorpora campos de procedencia, versión, selección, contraejemplos y límites. Sus etiquetas y orientaciones se editan en Interfaz. La auditoría distingue identidad documental, disponibilidad del enlace y revisión del texto: no son equivalentes.\nMuestras reales: abre esa pestaña, crea o selecciona una muestra y edita el fragmento original, la lengua, el género, la fuente, las fechas y los campos españoles y neerlandeses por separado. Indica el localizador y si consultaste el original, una cita mediada o solo el paratexto. Añade relaciones con los temas y justifica cada relación en ambos idiomas. Guarda oculta una ficha incompleta. Previsualiza antes de cambiar el estado a publicada. Al eliminar una fuente, sus muestras quedan ocultas hasta asignar una fuente comprobada. No uses traducciones propias como citas auténticas. Las letras de canciones se conservan como citas breves y no se copian imágenes de memes sin permiso.",
+    "nl": "Bewerk Spaanse en Nederlandse velden afzonderlijk. Bewaar een lokaal concept en exporteer een kopie. De preview toont het resultaat vóór publicatie. Controleer beide talen en bronnen. Publiceren vereist een GitHub-credential beperkt tot deze repository met Contents: read and write. Alleen GitHub kan dat recht toekennen; de bibliotheek gebruikt geen gedeeld wachtwoord. Deel de credential niet in een chat en sla haar niet in inhoud op. De interface bewaart haar alleen in het geheugen gedurende de sessie.\nVoeg bronnen toe met APA-verwijzing, echte URL, toegang en controledatum. Een nieuwe bron blijft in afwachting totdat je verificatie bevestigt. Je kunt onderwerpen verbergen en opnieuw publiceren. Iedere publicatie maakt een commit; GitHub bewaart de geschiedenis. Een versie kan vanuit de geschiedenis van het inhoudsbestand worden teruggezet. Wijzigingen op main worden via GitHub Pages gepubliceerd.\nAfgewogen alternatieven: een CMS zoals WordPress biedt vertrouwde redactie en rollen, maar vereist hosting, updates en onderhoud. Een lichte editor bij GitHub Pages vermijdt een server en bewaart geschiedenis, maar vereist GitHub-rechten en credentials. De tweede optie behoudt de bestaande hosting; redactiebeveiliging berust niet op een wachtwoord in JavaScript.\nBij Zoeksuggesties bewerk je Spaanse en Nederlandse labels en de zoekwoorden die naar domeinen verwijzen. Het is een redactionele selectie, geen populariteitsstatistiek. Bij Bronnen bewerk je leesadvies en RIS-metadata. Controleer die vóór publicatie. Contrastieve voorbeelden bewerk je bij het thema. Mijn studie bewaart favorieten en leesfiches in de browser; je exporteert en importeert de kopie vanuit die sectie.\nDe afsluitende strategische vragen zijn per thema te bewerken onder Docenten. Controleer beide taalversies en bekijk de voorvertoning vóór publicatie.\nDe redeneerwerkplaats heeft aparte velden voor focus, nieuwe casus, aandachtspunten en vergelijking met modellen. Bewerk ze per thema in beide talen. Recente bronnen hebben bewerkbare velden voor bewijstype, reikwijdte en verificatie. Presenteer aandachtspunten niet als officiële rubric.\nDe optionele route voor kritische literatuursynthese staat in het redeneeratelier van elk thema. Bewerk instructies, titels en labels via Interface, in de velden synthesis en syn, met afzonderlijke Spaanse en Nederlandse versies. Bronnotities en antwoorden van studenten worden lokaal opgeslagen en niet via de docenteditor bewerkt. Er worden geen automatische literatuurstudies gegenereerd. Publicatie gebruikt content/library-v2.json.\nHet corpuslaboratorium bevat velden voor herkomst, versie, selectie, tegenvoorbeelden en beperkingen. Bewerk labels en instructies via Interface. De audit onderscheidt documentidentiteit, bereikbaarheid van de link en inhoudelijke beoordeling: dit zijn afzonderlijke controles.\nAuthentieke taalvoorbeelden: open dat tabblad en maak of selecteer een voorbeeld. Bewerk origineel fragment, taal, genre, bron, datums en de afzonderlijke Spaanse en Nederlandse velden. Vermeld de vindplaats en of je het origineel, een overgenomen citaat of alleen paratekst raadpleegde. Voeg onderwerprelaties toe en verantwoord iedere relatie in beide talen. Bewaar een onvolledige fiche verborgen. Bekijk de voorvertoning voordat je publiceert. Bij bronverwijdering blijven de voorbeelden verborgen totdat een gecontroleerde bron is toegewezen. Gebruik eigen vertalingen niet als authentieke citaten. Houd liedcitaten kort en kopieer memeafbeeldingen niet zonder toestemming."
   },
   "glossary": [
     {
@@ -8816,6 +9896,1687 @@
         "es": "cuándo usar el subjuntivo\nsubjuntivo",
         "nl": "wanneer gebruik je de subjuntivo\nsubjuntivo"
       }
+    }
+  ],
+  "samples": [
+    {
+      "id": "grupo-singular",
+      "title": {
+        "es": "Concordancia con un grupo: singular",
+        "nl": "Congruentie bij un grupo: enkelvoud"
+      },
+      "text": "Un grupo de jóvenes se encaramó ayer a la verja de acceso.",
+      "language": "es",
+      "genre": "prensa",
+      "source": "concordancia",
+      "sourceDate": "1995-05-10",
+      "locator": {
+        "es": "NGLE, §33.8; cita de El Mundo, España, 10 de mayo de 1995.",
+        "nl": "NGLE, §33.8; citaat uit El Mundo, Spanje, 10 mei 1995."
+      },
+      "context": {
+        "es": "La gramática reproduce una oración de prensa. El original periodístico no se consultó.",
+        "nl": "De grammatica citeert een zin uit de pers. Het oorspronkelijke krantenartikel is niet geraadpleegd."
+      },
+      "analysis": {
+        "es": "El verbo singular concuerda con el núcleo grupo. Se encaramó pertenece a un verbo pronominal; no es una pasiva refleja. El complemento plural no impone por sí solo el plural verbal.",
+        "nl": "Het enkelvoudige werkwoord sluit aan bij de kern grupo. Se encaramó is een pronominaal werkwoord, geen passieve se-constructie. Het meervoudige complement bepaalt niet automatisch de werkwoordscongruentie."
+      },
+      "questions": {
+        "es": "Compara con grupo-plural. ¿Qué análisis permite ambos usos? ¿Qué datos necesitarías antes de recomendar una única forma?",
+        "nl": "Vergelijk met grupo-plural. Welke analyse kan beide vormen verklaren? Welke gegevens heb je nodig voordat je slechts één vorm aanbeveelt?"
+      },
+      "teacher": {
+        "es": "Pide justificar la concordancia y la función de se por separado. Valora la explicación, no solo la elección de singular.",
+        "nl": "Laat congruentie en de functie van se afzonderlijk verantwoorden. Beoordeel de uitleg, niet alleen de keuze voor enkelvoud."
+      },
+      "limits": {
+        "es": "Dos citas de prensa no constituyen un estudio de frecuencias.",
+        "nl": "Twee perscitaten vormen geen frequentieonderzoek."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "mediated",
+      "connections": [
+        {
+          "topic": "congruencia",
+          "reason": {
+            "es": "Concordancia formal con el nombre de grupo.",
+            "nl": "Formele congruentie met het groepsnaamwoord."
+          }
+        },
+        {
+          "topic": "se",
+          "reason": {
+            "es": "Distingue se pronominal y pasivo.",
+            "nl": "Onderscheid pronominaal en passief se."
+          }
+        },
+        {
+          "topic": "norma",
+          "reason": {
+            "es": "Contrasta regla, uso y variación documentada.",
+            "nl": "Vergelijk regel, gebruik en gedocumenteerde variatie."
+          }
+        },
+        {
+          "topic": "evaluacion",
+          "reason": {
+            "es": "Permite evaluar la justificación de una interpretación.",
+            "nl": "Maakt beoordeling van een beargumenteerde interpretatie mogelijk."
+          }
+        }
+      ],
+      "comparison": "grupo-plural",
+      "dateNote": {
+        "es": "",
+        "nl": ""
+      }
+    },
+    {
+      "id": "grupo-plural",
+      "title": {
+        "es": "Concordancia con un grupo: plural",
+        "nl": "Congruentie bij un grupo: meervoud"
+      },
+      "text": "Un grupo de jóvenes lanzaron las botellas inflamables por una ventana",
+      "language": "es",
+      "genre": "prensa",
+      "source": "concordancia",
+      "sourceDate": "1977-09-20",
+      "locator": {
+        "es": "NGLE, §33.8; cita de El País, España, 20 de septiembre de 1977.",
+        "nl": "NGLE, §33.8; citaat uit El País, Spanje, 20 september 1977."
+      },
+      "context": {
+        "es": "Cita periodística transmitida por la NGLE. No se consultó el artículo original.",
+        "nl": "Perscitaat overgenomen via de NGLE. Het oorspronkelijke artikel is niet geraadpleegd."
+      },
+      "analysis": {
+        "es": "El plural verbal toma como referencia los integrantes del grupo. La construcción obliga a distinguir el núcleo sintáctico y la pluralidad referencial. No basta etiquetarla como error sin consultar la descripción y el contexto.",
+        "nl": "De meervoudsvorm richt zich op de groepsleden. Onderscheid de syntactische kern van de referentiële meervoudigheid. Een foutlabel zonder beschrijving en context is onvoldoende."
+      },
+      "questions": {
+        "es": "¿La aceptación de esta construcción autoriza cualquier discordancia? Delimita tu hipótesis con otros nombres de grupo y contraejemplos.",
+        "nl": "Maakt acceptatie van deze constructie iedere incongruentie geoorloofd? Begrens je hypothese met andere groepsnaamwoorden en tegenvoorbeelden."
+      },
+      "teacher": {
+        "es": "Diseña feedback que explique la alternativa documentada y pregunte por intención y contexto.",
+        "nl": "Ontwerp feedback die de gedocumenteerde variant uitlegt en vraagt naar bedoeling en context."
+      },
+      "limits": {
+        "es": "La cita no acredita las intenciones de su autor ni la frecuencia de esta variante.",
+        "nl": "Het citaat bewijst niet de auteursintentie of de frequentie van deze variant."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "mediated",
+      "connections": [
+        {
+          "topic": "congruencia",
+          "reason": {
+            "es": "Concordancia vinculada a la pluralidad del referente.",
+            "nl": "Congruentie gekoppeld aan referentiële meervoudigheid."
+          }
+        },
+        {
+          "topic": "referencia",
+          "reason": {
+            "es": "El grupo puede conceptualizarse mediante sus integrantes.",
+            "nl": "De groep kan vanuit haar leden worden opgevat."
+          }
+        },
+        {
+          "topic": "feedback",
+          "reason": {
+            "es": "Evita corregir variación legítima como si fuera un fallo.",
+            "nl": "Voorkom dat legitieme variatie als fout wordt verbeterd."
+          }
+        },
+        {
+          "topic": "juicio",
+          "reason": {
+            "es": "Exige fundamentar la decisión de corregir o explicar.",
+            "nl": "Vraagt een onderbouwde keuze tussen verbeteren en uitleggen."
+          }
+        }
+      ],
+      "comparison": "grupo-singular",
+      "dateNote": {
+        "es": "",
+        "nl": ""
+      }
+    },
+    {
+      "id": "quijote-inicio",
+      "title": {
+        "es": "Un referente nuevo y un pasado narrativo",
+        "nl": "Een nieuwe referent en een verhalend verleden"
+      },
+      "text": "En un lugar de la Mancha, de cuyo nombre no quiero acordarme, no ha mucho tiempo que vivía un hidalgo",
+      "language": "es",
+      "genre": "literatura",
+      "source": "dato-quijote",
+      "sourceDate": "1605",
+      "locator": {
+        "es": "Primera parte, capítulo I, primera oración.",
+        "nl": "Eerste deel, hoofdstuk I, eerste zin."
+      },
+      "context": {
+        "es": "Inicio del Quijote en la edición digital de la Biblioteca Virtual Miguel de Cervantes.",
+        "nl": "Begin van de Quijote in de digitale editie van de Biblioteca Virtual Miguel de Cervantes."
+      },
+      "analysis": {
+        "es": "Un lugar introduce un referente no identificado para el lector; la Mancha activa una referencia geográfica definida. Vivía presenta un marco narrativo, mientras quiero sitúa la voz narradora. No ha mucho tiempo es una construcción histórica que no se debe convertir en modelo de frecuencia actual.",
+        "nl": "Un lugar introduceert een nog niet geïdentificeerde referent; la Mancha verwijst naar een bepaald gebied. Vivía vormt een verhalend kader, terwijl quiero de verteller positioneert. No ha mucho tiempo is historisch taalgebruik, geen model voor hedendaagse frequentie."
+      },
+      "questions": {
+        "es": "¿El artículo indefinido implica que el narrador desconoce el lugar? ¿Cómo cambia el punto de vista al sustituir el imperfecto? Etiqueta tus variantes como construidas.",
+        "nl": "Betekent het onbepaalde lidwoord dat de verteller de plaats niet kent? Wat verandert bij vervanging van de imperfecto? Label eigen varianten als geconstrueerd."
+      },
+      "teacher": {
+        "es": "Separa identificación del referente, perspectiva narrativa y adecuación histórica al seleccionar una lectura.",
+        "nl": "Scheid referentidentificatie, vertelperspectief en historische bruikbaarheid bij tekstselectie."
+      },
+      "limits": {
+        "es": "Texto literario de 1605: no representa por sí solo el español conversacional actual.",
+        "nl": "Literaire tekst uit 1605: op zichzelf niet representatief voor hedendaagse spreektaal."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "direct",
+      "connections": [
+        {
+          "topic": "determinacion",
+          "reason": {
+            "es": "Contrasta referencia definida e introducción de referentes.",
+            "nl": "Vergelijkt bepaalde verwijzing en referentintroductie."
+          }
+        },
+        {
+          "topic": "tiempo",
+          "reason": {
+            "es": "Relaciona tiempo verbal y voz narrativa.",
+            "nl": "Verbindt werkwoordstijd en vertelstem."
+          }
+        },
+        {
+          "topic": "referencia",
+          "reason": {
+            "es": "Distingue accesibilidad para narrador y lector.",
+            "nl": "Onderscheidt toegankelijkheid voor verteller en lezer."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "",
+        "nl": ""
+      }
+    },
+    {
+      "id": "gabo-perspectiva",
+      "title": {
+        "es": "Pasado, anticipación y memoria",
+        "nl": "Verleden, vooruitblik en herinnering"
+      },
+      "text": "había de recordar aquella tarde remota en que su padre lo llevó a conocer el hielo",
+      "language": "es",
+      "genre": "literatura",
+      "source": "dato-gabo",
+      "sourceDate": "1967",
+      "locator": {
+        "es": "Noticia de Padilla; cita del comienzo de Cien años de soledad.",
+        "nl": "Bericht van Padilla; citaat uit het begin van Cien años de soledad."
+      },
+      "context": {
+        "es": "Fragmento de García Márquez citado por una noticia de El Espectador reproducida en FundéuRAE.",
+        "nl": "Fragment van García Márquez geciteerd in een bericht van El Espectador op FundéuRAE."
+      },
+      "analysis": {
+        "es": "Había de recordar combina haber en imperfecto, de e infinitivo y proyecta el recuerdo desde un punto pasado. No es un pluscuamperfecto formado con participio. Aquella distancia la escena; lo retoma al participante masculino mencionado antes en el texto completo.",
+        "nl": "Había de recordar combineert haber in de imperfecto, de en een infinitief en projecteert een herinnering vanuit het verleden. Het is geen pluscuamperfecto met een participium. Aquella schept afstand; lo verwijst naar de eerder genoemde mannelijke deelnemer."
+      },
+      "questions": {
+        "es": "¿Por qué no basta contar tiempos verbales? Contrasta la denominación de la noticia con una gramática especializada. ¿Qué antecedente necesitas para explicar lo?",
+        "nl": "Waarom volstaat het tellen van werkwoordstijden niet? Vergelijk de benaming in het bericht met een specialistische grammatica. Welke antecedent heb je nodig voor lo?"
+      },
+      "teacher": {
+        "es": "Utiliza una línea temporal construida por el estudiante y pide justificar cada punto de vista con formas del pasaje.",
+        "nl": "Laat de student een tijdlijn maken en ieder perspectief met taalvormen uit de passage onderbouwen."
+      },
+      "limits": {
+        "es": "La novela no se consultó íntegramente. La explicación didáctica es una elaboración; la valoración gramatical de la noticia debe contrastarse.",
+        "nl": "De roman is niet volledig geraadpleegd. De didactische uitleg is een eigen uitwerking; grammaticale oordelen uit het bericht moeten worden getoetst."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "mediated",
+      "connections": [
+        {
+          "topic": "tiempo",
+          "reason": {
+            "es": "Proyección temporal desde un punto pasado.",
+            "nl": "Temporele projectie vanuit het verleden."
+          }
+        },
+        {
+          "topic": "cliticos",
+          "reason": {
+            "es": "Recuperación del antecedente de lo.",
+            "nl": "Terugvinden van de antecedent van lo."
+          }
+        },
+        {
+          "topic": "razonamiento",
+          "reason": {
+            "es": "Somete una etiqueta difundida en prensa a comprobación.",
+            "nl": "Toetst een grammaticaal label uit de pers."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "Novela publicada en 1967; cita en noticia del 29 de junio de 2017.",
+        "nl": "Roman gepubliceerd in 1967; citaat in bericht van 29 juni 2017."
+      }
+    },
+    {
+      "id": "coca-se",
+      "title": {
+        "es": "La pasiva en una invitación publicitaria",
+        "nl": "Passief gebruik in een reclameboodschap"
+      },
+      "text": "Las mejores cosas de la vida se comparten.",
+      "language": "es",
+      "genre": "publicidad",
+      "source": "dato-coca",
+      "sourceDate": "",
+      "locator": {
+        "es": "Página Comparte una Coca-Cola, primer párrafo.",
+        "nl": "Pagina Comparte una Coca-Cola, eerste alinea."
+      },
+      "context": {
+        "es": "Texto de la campaña en la web española de la marca.",
+        "nl": "Campagnetekst op de Spaanse website van het merk."
+      },
+      "analysis": {
+        "es": "El plural comparten corresponde a cosas y permite analizar se como pasiva refleja. El superlativo mejores presenta una valoración como compartida; la frase convierte una práctica de consumo en una invitación social.",
+        "nl": "Het meervoud comparten sluit aan bij cosas en ondersteunt een analyse als passieve se-constructie. Mejores presenteert een waardering als gedeeld; consumptie wordt als sociale uitnodiging voorgesteld."
+      },
+      "questions": {
+        "es": "¿Quién comparte y quién se beneficia de esa lectura? ¿Cómo probarías la diferencia entre se pasivo e impersonal sin inventar datos de frecuencia?",
+        "nl": "Wie deelt en wie profiteert van die interpretatie? Hoe toets je het verschil tussen passief en onpersoonlijk se zonder frequenties te verzinnen?"
+      },
+      "teacher": {
+        "es": "Haz explícita la relación entre concordancia, agente omitido y finalidad persuasiva.",
+        "nl": "Maak congruentie, weggelaten handelende persoon en overtuigingsdoel expliciet."
+      },
+      "limits": {
+        "es": "La página escrita se comprobó; no se infiere recepción del anuncio ni comportamiento del público.",
+        "nl": "De geschreven pagina is gecontroleerd; publiekseffecten en gedrag zijn niet vastgesteld."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "direct",
+      "connections": [
+        {
+          "topic": "se",
+          "reason": {
+            "es": "Pasiva refleja con sujeto plural.",
+            "nl": "Passieve se-constructie met meervoudig onderwerp."
+          }
+        },
+        {
+          "topic": "pragmatica",
+          "reason": {
+            "es": "Persuasión y valoración presentada como compartida.",
+            "nl": "Overtuiging en als gedeeld gepresenteerde waardering."
+          }
+        },
+        {
+          "topic": "congruencia",
+          "reason": {
+            "es": "La flexión plural orienta el análisis de se.",
+            "nl": "Meervoudscongruentie stuurt de analyse van se."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "La página no indica fecha de publicación.",
+        "nl": "De pagina vermeldt geen publicatiedatum."
+      }
+    },
+    {
+      "id": "coca-vosotros",
+      "title": {
+        "es": "Destinatarios plurales en publicidad española",
+        "nl": "Meervoudige aanspreking in Spaanse reclame"
+      },
+      "text": "brindad juntos por los momentos que os unen.",
+      "language": "es",
+      "genre": "publicidad",
+      "source": "dato-coca",
+      "sourceDate": "",
+      "locator": {
+        "es": "Misma página, fragmento del primer párrafo.",
+        "nl": "Dezelfde pagina, fragment uit de eerste alinea."
+      },
+      "context": {
+        "es": "Fragmento literal de una invitación de la marca; comienza dentro de una oración.",
+        "nl": "Letterlijk fragment uit een uitnodiging van het merk; begint midden in een zin."
+      },
+      "analysis": {
+        "es": "Brindad es imperativo de vosotros; juntos y os construyen destinatarios plurales. Os es complemento del verbo unen en la relativa. Esta selección de tratamiento no representa todos los mercados hispanohablantes.",
+        "nl": "Brindad is de imperatief bij vosotros; juntos en os construeren een meervoudige doelgroep. Os is complement bij unen in de betrekkelijke bijzin. Deze aanspreekvorm vertegenwoordigt niet alle Spaanstalige markten."
+      },
+      "questions": {
+        "es": "¿Cómo reformularías la invitación para otro público? Justifica tratamiento y registro; identifica la adaptación como propuesta propia.",
+        "nl": "Hoe formuleer je de uitnodiging voor een ander publiek? Verantwoord aanspreekvorm en register en label de aanpassing als eigen voorstel."
+      },
+      "teacher": {
+        "es": "Compara adecuación geográfica de tratamientos sin establecer una única variedad como modelo universal.",
+        "nl": "Vergelijk geografische bruikbaarheid van aanspreekvormen zonder één variëteit als universeel model te kiezen."
+      },
+      "limits": {
+        "es": "No se comprobó una versión latinoamericana de esta campaña.",
+        "nl": "Een Latijns-Amerikaanse versie van deze campagne is niet gecontroleerd."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "direct",
+      "connections": [
+        {
+          "topic": "pluricentrico",
+          "reason": {
+            "es": "Tratamiento vosotros en una campaña destinada a España.",
+            "nl": "Vosotros in een campagne voor Spanje."
+          }
+        },
+        {
+          "topic": "cliticos",
+          "reason": {
+            "es": "Función y referencia de os en una relativa.",
+            "nl": "Functie en verwijzing van os in een betrekkelijke bijzin."
+          }
+        },
+        {
+          "topic": "modo",
+          "reason": {
+            "es": "Imperativo afirmativo dirigido a un grupo.",
+            "nl": "Bevestigende imperatief gericht op een groep."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "La página no indica fecha de publicación.",
+        "nl": "De pagina vermeldt geen publicatiedatum."
+      }
+    },
+    {
+      "id": "apeldoorn",
+      "title": {
+        "es": "Una llamada sugerida con infinitivo",
+        "nl": "Een voorgestelde oproep met een infinitief"
+      },
+      "text": "Even Apeldoorn bellen",
+      "language": "nl",
+      "genre": "publicidad",
+      "source": "dato-apeldoorn",
+      "sourceDate": "",
+      "locator": {
+        "es": "Lema en el archivo oficial de anuncios de Centraal Beheer.",
+        "nl": "Slogan in het officiële reclamearchief van Centraal Beheer."
+      },
+      "context": {
+        "es": "Lema escrito del archivo publicitario de una aseguradora neerlandesa.",
+        "nl": "Geschreven slogan in het reclamearchief van een Nederlandse verzekeraar."
+      },
+      "analysis": {
+        "es": "Bellen es infinitivo sin sujeto expreso. Even puede presentar la acción como breve o poco costosa y suavizar la propuesta. El nombre de lugar remite aquí al contacto con la aseguradora mediante conocimiento de marca.",
+        "nl": "Bellen is een infinitief zonder expliciet onderwerp. Even kan de handeling als kort of weinig belastend voorstellen en de suggestie verzachten. De plaatsnaam verwijst hier via merkkennis naar contact met de verzekeraar."
+      },
+      "questions": {
+        "es": "¿Una traducción literal conservaría la función de even y la asociación del lugar? Contrasta con coca-vosotros: ¿qué acción y qué destinatario construye cada lema?",
+        "nl": "Behoudt een letterlijke vertaling de functie van even en de plaatsassociatie? Vergelijk met coca-vosotros: welke handeling en doelgroep construeert elke tekst?"
+      },
+      "teacher": {
+        "es": "Pide dos adaptaciones al español y una justificación pragmática de sus diferencias; no presentes las adaptaciones como anuncios existentes.",
+        "nl": "Vraag twee Spaanse adaptaties met een pragmatische verantwoording; presenteer die niet als bestaande advertenties."
+      },
+      "limits": {
+        "es": "Se comprobó el lema escrito, no el audio de los anuncios. Su recepción exige datos de audiencia.",
+        "nl": "De geschreven slogan is gecontroleerd, niet de reclameaudio. Publieksinterpretaties vereisen publieksdata."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "direct",
+      "connections": [
+        {
+          "topic": "pragmatica",
+          "reason": {
+            "es": "Fuerza de una propuesta sin imperativo flexionado.",
+            "nl": "Strekking van een voorstel zonder vervoegde imperatief."
+          }
+        },
+        {
+          "topic": "pedagogica",
+          "reason": {
+            "es": "Adaptación funcional y justificación de una traducción.",
+            "nl": "Functionele adaptatie en verantwoording van een vertaling."
+          }
+        }
+      ],
+      "comparison": "coca-vosotros",
+      "dateNote": {
+        "es": "La página no indica fecha de publicación.",
+        "nl": "De pagina vermeldt geen publicatiedatum."
+      }
+    },
+    {
+      "id": "ns-directivas",
+      "title": {
+        "es": "Instrucciones de estación y contexto histórico",
+        "nl": "Stationsinstructies en historische context"
+      },
+      "text": "houd afstand · houd rechts · mondkapje",
+      "language": "nl",
+      "genre": "senaletica",
+      "source": "dato-ns",
+      "sourceDate": "2021-09-27",
+      "locator": {
+        "es": "Noticia oficial de NS; textos de adhesivos mencionados en el primer bloque. El punto medio separa tres rótulos distintos.",
+        "nl": "Officieel NS-bericht; stickerteksten in het eerste tekstblok. De middenpunt scheidt drie afzonderlijke teksten."
+      },
+      "context": {
+        "es": "NS describe señalética vinculada a la pandemia que se retiraba en 2021.",
+        "nl": "NS beschrijft coronasignalering die in 2021 werd verwijderd."
+      },
+      "analysis": {
+        "es": "Houd introduce dos instrucciones mediante imperativo. Mondkapje es un nombre compuesto con diminutivo, pero en un rótulo puede orientar una conducta sin verbo. El espacio físico y la institución contribuyen a la fuerza directiva.",
+        "nl": "Houd introduceert twee imperatieve instructies. Mondkapje is een samenstelling met een verkleiningsvorm, maar kan op een bord gedrag sturen zonder werkwoord. Ruimte en institutionele afzender dragen bij aan de directieve kracht."
+      },
+      "questions": {
+        "es": "¿Qué acción permite inferir el rótulo nominal? ¿Sería adecuado reproducirlo hoy sin su fecha? Contrasta con dgt-directiva la presencia de verbo y destinatario.",
+        "nl": "Welke handeling suggereert het nominale opschrift? Kun je het tegenwoordig zonder datum gebruiken? Vergelijk met dgt-directiva hoe werkwoord en aangesprokene worden vormgegeven."
+      },
+      "teacher": {
+        "es": "Analiza el acto de habla antes de traducir. Pide fotos propias actuales con fecha y ubicación, evitando personas identificables.",
+        "nl": "Analyseer eerst de taalhandeling. Vraag eigen actuele foto’s met datum en locatie, zonder herkenbare personen."
+      },
+      "limits": {
+        "es": "Textos de rótulos citados por NS, no una visita a la estación. No se presentan como instrucciones sanitarias vigentes.",
+        "nl": "Opschriften geciteerd door NS, geen stationsobservatie. Dit zijn geen huidige gezondheidsinstructies."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "mediated",
+      "connections": [
+        {
+          "topic": "pragmatica",
+          "reason": {
+            "es": "Fuerza directiva de formas verbales y nominales.",
+            "nl": "Directieve kracht van werkwoordelijke en nominale vormen."
+          }
+        },
+        {
+          "topic": "morfologia",
+          "reason": {
+            "es": "Composición y diminutivo en mondkapje.",
+            "nl": "Samenstelling en verkleiningsvorm in mondkapje."
+          }
+        },
+        {
+          "topic": "juicio",
+          "reason": {
+            "es": "La adecuación depende también de la fecha y el lugar.",
+            "nl": "Bruikbaarheid hangt ook af van datum en locatie."
+          }
+        }
+      ],
+      "comparison": "dgt-directiva",
+      "dateNote": {
+        "es": "Fecha de la noticia que recoge estos rótulos históricos.",
+        "nl": "Datum van het bericht waarin de historische opschriften staan."
+      }
+    },
+    {
+      "id": "ns-infinitivos",
+      "title": {
+        "es": "Inferencias en un lema ferroviario",
+        "nl": "Inferenties bij een spoorwegslogan"
+      },
+      "text": "Instappen is opzetten",
+      "language": "nl",
+      "genre": "senaletica",
+      "source": "dato-ns",
+      "sourceDate": "2021-09-27",
+      "locator": {
+        "es": "La misma noticia, apartado Instappen is opzetten.",
+        "nl": "Hetzelfde bericht, paragraaf Instappen is opzetten."
+      },
+      "context": {
+        "es": "Lema citado en el contexto de uso de mascarillas en trenes durante la pandemia.",
+        "nl": "Slogan in de context van mondkapjes in treinen tijdens de pandemie."
+      },
+      "analysis": {
+        "es": "Dos infinitivos expresan una asociación entre acciones. El objeto de opzetten se recupera del contexto; no aparece en el lema. Una traducción palabra por palabra dejaría insuficientemente especificada la segunda acción.",
+        "nl": "Twee infinitieven verbinden handelingen. Het object van opzetten wordt uit de context aangevuld en staat niet in de slogan. Woordelijke vertaling specificeert de tweede handeling onvoldoende."
+      },
+      "questions": {
+        "es": "¿Qué sabe el destinatario para reconstruir el objeto? ¿En qué contexto fallaría esa inferencia?",
+        "nl": "Wat moet de aangesprokene weten om het object aan te vullen? In welke context mislukt die inferentie?"
+      },
+      "teacher": {
+        "es": "Usa el caso para explicar elipsis y accesibilidad, y solicita una adaptación española cuya claridad pueda evaluarse.",
+        "nl": "Gebruik het voorbeeld voor ellips en toegankelijkheid en laat een Spaanse adaptatie op duidelijkheid beoordelen."
+      },
+      "limits": {
+        "es": "Lema histórico citado en una noticia; no se ha verificado una grabación ni su eficacia comunicativa.",
+        "nl": "Historische slogan geciteerd in een bericht; opname en communicatief effect zijn niet gecontroleerd."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "mediated",
+      "connections": [
+        {
+          "topic": "referencia",
+          "reason": {
+            "es": "Recuperación contextual de un objeto no expreso.",
+            "nl": "Contextueel aanvullen van een onuitgedrukt object."
+          }
+        },
+        {
+          "topic": "pragmatica",
+          "reason": {
+            "es": "El contexto hace interpretable el lema.",
+            "nl": "Context maakt de slogan interpreteerbaar."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "Fecha de la noticia que recoge estos rótulos históricos.",
+        "nl": "Datum van het bericht waarin de historische opschriften staan."
+      }
+    },
+    {
+      "id": "dgt-directiva",
+      "title": {
+        "es": "Condición y prohibición en una campaña vial",
+        "nl": "Voorwaarde en verbod in een verkeerscampagne"
+      },
+      "text": "si bebes, no conduzcas",
+      "language": "es",
+      "genre": "publicidad",
+      "source": "dato-dgt",
+      "sourceDate": "1985",
+      "locator": {
+        "es": "Infografía retrospectiva de la DGT, campaña de 1985.",
+        "nl": "Terugblikkende DGT-infografiek, campagne uit 1985."
+      },
+      "context": {
+        "es": "La revista institucional recupera un lema de prevención vial.",
+        "nl": "Het institutionele tijdschrift haalt een verkeersveiligheidsslogan aan."
+      },
+      "analysis": {
+        "es": "La condición utiliza presente de indicativo; la directiva negativa utiliza subjuntivo. El subjuntivo no significa aquí simplemente que la conducción sea irreal, sino que integra una construcción prohibitiva.",
+        "nl": "De voorwaarde staat in de presente de indicativo; de negatieve instructie gebruikt de subjuntivo. Die vorm betekent hier niet simpelweg dat rijden onwerkelijk is, maar maakt deel uit van een verbodsconstructie."
+      },
+      "questions": {
+        "es": "¿Qué cambia al describir una conducta en lugar de prohibirla? ¿Hasta dónde puede extenderse una regla didáctica basada en este lema?",
+        "nl": "Wat verandert wanneer je gedrag beschrijft in plaats van verbiedt? Hoe ver kun je een didactische regel op basis van deze slogan uitbreiden?"
+      },
+      "teacher": {
+        "es": "Contrasta forma verbal y acto de habla y pide un contraejemplo a la regla subjuntivo igual a irrealidad.",
+        "nl": "Vergelijk werkwoordsvorm en taalhandeling en vraag een tegenvoorbeeld bij de regel subjuntivo is onwerkelijkheid."
+      },
+      "limits": {
+        "es": "Fuente retrospectiva: no acredita por sí sola efectos de la campaña.",
+        "nl": "Terugblikkende bron: bewijst op zichzelf geen campagne-effecten."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "direct",
+      "connections": [
+        {
+          "topic": "modo",
+          "reason": {
+            "es": "Subjuntivo en directiva negativa.",
+            "nl": "Subjuntivo in een negatieve instructie."
+          }
+        },
+        {
+          "topic": "pragmatica",
+          "reason": {
+            "es": "La finalidad preventiva determina la fuerza del mensaje.",
+            "nl": "Het preventiedoel bepaalt de strekking van de boodschap."
+          }
+        },
+        {
+          "topic": "pedagogica",
+          "reason": {
+            "es": "Permite cuestionar una regla didáctica excesivamente general.",
+            "nl": "Maakt toetsing van een te brede onderwijsregel mogelijk."
+          }
+        }
+      ],
+      "comparison": "ns-directivas",
+      "dateNote": {
+        "es": "Campaña de 1985, descrita en una retrospectiva de noviembre de 2015.",
+        "nl": "Campagne uit 1985, beschreven in een terugblik van november 2015."
+      }
+    },
+    {
+      "id": "picante-sea",
+      "title": {
+        "es": "Aunque con información presentada como conocida",
+        "nl": "Aunque bij als bekend gepresenteerde informatie"
+      },
+      "text": "¿Por qué hay personas a las que les gusta el picante aunque sea un dolor?",
+      "language": "es",
+      "genre": "video",
+      "source": "dato-picante",
+      "sourceDate": "2023-04-14",
+      "locator": {
+        "es": "Título de la página de Hablando claro; vídeo de 10:55. No es una transcripción de una intervención.",
+        "nl": "Paginatitel van Hablando claro; video van 10:55. Geen transcriptie van een gesproken beurt."
+      },
+      "context": {
+        "es": "Pregunta con la que RTVE presenta un segmento televisivo.",
+        "nl": "Vraag waarmee RTVE een televisiefragment presenteert."
+      },
+      "analysis": {
+        "es": "Aunque sea admite una lectura concesiva en la que la incomodidad no impide el gusto. El subjuntivo puede restar relevancia argumentativa a esa información. Gusta concuerda con el picante y les retoma a las personas, no constituye una discordancia.",
+        "nl": "Aunque sea kan concessief worden gelezen: ongemak verhindert waardering niet. De subjuntivo kan het argumentatieve gewicht van die informatie beperken. Gusta congrueert met el picante en les verwijst naar personen; dat is geen incongruentie."
+      },
+      "questions": {
+        "es": "¿El título confirma que toda persona siente dolor? ¿Qué diferencia hay entre concordancia verbal y referencia del dativo? Contrasta con llorente-sea.",
+        "nl": "Bevestigt de titel dat iedereen pijn ervaart? Wat is het verschil tussen werkwoordscongruentie en datiefverwijzing? Vergelijk met llorente-sea."
+      },
+      "teacher": {
+        "es": "Utiliza el título escrito para analizar sintaxis; para prosodia exige escuchar y registrar una intervención concreta.",
+        "nl": "Gebruik de geschreven titel voor syntaxis; vereis voor prosodie een beluisterde en gelokaliseerde spreekbeurt."
+      },
+      "limits": {
+        "es": "Solo se comprobó título, fecha y duración. No se transcribió ni se analizó el audio.",
+        "nl": "Alleen titel, datum en duur zijn gecontroleerd. Audio is niet getranscribeerd of geanalyseerd."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "direct",
+      "connections": [
+        {
+          "topic": "modo",
+          "reason": {
+            "es": "Concesión y relevancia argumentativa.",
+            "nl": "Concessie en argumentatieve relevantie."
+          }
+        },
+        {
+          "topic": "cliticos",
+          "reason": {
+            "es": "Dativo les y referente plural.",
+            "nl": "Datief les met meervoudige referent."
+          }
+        },
+        {
+          "topic": "congruencia",
+          "reason": {
+            "es": "Sujeto de gustar frente a experimentante.",
+            "nl": "Onderwerp bij gustar tegenover ervaarder."
+          }
+        },
+        {
+          "topic": "fonologia",
+          "reason": {
+            "es": "Obliga a obtener audio antes de analizar prosodia.",
+            "nl": "Vereist audio voordat prosodie wordt geanalyseerd."
+          }
+        }
+      ],
+      "comparison": "llorente-sea",
+      "dateNote": {
+        "es": "",
+        "nl": ""
+      }
+    },
+    {
+      "id": "llorente-sea",
+      "title": {
+        "es": "Una concesión dentro de una propuesta",
+        "nl": "Een concessie binnen een voorstel"
+      },
+      "text": "La final de Copa se debe jugar, aunque sea a puerta cerrada",
+      "language": "es",
+      "genre": "video",
+      "source": "dato-llorente",
+      "sourceDate": "2020-04-22",
+      "locator": {
+        "es": "Declaración citada en el título de la entrevista de RTVE.",
+        "nl": "Uitspraak geciteerd in de titel van het RTVE-interview."
+      },
+      "context": {
+        "es": "RTVE atribuye esta propuesta a Diego Llorente en abril de 2020.",
+        "nl": "RTVE schrijft dit voorstel in april 2020 toe aan Diego Llorente."
+      },
+      "analysis": {
+        "es": "Debe jugar expresa una recomendación u obligación; la concesión acepta una condición desfavorable como compatible con jugar. Sea no describe necesariamente una situación realizada. La posición de se permite estudiar su relación con una perífrasis.",
+        "nl": "Debe jugar drukt een aanbeveling of verplichting uit; de concessie accepteert een ongunstige voorwaarde als verenigbaar met spelen. Sea beschrijft niet noodzakelijk een gerealiseerde situatie. De positie van se laat de relatie met een werkwoordelijke perifrase onderzoeken."
+      },
+      "questions": {
+        "es": "¿Qué parte es propuesta y qué parte es circunstancia admitida? ¿Qué impediría usar este ejemplo como prueba de que aunque siempre exige subjuntivo?",
+        "nl": "Welk deel is een voorstel en welk deel een toegestane omstandigheid? Waarom bewijst dit voorbeeld niet dat aunque altijd de subjuntivo vraagt?"
+      },
+      "teacher": {
+        "es": "Compara con picante-sea y busca un uso auténtico con indicativo; registra la búsqueda aunque no produzca resultados.",
+        "nl": "Vergelijk met picante-sea en zoek een authentiek indicativo-gebruik; documenteer ook een zoekactie zonder resultaat."
+      },
+      "limits": {
+        "es": "Declaración citada por RTVE, no transcripción auditiva ni afirmación sobre lo que sucedió después.",
+        "nl": "Door RTVE geciteerde uitspraak, geen auditieve transcriptie of uitspraak over latere gebeurtenissen."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "mediated",
+      "connections": [
+        {
+          "topic": "modo",
+          "reason": {
+            "es": "Modalidad deóntica y concesión.",
+            "nl": "Deontische modaliteit en concessie."
+          }
+        },
+        {
+          "topic": "se",
+          "reason": {
+            "es": "Relación de se con una perífrasis modal.",
+            "nl": "Relatie van se met een modale perifrase."
+          }
+        },
+        {
+          "topic": "corpus",
+          "reason": {
+            "es": "Contraste que requiere ampliar y documentar una búsqueda.",
+            "nl": "Vergelijking die een bredere, gedocumenteerde zoekactie vereist."
+          }
+        }
+      ],
+      "comparison": "picante-sea",
+      "dateNote": {
+        "es": "",
+        "nl": ""
+      }
+    },
+    {
+      "id": "nos-futuro",
+      "title": {
+        "es": "Presente con referencia futura en neerlandés",
+        "nl": "Tegenwoordige tijd met toekomstige verwijzing"
+      },
+      "text": "Ondanks de buien wordt het vannacht niet koud.",
+      "language": "nl",
+      "genre": "prensa",
+      "source": "dato-nos",
+      "sourceDate": "2026-08-27",
+      "locator": {
+        "es": "Artículo de NOS, apartado sobre la noche.",
+        "nl": "NOS-artikel, passage over de nacht."
+      },
+      "context": {
+        "es": "Pronóstico de Peter Kuipers Munneke publicado por NOS.",
+        "nl": "Weerbericht van Peter Kuipers Munneke bij NOS."
+      },
+      "analysis": {
+        "es": "Vannacht sitúa la predicación en un intervalo futuro respecto de la publicación. Wordt funciona con un predicado adjetival; su presencia no basta para identificar una pasiva. La concesión se construye con ondanks y un sintagma nominal.",
+        "nl": "Vannacht situeert de predicatie in de toekomst ten opzichte van publicatie. Wordt staat bij een bijvoeglijk predicaat; het woord bewijst geen passief. De concessie gebruikt ondanks met een nominale groep."
+      },
+      "questions": {
+        "es": "¿La forma presente limita el enunciado al momento de hablar? Compara dos traducciones españolas propias y explica diferencias de compromiso y naturalidad.",
+        "nl": "Beperkt de tegenwoordige vorm de zin tot het spreekmoment? Vergelijk twee eigen Spaanse vertalingen en verklaar verschillen in commitment en natuurlijkheid."
+      },
+      "teacher": {
+        "es": "Separa forma temporal, localización y grado de certeza al trabajar la comparación entre lenguas.",
+        "nl": "Scheid tijdsvorm, temporele situering en zekerheid bij taalvergelijking."
+      },
+      "limits": {
+        "es": "Ejemplo de un pronóstico histórico; no se usa como información meteorológica actual.",
+        "nl": "Voorbeeld uit een historisch weerbericht; geen actuele weersinformatie."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "direct",
+      "connections": [
+        {
+          "topic": "tiempo",
+          "reason": {
+            "es": "Distingue tiempo morfológico y referencia temporal.",
+            "nl": "Onderscheidt tijdsvorm en temporele verwijzing."
+          }
+        },
+        {
+          "topic": "razonamiento",
+          "reason": {
+            "es": "Una forma no identifica por sí sola una función.",
+            "nl": "Een vorm bepaalt niet zelfstandig een functie."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "",
+        "nl": ""
+      }
+    },
+    {
+      "id": "nos-modalidad",
+      "title": {
+        "es": "Incertidumbre en un pronóstico",
+        "nl": "Onzekerheid in een weerbericht"
+      },
+      "text": "het zou ook op andere plaatsen flink kunnen gaan onweren",
+      "language": "nl",
+      "genre": "prensa",
+      "source": "dato-nos",
+      "sourceDate": "2026-08-27",
+      "locator": {
+        "es": "Mismo artículo, pasaje sobre posibles tormentas en otras zonas.",
+        "nl": "Hetzelfde artikel, passage over mogelijke buien elders."
+      },
+      "context": {
+        "es": "Fragmento literal dentro de una predicción meteorológica.",
+        "nl": "Letterlijk fragment uit een weersverwachting."
+      },
+      "analysis": {
+        "es": "La combinación zou y kunnen modula el compromiso con una posibilidad futura; no obliga a una traducción española con condicional. Ook presupone otras zonas ya consideradas y demanda recuperar el contexto.",
+        "nl": "De combinatie zou en kunnen beperkt het commitment aan een toekomstige mogelijkheid; een Spaanse condicional is niet automatisch vereist. Ook verwijst naar eerder besproken gebieden en vereist context."
+      },
+      "questions": {
+        "es": "¿Cómo separarías probabilidad, tiempo y cortesía? Busca usos de zou kunnen en otro género y comprueba si mantienen la misma función.",
+        "nl": "Hoe onderscheid je waarschijnlijkheid, tijd en beleefdheid? Zoek zou kunnen in een ander genre en toets of de functie gelijk blijft."
+      },
+      "teacher": {
+        "es": "Pide justificar una traducción funcional y rechazar una equivalencia automática entre categorías verbales.",
+        "nl": "Laat een functionele vertaling onderbouwen en automatische equivalentie tussen werkwoordscategorieën verwerpen."
+      },
+      "limits": {
+        "es": "El fragmento no permite cuantificar el grado de probabilidad del pronóstico.",
+        "nl": "Het fragment laat de waarschijnlijkheid van de voorspelling niet kwantificeren."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "direct",
+      "connections": [
+        {
+          "topic": "modo",
+          "reason": {
+            "es": "Modalidad epistémica sin equivalencia mecánica con el subjuntivo.",
+            "nl": "Epistemische modaliteit zonder mechanische equivalentie met de subjuntivo."
+          }
+        },
+        {
+          "topic": "referencia",
+          "reason": {
+            "es": "Recuperación de información mediante ook.",
+            "nl": "Contextuele informatie via ook."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "",
+        "nl": ""
+      }
+    },
+    {
+      "id": "ojala-deseo",
+      "title": {
+        "es": "Deseo en una letra de canción",
+        "nl": "Wens in een liedtekst"
+      },
+      "text": "Ojalá que las hojas no te toquen el cuerpo",
+      "language": "es",
+      "genre": "cancion",
+      "source": "dato-ojala",
+      "sourceDate": "1969",
+      "locator": {
+        "es": "Primera línea de la letra en la web oficial del autor.",
+        "nl": "Eerste regel van de liedtekst op de officiële auteurswebsite."
+      },
+      "context": {
+        "es": "Letra de Silvio Rodríguez; la página indica composición en 1969.",
+        "nl": "Liedtekst van Silvio Rodríguez; de pagina vermeldt compositie in 1969."
+      },
+      "analysis": {
+        "es": "Ojalá configura una expresión de deseo con subjuntivo. Te vincula el evento con el destinatario y aparece junto a una parte corporal con artículo definido. El lenguaje poético obliga a considerar lecturas figuradas sin atribuir intenciones biográficas no documentadas.",
+        "nl": "Ojalá vormt een wensconstructie met de subjuntivo. Te verbindt de gebeurtenis met de aangesprokene en staat naast een lichaamsdeel met bepaald lidwoord. Poëtische taal vraagt om mogelijke figuurlijke lezingen zonder onbewezen biografische bedoelingen."
+      },
+      "questions": {
+        "es": "¿Qué demuestra la forma verbal sobre el deseo y qué no demuestra sobre la realidad? ¿Cómo justificarías el artículo frente a un posesivo en una traducción neerlandesa propia?",
+        "nl": "Wat bewijst de werkwoordsvorm over de wens en niet over de werkelijkheid? Hoe verantwoord je het lidwoord tegenover een bezittelijke vorm in een eigen Nederlandse vertaling?"
+      },
+      "teacher": {
+        "es": "Trabaja con la línea breve y solicita una paráfrasis propia; no conviertas la canción en una lista de huecos.",
+        "nl": "Werk met de korte regel en vraag een eigen parafrase; maak van het lied geen invuloefening."
+      },
+      "limits": {
+        "es": "Solo se reproduce una línea de nueve palabras. Se comprobó la letra, no una interpretación vocal.",
+        "nl": "Alleen één regel van negen woorden is overgenomen. De tekst is gecontroleerd, niet een gezongen uitvoering."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "direct",
+      "connections": [
+        {
+          "topic": "modo",
+          "reason": {
+            "es": "Construcción desiderativa con subjuntivo.",
+            "nl": "Wensconstructie met subjuntivo."
+          }
+        },
+        {
+          "topic": "determinacion",
+          "reason": {
+            "es": "Artículo definido y parte corporal.",
+            "nl": "Bepaald lidwoord bij een lichaamsdeel."
+          }
+        },
+        {
+          "topic": "cliticos",
+          "reason": {
+            "es": "Relación del dativo con el participante afectado.",
+            "nl": "Relatie van de datief met de betrokken deelnemer."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "",
+        "nl": ""
+      }
+    },
+    {
+      "id": "papel-nosotros",
+      "title": {
+        "es": "Un nosotros construido en ficción",
+        "nl": "Een geconstrueerd wij in fictie"
+      },
+      "text": "Tú y yo somos la resistencia",
+      "language": "es",
+      "genre": "serie",
+      "source": "dato-papel",
+      "sourceDate": "2017-11-24",
+      "locator": {
+        "es": "Texto de Antena 3 que cita a Berlín. Contiene información del desenlace.",
+        "nl": "Antena 3-tekst die Berlín citeert. Bevat informatie over de ontknoping."
+      },
+      "context": {
+        "es": "La cadena presenta la frase dirigida a Ariadna en La casa de papel.",
+        "nl": "De omroep presenteert de zin gericht aan Ariadna in La casa de papel."
+      },
+      "analysis": {
+        "es": "Un sujeto coordinado que incluye la primera persona activa somos. La atribución colectiva intenta construir alineación entre personajes, pero no garantiza acuerdo del destinatario. La ficción permite observar una estrategia discursiva, no generalizar conducta real.",
+        "nl": "Een nevengeschikt onderwerp met eerste persoon activeert somos. De groepsidentificatie probeert personages op één lijn te brengen, maar garandeert geen instemming. Fictie toont een discursieve strategie, geen algemene werkelijkheid."
+      },
+      "questions": {
+        "es": "¿Qué diferencia hay entre incluir lingüísticamente a alguien y contar con su consentimiento? ¿Qué contexto necesitas para evaluar la relación de poder?",
+        "nl": "Wat is het verschil tussen iemand taalkundig insluiten en instemming verkrijgen? Welke context heb je nodig om machtsverhoudingen te beoordelen?"
+      },
+      "teacher": {
+        "es": "Pide reconstruir los referentes y justificar una lectura alternativa sin confundir voz del personaje y posición del estudiante.",
+        "nl": "Laat referenten reconstrueren en een alternatieve lezing onderbouwen zonder personagestem en studentstandpunt te verwarren."
+      },
+      "limits": {
+        "es": "Cita comprobada en el texto de la cadena. No se han comprobado entonación ni marca temporal del diálogo.",
+        "nl": "Citaat gecontroleerd in de omroeptekst. Intonatie en tijdcode van de dialoog zijn niet gecontroleerd."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "mediated",
+      "connections": [
+        {
+          "topic": "congruencia",
+          "reason": {
+            "es": "Persona verbal con sujeto coordinado.",
+            "nl": "Werkwoordspersoon bij een nevengeschikt onderwerp."
+          }
+        },
+        {
+          "topic": "referencia",
+          "reason": {
+            "es": "Pronombres deícticos y construcción de grupo.",
+            "nl": "Deiktische voornaamwoorden en groepsvorming."
+          }
+        },
+        {
+          "topic": "pragmatica",
+          "reason": {
+            "es": "Alineación discursiva y relación de poder.",
+            "nl": "Discursieve afstemming en machtsverhouding."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "",
+        "nl": ""
+      }
+    },
+    {
+      "id": "cine-montaje",
+      "title": {
+        "es": "El contexto audiovisual también crea significado",
+        "nl": "Audiovisuele context vormt ook betekenis"
+      },
+      "text": "Ocho apellidos vascos",
+      "language": "es",
+      "genre": "cine",
+      "source": "dato-cine",
+      "sourceDate": "2024-02-10",
+      "locator": {
+        "es": "Título de la película en la página; montaje de 58 segundos. No se reproduce diálogo.",
+        "nl": "Filmtitel op de pagina; montage van 58 seconden. Geen dialoog overgenomen."
+      },
+      "context": {
+        "es": "RTVE presenta un montaje de los Goya que recontextualiza la película mediante un tratamiento de terror.",
+        "nl": "RTVE presenteert een Goya-montage die de film in een horrorcontext plaatst."
+      },
+      "analysis": {
+        "es": "El título nominal no demuestra por sí solo una variedad lingüística. La actividad investiga cómo montaje, música y contexto pueden modificar la interpretación de una intervención; el estudiante debe observar el vídeo antes de afirmar un efecto concreto.",
+        "nl": "De nominale titel bewijst op zichzelf geen taalvariëteit. De activiteit onderzoekt hoe montage, muziek en context interpretatie kunnen wijzigen; de student moet het fragment bekijken voordat een concreet effect wordt geclaimd."
+      },
+      "questions": {
+        "es": "Elige una intervención tras ver el vídeo y registra inicio, final y transcripción propia. ¿Qué parte de tu interpretación proviene del lenguaje y qué parte del montaje? ¿Qué estereotipo no queda probado?",
+        "nl": "Kies na bekijken een spreekbeurt en registreer begin, einde en eigen transcriptie. Welk interpretatiedeel komt uit taal en welk uit montage? Welk stereotype is niet bewezen?"
+      },
+      "teacher": {
+        "es": "Evalúa la trazabilidad de la observación y una comparación contextual. Esta ficha prepara la recogida de datos; no aporta una transcripción verificada.",
+        "nl": "Beoordeel traceerbaarheid van de waarneming en contextvergelijking. Deze fiche bereidt dataverzameling voor en bevat geen geverifieerde transcriptie."
+      },
+      "limits": {
+        "es": "Recurso audiovisual con título y presentación comprobados. La reproducción y el contenido hablado requieren verificación por el estudiante.",
+        "nl": "Audiovisuele bron met gecontroleerde titel en toelichting. Afspelen en gesproken inhoud vereisen controle door de student."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "paratext",
+      "connections": [
+        {
+          "topic": "pragmatica",
+          "reason": {
+            "es": "Recontextualización y significado multimodal.",
+            "nl": "Hercontextualisering en multimodale betekenis."
+          }
+        },
+        {
+          "topic": "fonologia",
+          "reason": {
+            "es": "El análisis de voz exige escuchar y localizar el fragmento.",
+            "nl": "Stemanalyse vereist luisteren en lokaliseren."
+          }
+        },
+        {
+          "topic": "pluricentrico",
+          "reason": {
+            "es": "Permite cuestionar inferencias sobre variedad basadas solo en un título.",
+            "nl": "Maakt kritiek op variëteitsinferenties op basis van alleen een titel mogelijk."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "",
+        "nl": ""
+      }
+    },
+    {
+      "id": "valesco-almenos",
+      "title": {
+        "es": "Al menos en una interacción documentada",
+        "nl": "Al menos in gedocumenteerde interactie"
+      },
+      "text": "§ pero al menos lo he hecho bien",
+      "language": "es",
+      "genre": "conversacion",
+      "source": "dato-valesco",
+      "sourceDate": "2018",
+      "locator": {
+        "es": "Pardo Llibrer (2018), p. 260, ejemplo 34, turno 76 A; Val.Es.Co. 2.0, conversación 0028. PDF, página 24.",
+        "nl": "Pardo Llibrer (2018), p. 260, voorbeeld 34, beurt 76 A; Val.Es.Co. 2.0, gesprek 0028. PDF, pagina 24."
+      },
+      "context": {
+        "es": "Fragmento del corpus reproducido en el artículo. § señala encadenamiento de turnos en la transcripción.",
+        "nl": "Corpusfragment overgenomen in het artikel. § markeert aaneensluiting van beurten in de transcriptie."
+      },
+      "analysis": {
+        "es": "Al menos orienta una defensa del resultado pese al contexto previo. He hecho combina un resultado con el punto de vista actual del hablante. Lo exige recuperar qué actuación se evalúa. La función del marcador se argumenta leyendo también la réplica.",
+        "nl": "Al menos stuurt een verdediging van het resultaat ondanks de voorafgaande context. He hecho verbindt een resultaat met het huidige perspectief. Lo vereist reconstructie van de beoordeelde handeling. De markerfunctie moet ook met de reactie worden onderbouwd."
+      },
+      "questions": {
+        "es": "¿Al menos cuantifica algo o orienta la valoración de toda la intervención? ¿Qué lectura alternativa permitiría la réplica?",
+        "nl": "Kwantificeert al menos iets of stuurt het de beoordeling van de hele beurt? Welke alternatieve lezing ondersteunt de reactie?"
+      },
+      "teacher": {
+        "es": "Pide citar los turnos anteriores y posteriores antes de aceptar una etiqueta pragmática.",
+        "nl": "Vereis de voorafgaande en volgende beurten voordat een pragmatisch label wordt geaccepteerd."
+      },
+      "limits": {
+        "es": "Se consultó la transcripción publicada; no la grabación. No se afirma una entonación adicional.",
+        "nl": "Gepubliceerde transcriptie geraadpleegd, niet de opname. Geen aanvullende intonatie geclaimd."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "mediated",
+      "connections": [
+        {
+          "topic": "pragmatica",
+          "reason": {
+            "es": "Alcance y orientación de un marcador.",
+            "nl": "Bereik en richting van een marker."
+          }
+        },
+        {
+          "topic": "tiempo",
+          "reason": {
+            "es": "Tiempo compuesto en conversación.",
+            "nl": "Samengestelde werkwoordstijd in gesprek."
+          }
+        },
+        {
+          "topic": "corpus",
+          "reason": {
+            "es": "Identificador, turno y localizador reproducibles.",
+            "nl": "Herleidbare identificatie, beurt en vindplaats."
+          }
+        },
+        {
+          "topic": "razonamiento",
+          "reason": {
+            "es": "Necesidad de contexto para justificar una lectura.",
+            "nl": "Context nodig om een interpretatie te onderbouwen."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "Fecha del artículo; la fecha de la grabación no se indica en el pasaje consultado.",
+        "nl": "Datum van het artikel; de opnamedatum staat niet in de geraadpleegde passage."
+      }
+    },
+    {
+      "id": "valesco-traelo",
+      "title": {
+        "es": "Un imperativo con clítico en conversación",
+        "nl": "Een imperatief met clitisch pronomen in gesprek"
+      },
+      "text": "pues [tráelo tía=]",
+      "language": "es",
+      "genre": "conversacion",
+      "source": "dato-valesco",
+      "sourceDate": "2018",
+      "locator": {
+        "es": "P. 260, ejemplo 33, turno 162 A; Val.Es.Co. 2.0, conversación 0019. PDF, página 24.",
+        "nl": "P. 260, voorbeeld 33, beurt 162 A; Val.Es.Co. 2.0, gesprek 0019. PDF, pagina 24."
+      },
+      "context": {
+        "es": "Turno posterior a una propuesta de llevar un juego. Se conservan los signos de la transcripción.",
+        "nl": "Beurt na een voorstel om een spel mee te nemen. Transcriptietekens zijn behouden."
+      },
+      "analysis": {
+        "es": "Trae lleva lo enclítico y remite al juego mencionado antes. Pues enlaza con el ofrecimiento; tía puede funcionar como vocativo coloquial y no identifica por sí solo parentesco. Los corchetes y = requieren consultar las convenciones del corpus.",
+        "nl": "Trae heeft enclitisch lo dat naar het eerder genoemde spel verwijst. Pues sluit aan bij het aanbod; tía kan een informeel vocatief zijn en bewijst geen verwantschap. Raadpleeg de corpusconventies voor vierkante haken en =."
+      },
+      "questions": {
+        "es": "¿Es necesariamente descortés un imperativo? ¿Qué aporta la secuencia previa? ¿Qué no permite saber la transcripción sobre tono o relación personal?",
+        "nl": "Is een imperatief noodzakelijk onbeleefd? Wat voegt de voorafgaande sequentie toe? Wat zegt de transcriptie niet over toon of persoonlijke relatie?"
+      },
+      "teacher": {
+        "es": "Evalúa la adecuación contextual y enseña colocación del clítico sin aislar el turno de la interacción.",
+        "nl": "Beoordeel contextuele bruikbaarheid en leg clitische plaatsing uit binnen de interactie."
+      },
+      "limits": {
+        "es": "No se escuchó el audio. El fragmento no representa todos los usos de tía ni de los imperativos.",
+        "nl": "Audio niet beluisterd. Het fragment vertegenwoordigt niet alle toepassingen van tía of imperatieven."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "mediated",
+      "connections": [
+        {
+          "topic": "cliticos",
+          "reason": {
+            "es": "Enclisis con imperativo afirmativo.",
+            "nl": "Enclise bij bevestigende imperatief."
+          }
+        },
+        {
+          "topic": "pragmatica",
+          "reason": {
+            "es": "Directiva contextualizada en una secuencia conversacional.",
+            "nl": "Instructie binnen een gesprekssequentie."
+          }
+        },
+        {
+          "topic": "feedback",
+          "reason": {
+            "es": "La forma imperativa no basta para juzgar descortesía.",
+            "nl": "De imperatiefvorm volstaat niet om onbeleefdheid vast te stellen."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "Fecha del artículo; la fecha de la grabación no se indica en el pasaje consultado.",
+        "nl": "Datum van het artikel; de opnamedatum staat niet in de geraadpleegde passage."
+      }
+    },
+    {
+      "id": "valesco-traiga",
+      "title": {
+        "es": "Una propuesta con que y subjuntivo",
+        "nl": "Een voorstel met que en subjuntivo"
+      },
+      "text": "= que alguien traiga un juego↑",
+      "language": "es",
+      "genre": "conversacion",
+      "source": "dato-valesco",
+      "sourceDate": "2018",
+      "locator": {
+        "es": "P. 260, ejemplo 33, comienzo del turno 160 A; conversación 0019. PDF, página 24.",
+        "nl": "P. 260, voorbeeld 33, begin van beurt 160 A; gesprek 0019. PDF, pagina 24."
+      },
+      "context": {
+        "es": "Fragmento inicial de una intervención más larga de Val.Es.Co. 2.0.",
+        "nl": "Beginfragment van een langere beurt in Val.Es.Co. 2.0."
+      },
+      "analysis": {
+        "es": "Traiga participa en una propuesta y alguien introduce un participante sin identificación específica. Para decidir si que inicia una construcción independiente o enlaza con lo anterior hay que leer la secuencia completa. ↑ es un signo transcrito, no una medición acústica realizada aquí.",
+        "nl": "Traiga maakt deel uit van een voorstel; alguien introduceert een niet specifiek geïdentificeerde deelnemer. Lees de hele sequentie om te bepalen hoe que aansluit. ↑ is een transcriptieteken, geen hier uitgevoerde akoestische meting."
+      },
+      "questions": {
+        "es": "¿Qué hipótesis sobre que permite el turno previo? ¿Cómo relacionarías traiga con tráelo sin afirmar que tienen la misma función?",
+        "nl": "Welke hypothese over que ondersteunt de vorige beurt? Hoe verbind je traiga met tráelo zonder beide dezelfde functie toe te kennen?"
+      },
+      "teacher": {
+        "es": "Pide contrastar ambas intervenciones reales antes de formular la explicación del modo.",
+        "nl": "Laat de twee echte beurten vergelijken voordat een verklaring van de wijs wordt geformuleerd."
+      },
+      "limits": {
+        "es": "Fragmento recortado para estudio, con localizador que permite recuperar el contexto.",
+        "nl": "Voor studie ingekort fragment met een vindplaats voor herstel van de context."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "mediated",
+      "connections": [
+        {
+          "topic": "modo",
+          "reason": {
+            "es": "Subjuntivo en una propuesta situada.",
+            "nl": "Subjuntivo in een gesitueerd voorstel."
+          }
+        },
+        {
+          "topic": "referencia",
+          "reason": {
+            "es": "Indefinición del participante.",
+            "nl": "Niet specifieke deelnemer."
+          }
+        },
+        {
+          "topic": "fonologia",
+          "reason": {
+            "es": "Distingue signo de transcripción y observación acústica propia.",
+            "nl": "Onderscheidt transcriptieteken en eigen akoestische waarneming."
+          }
+        }
+      ],
+      "comparison": "valesco-traelo",
+      "dateNote": {
+        "es": "Fecha del artículo; la fecha de la grabación no se indica en el pasaje consultado.",
+        "nl": "Datum van het artikel; de opnamedatum staat niet in de geraadpleegde passage."
+      }
+    },
+    {
+      "id": "esech-reparacion",
+      "title": {
+        "es": "Autorreparación en una entrevista de Chile",
+        "nl": "Zelfcorrectie in een Chileens interview"
+      },
+      "text": "yo al menos no tengo ningún / ninguna amiga de mi niñez po",
+      "language": "es",
+      "genre": "conversacion",
+      "source": "dato-esech",
+      "sourceDate": "2005–2011",
+      "locator": {
+        "es": "San Martín Núñez y Rojas Inostroza (2020), §4.1.2.2, ejemplo 16, participante M045, corpus ESECH.",
+        "nl": "San Martín Núñez en Rojas Inostroza (2020), §4.1.2.2, voorbeeld 16, deelnemer M045, ESECH-corpus."
+      },
+      "context": {
+        "es": "Fragmento de entrevista sociolingüística de Santiago de Chile reproducido en el artículo.",
+        "nl": "Fragment van een sociolinguïstisch interview uit Santiago de Chile in het artikel."
+      },
+      "analysis": {
+        "es": "El cambio de ningún a ninguna muestra una reparación durante la producción. No prueba desconocimiento estable de la concordancia. Al menos limita la experiencia a quien habla; po es una forma gráfica registrada cuya realización acústica no se ha comprobado aquí.",
+        "nl": "De verandering van ningún naar ninguna toont een herstel tijdens productie. Dit bewijst geen blijvend gebrek aan congruentiekennis. Al menos begrenst de ervaring tot de spreker; de uitspraak van het geschreven po is hier niet gecontroleerd."
+      },
+      "questions": {
+        "es": "¿Qué diferencia hay entre reparación y error persistente? ¿Qué muestras adicionales necesitarías para emitir un juicio sobre un aprendiente? ¿Por qué este corpus no permite diagnosticar transferencia del neerlandés?",
+        "nl": "Wat onderscheidt zelfcorrectie van een blijvende fout? Welke extra data zijn nodig voor een oordeel over een leerder? Waarom kan dit corpus geen Nederlandse transfer aantonen?"
+      },
+      "teacher": {
+        "es": "Usa la reparación para diseñar feedback que reconozca procesos de planificación. Si comparas con aprendientes, obtén datos propios con consentimiento.",
+        "nl": "Gebruik het herstel voor feedback die planningsprocessen erkent. Verzamel bij vergelijking eigen leerderdata met toestemming."
+      },
+      "limits": {
+        "es": "Muestra de hablante entrevistada, no de estudiante de ELE. No se consultó la grabación original.",
+        "nl": "Voorbeeld van een geïnterviewde spreker, geen ELE-leerder. Originele opname niet geraadpleegd."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "mediated",
+      "connections": [
+        {
+          "topic": "congruencia",
+          "reason": {
+            "es": "Autorreparación de género durante la producción.",
+            "nl": "Herstel van genus tijdens productie."
+          }
+        },
+        {
+          "topic": "adquisicion",
+          "reason": {
+            "es": "Límite de inferencias sobre competencia a partir de un fragmento.",
+            "nl": "Grens aan competentie-inferenties uit één fragment."
+          }
+        },
+        {
+          "topic": "feedback",
+          "reason": {
+            "es": "Reconoce reparación antes de corregir.",
+            "nl": "Erkent herstel voordat wordt verbeterd."
+          }
+        },
+        {
+          "topic": "evaluacion",
+          "reason": {
+            "es": "Distingue desempeño puntual y competencia.",
+            "nl": "Onderscheidt incidentele prestatie en competentie."
+          }
+        },
+        {
+          "topic": "fonologia",
+          "reason": {
+            "es": "La grafía po no sustituye al análisis del audio.",
+            "nl": "De schrijfwijze po vervangt audioanalyse niet."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "Intervalo de recogida del corpus según el artículo publicado en 2020; no se especifica la fecha de esta entrevista.",
+        "nl": "Verzamelperiode van het corpus volgens het artikel uit 2020; de datum van dit interview is niet vermeld."
+      }
+    },
+    {
+      "id": "breinrot-prensa",
+      "title": {
+        "es": "Un compuesto neerlandés en prensa",
+        "nl": "Een Nederlandse samenstelling in de pers"
+      },
+      "text": "Vooral gen Z'ers klagen over breinrot.",
+      "language": "nl",
+      "genre": "prensa",
+      "source": "dato-breinrot",
+      "sourceDate": "2025-01-04",
+      "locator": {
+        "es": "ANW, breinrot, ejemplos; cita de De Standaard, 4 de enero de 2025.",
+        "nl": "ANW, breinrot, voorbeelden; citaat uit De Standaard, 4 januari 2025."
+      },
+      "context": {
+        "es": "El diccionario del INT recoge una oración periodística. El artículo original no se consultó.",
+        "nl": "Het INT-woordenboek citeert een krantenregel. Het oorspronkelijke artikel is niet geraadpleegd."
+      },
+      "analysis": {
+        "es": "Breinrot combina dos elementos neerlandeses y el diccionario lo relaciona con el inglés brain rot. Gen Z’ers muestra integración de una etiqueta generacional. El contacto lingüístico puede manifestarse en creación léxica sin alternancia entre dos lenguas en una misma conversación.",
+        "nl": "Breinrot combineert Nederlandse elementen en het woordenboek verbindt het met Engels brain rot. Gen Z’ers toont integratie van een generatielabel. Taalcontact kan lexicale vernieuwing opleveren zonder afwisseling tussen talen in één gesprek."
+      },
+      "questions": {
+        "es": "¿Qué diferencia hay entre préstamo y calco? ¿Qué evidencia necesita tu clasificación? Busca una expresión española comparable y documenta su uso; no la inventes como cita.",
+        "nl": "Wat onderscheidt leenwoord en leenvertaling? Welk bewijs vergt je classificatie? Zoek een vergelijkbare Spaanse uitdrukking en documenteer gebruik; verzin geen citaat."
+      },
+      "teacher": {
+        "es": "Pide explicar formación y circulación social antes de valorar una forma nueva como corrupción lingüística.",
+        "nl": "Laat woordvorming en sociale verspreiding uitleggen voordat een nieuwe vorm als taalverval wordt beoordeeld."
+      },
+      "limits": {
+        "es": "La entrada registra un ejemplo, no la frecuencia poblacional ni la primera aparición histórica absoluta.",
+        "nl": "De ingang documenteert een voorbeeld, geen bevolkingsfrequentie of absolute historische eerste vindplaats."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "mediated",
+      "connections": [
+        {
+          "topic": "morfologia",
+          "reason": {
+            "es": "Composición y formación léxica.",
+            "nl": "Samenstelling en lexicale vorming."
+          }
+        },
+        {
+          "topic": "repertorios",
+          "reason": {
+            "es": "Contacto lingüístico y circulación de recursos.",
+            "nl": "Taalcontact en circulatie van middelen."
+          }
+        },
+        {
+          "topic": "norma",
+          "reason": {
+            "es": "Distingue novedad léxica y juicio de corrección.",
+            "nl": "Onderscheidt lexicale vernieuwing en correctheidsoordeel."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "",
+        "nl": ""
+      }
+    },
+    {
+      "id": "meme-rick",
+      "title": {
+        "es": "Conocimiento compartido en un meme",
+        "nl": "Gedeelde kennis in een meme"
+      },
+      "text": "No lo sé, Rick. Parece falso",
+      "language": "es",
+      "genre": "meme",
+      "source": "dato-meme",
+      "sourceDate": "2018",
+      "locator": {
+        "es": "Capítulo de Daniel Muriel, p. 153, descripción de la figura 3; imagen en p. 154. PDF, páginas 155 y 156.",
+        "nl": "Hoofdstuk van Daniel Muriel, p. 153, beschrijving van figuur 3; afbeelding op p. 154. PDF, pagina’s 155 en 156."
+      },
+      "context": {
+        "es": "Texto de una plantilla de meme citado y explicado en un capítulo académico; el original de Twitter no se consultó.",
+        "nl": "Tekst van een memesjabloon geciteerd en besproken in een academisch hoofdstuk; de oorspronkelijke tweet is niet geraadpleegd."
+      },
+      "analysis": {
+        "es": "Lo exige un contenido contextual y parece reduce el compromiso literal con la falsedad. Al reutilizarse como plantilla, la frase puede orientar una lectura irónica. La interpretación depende de imagen, texto añadido y conocimiento compartido; el texto aislado no prueba esa ironía.",
+        "nl": "Lo vereist een contextuele inhoud; parece beperkt letterlijk commitment aan onwaarheid. Als hergebruikt sjabloon kan de zin een ironische lezing sturen. Beeld, toegevoegde tekst en gedeelde kennis bepalen die interpretatie; de losse zin bewijst geen ironie."
+      },
+      "questions": {
+        "es": "¿Qué presupone reconocer la plantilla? ¿Cómo cambia la lectura si el destinatario no la conoce? ¿Qué acusación implícita habría que distinguir de un hecho comprobado?",
+        "nl": "Welke voorkennis vraagt sjabloonherkenning? Hoe verandert de lezing zonder die kennis? Welke impliciete beschuldiging moet van een vastgesteld feit worden onderscheiden?"
+      },
+      "teacher": {
+        "es": "Trabaja con el texto breve y remite a la figura en su fuente. Pide una lectura alternativa y el dato que permitiría discriminarlas.",
+        "nl": "Werk met de korte tekst en verwijs naar de figuur in de bron. Vraag een alternatieve lezing en data om beide te onderscheiden."
+      },
+      "limits": {
+        "es": "Se comprobó el texto del capítulo, no la autoría original ni el diálogo de la serie que originó la plantilla. No se redistribuye la imagen.",
+        "nl": "De hoofdstuktekst is gecontroleerd, niet de oorspronkelijke maker of seriedialoog. De afbeelding wordt niet opnieuw verspreid."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "mediated",
+      "connections": [
+        {
+          "topic": "pragmatica",
+          "reason": {
+            "es": "Ironía, inferencia y conocimiento compartido.",
+            "nl": "Ironie, inferentie en gedeelde kennis."
+          }
+        },
+        {
+          "topic": "cliticos",
+          "reason": {
+            "es": "Contenido contextual recuperado por lo.",
+            "nl": "Contextuele inhoud teruggehaald met lo."
+          }
+        },
+        {
+          "topic": "juicio",
+          "reason": {
+            "es": "Distingue interpretación satírica y evidencia factual.",
+            "nl": "Onderscheidt satirische interpretatie en feitelijk bewijs."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "Fecha de la obra que documenta el meme; fecha y autoría originales no verificadas.",
+        "nl": "Datum van het werk dat de meme documenteert; oorspronkelijke datum en maker niet geverifieerd."
+      }
+    },
+    {
+      "id": "voseo-subjuntivo",
+      "title": {
+        "es": "Voseo y modalidad en una cita literaria",
+        "nl": "Voseo en modaliteit in een literair citaat"
+      },
+      "text": "Puede que vos tengás razón",
+      "language": "es",
+      "genre": "literatura",
+      "source": "dato-voseo",
+      "sourceDate": "1985",
+      "locator": {
+        "es": "DPD, voseo, §2.1.1; cita identificada como Herrera Casa, Venezuela, 1985.",
+        "nl": "DPD, voseo, §2.1.1; citaat aangeduid als Herrera Casa, Venezuela, 1985."
+      },
+      "context": {
+        "es": "Cita auténtica transmitida por el DPD; no se consultó la obra literaria original.",
+        "nl": "Authentiek citaat overgenomen via het DPD; de oorspronkelijke literaire tekst is niet geraadpleegd."
+      },
+      "analysis": {
+        "es": "Vos y tengás combinan voseo pronominal y verbal. Puede que orienta una posibilidad. La muestra permite reconocer un paradigma distinto del tuteo, pero su presencia en una obra venezolana no lo convierte en uso uniforme de toda Venezuela.",
+        "nl": "Vos en tengás combineren pronominaal en verbaal voseo. Puede que drukt mogelijkheid uit. Het voorbeeld toont een ander paradigma dan tuteo, maar aanwezigheid in een Venezolaans werk bewijst geen uniform landelijk gebruik."
+      },
+      "questions": {
+        "es": "¿Qué dimensión es modal y cuál pertenece al tratamiento? ¿Qué información geográfica, social y de registro exige una recomendación docente?",
+        "nl": "Welk aspect is modaal en welk betreft aanspreking? Welke geografische, sociale en registerinformatie vereist een didactische aanbeveling?"
+      },
+      "teacher": {
+        "es": "Presenta la forma con su contexto y compara paradigmas sin corregir automáticamente a un único modelo peninsular.",
+        "nl": "Presenteer de vorm met context en vergelijk paradigma’s zonder automatisch naar één Europees model te corrigeren."
+      },
+      "limits": {
+        "es": "Localizador abreviado conservado como figura en el DPD. No se inventa título completo, editorial ni frecuencia.",
+        "nl": "Verkorte vindplaats behouden zoals vermeld in het DPD. Geen volledige titel, uitgever of frequentie verzonnen."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "mediated",
+      "connections": [
+        {
+          "topic": "pluricentrico",
+          "reason": {
+            "es": "Variación de tratamiento y paradigma.",
+            "nl": "Variatie in aanspreking en paradigma."
+          }
+        },
+        {
+          "topic": "modo",
+          "reason": {
+            "es": "Posibilidad con subjuntivo.",
+            "nl": "Mogelijkheid met subjuntivo."
+          }
+        },
+        {
+          "topic": "norma",
+          "reason": {
+            "es": "La descripción de variación necesita contexto.",
+            "nl": "Variatiebeschrijving vereist context."
+          }
+        }
+      ],
+      "dateNote": {
+        "es": "Fecha de la obra citada por el DPD.",
+        "nl": "Datum van het door het DPD geciteerde werk."
+      }
+    },
+    {
+      "id": "senorita-pregunta",
+      "title": {
+        "es": "Una pregunta de cine que no pide información",
+        "nl": "Een filmvraag die geen informatie vraagt"
+      },
+      "text": "¿Qué me va usted a contar, señorita?",
+      "language": "es",
+      "genre": "cine",
+      "source": "dato-senorita",
+      "sourceDate": "1972",
+      "dateNote": {
+        "es": "Película de 1972; cita y contexto publicados por RTVE en una página actualizada en 2024.",
+        "nl": "Film uit 1972; citaat en context op een in 2024 bijgewerkte RTVE-pagina."
+      },
+      "locator": {
+        "es": "Raquel Elices, RTVE, título y apartado dedicado a la frase final de Mi querida señorita. Contiene información del desenlace.",
+        "nl": "Raquel Elices, RTVE, titel en paragraaf over de slotzin van Mi querida señorita. Bevat informatie over de ontknoping."
+      },
+      "context": {
+        "es": "RTVE atribuye la frase final a Isabelita, interpretada por Julieta Serrano. Se consultó el texto de la noticia, no la escena original.",
+        "nl": "RTVE schrijft de slotzin toe aan Isabelita, gespeeld door Julieta Serrano. De berichttekst is geraadpleegd, niet de oorspronkelijke scène."
+      },
+      "analysis": {
+        "es": "La forma interrogativa puede cuestionar la novedad de lo que el otro diría, en vez de solicitar información. Ir a contar admite así una interpretación discursiva distinta de una predicción temporal. Usted mantiene un tratamiento formal que no impide una relación próxima; me expresa al destinatario del relato.",
+        "nl": "De vraagvorm kan de nieuwheid van wat de ander zou vertellen betwisten in plaats van informatie vragen. Ir a contar kan zo een discursieve lezing krijgen in plaats van een temporele voorspelling. Usted behoudt een formele aanspreekvorm zonder nabijheid uit te sluiten; me geeft de ontvanger van het verhaal aan."
+      },
+      "questions": {
+        "es": "¿Qué premisa permite interpretar esta pregunta como una afirmación de conocimiento? ¿Basta usted para inferir distancia afectiva? Contrasta una lectura literal con otra contextual y explica qué dato de la escena decidiría entre ellas.",
+        "nl": "Welke aanname maakt een lezing als kennisclaim mogelijk? Bewijst usted emotionele afstand? Vergelijk een letterlijke en contextuele lezing en bepaal welke scènedata ertussen zouden beslissen."
+      },
+      "teacher": {
+        "es": "Pide justificar intención, tratamiento y referencia temporal por separado. Antes de analizar entonación, exige observar la escena y registrar una marca temporal comprobada.",
+        "nl": "Laat bedoeling, aanspreekvorm en temporele verwijzing afzonderlijk verantwoorden. Vereis voor intonatieanalyse observatie van de scène met een gecontroleerde tijdcode."
+      },
+      "limits": {
+        "es": "Cita cinematográfica transmitida por RTVE. No se comprobó el audio ni se generalizan las interpretaciones identitarias de la reseña a personas reales.",
+        "nl": "Filmcitaat overgenomen via RTVE. Audio niet gecontroleerd; identiteitsinterpretaties uit de bespreking worden niet op werkelijke personen gegeneraliseerd."
+      },
+      "checked": "2026-10-09",
+      "status": "published",
+      "provenance": "mediated",
+      "connections": [
+        {
+          "topic": "pragmatica",
+          "reason": {
+            "es": "Pregunta retórica, inferencia y tratamiento.",
+            "nl": "Retorische vraag, inferentie en aanspreking."
+          }
+        },
+        {
+          "topic": "tiempo",
+          "reason": {
+            "es": "Uso discursivo de una perífrasis que no se limita al futuro.",
+            "nl": "Discursief gebruik van een perifrase die niet tot toekomst beperkt is."
+          }
+        },
+        {
+          "topic": "cliticos",
+          "reason": {
+            "es": "Me como destinatario del relato.",
+            "nl": "Me als ontvanger van het verhaal."
+          }
+        },
+        {
+          "topic": "juicio",
+          "reason": {
+            "es": "La interpretación requiere contexto antes de evaluar adecuación.",
+            "nl": "Interpretatie vereist context voordat bruikbaarheid wordt beoordeeld."
+          }
+        }
+      ]
     }
   ]
 }

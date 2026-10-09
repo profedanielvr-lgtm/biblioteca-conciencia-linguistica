@@ -81,3 +81,16 @@ El laboratorio de corpus incorpora versión, ámbito, selección y exclusiones, 
 La biblioteca contiene una muestra auténtica incorporada, procedente de prensa y citada a través de la NGLE, y casos construidos identificados. No ofrece todavía una colección representativa de prensa, literatura contemporánea, anuncios, canciones, series y señalética. La selección empírica y la síntesis temática necesitan una pregunta e hipótesis concretas; no se sustituyen por muestras arbitrarias.
 
 Las pruebas leen preferentemente content/library-v2.json, la misma ruta usada por la aplicación. La copia de raíz solo se usa como alternativa en el entorno local cuando esa carpeta no existe.
+
+
+## Muestras reales / Authentieke taalvoorbeelden
+
+La actualización del 9 de octubre de 2026 añade 25 fichas en 10 géneros, 6 de ellas en neerlandés, con 18 fuentes nuevas y referencias APA. El menú Muestras reales permite filtrar por lengua, género, tema y texto. Las tarjetas de los temas conducen a una ficha central con procedencia, preguntas, análisis desplegable, implicación docente y límites.
+
+El estudiante puede redactar y exportar un análisis propio. Sus registros se incluyen en la copia de Mi estudio y se conservan al cambiar de idioma. Los ejemplos construidos anteriores siguen identificados como tales. La ficha de montaje audiovisual prepara una recogida de datos y no contiene una transcripción comprobada.
+
+En el editor, abre Muestras reales, selecciona una ficha o pulsa Crear muestra. Edita el fragmento original y los campos españoles y neerlandeses por separado. Selecciona una referencia comprobada, introduce el localizador, las fechas y el tipo de procedencia. Marca temas relacionados y explica cada relación en ambas lenguas. Guarda oculta una ficha incompleta. Previsualiza la ficha y cambia su estado a publicada cuando esté revisada. Publicar requiere el permiso de edición de GitHub ya configurado. Al eliminar una fuente, se ocultan las muestras que dependían de ella.
+
+De Nederlandse versie biedt dezelfde filters, vragen en bewerkbare velden. Analyseer het originele taalfragment; eigen vertalingen zijn geen authentieke citaten. Audiovisuele spraak en prosodie vereisen een eigen gecontroleerde observatie met tijdcode. Bronverwijzingen en gepubliceerde corpusgegevens worden onderscheiden van didactische interpretaties.
+
+El registro completo se encuentra en docs/muestras-reales-2026-10-09.md y sources/authentic-samples-2026-10-09.json.
