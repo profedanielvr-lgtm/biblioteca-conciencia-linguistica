@@ -480,6 +480,282 @@
     "definition": {
       "es": "Explicación del concepto",
       "nl": "Begripsuitleg"
+    },
+    "popular": {
+      "es": "Temas sugeridos",
+      "nl": "Voorgestelde thema’s"
+    },
+    "popularHelp": {
+      "es": "Selección editorial para empezar a buscar; no es un ranking de visitas.",
+      "nl": "Redactionele selectie om je zoektocht te starten; geen ranglijst op basis van bezoeken."
+    },
+    "pluralismHelp": {
+      "es": "Pluralismo lingüístico remite a la valoración y convivencia de lenguas y variedades. Pluricentrismo se refiere a la existencia de varios centros normativos. Consulta cada concepto sin tratarlos como sinónimos.",
+      "nl": "Taalpluralisme gaat over de waardering en het samenleven van talen en variëteiten. Pluricentriciteit verwijst naar meerdere normcentra. Behandel deze begrippen niet als synoniemen."
+    },
+    "intentions": {
+      "es": "¿Qué necesitas hacer?",
+      "nl": "Wat wil je doen?"
+    },
+    "understand": {
+      "es": "Entender un concepto",
+      "nl": "Een begrip begrijpen"
+    },
+    "analyseProduction": {
+      "es": "Analizar una producción",
+      "nl": "Een taaluiting analyseren"
+    },
+    "findSource": {
+      "es": "Buscar una fuente",
+      "nl": "Een bron zoeken"
+    },
+    "myStudy": {
+      "es": "Mi estudio",
+      "nl": "Mijn studie"
+    },
+    "continueReading": {
+      "es": "Continuar donde estaba",
+      "nl": "Verder waar ik gebleven was"
+    },
+    "savedItems": {
+      "es": "Mis temas y fuentes guardados",
+      "nl": "Mijn opgeslagen thema’s en bronnen"
+    },
+    "saveItem": {
+      "es": "Guardar en mi estudio",
+      "nl": "Opslaan in mijn studie"
+    },
+    "removeSaved": {
+      "es": "Quitar de mis guardados",
+      "nl": "Verwijderen uit mijn opgeslagen items"
+    },
+    "savedItem": {
+      "es": "Guardado",
+      "nl": "Opgeslagen"
+    },
+    "localToolsHelp": {
+      "es": "Tus favoritos, fichas y punto de lectura se guardan solo en este navegador. Exporta una copia para conservarlos o llevarlos a otro dispositivo. No se sincronizan automáticamente.",
+      "nl": "Je favorieten, leesfiches en leespositie worden alleen in deze browser opgeslagen. Exporteer een kopie om ze te bewaren of op een ander apparaat te gebruiken. Ze worden niet automatisch gesynchroniseerd."
+    },
+    "studyList": {
+      "es": "Para estudiar",
+      "nl": "Om te bestuderen"
+    },
+    "researchList": {
+      "es": "Para mi investigación",
+      "nl": "Voor mijn onderzoek"
+    },
+    "teachingList": {
+      "es": "Para preparar una clase",
+      "nl": "Voor mijn lesvoorbereiding"
+    },
+    "collection": {
+      "es": "Lista",
+      "nl": "Lijst"
+    },
+    "newList": {
+      "es": "Crear una lista personal",
+      "nl": "Een eigen lijst maken"
+    },
+    "listName": {
+      "es": "Nombre de la lista",
+      "nl": "Naam van de lijst"
+    },
+    "noSaved": {
+      "es": "Todavía no has guardado temas, ejemplos o fuentes. Puedes hacerlo desde sus páginas.",
+      "nl": "Je hebt nog geen thema’s, voorbeelden of bronnen opgeslagen. Dat kan op hun pagina’s."
+    },
+    "searchWithin": {
+      "es": "Buscar en",
+      "nl": "Zoeken in"
+    },
+    "searchAll": {
+      "es": "Todo el contenido",
+      "nl": "Alle inhoud"
+    },
+    "searchTitles": {
+      "es": "Títulos y resúmenes",
+      "nl": "Titels en samenvattingen"
+    },
+    "searchTerms": {
+      "es": "Conceptos y terminología",
+      "nl": "Begrippen en termen"
+    },
+    "searchExamples": {
+      "es": "Ejemplos y casos",
+      "nl": "Voorbeelden en casussen"
+    },
+    "searchSources": {
+      "es": "Fuentes y autores",
+      "nl": "Bronnen en auteurs"
+    },
+    "clearSearch": {
+      "es": "Nueva búsqueda sin filtros",
+      "nl": "Nieuwe zoekopdracht zonder filters"
+    },
+    "matchedFragment": {
+      "es": "Fragmento relacionado",
+      "nl": "Bijbehorende passage"
+    },
+    "copyApa": {
+      "es": "Copiar referencia APA",
+      "nl": "APA-verwijzing kopiëren"
+    },
+    "copied": {
+      "es": "Referencia copiada",
+      "nl": "Verwijzing gekopieerd"
+    },
+    "copyFallback": {
+      "es": "Selecciona y copia la referencia que aparece debajo.",
+      "nl": "Selecteer en kopieer de verwijzing hieronder."
+    },
+    "exportRis": {
+      "es": "Exportar referencia para Zotero (RIS)",
+      "nl": "Verwijzing exporteren voor Zotero (RIS)"
+    },
+    "openFull": {
+      "es": "Leer el texto completo",
+      "nl": "Volledige tekst lezen"
+    },
+    "openSummary": {
+      "es": "Consultar la ficha o el resumen",
+      "nl": "Bronpagina of samenvatting bekijken"
+    },
+    "openCorpus": {
+      "es": "Abrir el corpus",
+      "nl": "Corpus openen"
+    },
+    "sourceCard": {
+      "es": "Ficha de lectura",
+      "nl": "Leesfiche"
+    },
+    "readingFocus": {
+      "es": "Por dónde empezar",
+      "nl": "Waar te beginnen"
+    },
+    "sourceQuestion": {
+      "es": "Pregunta o propósito del estudio",
+      "nl": "Onderzoeksvraag of doel"
+    },
+    "sourceData": {
+      "es": "Datos, muestra o argumentos utilizados",
+      "nl": "Gebruikte data, steekproef of argumenten"
+    },
+    "sourceFinding": {
+      "es": "Conclusión y evidencia que la sostiene",
+      "nl": "Conclusie en onderbouwing"
+    },
+    "sourceLimits": {
+      "es": "Límites y posibles interpretaciones alternativas",
+      "nl": "Beperkingen en mogelijke andere interpretaties"
+    },
+    "sourceConnection": {
+      "es": "Relación con mi fenómeno lingüístico",
+      "nl": "Verband met mijn taalkundige verschijnsel"
+    },
+    "sourceDecision": {
+      "es": "Decisión docente que puedo justificar, y con qué cautelas",
+      "nl": "Welke didactische beslissing kan ik onderbouwen, en met welke kanttekeningen?"
+    },
+    "comparisonNote": {
+      "es": "Comparar no significa traducir palabra por palabra. Examina qué función cumple cada forma, qué cambia con el contexto y qué diferencias pueden influir en el aprendizaje.",
+      "nl": "Vergelijken is meer dan woord voor woord vertalen. Onderzoek de functie van elke vorm, de invloed van de context en mogelijke gevolgen voor het leren."
+    },
+    "spanishSample": {
+      "es": "Muestra construida en español",
+      "nl": "Geconstrueerd Spaans voorbeeld"
+    },
+    "dutchSample": {
+      "es": "Muestra construida en neerlandés",
+      "nl": "Geconstrueerd Nederlands voorbeeld"
+    },
+    "contrastQuestion": {
+      "es": "Pregunta para contrastar",
+      "nl": "Vraag voor contrastieve analyse"
+    },
+    "corpusLab": {
+      "es": "Investigar con un corpus",
+      "nl": "Onderzoeken met een corpus"
+    },
+    "corpusHelp": {
+      "es": "Trabaja con una muestra manejable y documenta cómo la obtuviste. Las frecuencias de corpus distintos no se comparan directamente sin controlar sus características.",
+      "nl": "Werk met een overzichtelijke steekproef en leg vast hoe je die hebt verkregen. Vergelijk frequenties uit verschillende corpora niet rechtstreeks zonder rekening te houden met hun kenmerken."
+    },
+    "hypothesis": {
+      "es": "Mi hipótesis",
+      "nl": "Mijn hypothese"
+    },
+    "queryRecord": {
+      "es": "Consulta exacta, corpus, filtros y fecha",
+      "nl": "Exacte zoekopdracht, corpus, filters en datum"
+    },
+    "observations": {
+      "es": "Patrones observados y contraejemplos",
+      "nl": "Waargenomen patronen en tegenvoorbeelden"
+    },
+    "conclusion": {
+      "es": "Conclusión provisional y límites",
+      "nl": "Voorlopige conclusie en beperkingen"
+    },
+    "corpusInstructions": {
+      "es": "Formula una hipótesis sobre un fenómeno del Body of Knowledge. Abre CORPES XXI o el CHN y registra la consulta exacta, los filtros y la fecha. Selecciona, por ejemplo, diez concordancias mediante un procedimiento que puedas explicar; no elijas solo las que confirman tu idea. Revisa el contexto completo y los metadatos disponibles. Agrupa patrones, busca contraejemplos y explica qué cambiarías en tu hipótesis. Si comparas español y neerlandés, comprueba que el género, periodo y modalidad de las muestras sean comparables. La frecuencia describe esa muestra; por sí sola no demuestra corrección ni causa. No incluyas datos identificables de estudiantes.",
+      "nl": "Formuleer een hypothese over een verschijnsel uit de Body of Knowledge. Open CORPES XXI of het CHN en noteer de exacte zoekopdracht, filters en datum. Selecteer bijvoorbeeld tien concordanties volgens een procedure die je kunt toelichten; kies niet alleen voorbeelden die je idee bevestigen. Bekijk de volledige context en beschikbare metadata. Orden patronen, zoek tegenvoorbeelden en geef aan hoe je je hypothese zou bijstellen. Controleer bij een vergelijking van Spaans en Nederlands of genre, periode en modaliteit vergelijkbaar zijn. Frequentie beschrijft die steekproef; ze bewijst op zichzelf geen correctheid of oorzaak. Neem geen herleidbare leerlinggegevens op."
+    },
+    "searchSettings": {
+      "es": "Sugerencias de búsqueda",
+      "nl": "Zoeksuggesties"
+    },
+    "aliasLabel": {
+      "es": "Palabras y preguntas de búsqueda, una por línea",
+      "nl": "Zoekwoorden en vragen, één per regel"
+    },
+    "comparisonSamples": {
+      "es": "Muestras para comparar",
+      "nl": "Voorbeelden om te vergelijken"
+    },
+    "readFocusLabel": {
+      "es": "Orientación para la lectura",
+      "nl": "Leesadvies"
+    },
+    "citationType": {
+      "es": "Tipo de publicación",
+      "nl": "Publicatietype"
+    },
+    "citationAuthors": {
+      "es": "Autores RIS, uno por línea",
+      "nl": "RIS-auteurs, één per regel"
+    },
+    "citationYear": {
+      "es": "Año RIS, vacío cuando no consta",
+      "nl": "RIS-jaar, leeg indien onbekend"
+    },
+    "sourceDetail": {
+      "es": "Estudiar esta fuente",
+      "nl": "Deze bron bestuderen"
+    },
+    "linkTypeLabel": {
+      "es": "Destino del enlace externo",
+      "nl": "Bestemming van de externe link"
+    },
+    "journalType": {
+      "es": "Artículo de revista",
+      "nl": "Tijdschriftartikel"
+    },
+    "bookType": {
+      "es": "Libro",
+      "nl": "Boek"
+    },
+    "webType": {
+      "es": "Recurso web",
+      "nl": "Webbron"
+    },
+    "otherType": {
+      "es": "Otro tipo de fuente",
+      "nl": "Ander brontype"
+    },
+    "addContrast": {
+      "es": "Añadir muestras para comparar",
+      "nl": "Contrastieve voorbeelden toevoegen"
     }
   },
   "source": {
@@ -545,7 +821,10 @@
         "actitudes",
         "taalattitudes",
         "registro",
-        "register"
+        "register",
+        "pluralismo lingüístico",
+        "taalpluralisme",
+        "taaldiversiteit"
       ],
       "references": [
         "entrar",
@@ -638,7 +917,10 @@
         "transferencia",
         "transfer",
         "identidad",
-        "identiteit"
+        "identiteit",
+        "multilingüismo",
+        "multilinguismo",
+        "meertalig"
       ],
       "references": [
         "taalunie",
@@ -674,7 +956,15 @@
         "transfer",
         "identidad",
         "identiteit"
-      ]
+      ],
+      "contrastSamples": {
+        "spanish": "Un aprendiente comenta: «Conozco la palabra en neerlandés, pero no recuerdo cómo se dice en español».",
+        "dutch": "Een leerder zegt: «Ik ken het woord in het Nederlands, maar weet niet meer hoe het in het Spaans heet».",
+        "question": {
+          "es": "¿Qué recursos del repertorio moviliza? ¿Qué observación permitiría distinguir una dificultad léxica de una dificultad conceptual?",
+          "nl": "Welke middelen uit het repertoire gebruikt de leerder? Hoe onderscheid je een lexicaal probleem van een begripsprobleem?"
+        }
+      }
     },
     {
       "slug": "adquisicion",
@@ -821,7 +1111,9 @@
         "diatópica",
         "diatopisch",
         "registro",
-        "register"
+        "register",
+        "español pluricéntrico",
+        "pluricentrisch Spaans"
       ],
       "references": [
         "dpd",
@@ -860,7 +1152,15 @@
         "diatopisch",
         "registro",
         "register"
-      ]
+      ],
+      "contrastSamples": {
+        "spanish": "Vos tenés razón. / Tú tienes razón.",
+        "dutch": "Jij hebt gelijk. / U hebt gelijk.",
+        "question": {
+          "es": "¿Qué diferencias expresan las formas de tratamiento en cada lengua? No supongas que vos equivale a u: considera variedad, relación y contexto.",
+          "nl": "Welke verschillen drukken de aanspreekvormen in beide talen uit? Stel vos niet gelijk aan u: bekijk variëteit, relatie en context."
+        }
+      }
     },
     {
       "slug": "tiempo",
@@ -1320,7 +1620,15 @@
         "taalhandeling",
         "discurso",
         "discours"
-      ]
+      ],
+      "contrastSamples": {
+        "spanish": "¿Podrías cerrar la ventana? / Cierra la ventana, por favor.",
+        "dutch": "Zou je het raam kunnen sluiten? / Doe het raam dicht, alsjeblieft.",
+        "question": {
+          "es": "Compara las peticiones en situaciones equivalentes. ¿Basta la forma interrogativa para inferir cortesía? ¿Qué cambia con la relación entre interlocutores?",
+          "nl": "Vergelijk de verzoeken in overeenkomstige situaties. Volstaat een vraagvorm om beleefdheid af te leiden? Wat verandert door de relatie tussen gesprekspartners?"
+        }
+      }
     },
     {
       "slug": "fonologia",
@@ -1509,7 +1817,15 @@
         "samenstelling",
         "productividad",
         "productiviteit"
-      ]
+      ],
+      "contrastSamples": {
+        "spanish": "profesor / profesores, casa / casas",
+        "dutch": "leraar / leraren, huis / huizen",
+        "question": {
+          "es": "¿Qué regularidades y cambios de forma observas? ¿Qué se puede generalizar con estos pocos ejemplos y qué habría que contrastar en una gramática o corpus?",
+          "nl": "Welke patronen en vormveranderingen zie je? Wat kun je met deze paar voorbeelden generaliseren en wat moet je in een grammatica of corpus toetsen?"
+        }
+      }
     },
     {
       "slug": "corpus",
@@ -2290,6 +2606,14 @@
           "es": "Ejemplo citado por la NGLE, § 33.8b, procedente de El Mundo, España, 10 de mayo de 1995. Consulta la fuente antes de atribuir una interpretación al texto completo.",
           "nl": "Voorbeeld aangehaald in NGLE § 33.8b, uit El Mundo, Spanje, 10 mei 1995. Raadpleeg de bron vóór je conclusies over de volledige tekst trekt."
         }
+      },
+      "contrastSamples": {
+        "spanish": "Este libro es interesante. / Estos libros son interesantes.",
+        "dutch": "Dit boek is interessant. / Deze boeken zijn interessant.",
+        "question": {
+          "es": "Identifica dónde se marca el número en cada construcción. ¿Qué marcas adicionales aparecen en español y qué hipótesis de transferencia merece comprobarse?",
+          "nl": "Waar wordt getal gemarkeerd? Welke extra markeringen heeft het Spaans en welke transferhypothese verdient onderzoek?"
+        }
       }
     },
     {
@@ -2366,7 +2690,15 @@
         "Clíticos y leísmo",
         "Clitica en leísmo",
         "cliticos"
-      ]
+      ],
+      "contrastSamples": {
+        "spanish": "Veo a Ana. / La veo.",
+        "dutch": "Ik zie Anna. / Ik zie haar.",
+        "question": {
+          "es": "Compara la posición y la función de los pronombres. ¿Qué regla de posición funciona en estos ejemplos y qué ocurre al cambiar la construcción verbal?",
+          "nl": "Vergelijk de positie en functie van de voornaamwoorden. Welke plaatsingsregel past hier en wat gebeurt er bij een andere werkwoordconstructie?"
+        }
+      }
     }
   ],
   "references": [
@@ -2385,7 +2717,17 @@
         "nl": "Bronpagina toegankelijk; volledige tekst kan instellingsrechten of aankoop vereisen."
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Localiza el apartado sobre tu fenómeno. Anota qué afirmación sostiene, con qué ejemplos o datos, y qué límites tiene su aplicación docente.",
+        "nl": "Zoek de passage over jouw verschijnsel. Noteer welke uitspraak wordt onderbouwd, met welke voorbeelden of data en welke grenzen er zijn aan de didactische toepassing."
+      },
+      "linkType": "summary",
+      "citation": {
+        "type": "BOOK",
+        "authors": "Garrett, P.",
+        "year": "2010"
+      }
     },
     {
       "id": "cervantes",
@@ -2402,7 +2744,17 @@
         "nl": "Vrij toegankelijk"
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Localiza el apartado sobre tu fenómeno. Anota qué afirmación sostiene, con qué ejemplos o datos, y qué límites tiene su aplicación docente.",
+        "nl": "Zoek de passage over jouw verschijnsel. Noteer welke uitspraak wordt onderbouwd, met welke voorbeelden of data en welke grenzen er zijn aan de didactische toepassing."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Instituto Cervantes",
+        "year": ""
+      }
     },
     {
       "id": "pcic",
@@ -2419,7 +2771,17 @@
         "nl": "Vrij toegankelijk"
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Localiza el apartado sobre tu fenómeno. Anota qué afirmación sostiene, con qué ejemplos o datos, y qué límites tiene su aplicación docente.",
+        "nl": "Zoek de passage over jouw verschijnsel. Noteer welke uitspraak wordt onderbouwd, met welke voorbeelden of data en welke grenzen er zijn aan de didactische toepassing."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "BOOK",
+        "authors": "Instituto Cervantes",
+        "year": "2006"
+      }
     },
     {
       "id": "ellis",
@@ -2436,7 +2798,17 @@
         "nl": "Vrij toegankelijk"
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Busca cómo se relacionan los tipos de feedback con las decisiones del docente. Distingue las propuestas pedagógicas de las afirmaciones empíricas.",
+        "nl": "Onderzoek het verband tussen feedbacktypen en docentbeslissingen. Onderscheid pedagogische voorstellen van empirische uitspraken."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "JOUR",
+        "authors": "Ellis, R.",
+        "year": "2009"
+      }
     },
     {
       "id": "black",
@@ -2453,7 +2825,17 @@
         "nl": "Bronpagina toegankelijk; volledige tekst kan instellingsrechten of aankoop vereisen."
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Examina qué hace que una práctica sea formativa y qué papel tiene el uso de la evidencia. Si no tienes acceso completo, no extraigas conclusiones solo del resumen.",
+        "nl": "Onderzoek wat een praktijk formatief maakt en welke rol het gebruik van bewijs speelt. Trek zonder volledige toegang geen conclusies uitsluitend op basis van het abstract."
+      },
+      "linkType": "summary",
+      "citation": {
+        "type": "JOUR",
+        "authors": "Black, P.\nWiliam, D.",
+        "year": "2009"
+      }
     },
     {
       "id": "sadler",
@@ -2470,7 +2852,17 @@
         "nl": "Bronpagina toegankelijk; volledige tekst kan instellingsrechten of aankoop vereisen."
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Examina la relación entre criterios, juicio sobre el trabajo y acción de mejora. Si no puedes acceder al texto, registra esa limitación.",
+        "nl": "Onderzoek het verband tussen criteria, beoordeling van het werk en verbeteracties. Noteer de beperking als je de tekst niet kunt openen."
+      },
+      "linkType": "summary",
+      "citation": {
+        "type": "JOUR",
+        "authors": "Sadler, D. R.",
+        "year": "1989"
+      }
     },
     {
       "id": "ans",
@@ -2487,7 +2879,17 @@
         "nl": "Vrij toegankelijk"
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Empieza por el término del fenómeno en el buscador y revisa sus ejemplos y las remisiones internas. Anota qué análisis ofrece la ANS y qué no puedes trasladar directamente al español.",
+        "nl": "Zoek eerst het begrip op en bekijk voorbeelden en interne verwijzingen. Noteer de analyse van de ANS en wat je niet rechtstreeks op het Spaans kunt toepassen."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Instituut voor de Nederlandse Taal",
+        "year": ""
+      }
     },
     {
       "id": "taalunie",
@@ -2504,7 +2906,17 @@
         "nl": "Vrij toegankelijk"
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Localiza el apartado sobre tu fenómeno. Anota qué afirmación sostiene, con qué ejemplos o datos, y qué límites tiene su aplicación docente.",
+        "nl": "Zoek de passage over jouw verschijnsel. Noteer welke uitspraak wordt onderbouwd, met welke voorbeelden of data en welke grenzen er zijn aan de didactische toepassing."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Taalunie",
+        "year": "2022"
+      }
     },
     {
       "id": "chn",
@@ -2521,7 +2933,17 @@
         "nl": "Onderzoekstoegang met gebruikersnaam en wachtwoord"
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Consulta la información de acceso y composición del corpus antes de buscar. Documenta la consulta y las características de la muestra.",
+        "nl": "Bekijk eerst de toegangsinformatie en corpussamenstelling. Leg de zoekopdracht en kenmerken van de steekproef vast."
+      },
+      "linkType": "corpus",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Instituut voor de Nederlandse Taal",
+        "year": ""
+      }
     },
     {
       "id": "gtg",
@@ -2538,7 +2960,17 @@
         "nl": "Vrij toegankelijk"
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Localiza el apartado sobre tu fenómeno. Anota qué afirmación sostiene, con qué ejemplos o datos, y qué límites tiene su aplicación docente.",
+        "nl": "Zoek de passage over jouw verschijnsel. Noteer welke uitspraak wordt onderbouwd, met welke voorbeelden of data en welke grenzen er zijn aan de didactische toepassing."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Real Academia Española\nAsociación de Academias de la Lengua Española",
+        "year": ""
+      }
     },
     {
       "id": "ngle",
@@ -2555,7 +2987,17 @@
         "nl": "Vrij toegankelijk"
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Localiza el apartado sobre tu fenómeno. Anota qué afirmación sostiene, con qué ejemplos o datos, y qué límites tiene su aplicación docente.",
+        "nl": "Zoek de passage over jouw verschijnsel. Noteer welke uitspraak wordt onderbouwd, met welke voorbeelden of data en welke grenzen er zijn aan de didactische toepassing."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Real Academia Española\nAsociación de Academias de la Lengua Española",
+        "year": ""
+      }
     },
     {
       "id": "se",
@@ -2572,7 +3014,17 @@
         "nl": "Vrij toegankelijk"
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Localiza el apartado sobre tu fenómeno. Anota qué afirmación sostiene, con qué ejemplos o datos, y qué límites tiene su aplicación docente.",
+        "nl": "Zoek de passage over jouw verschijnsel. Noteer welke uitspraak wordt onderbouwd, met welke voorbeelden of data en welke grenzen er zijn aan de didactische toepassing."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Real Academia Española\nAsociación de Academias de la Lengua Española",
+        "year": ""
+      }
     },
     {
       "id": "leismo",
@@ -2589,7 +3041,17 @@
         "nl": "Vrij toegankelijk"
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Localiza el apartado sobre tu fenómeno. Anota qué afirmación sostiene, con qué ejemplos o datos, y qué límites tiene su aplicación docente.",
+        "nl": "Zoek de passage over jouw verschijnsel. Noteer welke uitspraak wordt onderbouwd, met welke voorbeelden of data en welke grenzen er zijn aan de didactische toepassing."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Real Academia Española\nAsociación de Academias de la Lengua Española",
+        "year": ""
+      }
     },
     {
       "id": "entrar",
@@ -2606,7 +3068,17 @@
         "nl": "Vrij toegankelijk"
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Localiza el apartado sobre tu fenómeno. Anota qué afirmación sostiene, con qué ejemplos o datos, y qué límites tiene su aplicación docente.",
+        "nl": "Zoek de passage over jouw verschijnsel. Noteer welke uitspraak wordt onderbouwd, met welke voorbeelden of data en welke grenzen er zijn aan de didactische toepassing."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Real Academia Española\nAsociación de Academias de la Lengua Española",
+        "year": ""
+      }
     },
     {
       "id": "concordancia",
@@ -2623,7 +3095,17 @@
         "nl": "Vrij toegankelijk"
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Localiza el apartado sobre tu fenómeno. Anota qué afirmación sostiene, con qué ejemplos o datos, y qué límites tiene su aplicación docente.",
+        "nl": "Zoek de passage over jouw verschijnsel. Noteer welke uitspraak wordt onderbouwd, met welke voorbeelden of data en welke grenzen er zijn aan de didactische toepassing."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Real Academia Española\nAsociación de Academias de la Lengua Española",
+        "year": ""
+      }
     },
     {
       "id": "corpes",
@@ -2640,7 +3122,17 @@
         "nl": "Vrij toegankelijk"
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Revisa los filtros de país, periodo, género y modalidad antes de interpretar los resultados. Conserva la consulta y el contexto.",
+        "nl": "Bekijk filters voor land, periode, genre en modaliteit voordat je resultaten interpreteert. Bewaar de zoekopdracht en context."
+      },
+      "linkType": "corpus",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Real Academia Española",
+        "year": ""
+      }
     },
     {
       "id": "dpd",
@@ -2657,7 +3149,17 @@
         "nl": "Vrij toegankelijk"
       },
       "checked": "2026-10-09",
-      "status": "verified"
+      "status": "verified",
+      "readingFocus": {
+        "es": "Localiza el apartado sobre tu fenómeno. Anota qué afirmación sostiene, con qué ejemplos o datos, y qué límites tiene su aplicación docente.",
+        "nl": "Zoek de passage over jouw verschijnsel. Noteer welke uitspraak wordt onderbouwd, met welke voorbeelden of data en welke grenzen er zijn aan de didactische toepassing."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "ELEC",
+        "authors": "Real Academia Española\nAsociación de Academias de la Lengua Española",
+        "year": ""
+      }
     }
   ],
   "readingGuide": {
@@ -3571,8 +4073,8 @@
     ]
   },
   "adminGuide": {
-    "es": "Edita con los campos separados para español y neerlandés. Guarda un borrador local y exporta una copia. La vista previa muestra el resultado antes de publicarlo. Verifica ambas lenguas y las referencias. Para publicar utiliza una credencial de GitHub limitada a este repositorio con permiso Contents: read and write. Solo GitHub puede conceder ese permiso; la biblioteca no tiene una contraseña compartida. No pegues la credencial en un chat ni la guardes en el contenido. La interfaz la mantiene únicamente en memoria durante la sesión.\nAñade una fuente con referencia APA, URL real, acceso y fecha de comprobación. Una fuente nueva queda pendiente hasta que marques que la has verificado. Puedes ocultar un tema y volver a publicarlo. Cada publicación crea un commit y GitHub conserva el historial. Una versión puede restaurarse desde el historial del archivo de contenido en GitHub. Los cambios en main se publican mediante GitHub Pages.\nAlternativas consideradas: un CMS como WordPress ofrece edición y roles familiares, pero necesita servidor, actualizaciones y mantenimiento. Un editor ligero sobre GitHub Pages evita servidor y conserva historial, pero depende de permisos y credenciales de GitHub. Se mantiene la segunda opción para conservar el alojamiento existente; la autenticación editorial no utiliza una contraseña incrustada en JavaScript.",
-    "nl": "Bewerk Spaanse en Nederlandse velden afzonderlijk. Bewaar een lokaal concept en exporteer een kopie. De preview toont het resultaat vóór publicatie. Controleer beide talen en bronnen. Publiceren vereist een GitHub-credential beperkt tot deze repository met Contents: read and write. Alleen GitHub kan dat recht toekennen; de bibliotheek gebruikt geen gedeeld wachtwoord. Deel de credential niet in een chat en sla haar niet in inhoud op. De interface bewaart haar alleen in het geheugen gedurende de sessie.\nVoeg bronnen toe met APA-verwijzing, echte URL, toegang en controledatum. Een nieuwe bron blijft in afwachting totdat je verificatie bevestigt. Je kunt onderwerpen verbergen en opnieuw publiceren. Iedere publicatie maakt een commit; GitHub bewaart de geschiedenis. Een versie kan vanuit de geschiedenis van het inhoudsbestand worden teruggezet. Wijzigingen op main worden via GitHub Pages gepubliceerd.\nAfgewogen alternatieven: een CMS zoals WordPress biedt vertrouwde redactie en rollen, maar vereist hosting, updates en onderhoud. Een lichte editor bij GitHub Pages vermijdt een server en bewaart geschiedenis, maar vereist GitHub-rechten en credentials. De tweede optie behoudt de bestaande hosting; redactiebeveiliging berust niet op een wachtwoord in JavaScript."
+    "es": "Edita con los campos separados para español y neerlandés. Guarda un borrador local y exporta una copia. La vista previa muestra el resultado antes de publicarlo. Verifica ambas lenguas y las referencias. Para publicar utiliza una credencial de GitHub limitada a este repositorio con permiso Contents: read and write. Solo GitHub puede conceder ese permiso; la biblioteca no tiene una contraseña compartida. No pegues la credencial en un chat ni la guardes en el contenido. La interfaz la mantiene únicamente en memoria durante la sesión.\nAñade una fuente con referencia APA, URL real, acceso y fecha de comprobación. Una fuente nueva queda pendiente hasta que marques que la has verificado. Puedes ocultar un tema y volver a publicarlo. Cada publicación crea un commit y GitHub conserva el historial. Una versión puede restaurarse desde el historial del archivo de contenido en GitHub. Los cambios en main se publican mediante GitHub Pages.\nAlternativas consideradas: un CMS como WordPress ofrece edición y roles familiares, pero necesita servidor, actualizaciones y mantenimiento. Un editor ligero sobre GitHub Pages evita servidor y conserva historial, pero depende de permisos y credenciales de GitHub. Se mantiene la segunda opción para conservar el alojamiento existente; la autenticación editorial no utiliza una contraseña incrustada en JavaScript.\nEn Sugerencias de búsqueda puedes editar las etiquetas españolas y neerlandesas y las palabras que conectan consultas con dominios. Son selecciones editoriales, no estadísticas de popularidad. En Fuentes puedes editar la orientación de lectura y los metadatos RIS. Comprueba esos datos antes de publicar. Las muestras comparativas se editan en la página de cada tema. Mi estudio conserva favoritos y fichas en el navegador; su copia se exporta e importa desde esa sección.",
+    "nl": "Bewerk Spaanse en Nederlandse velden afzonderlijk. Bewaar een lokaal concept en exporteer een kopie. De preview toont het resultaat vóór publicatie. Controleer beide talen en bronnen. Publiceren vereist een GitHub-credential beperkt tot deze repository met Contents: read and write. Alleen GitHub kan dat recht toekennen; de bibliotheek gebruikt geen gedeeld wachtwoord. Deel de credential niet in een chat en sla haar niet in inhoud op. De interface bewaart haar alleen in het geheugen gedurende de sessie.\nVoeg bronnen toe met APA-verwijzing, echte URL, toegang en controledatum. Een nieuwe bron blijft in afwachting totdat je verificatie bevestigt. Je kunt onderwerpen verbergen en opnieuw publiceren. Iedere publicatie maakt een commit; GitHub bewaart de geschiedenis. Een versie kan vanuit de geschiedenis van het inhoudsbestand worden teruggezet. Wijzigingen op main worden via GitHub Pages gepubliceerd.\nAfgewogen alternatieven: een CMS zoals WordPress biedt vertrouwde redactie en rollen, maar vereist hosting, updates en onderhoud. Een lichte editor bij GitHub Pages vermijdt een server en bewaart geschiedenis, maar vereist GitHub-rechten en credentials. De tweede optie behoudt de bestaande hosting; redactiebeveiliging berust niet op een wachtwoord in JavaScript.\nBij Zoeksuggesties bewerk je Spaanse en Nederlandse labels en de zoekwoorden die naar domeinen verwijzen. Het is een redactionele selectie, geen populariteitsstatistiek. Bij Bronnen bewerk je leesadvies en RIS-metadata. Controleer die vóór publicatie. Contrastieve voorbeelden bewerk je bij het thema. Mijn studie bewaart favorieten en leesfiches in de browser; je exporteert en importeert de kopie vanuit die sectie."
   },
   "glossary": [
     {
@@ -3739,6 +4241,111 @@
         "nl": "Informatie die revisie kan sturen; ontvangst bewijst nog geen verwerking."
       },
       "topic": "feedback"
+    }
+  ],
+  "popularTopics": [
+    {
+      "topic": "repertorios",
+      "label": {
+        "es": "Multilingüismo",
+        "nl": "Meertaligheid"
+      },
+      "query": {
+        "es": "multilingüismo",
+        "nl": "meertaligheid"
+      }
+    },
+    {
+      "topic": "pluricentrico",
+      "label": {
+        "es": "Español pluricéntrico",
+        "nl": "Pluricentrisch Spaans"
+      },
+      "query": {
+        "es": "pluricentrismo",
+        "nl": "pluricentriciteit"
+      }
+    },
+    {
+      "topic": "norma",
+      "label": {
+        "es": "Pluralismo lingüístico",
+        "nl": "Taalpluralisme"
+      },
+      "query": {
+        "es": "pluralismo lingüístico",
+        "nl": "taalpluralisme"
+      }
+    },
+    {
+      "topic": "modo",
+      "label": {
+        "es": "Subjuntivo",
+        "nl": "Subjuntivo"
+      },
+      "query": {
+        "es": "subjuntivo",
+        "nl": "subjuntivo"
+      }
+    },
+    {
+      "topic": "congruencia",
+      "label": {
+        "es": "Concordancia",
+        "nl": "Congruentie"
+      },
+      "query": {
+        "es": "concordancia",
+        "nl": "congruentie"
+      }
+    },
+    {
+      "topic": "feedback",
+      "label": {
+        "es": "Feedback",
+        "nl": "Feedback"
+      },
+      "query": {
+        "es": "feedback",
+        "nl": "feedback"
+      }
+    }
+  ],
+  "searchAliases": [
+    {
+      "topic": "repertorios",
+      "terms": {
+        "es": "multilingüismo\nmultilinguismo\nplurilingüismo\nvarias lenguas en el aula",
+        "nl": "meertaligheid\nmeertalig\ntaalrepertoire\nmeerdere talen in de klas"
+      }
+    },
+    {
+      "topic": "norma",
+      "terms": {
+        "es": "pluralismo\npluralismo lingüístico\ndiversidad lingüística\nqué es correcto\npluralismo en español",
+        "nl": "taalpluralisme\npluralisme\ntaaldiversiteit\nwat is correct\npluralisme in het Spaans"
+      }
+    },
+    {
+      "topic": "pluricentrico",
+      "terms": {
+        "es": "español pluricéntrico\nvariedades del español",
+        "nl": "pluricentrisch Spaans\nvariëteiten van het Spaans"
+      }
+    },
+    {
+      "topic": "congruencia",
+      "terms": {
+        "es": "verbo en singular o plural\nconcordancia",
+        "nl": "werkwoord enkelvoud of meervoud\ncongruentie"
+      }
+    },
+    {
+      "topic": "modo",
+      "terms": {
+        "es": "cuándo usar el subjuntivo\nsubjuntivo",
+        "nl": "wanneer gebruik je de subjuntivo\nsubjuntivo"
+      }
     }
   ]
 }
