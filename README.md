@@ -39,3 +39,11 @@ La herramienta no establece plazos, calificaciones ni rúbricas oficiales. El eq
 ## Comprobaciones
 
 Comprobadas navegación interna, filtros, etapas por LUK, guardado y recuperación, exportación HTML, importación y exportación de copias, aislamiento de borradores y manejo de fallos de almacenamiento.
+
+## Actualización del 9 de octubre de 2026
+
+Navegación simplificada, buscador permanente, selector persistente de menús español/neerlandés, índice dentro de las lecturas y sección de comparación con tres fuentes institucionales neerlandesas verificadas. Los textos largos existentes siguen en español; el selector no los traduce. El contenido de comparación existe en ambas lenguas. El CHN requiere acceso autorizado para investigación.
+
+El cuaderno conserva sus identificadores, esquema de datos y clave de almacenamiento. Los valores de los filtros se mantienen independientes de las etiquetas traducidas. La edición continúa mediante GitHub; esta versión no incorpora un CMS gráfico ni una contraseña propia de edición.
+
+Validación de esta actualización: sintaxis JavaScript, presencia y persistencia del selector, rutas y valores de filtros comprobados en el código. No se realizó prueba visual interactiva en navegador en esta actualización.
