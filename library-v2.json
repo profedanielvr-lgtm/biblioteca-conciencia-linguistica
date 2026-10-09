@@ -1040,6 +1040,186 @@
     "citationPublisher": {
       "es": "Editorial",
       "nl": "Uitgever"
+    },
+    "synthesisTitle": {
+      "es": "Síntesis crítica de literatura",
+      "nl": "Kritische literatuursynthese"
+    },
+    "synthesisHelp": {
+      "es": "Ruta opcional de profundización. Úsala cuando tengas una pregunta y varias fuentes pertinentes. Formula primero una hipótesis provisional y examina después qué apoyos, límites y alternativas ofrece la literatura. No necesitas encontrar dos bandos ni completar seis fuentes.",
+      "nl": "Optionele verdiepingsroute voor een onderzoeksvraag met meerdere relevante bronnen. Formuleer eerst een voorlopige hypothese en onderzoek vervolgens ondersteuning, beperkingen en alternatieve verklaringen. Twee kampen of zes bronnen zijn niet vereist."
+    },
+    "synthesisHonesty": {
+      "es": "Esta herramienta organiza tu análisis; no genera una revisión automática ni ha leído las obras por ti. Una referencia verificada acredita su identificación, no una lectura íntegra. Declara si consultaste el texto completo, un fragmento, el resumen o únicamente metadatos. No atribuyas resultados que no has comprobado.",
+      "nl": "Deze tool ondersteunt je eigen analyse en maakt geen automatische literatuurstudie. Een gecontroleerde referentie bevestigt de identiteit van de publicatie, niet dat de volledige tekst is gelezen. Vermeld of je de volledige tekst, een fragment, de samenvatting of alleen metadata hebt geraadpleegd. Schrijf geen onbevestigde resultaten aan een bron toe."
+    },
+    "synthesisQuestion": {
+      "es": "Pregunta que quieres investigar",
+      "nl": "Onderzoeksvraag"
+    },
+    "synthesisHypothesis": {
+      "es": "Hipótesis provisional y condiciones en las que debería cumplirse",
+      "nl": "Voorlopige hypothese en verwachte geldigheidsvoorwaarden"
+    },
+    "synthesisSearch": {
+      "es": "Registro de búsqueda, términos ES/NL, recursos consultados, fechas y criterios de selección",
+      "nl": "Zoeklogboek, Spaanse en Nederlandse zoektermen, geraadpleegde bronnen, data en selectiecriteria"
+    },
+    "synthesisSource": {
+      "es": "Fuente para contrastar",
+      "nl": "Bron voor vergelijking"
+    },
+    "synthesisSourceHelp": {
+      "es": "Selecciona fuentes pertinentes del catálogo, incluidas las de otros temas. Justifica su relación con tu pregunta. Las categorías siguientes corresponden a tu interpretación y pueden revisarse.",
+      "nl": "Kies relevante bronnen uit de catalogus, ook bij andere thema’s. Onderbouw hun relatie met je vraag. De onderstaande categorieën geven jouw interpretatie weer en kunnen worden herzien."
+    },
+    "synthesisRole": {
+      "es": "Relación con la hipótesis",
+      "nl": "Relatie met de hypothese"
+    },
+    "synSupports": {
+      "es": "Respalda una afirmación delimitada",
+      "nl": "Ondersteunt een afgebakende bewering"
+    },
+    "synChallenges": {
+      "es": "Cuestiona o contradice una afirmación",
+      "nl": "Betwist of weerspreekt een bewering"
+    },
+    "synQualifies": {
+      "es": "Delimita, matiza o condiciona su alcance",
+      "nl": "Beperkt, nuanceert of specificeert het bereik"
+    },
+    "synAlternative": {
+      "es": "Propone una explicación alternativa",
+      "nl": "Biedt een alternatieve verklaring"
+    },
+    "synUnresolved": {
+      "es": "Relación todavía no determinada",
+      "nl": "Relatie nog niet vastgesteld"
+    },
+    "synClaim": {
+      "es": "Afirmación de la fuente y relación exacta con tu hipótesis",
+      "nl": "Bewering uit de bron en precieze relatie met je hypothese"
+    },
+    "synPassage": {
+      "es": "Localizador del pasaje, página o apartado, y paráfrasis fiel",
+      "nl": "Vindplaats, pagina of paragraaf, met een getrouwe parafrase"
+    },
+    "synConsultation": {
+      "es": "Qué parte consultaste, cómo accediste y qué falta leer",
+      "nl": "Wat je hebt geraadpleegd, hoe je toegang kreeg en wat nog ongelezen is"
+    },
+    "synEvidence": {
+      "es": "Tipo de apoyo, argumento teórico, datos empíricos, síntesis o recomendación",
+      "nl": "Soort onderbouwing, theoretisch argument, empirische gegevens, synthese of aanbeveling"
+    },
+    "synMethod": {
+      "es": "Método, población o muestra, lengua, tarea y contexto pertinentes",
+      "nl": "Relevante methode, populatie of steekproef, taal, taak en context"
+    },
+    "synLimits": {
+      "es": "Límites, incertidumbre y alcance de la transferencia a ELE",
+      "nl": "Beperkingen, onzekerheid en toepasbaarheid in het onderwijs Spaans"
+    },
+    "synComparability": {
+      "es": "Comparabilidad de las fuentes",
+      "nl": "Vergelijkbaarheid van de bronnen"
+    },
+    "synComparabilityHint": {
+      "es": "¿Investigan la misma afirmación y definen igual los conceptos? Compara población, lengua, tarea, método y medida. Si no son comparables, explica qué diálogo limitado permiten y qué conclusión no puedes extraer.",
+      "nl": "Onderzoeken de bronnen dezelfde bewering en hanteren ze dezelfde begrippen? Vergelijk populatie, taal, taak, methode en maat. Licht bij beperkte vergelijkbaarheid toe welk gesprek wel mogelijk is en welke conclusie niet."
+    },
+    "synDialogue": {
+      "es": "Diálogo académico y síntesis",
+      "nl": "Wetenschappelijke dialoog en synthese"
+    },
+    "synDialogueHint": {
+      "es": "Contrasta afirmaciones concretas y señala sus fuentes. Distingue desacuerdo conceptual, empírico o metodológico, resultados compatibles bajo condiciones diferentes y diferencias que todavía no puedes explicar. No cuentes fuentes a favor y en contra como votos.",
+      "nl": "Vergelijk concrete beweringen met bronverwijzingen. Onderscheid conceptuele, empirische en methodologische verschillen, bevindingen die onder andere voorwaarden verenigbaar zijn en onverklaarde verschillen. Tel bronnen niet als stemmen voor of tegen."
+    },
+    "synGaps": {
+      "es": "Vacíos, límites de la búsqueda y evidencia divergente no encontrada",
+      "nl": "Kennislacunes, zoekbeperkingen en niet gevonden afwijkende evidentie"
+    },
+    "synGapsHint": {
+      "es": "Registra qué falta comprobar. No encontrar oposición no prueba consenso ni confirma tu hipótesis. Considera fuentes inaccesibles, sesgos de selección y posibles explicaciones rivales.",
+      "nl": "Noteer wat nog onderzocht moet worden. Geen tegenbewijs vinden toont geen consensus aan en bevestigt je hypothese niet. Betrek ontoegankelijke bronnen, selectiebias en mogelijke concurrerende verklaringen."
+    },
+    "synRevised": {
+      "es": "Hipótesis reformulada y grado de confianza justificado",
+      "nl": "Herziene hypothese en onderbouwde mate van zekerheid"
+    },
+    "synRevisedHint": {
+      "es": "Explica qué conservas, qué modificas y qué todavía no puedes afirmar. Identifica las condiciones y la evidencia que podrían hacerte revisar esta versión.",
+      "nl": "Licht toe wat je behoudt, wat je bijstelt en wat je nog niet kunt beweren. Benoem voorwaarden en evidentie die aanleiding kunnen geven tot verdere herziening."
+    },
+    "synDecision": {
+      "es": "Decisión docente fundamentada",
+      "nl": "Onderbouwde onderwijsbeslissing"
+    },
+    "synDecisionHint": {
+      "es": "Compara opciones para ejemplos, explicación, feedback o evaluación. Justifica tu elección desde la síntesis y tu contexto, sin presentar una inferencia didáctica como resultado directo de un estudio.",
+      "nl": "Vergelijk opties voor voorbeelden, uitleg, feedback of beoordeling. Onderbouw je keuze vanuit de synthese en je context. Presenteer een didactische gevolgtrekking niet als rechtstreeks onderzoeksresultaat."
+    },
+    "synCheck": {
+      "es": "Cómo comprobarás y revisarás la decisión en tu aula",
+      "nl": "Hoe je de beslissing in je klas onderzoekt en bijstelt"
+    },
+    "synCheckHint": {
+      "es": "Indica qué producción, observación o comparación recogerás, qué resultado cuestionaría tu decisión y qué otra explicación tendrás que descartar.",
+      "nl": "Beschrijf welke taalproductie, observatie of vergelijking je verzamelt, welke uitkomst je beslissing ter discussie stelt en welke alternatieve verklaring je moet onderzoeken."
+    },
+    "synStrategic": {
+      "es": "Preguntas estratégicas sobre tu propia síntesis",
+      "nl": "Strategische vragen over je eigen synthese"
+    },
+    "synStrategicHint": {
+      "es": "¿Qué evidencia me haría abandonar la hipótesis? ¿He confundido autoridad con calidad de evidencia? ¿Son comparables los estudios? ¿Qué explicación he descartado demasiado pronto? ¿Qué permite justificar la síntesis en mi aula y qué sigue siendo una conjetura?",
+      "nl": "Welke evidentie zou mij mijn hypothese laten loslaten? Verwar ik autoriteit met kwaliteit van onderbouwing? Zijn de onderzoeken vergelijkbaar? Welke verklaring heb ik te vroeg verworpen? Wat rechtvaardigt de synthese in mijn klas en wat blijft een vermoeden?"
+    },
+    "synReview": {
+      "es": "Revisar el registro de la síntesis",
+      "nl": "Registratie van de synthese controleren"
+    },
+    "synExport": {
+      "es": "Descargar la síntesis",
+      "nl": "Synthese downloaden"
+    },
+    "synTransfer": {
+      "es": "Añadir la síntesis al cuaderno",
+      "nl": "Synthese aan het werkdossier toevoegen"
+    },
+    "synTraceHelp": {
+      "es": "La revisión detecta campos vacíos, fichas incompletas y fuentes repetidas. No determina si tu interpretación es correcta, si las fuentes son comparables o si existe consenso.",
+      "nl": "De controle signaleert lege velden, onvolledige bronnotities en dubbele bronnen. Ze beoordeelt niet de juistheid van je interpretatie, de vergelijkbaarheid van bronnen of wetenschappelijke consensus."
+    },
+    "synIncomplete": {
+      "es": "Fuentes con registro incompleto",
+      "nl": "Bronnen met onvolledige registratie"
+    },
+    "synDuplicates": {
+      "es": "Fuentes repetidas, no constituyen evidencias independientes",
+      "nl": "Dubbele bronnen vormen geen onafhankelijke evidentie"
+    },
+    "synDocumented": {
+      "es": "Fuentes con registro documentado",
+      "nl": "Bronnen met gedocumenteerde registratie"
+    },
+    "synNeedSources": {
+      "es": "Para contrastar literatura, selecciona al menos dos fuentes distintas o explica en los vacíos por qué aún no es posible",
+      "nl": "Selecteer voor literatuurvergelijking minstens twee verschillende bronnen of licht bij de kennislacunes toe waarom dit nog niet mogelijk is"
+    },
+    "synDraft": {
+      "es": "Borrador de síntesis, el registro no acredita una lectura completa",
+      "nl": "Synthesewerkversie, de registratie toont geen volledige lezing aan"
+    },
+    "synResume": {
+      "es": "Continuar la síntesis crítica",
+      "nl": "Verder met de kritische synthese"
+    },
+    "synChangeSource": {
+      "es": "Cambiar esta fuente vaciará su ficha en esta ranura para evitar atribuir las notas a otra obra. Exporta la síntesis si quieres conservarla. ¿Quieres cambiarla?",
+      "nl": "Bij een andere bron worden de notities in deze plek gewist, zodat ze niet aan een andere publicatie worden toegeschreven. Exporteer de synthese als je ze wilt bewaren. Wil je de bron wijzigen?"
     }
   },
   "source": {
@@ -8331,8 +8511,8 @@
     ]
   },
   "adminGuide": {
-    "es": "Edita con los campos separados para español y neerlandés. Guarda un borrador local y exporta una copia. La vista previa muestra el resultado antes de publicarlo. Verifica ambas lenguas y las referencias. Para publicar utiliza una credencial de GitHub limitada a este repositorio con permiso Contents: read and write. Solo GitHub puede conceder ese permiso; la biblioteca no tiene una contraseña compartida. No pegues la credencial en un chat ni la guardes en el contenido. La interfaz la mantiene únicamente en memoria durante la sesión.\nAñade una fuente con referencia APA, URL real, acceso y fecha de comprobación. Una fuente nueva queda pendiente hasta que marques que la has verificado. Puedes ocultar un tema y volver a publicarlo. Cada publicación crea un commit y GitHub conserva el historial. Una versión puede restaurarse desde el historial del archivo de contenido en GitHub. Los cambios en main se publican mediante GitHub Pages.\nAlternativas consideradas: un CMS como WordPress ofrece edición y roles familiares, pero necesita servidor, actualizaciones y mantenimiento. Un editor ligero sobre GitHub Pages evita servidor y conserva historial, pero depende de permisos y credenciales de GitHub. Se mantiene la segunda opción para conservar el alojamiento existente; la autenticación editorial no utiliza una contraseña incrustada en JavaScript.\nEn Sugerencias de búsqueda puedes editar las etiquetas españolas y neerlandesas y las palabras que conectan consultas con dominios. Son selecciones editoriales, no estadísticas de popularidad. En Fuentes puedes editar la orientación de lectura y los metadatos RIS. Comprueba esos datos antes de publicar. Las muestras comparativas se editan en la página de cada tema. Mi estudio conserva favoritos y fichas en el navegador; su copia se exporta e importa desde esa sección.\nLas preguntas estratégicas finales se editan por tema en Profesorado. Revise ambas versiones y previsualice antes de publicar.\nEl taller de razonamiento utiliza campos separados para foco, caso nuevo, criterios orientativos y contraste con modelos. Se editan por tema en español y neerlandés. Las fuentes recientes tienen campos editables de tipo de evidencia, alcance y verificación. No presente los criterios orientativos como una rúbrica oficial.",
-    "nl": "Bewerk Spaanse en Nederlandse velden afzonderlijk. Bewaar een lokaal concept en exporteer een kopie. De preview toont het resultaat vóór publicatie. Controleer beide talen en bronnen. Publiceren vereist een GitHub-credential beperkt tot deze repository met Contents: read and write. Alleen GitHub kan dat recht toekennen; de bibliotheek gebruikt geen gedeeld wachtwoord. Deel de credential niet in een chat en sla haar niet in inhoud op. De interface bewaart haar alleen in het geheugen gedurende de sessie.\nVoeg bronnen toe met APA-verwijzing, echte URL, toegang en controledatum. Een nieuwe bron blijft in afwachting totdat je verificatie bevestigt. Je kunt onderwerpen verbergen en opnieuw publiceren. Iedere publicatie maakt een commit; GitHub bewaart de geschiedenis. Een versie kan vanuit de geschiedenis van het inhoudsbestand worden teruggezet. Wijzigingen op main worden via GitHub Pages gepubliceerd.\nAfgewogen alternatieven: een CMS zoals WordPress biedt vertrouwde redactie en rollen, maar vereist hosting, updates en onderhoud. Een lichte editor bij GitHub Pages vermijdt een server en bewaart geschiedenis, maar vereist GitHub-rechten en credentials. De tweede optie behoudt de bestaande hosting; redactiebeveiliging berust niet op een wachtwoord in JavaScript.\nBij Zoeksuggesties bewerk je Spaanse en Nederlandse labels en de zoekwoorden die naar domeinen verwijzen. Het is een redactionele selectie, geen populariteitsstatistiek. Bij Bronnen bewerk je leesadvies en RIS-metadata. Controleer die vóór publicatie. Contrastieve voorbeelden bewerk je bij het thema. Mijn studie bewaart favorieten en leesfiches in de browser; je exporteert en importeert de kopie vanuit die sectie.\nDe afsluitende strategische vragen zijn per thema te bewerken onder Docenten. Controleer beide taalversies en bekijk de voorvertoning vóór publicatie.\nDe redeneerwerkplaats heeft aparte velden voor focus, nieuwe casus, aandachtspunten en vergelijking met modellen. Bewerk ze per thema in beide talen. Recente bronnen hebben bewerkbare velden voor bewijstype, reikwijdte en verificatie. Presenteer aandachtspunten niet als officiële rubric."
+    "es": "Edita con los campos separados para español y neerlandés. Guarda un borrador local y exporta una copia. La vista previa muestra el resultado antes de publicarlo. Verifica ambas lenguas y las referencias. Para publicar utiliza una credencial de GitHub limitada a este repositorio con permiso Contents: read and write. Solo GitHub puede conceder ese permiso; la biblioteca no tiene una contraseña compartida. No pegues la credencial en un chat ni la guardes en el contenido. La interfaz la mantiene únicamente en memoria durante la sesión.\nAñade una fuente con referencia APA, URL real, acceso y fecha de comprobación. Una fuente nueva queda pendiente hasta que marques que la has verificado. Puedes ocultar un tema y volver a publicarlo. Cada publicación crea un commit y GitHub conserva el historial. Una versión puede restaurarse desde el historial del archivo de contenido en GitHub. Los cambios en main se publican mediante GitHub Pages.\nAlternativas consideradas: un CMS como WordPress ofrece edición y roles familiares, pero necesita servidor, actualizaciones y mantenimiento. Un editor ligero sobre GitHub Pages evita servidor y conserva historial, pero depende de permisos y credenciales de GitHub. Se mantiene la segunda opción para conservar el alojamiento existente; la autenticación editorial no utiliza una contraseña incrustada en JavaScript.\nEn Sugerencias de búsqueda puedes editar las etiquetas españolas y neerlandesas y las palabras que conectan consultas con dominios. Son selecciones editoriales, no estadísticas de popularidad. En Fuentes puedes editar la orientación de lectura y los metadatos RIS. Comprueba esos datos antes de publicar. Las muestras comparativas se editan en la página de cada tema. Mi estudio conserva favoritos y fichas en el navegador; su copia se exporta e importa desde esa sección.\nLas preguntas estratégicas finales se editan por tema en Profesorado. Revise ambas versiones y previsualice antes de publicar.\nEl taller de razonamiento utiliza campos separados para foco, caso nuevo, criterios orientativos y contraste con modelos. Se editan por tema en español y neerlandés. Las fuentes recientes tienen campos editables de tipo de evidencia, alcance y verificación. No presente los criterios orientativos como una rúbrica oficial.\nLa ruta opcional de síntesis crítica está dentro del taller de cada tema. Sus instrucciones, títulos y etiquetas se editan en Interfaz, en los campos synthesis y syn, con versiones española y neerlandesa separadas. Las fichas y respuestas del estudiante se guardan localmente y no se editan desde Profesorado. No se generan revisiones automáticas. La publicación utiliza content/library-v2.json.",
+    "nl": "Bewerk Spaanse en Nederlandse velden afzonderlijk. Bewaar een lokaal concept en exporteer een kopie. De preview toont het resultaat vóór publicatie. Controleer beide talen en bronnen. Publiceren vereist een GitHub-credential beperkt tot deze repository met Contents: read and write. Alleen GitHub kan dat recht toekennen; de bibliotheek gebruikt geen gedeeld wachtwoord. Deel de credential niet in een chat en sla haar niet in inhoud op. De interface bewaart haar alleen in het geheugen gedurende de sessie.\nVoeg bronnen toe met APA-verwijzing, echte URL, toegang en controledatum. Een nieuwe bron blijft in afwachting totdat je verificatie bevestigt. Je kunt onderwerpen verbergen en opnieuw publiceren. Iedere publicatie maakt een commit; GitHub bewaart de geschiedenis. Een versie kan vanuit de geschiedenis van het inhoudsbestand worden teruggezet. Wijzigingen op main worden via GitHub Pages gepubliceerd.\nAfgewogen alternatieven: een CMS zoals WordPress biedt vertrouwde redactie en rollen, maar vereist hosting, updates en onderhoud. Een lichte editor bij GitHub Pages vermijdt een server en bewaart geschiedenis, maar vereist GitHub-rechten en credentials. De tweede optie behoudt de bestaande hosting; redactiebeveiliging berust niet op een wachtwoord in JavaScript.\nBij Zoeksuggesties bewerk je Spaanse en Nederlandse labels en de zoekwoorden die naar domeinen verwijzen. Het is een redactionele selectie, geen populariteitsstatistiek. Bij Bronnen bewerk je leesadvies en RIS-metadata. Controleer die vóór publicatie. Contrastieve voorbeelden bewerk je bij het thema. Mijn studie bewaart favorieten en leesfiches in de browser; je exporteert en importeert de kopie vanuit die sectie.\nDe afsluitende strategische vragen zijn per thema te bewerken onder Docenten. Controleer beide taalversies en bekijk de voorvertoning vóór publicatie.\nDe redeneerwerkplaats heeft aparte velden voor focus, nieuwe casus, aandachtspunten en vergelijking met modellen. Bewerk ze per thema in beide talen. Recente bronnen hebben bewerkbare velden voor bewijstype, reikwijdte en verificatie. Presenteer aandachtspunten niet als officiële rubric.\nDe optionele route voor kritische literatuursynthese staat in het redeneeratelier van elk thema. Bewerk instructies, titels en labels via Interface, in de velden synthesis en syn, met afzonderlijke Spaanse en Nederlandse versies. Bronnotities en antwoorden van studenten worden lokaal opgeslagen en niet via de docenteditor bewerkt. Er worden geen automatische literatuurstudies gegenereerd. Publicatie gebruikt content/library-v2.json."
   },
   "glossary": [
     {

@@ -59,3 +59,15 @@ Se incorporaron 17 referencias verificadas: 16 publicadas entre 2024 y 2026 y un
 El profesorado puede editar las cuatro orientaciones del taller por unidad y los textos de los ocho pasos en la pestaña de interfaz, siempre con campos español y neerlandés. En Referencias puede modificar tipo de evidencia, ámbito, alcance de verificación, observaciones editoriales y enlace de comprobación. Antes de marcar una fuente como verificada, hay que revisar estos campos y la referencia.
 
 Las pruebas automatizadas verifican los 20 talleres en ambos idiomas, los ocho pasos, la detección de campos vacíos, la transferencia de la fuente seleccionada con sus límites y la conservación de copias anteriores. No se ha demostrado una mejora del razonamiento con estudiantes reales: sigue pendiente una prueba de uso docente y estudiantil y una revisión visual de accesibilidad.
+
+## Ruta opcional de síntesis crítica
+
+Dentro del taller de cada tema, abre Síntesis crítica de literatura. Formula una pregunta y una hipótesis provisional, documenta la búsqueda y selecciona hasta seis fuentes del catálogo. No se exige completar seis ni encontrar dos bandos. Cada ficha registra la relación con la hipótesis, afirmación, pasaje, parte consultada, tipo de apoyo, método y contexto, y límites. Hay cinco relaciones posibles: apoyo, cuestionamiento, delimitación, explicación alternativa y relación todavía no determinada. Una fuente puede cumplir otra función al revisar la hipótesis.
+
+El recorrido requiere examinar comparabilidad, dialogar entre afirmaciones, identificar vacíos, reformular la hipótesis y justificar una decisión docente con una comprobación en el aula. Las preguntas estratégicas cierran la ruta. El botón de revisión solo informa de campos vacíos, registros incompletos y duplicados; no califica, no determina consenso ni evalúa las fuentes. La biblioteca no genera una síntesis con IA ni accede automáticamente al texto íntegro. El estudiante debe declarar el alcance de su lectura.
+
+Las respuestas se guardan localmente con el resto de Mi estudio, se exportan en su copia y pueden descargarse como texto. Añadir al cuaderno pide confirmación y LUK, mantiene lo anterior y evita repetir aportaciones. Solo pasan a la fundamentación fuentes con todas las notas registradas y una relación seleccionada, deduplicadas por identificador. Cambiar una fuente con notas solicita confirmación antes de vaciar esa ficha. Cambiar la hipótesis no borra el trabajo.
+
+Las instrucciones se editan en Profesorado, Interfaz, campos synthesis y syn, siempre en español y neerlandés. Se mantienen estructura y dominios del Body of Knowledge. La ruta es opcional para no añadir pasos obligatorios a una consulta breve.
+
+Se corrigió una incoherencia de publicación: el sitio lee content/library-v2.json, mientras que la actualización anterior había colocado el contenido ampliado en la raíz. La entrega actual actualiza expresamente la ruta utilizada por la aplicación y la copia de raíz. La comprobación posterior debe verificar content/library-v2.json, no solo la copia de raíz.
