@@ -1,49 +1,27 @@
-# Fontys Spaans · Conciencia lingüística
+# Biblioteca Conciencia Lingüística
 
-[Biblioteca y cuaderno de trabajo](https://profedanielvr-lgtm.github.io/biblioteca-conciencia-linguistica/)
+Biblioteca bilingüe del Master Leraar Spaans. Publicación en https://profedanielvr-lgtm.github.io/biblioteca-conciencia-linguistica/.
 
-Herramienta de consulta y acompañamiento del beroepsproduct para el Master Leraar Spaans.
+## Contenido y procedencia
 
-## Contenido académico
+La estructura conserva el orden y los nombres neerlandeses de los 16 dominios del documento Conciencia linguistica Body of Knowledge A3 raster FINAL, disponible en los materiales del programa. Las equivalencias españolas, explicaciones, actividades y comentarios son elaboración didáctica identificada. Hay cuatro páginas adicionales dentro de referencia nominal: se, determinación, concordancia y clíticos. Los ejemplos construidos se distinguen de los fragmentos documentados. Los textos no constituyen nuevas instrucciones de evaluación.
 
-Ocho lecturas desarrolladas, quince referencias verificadas, tres actividades de aplicación y tres cuadernos por LUK. Las referencias incluyen libros, artículos y marcos de consulta; cada ficha distingue texto abierto de acceso editorial o institucional.
+## Arquitectura y edición
 
-1. LUK 1: variación, actitudes, repertorios y enfoques plurilingües.
-2. LUK 2: conciencia lingüística docente, interlengua, atención y feedback correctivo.
-3. LUK 3: evaluación formativa, criterios, juicio y uso del feedback.
+Se compararon un CMS desacoplado alojado, como WordPress con API, y un editor gráfico sobre GitHub. El primero ofrece usuarios y edición integrados, pero requiere alojamiento, actualizaciones y administración de la seguridad, con costes de servicio posibles. El segundo aprovecha el repositorio y alojamiento actuales, conserva historial y publicación automática, y no requiere servidor adicional; su dependencia técnica es GitHub y exige configurar una credencial limitada por editor. Se seleccionó la segunda alternativa para esta biblioteca existente. Para acceso institucional único sería necesaria una integración de autenticación adicional.
 
-Las fuentes teóricas son bibliografía académica externa. La procedencia interna de los resultados se conserva solo en la sección de alineación curricular.
+El contenido está separado en content/library-v2.json; index.html, library.css y library.js presentan la aplicación. La ruta #admin ofrece edición gráfica con campos españoles y neerlandeses, incluidos menús, títulos, instrucciones, glosario, referencias y cuaderno. Los borradores locales no son compartidos ni una copia de seguridad permanente. La vista previa no publica cambios. Los botones de exportación e importación permiten transferir borradores.
 
-## Cuaderno del estudiante
+Para publicar, una persona con permisos de escritura debe usar una credencial personal de GitHub de alcance limitado a este repositorio, con Contents: Read and write. La credencial permanece en memoria durante esa sesión y no se guarda en el almacenamiento del navegador. GitHub comprueba los permisos de escritura. La biblioteca pública no contiene ninguna contraseña compartida. Las operaciones usan el SHA del archivo para rechazar cambios concurrentes. GitHub Pages publica automáticamente cada commit, con un posible tiempo de espera.
 
-Cada LUK dispone de un borrador independiente con seis etapas: delimitar, fundamentar, analizar, diseñar, contrastar y revisar. Las matrices permiten añadir filas, registrar fuentes propias, interpretar evidencia y documentar revisiones.
+La guía completa de administración se encuentra en la propia biblioteca. Cada publicación crea una versión en el historial de GitHub. Para restaurar una versión anterior se utiliza el historial del archivo de contenido en GitHub.
 
-El guardado es local en el navegador, bajo la clave `fontys-spaans-cuaderno-v1`. No hay sincronización entre equipos, servidor de borradores, entrega automática ni acceso del profesorado a estos datos.
+## Conservación del cuaderno
 
-El estudiante puede descargar un dossier HTML con tablas y bibliografía, imprimirlo o guardarlo como PDF desde el navegador, y exportar una copia JSON editable para recuperarla en otro equipo. La importación requiere confirmación antes de sustituir el borrador del LUK correspondiente. Deben evitarse datos identificables del alumnado.
+Se mantienen la clave fontys-spaans-cuaderno-v1, los identificadores y el esquema de datos e intercambio anteriores. El cuaderno sigue siendo local a cada navegador. Los datos inválidos bloquean la escritura para evitar pérdidas.
 
-## Edición por el profesorado
+## Fuentes y validación
 
-Se requiere permiso de escritura en este repositorio. Todo el sitio está incluido en `index.html`, también utilizable sin conexión para lectura y edición local del cuaderno (el guardado depende del navegador). Las fuentes externas requieren conexión.
+El catálogo muestra únicamente referencias marcadas como verificadas. Cambiar la URL o la referencia bibliográfica devuelve el recurso a estado pendiente. La fecha de comprobación se mantiene por recurso. Las fuentes de investigación con acceso restringido están identificadas.
 
-El contenido se define en `resources`, la bibliografía en `bibliography` y las etapas del cuaderno en `workSteps` y `workTables`. Mantener los identificadores de recursos y fuentes para conservar enlaces y compatibilidad de las copias. Los cambios del esquema de guardado requieren migración; no eliminar ni renombrar campos sin tratar los borradores existentes.
-
-Después de confirmar cambios en `main`, GitHub Pages actualiza la web. `content/biblioteca.json` es contenido de una versión anterior y no alimenta el sitio actual.
-
-## Alcance académico
-
-Los resultados se alinean con `Voorstel_nieuwe_LUKs_master_Spaans_10 04 2026.xlsx`, celdas L2/M2, O3/P3 y L4/M4. El archivo interno completo no se publica. Las lecturas son síntesis didácticas originales y los ejemplos están identificados como construidos.
-
-La herramienta no establece plazos, calificaciones ni rúbricas oficiales. El equipo docente debe validar la adecuación de los materiales y comunicar las instrucciones de entrega.
-
-## Comprobaciones
-
-Comprobadas navegación interna, filtros, etapas por LUK, guardado y recuperación, exportación HTML, importación y exportación de copias, aislamiento de borradores y manejo de fallos de almacenamiento.
-
-## Actualización del 9 de octubre de 2026
-
-Navegación simplificada, buscador permanente, selector persistente de menús español/neerlandés, índice dentro de las lecturas y sección de comparación con tres fuentes institucionales neerlandesas verificadas. Los textos largos existentes siguen en español; el selector no los traduce. El contenido de comparación existe en ambas lenguas. El CHN requiere acceso autorizado para investigación.
-
-El cuaderno conserva sus identificadores, esquema de datos y clave de almacenamiento. Los valores de los filtros se mantienen independientes de las etiquetas traducidas. La edición continúa mediante GitHub; esta versión no incorpora un CMS gráfico ni una contraseña propia de edición.
-
-Validación de esta actualización: sintaxis JavaScript, presencia y persistencia del selector, rutas y valores de filtros comprobados en el código. No se realizó prueba visual interactiva en navegador en esta actualización.
+En esta actualización se comprobaron la sintaxis, las rutas bilingües, las 20 páginas, el índice, el cuaderno, la validación del contenido, el escape de texto, la protección frente a URL no segura y el rechazo de publicación no autorizada mediante pruebas automatizadas. No se realizó inspección visual en navegador ni una publicación desde la interfaz con una credencial docente. El diseño incluye reglas responsive y controles semánticos, pero estas comprobaciones no certifican conformidad WCAG completa.
