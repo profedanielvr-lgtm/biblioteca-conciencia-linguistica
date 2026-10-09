@@ -1,0 +1,816 @@
+{
+  "date": "2026-10-09",
+  "method": "Official publisher, journal, university and institutional metadata. No claim of systematic literature review or full reading of every publication.",
+  "references": [
+    {
+      "id": "leenders-context-2024",
+      "title": "Het didactiseren van bewuste taalvaardigheid: Grammaticale concepten ingebed in hun grammaticale en taalcontrastieve context",
+      "apa": "Leenders, G., van Amstel, M., de Graaff, R., & van Koppen, M. (2024). Het didactiseren van bewuste taalvaardigheid: Grammaticale concepten ingebed in hun grammaticale en taalcontrastieve context. Dutch Journal of Applied Linguistics, 13. https://doi.org/10.51751/dujal16273",
+      "url": "https://doi.org/10.51751/dujal16273",
+      "language": "nl",
+      "note": {
+        "es": "Lectura externa recomendada; investigación de diseño didáctico.",
+        "nl": "Aanbevolen externe lezing; didactisch ontwerponderzoek."
+      },
+      "access": {
+        "es": "Texto completo abierto",
+        "nl": "Volledige tekst vrij toegankelijk"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "Resumen y diseño de la secuencia: identifica el concepto compartido y las diferencias entre lenguas.",
+        "nl": "Samenvatting en lesontwerp: bepaal het gedeelde concept en de verschillen tussen talen."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "JOUR",
+        "authors": "Leenders, G.\nvan Amstel, M.\nde Graaff, R.\nvan Koppen, M.",
+        "year": "2024",
+        "journal": "Dutch Journal of Applied Linguistics",
+        "volume": "13",
+        "issue": "",
+        "pages": ""
+      },
+      "evidenceType": {
+        "es": "Investigación de diseño didáctico",
+        "nl": "Didactisch ontwerponderzoek"
+      },
+      "scope": {
+        "es": "Estudia función sintáctica en neerlandés, inglés y alemán con alumnado de secundaria; la aplicación al español requiere adaptación.",
+        "nl": "Onderzoekt syntactische functie in Nederlands, Engels en Duits in het voortgezet onderwijs; toepassing op Spaans vraagt aanpassing."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://dujal.nl/article/view/16273"
+    },
+    {
+      "id": "leenders-instrument-2024",
+      "title": "Bouwen aan bewustetaalvaardigheidsmetingen in het grammaticaonderwijs: Een instrumentatieonderzoek",
+      "apa": "Leenders, G., de Graaff, R., & van Koppen, M. (2024). Bouwen aan bewustetaalvaardigheidsmetingen in het grammaticaonderwijs: Een instrumentatieonderzoek. Levende Talen Tijdschrift, 25(1), 23–38. https://lt-tijdschriften.nl/ojs/index.php/ltt/article/view/2379",
+      "url": "https://lt-tijdschriften.nl/ojs/index.php/ltt/article/view/2379",
+      "language": "nl",
+      "note": {
+        "es": "Lectura externa recomendada; desarrollo de un instrumento.",
+        "nl": "Aanbevolen externe lezing; instrumentontwikkeling."
+      },
+      "access": {
+        "es": "Texto completo abierto",
+        "nl": "Volledige tekst vrij toegankelijk"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "Páginas 23–38: compara los ítems centrados en respuesta con los centrados en razonamiento.",
+        "nl": "Pagina’s 23–38: vergelijk antwoordgerichte met redeneergerichte items."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "JOUR",
+        "authors": "Leenders, G.\nde Graaff, R.\nvan Koppen, M.",
+        "year": "2024",
+        "journal": "Levende Talen Tijdschrift",
+        "volume": "25",
+        "issue": "1",
+        "pages": "23–38"
+      },
+      "evidenceType": {
+        "es": "Desarrollo de un instrumento",
+        "nl": "Instrumentontwikkeling"
+      },
+      "scope": {
+        "es": "Distingue respuesta y razonamiento en vwo 4; no es un instrumento validado para esta EVL.",
+        "nl": "Onderscheidt antwoord en redenering in vwo 4; geen gevalideerd instrument voor deze EVL."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://lt-tijdschriften.nl/ojs/index.php/ltt/article/view/2379"
+    },
+    {
+      "id": "hofer-jessner-2026",
+      "title": "Research agenda: From monolingual to multilingual norms in multilingual classrooms",
+      "apa": "Hofer, B., & Jessner, U. (2026). Research agenda: From monolingual to multilingual norms in multilingual classrooms. Language Teaching, 59(3), 343–358. https://doi.org/10.1017/S0261444825000023",
+      "url": "https://doi.org/10.1017/S0261444825000023",
+      "language": "en",
+      "note": {
+        "es": "Lectura externa recomendada; agenda de investigación.",
+        "nl": "Aanbevolen externe lezing; onderzoeksagenda."
+      },
+      "access": {
+        "es": "Texto completo abierto",
+        "nl": "Volledige tekst vrij toegankelijk"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "Language discourses and ideologies y la sección sobre metacognición.",
+        "nl": "Language discourses and ideologies en het onderdeel over metacognitie."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "JOUR",
+        "authors": "Hofer, B.\nJessner, U.",
+        "year": "2026",
+        "journal": "Language Teaching",
+        "volume": "59",
+        "issue": "3",
+        "pages": "343–358"
+      },
+      "evidenceType": {
+        "es": "Agenda de investigación",
+        "nl": "Onderzoeksagenda"
+      },
+      "scope": {
+        "es": "Propone preguntas y una perspectiva multilingüe; no prueba por sí sola la eficacia de una intervención.",
+        "nl": "Stelt onderzoeksvragen en een meertalig perspectief voor; bewijst op zichzelf geen interventie-effectiviteit."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://www.cambridge.org/core/journals/language-teaching/article/research-agenda-from-monolingual-to-multilingual-norms-in-multilingual-classrooms/14A2DDD16F811938994D652A018693CE"
+    },
+    {
+      "id": "mao-feedback-2024",
+      "title": "Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies",
+      "apa": "Mao, Z., Lee, I., & Li, S. (2024). Written corrective feedback in second language writing: A synthesis of naturalistic classroom studies. Language Teaching, 57(4), 449–477. https://doi.org/10.1017/S0261444823000393",
+      "url": "https://doi.org/10.1017/S0261444823000393",
+      "language": "en",
+      "note": {
+        "es": "Lectura externa recomendada; síntesis de estudios de aula.",
+        "nl": "Aanbevolen externe lezing; synthese van klasstudies."
+      },
+      "access": {
+        "es": "Texto completo abierto",
+        "nl": "Volledige tekst vrij toegankelijk"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "Revisa las secciones sobre prácticas docentes y respuestas de los aprendientes.",
+        "nl": "Bekijk de onderdelen over docentpraktijken en reacties van leerders."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "JOUR",
+        "authors": "Mao, Z.\nLee, I.\nLi, S.",
+        "year": "2024",
+        "journal": "Language Teaching",
+        "volume": "57",
+        "issue": "4",
+        "pages": "449–477"
+      },
+      "evidenceType": {
+        "es": "Síntesis de estudios de aula",
+        "nl": "Synthese van klasstudies"
+      },
+      "scope": {
+        "es": "Revisa prácticas, respuestas y perspectivas sobre feedback escrito; no prescribe una técnica universal.",
+        "nl": "Bespreekt praktijken, reacties en perspectieven op schriftelijke feedback; schrijft geen universele techniek voor."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://www.cambridge.org/core/journals/language-teaching/article/written-corrective-feedback-in-second-language-writing-a-synthesis-of-naturalistic-classroom-studies/928D49660B199C493E3ED93B2EC043C6"
+    },
+    {
+      "id": "shi-feedback-2024",
+      "title": "A systematic review of AI-based automated written feedback research",
+      "apa": "Shi, H., & Aryadoust, V. (2024). A systematic review of AI-based automated written feedback research. ReCALL, 36(2), 187–209. https://doi.org/10.1017/S0958344023000265",
+      "url": "https://doi.org/10.1017/S0958344023000265",
+      "language": "en",
+      "note": {
+        "es": "Lectura externa recomendada; revisión sistemática.",
+        "nl": "Aanbevolen externe lezing; systematische review."
+      },
+      "access": {
+        "es": "Texto completo abierto",
+        "nl": "Volledige tekst vrij toegankelijk"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "Method, Results y Discussion: separa validez del feedback y efectos de uso.",
+        "nl": "Method, Results en Discussion: onderscheid feedbackvaliditeit en gebruikseffecten."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "JOUR",
+        "authors": "Shi, H.\nAryadoust, V.",
+        "year": "2024",
+        "journal": "ReCALL",
+        "volume": "36",
+        "issue": "2",
+        "pages": "187–209"
+      },
+      "evidenceType": {
+        "es": "Revisión sistemática",
+        "nl": "Systematische review"
+      },
+      "scope": {
+        "es": "Examina feedback automatizado y validación; utilidad percibida y exactitud no son equivalentes.",
+        "nl": "Onderzoekt geautomatiseerde feedback en validatie; ervaren nut en juistheid zijn niet hetzelfde."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://www.cambridge.org/core/journals/recall/article/systematic-review-of-aibased-automated-written-feedback-research/28A670C4C7F2F1F30C7EA36EC489F867"
+    },
+    {
+      "id": "plakans-fairness-2026",
+      "title": "Fairness, justice, and criticality: Reviewing second language writing assessment",
+      "apa": "Plakans, L., & Lee, K. (2026). Fairness, justice, and criticality: Reviewing second language writing assessment. Language Teaching, 59(1), 1–28. https://doi.org/10.1017/S0261444825100876",
+      "url": "https://doi.org/10.1017/S0261444825100876",
+      "language": "en",
+      "note": {
+        "es": "Lectura externa recomendada; revisión crítica de investigación.",
+        "nl": "Aanbevolen externe lezing; kritische onderzoeksreview."
+      },
+      "access": {
+        "es": "Texto completo abierto",
+        "nl": "Volledige tekst vrij toegankelijk"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "A framework for fairness, justice, and criticality in language assessment y Questions arising.",
+        "nl": "A framework for fairness, justice, and criticality in language assessment en Questions arising."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "JOUR",
+        "authors": "Plakans, L.\nLee, K.",
+        "year": "2026",
+        "journal": "Language Teaching",
+        "volume": "59",
+        "issue": "1",
+        "pages": "1–28"
+      },
+      "evidenceType": {
+        "es": "Revisión crítica de investigación",
+        "nl": "Kritische onderzoeksreview"
+      },
+      "scope": {
+        "es": "Se centra en evaluación de escritura L2; el marco no sustituye las reglas ni los criterios oficiales de Fontys.",
+        "nl": "Richt zich op L2-schrijfbeoordeling; vervangt geen officiële Fontys-regels of criteria."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://www.cambridge.org/core/journals/language-teaching/article/fairness-justice-and-criticality-reviewing-second-language-writing-assessment/0A489A7F96361EE7DDDAEFA1C52A6D02"
+    },
+    {
+      "id": "zare-corpus-2024",
+      "title": "The impact of data-driven learning form-focused tasks on learners’ task engagement: An intervention study",
+      "apa": "Zare, J., Azari Noughabi, M., & Al-Issa, A. (2024). The impact of data-driven learning form-focused tasks on learners’ task engagement: An intervention study. ReCALL, 36(3), 306–323. https://doi.org/10.1017/S0958344024000120",
+      "url": "https://doi.org/10.1017/S0958344024000120",
+      "language": "en",
+      "note": {
+        "es": "Lectura externa recomendada; estudio de intervención.",
+        "nl": "Aanbevolen externe lezing; interventiestudie."
+      },
+      "access": {
+        "es": "Texto completo abierto",
+        "nl": "Volledige tekst vrij toegankelijk"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "Methods, Results y Discussion: distingue resultados inmediatos y seguimiento.",
+        "nl": "Methods, Results en Discussion: onderscheid directe resultaten en follow-up."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "JOUR",
+        "authors": "Zare, J.\nAzari Noughabi, M.\nAl-Issa, A.",
+        "year": "2024",
+        "journal": "ReCALL",
+        "volume": "36",
+        "issue": "3",
+        "pages": "306–323"
+      },
+      "evidenceType": {
+        "es": "Estudio de intervención",
+        "nl": "Interventiestudie"
+      },
+      "scope": {
+        "es": "Estudia implicación en tareas de inglés en Irán; la implicación no demuestra aprendizaje duradero del español.",
+        "nl": "Onderzoekt taakbetrokkenheid bij Engels in Iran; betrokkenheid bewijst geen duurzaam Spaans leren."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://www.cambridge.org/core/journals/recall/article/impact-of-datadriven-learning-formfocused-tasks-on-learners-task-engagement-an-intervention-study/3CE4F9A2F08FCAA4ADB92B2ACD466031"
+    },
+    {
+      "id": "amrate-pronunciation-2025",
+      "title": "Computer-assisted pronunciation training: A systematic review",
+      "apa": "Amrate, M., & Tsai, P.-h. (2025). Computer-assisted pronunciation training: A systematic review. ReCALL, 37(1), 22–42. https://doi.org/10.1017/S0958344024000181",
+      "url": "https://doi.org/10.1017/S0958344024000181",
+      "language": "en",
+      "note": {
+        "es": "Lectura externa recomendada; revisión sistemática.",
+        "nl": "Aanbevolen externe lezing; systematische review."
+      },
+      "access": {
+        "es": "Texto completo abierto",
+        "nl": "Volledige tekst vrij toegankelijk"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "Results y Conclusion: identifica qué medidas de pronunciación se utilizaron.",
+        "nl": "Results en Conclusion: identificeer de gebruikte uitspraakmaten."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "JOUR",
+        "authors": "Amrate, M.\nTsai, P.-h.",
+        "year": "2025",
+        "journal": "ReCALL",
+        "volume": "37",
+        "issue": "1",
+        "pages": "22–42"
+      },
+      "evidenceType": {
+        "es": "Revisión sistemática",
+        "nl": "Systematische review"
+      },
+      "scope": {
+        "es": "Predominan estudios de inglés y práctica controlada; distingue precisión fonética, inteligibilidad y uso espontáneo.",
+        "nl": "Vooral studies over Engels en gecontroleerde oefening; onderscheid fonetische nauwkeurigheid, verstaanbaarheid en spontaan gebruik."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://www.cambridge.org/core/journals/recall/article/computerassisted-pronunciation-training-a-systematic-review/71E786F7DFC99727837909FDED7A2320"
+    },
+    {
+      "id": "thane-subjunctive-2025",
+      "title": "Acquiring morphology through adolescence in Spanish as a heritage language: The case of subjunctive mood",
+      "apa": "Thane, P. D. (2025). Acquiring morphology through adolescence in Spanish as a heritage language: The case of subjunctive mood. Bilingualism: Language and Cognition, 28(2), 373–386. https://doi.org/10.1017/S1366728924000440",
+      "url": "https://doi.org/10.1017/S1366728924000440",
+      "language": "en",
+      "note": {
+        "es": "Lectura externa recomendada; estudio empírico del español de herencia.",
+        "nl": "Aanbevolen externe lezing; empirisch onderzoek naar spaans als erfgoedtaal."
+      },
+      "access": {
+        "es": "Texto completo abierto",
+        "nl": "Volledige tekst vrij toegankelijk"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "The present study, Results y Discussion: contrasta tareas y grupos.",
+        "nl": "The present study, Results en Discussion: vergelijk taken en groepen."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "JOUR",
+        "authors": "Thane, P. D.",
+        "year": "2025",
+        "journal": "Bilingualism: Language and Cognition",
+        "volume": "28",
+        "issue": "2",
+        "pages": "373–386"
+      },
+      "evidenceType": {
+        "es": "Estudio empírico del español de herencia",
+        "nl": "Empirisch onderzoek naar Spaans als erfgoedtaal"
+      },
+      "scope": {
+        "es": "Compara selección y producción del subjuntivo en grupos de edad; no equipara hablantes de herencia y aprendientes de ELE.",
+        "nl": "Vergelijkt keuze en productie van conjunctief tussen leeftijdsgroepen; erfgoedsprekers en ELE-leerders zijn niet gelijkgesteld."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://www.cambridge.org/core/journals/bilingualism-language-and-cognition/article/acquiring-morphology-through-adolescence-in-spanish-as-a-heritage-language-the-case-of-subjunctive-mood/674D0A3F8DAAAE5388E728FD98C07D15"
+    },
+    {
+      "id": "zhu-morphology-2025",
+      "title": "Learning morphology from cross-situational statistics",
+      "apa": "Zhu, L., Rebuschat, P., Nixon, J. S., & Monaghan, P. (2025). Learning morphology from cross-situational statistics. Studies in Second Language Acquisition, 47(5), 1250–1276. https://doi.org/10.1017/S027226312510106X",
+      "url": "https://doi.org/10.1017/S027226312510106X",
+      "language": "en",
+      "note": {
+        "es": "Lectura externa recomendada; experimento con lengua artificial.",
+        "nl": "Aanbevolen externe lezing; experiment met kunstmatige taal."
+      },
+      "access": {
+        "es": "Texto completo abierto",
+        "nl": "Volledige tekst vrij toegankelijk"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "Methods y Discussion: examina transparencia del sistema y límites de la transferencia.",
+        "nl": "Methods en Discussion: bekijk systeemtransparantie en grenzen van transfer."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "JOUR",
+        "authors": "Zhu, L.\nRebuschat, P.\nNixon, J. S.\nMonaghan, P.",
+        "year": "2025",
+        "journal": "Studies in Second Language Acquisition",
+        "volume": "47",
+        "issue": "5",
+        "pages": "1250–1276"
+      },
+      "evidenceType": {
+        "es": "Experimento con lengua artificial",
+        "nl": "Experiment met kunstmatige taal"
+      },
+      "scope": {
+        "es": "Permite examinar hipótesis de aprendizaje morfológico; no demuestra qué secuencia funciona en ELE.",
+        "nl": "Maakt onderzoek naar morfologisch leren mogelijk; bewijst geen effectieve ELE-leerlijn."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://www.cambridge.org/core/journals/studies-in-second-language-acquisition/article/learning-morphology-from-crosssituational-statistics/A1329CC40EA2F446BF8204B8E911EE61"
+    },
+    {
+      "id": "staat-nederlands-2025",
+      "title": "Staat van het Nederlands 2025",
+      "apa": "Taalunie. (2025). Staat van het Nederlands 2025. https://taalunie.org/publicaties/234/staat-van-het-nederlands-2025",
+      "url": "https://taalunie.org/publicaties/234/staat-van-het-nederlands-2025",
+      "language": "nl",
+      "note": {
+        "es": "Lectura externa recomendada; informe de monitorización.",
+        "nl": "Aanbevolen externe lezing; monitorrapport."
+      },
+      "access": {
+        "es": "Texto completo abierto",
+        "nl": "Volledige tekst vrij toegankelijk"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "Nieuwe opzet y Methodologische verantwoording: comprueba muestra y comparabilidad entre ediciones.",
+        "nl": "Nieuwe opzet en Methodologische verantwoording: controleer steekproef en vergelijkbaarheid tussen edities."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "GEN",
+        "authors": "Taalunie",
+        "year": "2025"
+      },
+      "evidenceType": {
+        "es": "Informe de monitorización",
+        "nl": "Monitorrapport"
+      },
+      "scope": {
+        "es": "Describe elecciones lingüísticas en Nederland y Vlaanderen; esta edición no contiene resultados de Suriname.",
+        "nl": "Beschrijft taalkeuzes in Nederland en Vlaanderen; deze editie bevat geen resultaten voor Suriname."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://taalunie.org/publicaties/234/staat-van-het-nederlands-2025"
+    },
+    {
+      "id": "godfried-meertaal-2024",
+      "title": "Innoveer je onderwijs: ‘Meer’taal in je les",
+      "apa": "Godfried, R. (2024). Innoveer je onderwijs: ‘Meer’taal in je les. In 37ste Conferentie Onderwijs Nederlands (pp. 211–215). Taalunie HSN-archief. https://hsnbundels.taalunie.org/bijdrage/innoveer-je-onderwijs-meertaal-in-je-les/",
+      "url": "https://hsnbundels.taalunie.org/bijdrage/innoveer-je-onderwijs-meertaal-in-je-les/",
+      "language": "nl",
+      "note": {
+        "es": "Lectura externa recomendada; contribución de congreso sobre práctica de hbo.",
+        "nl": "Aanbevolen externe lezing; congresbijdrage over hbo-praktijk."
+      },
+      "access": {
+        "es": "Texto completo abierto",
+        "nl": "Volledige tekst vrij toegankelijk"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "Páginas 211–215: compara buenas prácticas, actividad y tipo de evidencia.",
+        "nl": "Pagina’s 211–215: vergelijk praktijkvoorbeelden, werkvorm en bewijstype."
+      },
+      "linkType": "full",
+      "citation": {
+        "type": "GEN",
+        "authors": "Godfried, R.",
+        "year": "2024"
+      },
+      "evidenceType": {
+        "es": "Contribución de congreso sobre práctica de HBO",
+        "nl": "Congresbijdrage over hbo-praktijk"
+      },
+      "scope": {
+        "es": "Describe experiencias y propuestas; no es un ensayo controlado de eficacia.",
+        "nl": "Beschrijft ervaringen en voorstellen; geen gecontroleerde effectstudie."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. La disponibilidad del texto no equivale a una revisión integral del estudio.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Beschikbaarheid van de tekst is geen integrale beoordeling van het onderzoek."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://hsnbundels.taalunie.org/bijdrage/innoveer-je-onderwijs-meertaal-in-je-les/"
+    },
+    {
+      "id": "morphology-2025",
+      "title": "Morphology: From data to theories (2nd ed.)",
+      "apa": "Fábregas, A., & Scalise, S. (2025). Morphology: From data to theories (2nd ed.). Edinburgh University Press. https://doi.org/10.1515/9781399529730",
+      "url": "https://doi.org/10.1515/9781399529730",
+      "language": "en",
+      "note": {
+        "es": "Lectura externa recomendada; manual teórico actualizado.",
+        "nl": "Aanbevolen externe lezing; geactualiseerd theoretisch handboek."
+      },
+      "access": {
+        "es": "Ficha e índice abiertos; texto completo con compra o acceso institucional",
+        "nl": "Bronpagina en inhoudsopgave vrij; volledige tekst via aankoop of instellingsrechten"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "Capítulos 2, 4 y 5: unidades, flexión y derivación; capítulo 7: relación con sintaxis.",
+        "nl": "Hoofdstukken 2, 4 en 5: eenheden, flexie en derivatie; hoofdstuk 7: relatie met syntaxis."
+      },
+      "linkType": "summary",
+      "citation": {
+        "type": "BOOK",
+        "authors": "Fábregas, A.\nScalise, S.",
+        "year": "2025",
+        "publisher": "Edinburgh University Press"
+      },
+      "evidenceType": {
+        "es": "Manual teórico actualizado",
+        "nl": "Geactualiseerd theoretisch handboek"
+      },
+      "scope": {
+        "es": "Contrasta análisis morfológicos; las teorías deben comprobarse en datos, no convertirse en reglas docentes automáticas.",
+        "nl": "Vergelijkt morfologische analyses; toets theorieën aan gegevens in plaats van automatische didactische regels."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. No se ha revisado el texto completo; no se atribuyen resultados a capítulos no consultados.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Volledige tekst niet beoordeeld; geen resultaten toegeschreven aan niet geraadpleegde hoofdstukken."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://edinburghuniversitypress.com/book-morphology-98.html"
+    },
+    {
+      "id": "syntax-2025",
+      "title": "Introducción a la sintaxis del español",
+      "apa": "Rojo, G., López Meirama, B., Rodríguez Espiñeira, M. J., & Vázquez Rozas, V. (2025). Introducción a la sintaxis del español. Routledge. https://doi.org/10.4324/9781003370192",
+      "url": "https://doi.org/10.4324/9781003370192",
+      "language": "es",
+      "note": {
+        "es": "Lectura externa recomendada; manual de sintaxis funcional.",
+        "nl": "Aanbevolen externe lezing; handboek functionele syntaxis."
+      },
+      "access": {
+        "es": "Ficha e índice abiertos; texto completo con compra o acceso institucional",
+        "nl": "Bronpagina en inhoudsopgave vrij; volledige tekst via aankoop of instellingsrechten"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "Consulta el capítulo indicado en el tema; el índice está verificado, no el contenido íntegro del libro.",
+        "nl": "Raadpleeg het hoofdstuk bij het thema; de inhoudsopgave is geverifieerd, niet het volledige boek."
+      },
+      "linkType": "summary",
+      "citation": {
+        "type": "BOOK",
+        "authors": "Rojo, G.\nLópez Meirama, B.\nRodríguez Espiñeira, M. J.\nVázquez Rozas, V.",
+        "year": "2025",
+        "publisher": "Routledge"
+      },
+      "evidenceType": {
+        "es": "Manual de sintaxis funcional",
+        "nl": "Handboek functionele syntaxis"
+      },
+      "scope": {
+        "es": "Presenta una perspectiva funcional y variable del español; no sustituye la comparación de marcos ni una investigación de aula.",
+        "nl": "Biedt een functioneel en variatiegericht perspectief op Spaans; vervangt geen vergelijking van kaders of klasstudie."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. No se ha revisado el texto completo; no se atribuyen resultados a capítulos no consultados.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Volledige tekst niet beoordeeld; geen resultaten toegeschreven aan niet geraadpleegde hoofdstukken."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://gramatica.usc.es/es/publications?year=2025"
+    },
+    {
+      "id": "dpd-edition-2025",
+      "title": "Diccionario panhispánico de dudas (2.ª ed.)",
+      "apa": "Real Academia Española & Asociación de Academias de la Lengua Española. (2025). Diccionario panhispánico de dudas (2.ª ed.). Taurus. https://www.asale.org/obras-academicas/diccionarios/diccionario-panhispanico-de-dudas-0",
+      "url": "https://www.asale.org/obras-academicas/diccionarios/diccionario-panhispanico-de-dudas-0",
+      "language": "es",
+      "note": {
+        "es": "Lectura externa recomendada; obra de consulta normativa panhispánica.",
+        "nl": "Aanbevolen externe lezing; panhispanisch normatief naslagwerk."
+      },
+      "access": {
+        "es": "Ficha e índice abiertos; texto completo con compra o acceso institucional",
+        "nl": "Bronpagina en inhoudsopgave vrij; volledige tekst via aankoop of instellingsrechten"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "Consulta la entrada pertinente y registra edición y valoración de la variedad.",
+        "nl": "Raadpleeg de relevante ingang en noteer editie en waardering van de variëteit."
+      },
+      "linkType": "summary",
+      "citation": {
+        "type": "BOOK",
+        "authors": "Real Academia Española\nAsociación de Academias de la Lengua Española",
+        "year": "2025",
+        "publisher": "Taurus"
+      },
+      "evidenceType": {
+        "es": "Obra de consulta normativa panhispánica",
+        "nl": "Panhispanisch normatief naslagwerk"
+      },
+      "scope": {
+        "es": "La valoración normativa no equivale a frecuencia ni explica por sí sola adquisición o eficacia didáctica.",
+        "nl": "Normatieve waardering is geen frequentie en verklaart op zichzelf geen verwerving of didactische effectiviteit."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. No se ha revisado el texto completo; no se atribuyen resultados a capítulos no consultados.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Volledige tekst niet beoordeeld; geen resultaten toegeschreven aan niet geraadpleegde hoofdstukken."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://www.asale.org/obras-academicas/diccionarios/diccionario-panhispanico-de-dudas-0"
+    },
+    {
+      "id": "loewen-sato-2024",
+      "title": "A practical guide to second language teaching and learning",
+      "apa": "Loewen, S., & Sato, M. (2024). A practical guide to second language teaching and learning. Cambridge University Press. https://doi.org/10.1017/9781108780520",
+      "url": "https://doi.org/10.1017/9781108780520",
+      "language": "en",
+      "note": {
+        "es": "Lectura externa recomendada; manual de investigación y práctica.",
+        "nl": "Aanbevolen externe lezing; handboek onderzoek en praktijk."
+      },
+      "access": {
+        "es": "Ficha e índice abiertos; texto completo con compra o acceso institucional",
+        "nl": "Bronpagina en inhoudsopgave vrij; volledige tekst via aankoop of instellingsrechten"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "Capítulos 5, 7, 8 y 13: gramática, pronunciación, pragmática y diálogo entre investigación y práctica.",
+        "nl": "Hoofdstukken 5, 7, 8 en 13: grammatica, uitspraak, pragmatiek en dialoog tussen onderzoek en praktijk."
+      },
+      "linkType": "summary",
+      "citation": {
+        "type": "BOOK",
+        "authors": "Loewen, S.\nSato, M.",
+        "year": "2024",
+        "publisher": "Cambridge University Press"
+      },
+      "evidenceType": {
+        "es": "Manual de investigación y práctica",
+        "nl": "Handboek onderzoek en praktijk"
+      },
+      "scope": {
+        "es": "Las orientaciones de enseñanza L2 requieren adaptar objetivos, tareas y contexto al español y a los aprendientes.",
+        "nl": "L2-onderwijsadviezen vragen aanpassing van doelen, taken en context aan Spaans en de leerders."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. No se ha revisado el texto completo; no se atribuyen resultados a capítulos no consultados.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Volledige tekst niet beoordeeld; geen resultaten toegeschreven aan niet geraadpleegde hoofdstukken."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://www.cambridge.org/highereducation/books/a-practical-guide-to-second-language-teaching-and-learning/AE30C64F4505843776BA4A67A9B00A7A/copyright-page/DE5F4143D9A8C22ADEC975038DCDA8C0"
+    },
+    {
+      "id": "handboek-2022",
+      "title": "Handboek taalkunde",
+      "apa": "Banga, A., Poelmans, P., Sweep, J., & Verhagen, V. (Eds.). (2022). Handboek taalkunde. Coutinho. https://www.boom.nl/hoger-onderwijs/100-18779_Handboek-Taalkunde",
+      "url": "https://www.boom.nl/hoger-onderwijs/100-18779_Handboek-Taalkunde",
+      "language": "nl",
+      "note": {
+        "es": "Lectura externa recomendada; manual general de lingüística.",
+        "nl": "Aanbevolen externe lezing; algemeen taalkundig handboek."
+      },
+      "access": {
+        "es": "Ficha e índice abiertos; texto completo con compra o acceso institucional",
+        "nl": "Bronpagina en inhoudsopgave vrij; volledige tekst via aankoop of instellingsrechten"
+      },
+      "checked": "2026-10-09",
+      "status": "verified",
+      "readingFocus": {
+        "es": "Busca el ámbito pertinente en el índice: fonología, morfología, sintaxis, semántica o pragmática.",
+        "nl": "Zoek het relevante domein in de inhoudsopgave: fonologie, morfologie, syntaxis, semantiek of pragmatiek."
+      },
+      "linkType": "summary",
+      "citation": {
+        "type": "BOOK",
+        "authors": "Banga, A.\nPoelmans, P.\nSweep, J.\nVerhagen, V.",
+        "year": "2022",
+        "publisher": "Coutinho"
+      },
+      "evidenceType": {
+        "es": "Manual general de lingüística",
+        "nl": "Algemeen taalkundig handboek"
+      },
+      "scope": {
+        "es": "Base conceptual neerlandesa de 2022; se conserva como complemento, no se presenta como publicación de 2024–2026.",
+        "nl": "Nederlandstalige conceptuele basis uit 2022; aanvulling, geen publicatie uit 2024–2026."
+      },
+      "verification": {
+        "es": "Metadatos y orientación contrastados con la fuente oficial. No se ha revisado el texto completo; no se atribuyen resultados a capítulos no consultados.",
+        "nl": "Metadata en leesadvies gecontroleerd bij de officiële bron. Volledige tekst niet beoordeeld; geen resultaten toegeschreven aan niet geraadpleegde hoofdstukken."
+      },
+      "publicationNote": {
+        "es": "Año de la edición o del número publicado; puede diferir de la primera publicación en línea.",
+        "nl": "Jaar van de editie of het verschenen tijdschriftnummer; kan afwijken van de eerste online publicatie."
+      },
+      "enrichment": true,
+      "verificationUrl": "https://research.hva.nl/en/publications/handboek-taalkunde/"
+    }
+  ]
+}
