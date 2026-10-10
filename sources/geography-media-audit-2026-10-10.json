@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-10",
+  "samples": 46,
+  "references": 77,
+  "addedLocalizedTranscripts": 20,
+  "regionalCounts": {
+    "espana": 2,
+    "mexico-centroamerica": 7,
+    "caribe": 5,
+    "andina": 4,
+    "cono-sur": 4
+  },
+  "playbackChecks": [
+    {
+      "id": "cvc-antigua",
+      "url": "https://cvc.cervantes.es/lengua/voces_hispanicas/videos/guatemala_antigua.mp4",
+      "durationSeconds": 214.96,
+      "observedTimeSeconds": 25.729248,
+      "readyState": 4,
+      "paused": false
+    },
+    {
+      "id": "cvc-madrid",
+      "url": "https://cvc.cervantes.es/lengua/voces_hispanicas/videos/espana_madrid.mp4",
+      "durationSeconds": 342.16,
+      "observedTimeSeconds": 34.528234,
+      "readyState": 4,
+      "paused": false
+    },
+    {
+      "id": "cvc-habana",
+      "url": "https://cvc.cervantes.es/lengua/voces_hispanicas/videos/cuba_habana.mp4",
+      "durationSeconds": 305.806811,
+      "observedTimeSeconds": 303.447206,
+      "readyState": 4,
+      "paused": false
+    },
+    {
+      "id": "cvc-cusco",
+      "url": "https://cvc.cervantes.es/lengua/voces_hispanicas/videos/peru_cuzco.mp4",
+      "durationSeconds": 315.6,
+      "observedTimeSeconds": 37.813475,
+      "readyState": 4,
+      "paused": false
+    },
+    {
+      "id": "cvc-buenosaires",
+      "url": "https://cvc.cervantes.es/lengua/voces_hispanicas/videos/argentina_buenos_aires.mp4",
+      "durationSeconds": 321.24,
+      "observedTimeSeconds": 61.220445,
+      "readyState": 4,
+      "paused": false
+    },
+    {
+      "id": "llorente-sea",
+      "durationSeconds": 871.56,
+      "observedTimeSeconds": 72.688417,
+      "readyState": 4,
+      "paused": false,
+      "sessionMediaUrlRetained": false,
+      "contentConfirmedAfterAdvertisement": true
+    },
+    {
+      "id": "cine-montaje",
+      "durationSeconds": 58.84,
+      "observedTimeSeconds": 5.147514,
+      "readyState": 4,
+      "paused": false,
+      "sessionMediaUrlRetained": false,
+      "contentConfirmedAfterAdvertisement": true
+    },
+    {
+      "id": "picante-sea",
+      "durationSeconds": 655.68,
+      "observedTimeSeconds": 11.492986,
+      "readyState": 4,
+      "paused": false,
+      "sessionMediaUrlRetained": false,
+      "contentConfirmedAfterAdvertisement": true
+    }
+  ],
+  "humanListeningVerified": false,
+  "wordByWordAudioAlignmentVerified": false,
+  "browserVisualReview": {
+    "desktopViewport": [
+      1348,
+      936
+    ],
+    "languages": [
+      "es",
+      "nl"
+    ],
+    "regionalFilter": "tested",
+    "keyboardLinkNavigation": "tested",
+    "observedDefect": "Dutch language name clipped in 130px selector; width changed to 160px",
+    "mobileViewport": "not tested; no viewport resizing API available"
+  },
+  "coverageLimits": [
+    "Not exhaustive by phenomenon",
+    "Missing Nicaragua and several Spanish regions",
+    "CVC oral cultural testimony is not everyday conversation nor a balanced social sample",
+    "Shared grammatical constructions not exclusive regional diagnostics",
+    "Geo-localization based on institutional catalogue, never inferred solely from author citizenship or publisher country",
+    "Historical and demographic contents not treated as current facts"
+  ],
+  "accessLimits": [
+    {
+      "id": "papel-nosotros",
+      "finding": "After cookies rejected, publisher requires tracking consent or subscription; playback not verified."
+    },
+    {
+      "id": "ojala-deseo",
+      "finding": "Published lyric excerpt only; no recording or performance checked."
+    },
+    {
+      "id": "senorita-pregunta",
+      "finding": "Editorial quotation only; original film audio not checked."
+    }
+  ],
+  "orthographicTranscriptQuotesVerified": 20,
+  "phonicRealizationsVerified": 0
+}

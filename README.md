@@ -103,3 +103,9 @@ Cada muestra tiene campos editables para fenómeno, nivel, geolecto, país, loca
 El editor conserva esos campos al migrar borradores anteriores. Los datos sin localización se presentan como tales, no como ejemplos representativos de una región. Los campos normativos distinguen descripción, prescripción y evidencia de estigma. PRESEEA se incluye como recurso de investigación con sus condiciones de uso, no como una extracción ya realizada.
 
 El protocolo y los límites están documentados en docs/protocolo-panhispanico-2026-10-09.md y sources/protocol-audit-2026-10-09.json. Los recuentos anteriores corresponden a versiones anteriores; esta actualización contiene 26 fichas y 57 referencias.
+# Actualización del 10 de octubre de 2026
+
+La versión actual incorpora 46 fichas de muestras y 77 referencias. Veinte fichas nuevas proceden de transcripciones localizadas del Instituto Cervantes. Las cinco áreas panhispánicas tienen muestras, aunque la cobertura sigue siendo parcial por fenómeno, subregión, perfil social y soporte. La procedencia del medio y la del hablante son campos editables separados de la localización lingüística.
+
+El panel audiovisual distingue reproducción técnica, escucha y cotejo textual. Se observó el avance de ocho vídeos en navegador; no se realizó escucha auditiva ni se validaron realizaciones fónicas. El selector de idioma fue ensanchado tras detectar recorte de Nederlands. La revisión visual se realizó en escritorio; la prueba móvil está pendiente. Consulta docs/cobertura-audiovisual-2026-10-10.md y sources/geography-media-audit-2026-10-10.json para el alcance exacto, limitaciones y edición.
+
