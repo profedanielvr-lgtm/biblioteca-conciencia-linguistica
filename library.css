@@ -5,3 +5,5 @@
 
 .sample-reading{max-width:780px;margin-inline:auto}.sample-reading blockquote{margin-inline:0;white-space:pre-wrap;overflow-wrap:anywhere}.sample-reading h2{font-size:25px}.sample-topic-grid{grid-template-columns:repeat(2,minmax(0,1fr));margin-top:20px}.sample-topic-grid .card{padding:18px}.sample-reading .notice h2{font-size:20px}.sample-reading section{margin-top:30px}@media(max-width:720px){.sample-topic-grid{grid-template-columns:1fr}}
 footer .footer-credit{display:block;margin-top:3px;font-size:12px;line-height:1.45;color:#595959}
+
+.access-guide p{margin:.7rem 0}.book-recommendations{margin:34px 0}.book-recommendations>p{max-width:820px}.book-recommendations .source{background:#fff}.book-recommendations .source h3{margin-top:10px}.book-recommendations .actions{margin:12px 0 0}.book-toggle{display:block;padding:12px;border:1px solid #66336644;border-radius:6px;margin:16px 0}.book-toggle input{width:auto;min-height:auto;margin-right:8px}.book-toggle small{display:block;font-weight:400;margin-left:28px}
