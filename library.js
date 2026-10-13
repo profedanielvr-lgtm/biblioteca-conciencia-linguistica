@@ -7,7 +7,7 @@ const safeUrl=u=>{try{const x=new URL(u);return x.protocol==='https:'?x.href:'';
 const $=id=>document.getElementById(id);const view=$('view');
 let C,lang='es',searchState={q:'',domain:'',depth:'',scope:''},editorDraft=null,editorTab='topics',editorSelected=0,editorToken='',editorBaseSha='',editorIdentity='',previewFrame=null,previewUrl=null;
 try{lang=localStorage.getItem('bcl-menu-language')==='nl'?'nl':'es';}catch{}
-try{C=window.BCL_PREVIEW_CONTENT||await fetch(CONTENT_PATH+'?v=20261013a',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();});}catch(err){view.innerHTML='<h1>'+(lang==='nl'?'De bibliotheek kan niet worden geladen':'No se pudo cargar la biblioteca')+'</h1><p>'+e(err.message)+'</p>';return;}
+try{C=window.BCL_PREVIEW_CONTENT||await fetch(CONTENT_PATH+'?v=20261013b',{cache:'no-cache'}).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json();});}catch(err){view.innerHTML='<h1>'+(lang==='nl'?'De bibliotheek kan niet worden geladen':'No se pudo cargar la biblioteca')+'</h1><p>'+e(err.message)+'</p>';return;}
 const tr=k=>C.ui[k]?.[lang]||k;
 const val=x=>typeof x==='object'&&x!==null?x[lang]??x.es??'':String(x??'');
 const para=x=>val(x).split('\n').filter(Boolean).map(t=>'<p>'+e(t)+'</p>').join('');
