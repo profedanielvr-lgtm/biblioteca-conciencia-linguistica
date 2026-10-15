@@ -18,8 +18,8 @@
       "nl": "Start"
     },
     "bok": {
-      "es": "Body of Knowledge",
-      "nl": "Body of Knowledge"
+      "es": "Base de conocimientos",
+      "nl": "Kennisbasis"
     },
     "index": {
       "es": "Índice de conceptos",
@@ -58,8 +58,8 @@
       "nl": "Wat wil je bestuderen?"
     },
     "back": {
-      "es": "Volver al Body of Knowledge",
-      "nl": "Terug naar het Body of Knowledge"
+      "es": "Volver al Base de conocimientos",
+      "nl": "Terug naar het Kennisbasis"
     },
     "overview": {
       "es": "¿De qué trata?",
@@ -210,8 +210,8 @@
       "nl": "Fontys Educatie · Master Leraar Spaans. Studiebibliotheek. Vraag het docententeam naar de officiële beoordelingsinstructies."
     },
     "catalogue": {
-      "es": "La biblioteca mantiene los 16 ámbitos y el orden del Body of Knowledge. Las fechas y los productos del documento no se presentan como instrucciones actuales.",
-      "nl": "De bibliotheek behoudt de 16 domeinen en hun volgorde uit het Body of Knowledge. De planning en producten uit het document gelden hier niet als actuele instructies."
+      "es": "La biblioteca mantiene los 16 ámbitos y el orden del Base de conocimientos. Las fechas y los productos del documento no se presentan como instrucciones actuales.",
+      "nl": "De bibliotheek behoudt de 16 domeinen en hun volgorde uit het Kennisbasis. De planning en producten uit het document gelden hier niet als actuele instructies."
     },
     "readingNote": {
       "es": "Los comentarios proponen una interpretación posible, no una respuesta única. Compara otras explicaciones con los datos y las fuentes.",
@@ -386,8 +386,8 @@
       "nl": "Vaste code van het onderwerp"
     },
     "categoryLabel": {
-      "es": "Dominio del Body of Knowledge",
-      "nl": "Domein van het Body of Knowledge"
+      "es": "Dominio del Base de conocimientos",
+      "nl": "Domein van het Kennisbasis"
     },
     "relationHelp": {
       "es": "Elige los temas relacionados y explica la relación en español y neerlandés.",
@@ -505,10 +505,10 @@
       "es": "¿Qué necesitas hacer?",
       "nl": "Wat wil je doen?"
     },
-  "understand": {
-    "es": "Entender un concepto",
-    "nl": "Een begrip opzoeken"
-  },
+    "understand": {
+      "es": "Entender un concepto",
+      "nl": "Een begrip opzoeken"
+    },
     "analyseProduction": {
       "es": "Analizar una producción",
       "nl": "Een taaluiting analyseren"
@@ -706,8 +706,8 @@
       "nl": "Voorlopige conclusie en beperkingen"
     },
     "corpusInstructions": {
-      "es": "Formula una hipótesis sobre un tema del Body of Knowledge. Busca ejemplos en CORPES XXI o en el CHN y anota la búsqueda exacta, los filtros y la fecha. Elige diez resultados con un método que puedas explicar; no selecciones solo los que confirman tu idea. Lee el contexto completo y revisa los datos disponibles sobre cada ejemplo. Agrupa los patrones, busca contraejemplos y explica si cambiarías tu hipótesis. Si comparas español y neerlandés, comprueba que las muestras sean parecidas en género, periodo y modalidad. La frecuencia describe la muestra, pero no demuestra por sí sola qué es correcto ni cuál es la causa. No incluyas datos que permitan identificar a estudiantes.",
-      "nl": "Formuleer een hypothese over een onderwerp uit het Body of Knowledge. Zoek voorbeelden in CORPES XXI of het CHN. Noteer je zoekopdracht, filters en datum. Kies tien resultaten met een methode die je kunt uitleggen. Selecteer niet alleen voorbeelden die je idee bevestigen. Lees de volledige context en bekijk de beschikbare gegevens over elk voorbeeld. Orden de patronen, zoek tegenvoorbeelden en leg uit of je je hypothese zou aanpassen. Controleer bij een vergelijking van Spaans en Nederlands of genre, periode en vorm van taalgebruik overeenkomen. Frequentie beschrijft de steekproef, maar bewijst op zichzelf niet wat correct is of wat de oorzaak is. Vermeld geen gegevens waaraan je studenten kunt herkennen."
+      "es": "Formula una hipótesis sobre un tema del Base de conocimientos. Busca ejemplos en CORPES XXI o en el CHN y anota la búsqueda exacta, los filtros y la fecha. Elige diez resultados con un método que puedas explicar; no selecciones solo los que confirman tu idea. Lee el contexto completo y revisa los datos disponibles sobre cada ejemplo. Agrupa los patrones, busca contraejemplos y explica si cambiarías tu hipótesis. Si comparas español y neerlandés, comprueba que las muestras sean parecidas en género, periodo y modalidad. La frecuencia describe la muestra, pero no demuestra por sí sola qué es correcto ni cuál es la causa. No incluyas datos que permitan identificar a estudiantes.",
+      "nl": "Formuleer een hypothese over een onderwerp uit het Kennisbasis. Zoek voorbeelden in CORPES XXI of het CHN. Noteer je zoekopdracht, filters en datum. Kies tien resultaten met een methode die je kunt uitleggen. Selecteer niet alleen voorbeelden die je idee bevestigen. Lees de volledige context en bekijk de beschikbare gegevens over elk voorbeeld. Orden de patronen, zoek tegenvoorbeelden en leg uit of je je hypothese zou aanpassen. Controleer bij een vergelijking van Spaans en Nederlands of genre, periode en vorm van taalgebruik overeenkomen. Frequentie beschrijft de steekproef, maar bewijst op zichzelf niet wat correct is of wat de oorzaak is. Vermeld geen gegevens waaraan je studenten kunt herkennen."
     },
     "searchSettings": {
       "es": "Sugerencias para buscar",
@@ -1668,6 +1668,206 @@
     "fontysContactEmail": {
       "es": "bibliotheek@fontys.nl",
       "nl": "bibliotheek@fontys.nl"
+    },
+    "teacherPanel": {
+      "es": "Panel docente",
+      "nl": "Docentenpaneel"
+    },
+    "teacherPrivate": {
+      "es": "Acceso para docentes autorizados",
+      "nl": "Alleen voor bevoegde docenten"
+    },
+    "teacherIntro": {
+      "es": "Consulta cómo se usa la biblioteca para mejorar los contenidos y la navegación.",
+      "nl": "Bekijk hoe de bibliotheek wordt gebruikt. Gebruik de gegevens om inhoud en navigatie te verbeteren."
+    },
+    "teacherNotActive": {
+      "es": "Servicio de estadísticas pendiente de activar",
+      "nl": "Statistiekdienst nog niet actief"
+    },
+    "teacherSetupText": {
+      "es": "El panel necesita un servidor para proteger las contraseñas y guardar datos. La web pública no contiene contraseñas. El servicio está preparado, pero todavía no está conectado.",
+      "nl": "Het paneel heeft een server nodig om wachtwoorden te beschermen en gegevens op te slaan. De openbare website bevat geen wachtwoorden. De dienst is voorbereid, maar nog niet verbonden."
+    },
+    "teacherNoHistory": {
+      "es": "La biblioteca todavía no recoge estadísticas compartidas. Los datos empezarán a contar cuando se active el servicio y cada visitante acepte participar. No se pueden recuperar búsquedas anteriores.",
+      "nl": "De bibliotheek verzamelt nog geen gedeelde statistieken. De telling begint zodra de dienst actief is en bezoekers toestemming geven. Eerdere zoekopdrachten zijn niet terug te halen."
+    },
+    "teacherSetupLink": {
+      "es": "Guía para activar el servicio protegido",
+      "nl": "Handleiding voor de beveiligde dienst"
+    },
+    "teacherLoginIntro": {
+      "es": "Entra con tu cuenta docente para consultar las estadísticas.",
+      "nl": "Log in met je docentenaccount om de statistieken te bekijken."
+    },
+    "teacherUser": {
+      "es": "Usuario docente",
+      "nl": "Gebruikersnaam"
+    },
+    "teacherPassword": {
+      "es": "Contraseña",
+      "nl": "Wachtwoord"
+    },
+    "teacherLogin": {
+      "es": "Entrar al panel",
+      "nl": "Inloggen"
+    },
+    "teacherLogout": {
+      "es": "Cerrar sesión",
+      "nl": "Uitloggen"
+    },
+    "teacherLoginError": {
+      "es": "No se pudo iniciar sesión o la sesión ha caducado. Comprueba tus datos y vuelve a entrar.",
+      "nl": "Inloggen is niet gelukt of je sessie is verlopen. Controleer je gegevens en log opnieuw in."
+    },
+    "teacherRateError": {
+      "es": "Se han hecho demasiados intentos. Espera 15 minutos antes de volver a entrar.",
+      "nl": "Er zijn te veel pogingen gedaan. Wacht 15 minuten en probeer het opnieuw."
+    },
+    "teacherNetworkError": {
+      "es": "No se pudo conectar con el servicio. Inténtalo de nuevo más tarde.",
+      "nl": "Verbinding met de dienst is niet gelukt. Probeer het later opnieuw."
+    },
+    "teacherSecurity": {
+      "es": "La contraseña se comprueba en el servidor. La sesión dura 30 minutos y se pierde al recargar o cerrar esta pestaña. Nunca compartas tu contraseña.",
+      "nl": "De server controleert je wachtwoord. Je sessie duurt 30 minuten en stopt als je het tabblad sluit of vernieuwt. Deel je wachtwoord nooit."
+    },
+    "teacherSession": {
+      "es": "La sesión termina a las",
+      "nl": "Je sessie eindigt om"
+    },
+    "teacherPeriod": {
+      "es": "Periodo",
+      "nl": "Periode"
+    },
+    "teacherDays": {
+      "es": "días",
+      "nl": "dagen"
+    },
+    "teacherRefresh": {
+      "es": "Actualizar datos",
+      "nl": "Gegevens vernieuwen"
+    },
+    "teacherExport": {
+      "es": "Descargar CSV",
+      "nl": "CSV downloaden"
+    },
+    "teacherLoading": {
+      "es": "Cargando…",
+      "nl": "Laden…"
+    },
+    "teacherUpdated": {
+      "es": "Datos cargados. Las fechas se agrupan por día UTC.",
+      "nl": "Gegevens geladen. De telling is per dag in UTC."
+    },
+    "teacherPageviews": {
+      "es": "Consultas de páginas",
+      "nl": "Paginaweergaven"
+    },
+    "teacherSearches": {
+      "es": "Búsquedas registradas",
+      "nl": "Getelde zoekopdrachten"
+    },
+    "teacherEmptySearches": {
+      "es": "Búsquedas sin resultados",
+      "nl": "Zoekopdrachten zonder resultaat"
+    },
+    "teacherResources": {
+      "es": "Aperturas de fuentes",
+      "nl": "Klikken op bronnen"
+    },
+    "teacherLimits": {
+      "es": "Estas cifras cuentan acciones, no personas. Solo incluyen visitantes que aceptan participar. Las recargas, los bloqueadores o los fallos de conexión pueden afectar a las cifras. No son una medida del aprendizaje ni del tiempo de estudio.",
+      "nl": "Deze cijfers tellen acties, geen personen. Alleen bezoekers die toestemming geven tellen mee. Vernieuwen, blokkades en verbindingsproblemen kunnen de cijfers beïnvloeden. De cijfers meten geen leren of studietijd."
+    },
+    "teacherTimeline": {
+      "es": "Consultas de páginas por día",
+      "nl": "Paginaweergaven per dag"
+    },
+    "teacherPopularSearches": {
+      "es": "Términos más buscados",
+      "nl": "Meest gezochte begrippen"
+    },
+    "teacherMissingSearches": {
+      "es": "Consultas sin resultados",
+      "nl": "Zoekopdrachten zonder resultaat"
+    },
+    "teacherPopularPages": {
+      "es": "Páginas más consultadas",
+      "nl": "Meest bekeken pagina’s"
+    },
+    "teacherPopularResources": {
+      "es": "Fuentes más abiertas",
+      "nl": "Meest aangeklikte bronnen"
+    },
+    "teacherPopularSections": {
+      "es": "Secciones elegidas en el índice del tema",
+      "nl": "Gekozen onderdelen in het themaoverzicht"
+    },
+    "teacherTerm": {
+      "es": "Término",
+      "nl": "Begrip"
+    },
+    "teacherItem": {
+      "es": "Contenido",
+      "nl": "Inhoud"
+    },
+    "teacherEvents": {
+      "es": "Acciones",
+      "nl": "Acties"
+    },
+    "teacherOtherSearch": {
+      "es": "Consulta no clasificada, texto no guardado",
+      "nl": "Niet ingedeelde zoekopdracht, tekst niet bewaard"
+    },
+    "teacherNoData": {
+      "es": "Todavía no hay datos en este periodo y con este filtro.",
+      "nl": "Er zijn nog geen gegevens voor deze periode en dit filter."
+    },
+    "teacherInterpret": {
+      "es": "Cómo interpretar los datos",
+      "nl": "De gegevens gebruiken"
+    },
+    "teacherInterpretText": {
+      "es": "Una búsqueda frecuente puede señalar interés o dificultad. Una página poco consultada puede ser difícil de encontrar. Antes de cambiar el contenido, compara las cifras con las preguntas y experiencias de los estudiantes. La tabla muestra hasta 20 resultados; el CSV incluye todos los datos del periodo seleccionado.",
+      "nl": "Een vaak gezocht begrip kan wijzen op interesse of moeite. Een weinig bekeken pagina is misschien lastig te vinden. Vergelijk de cijfers met vragen en ervaringen van studenten voordat je iets verandert. De tabel toont maximaal 20 resultaten. De CSV bevat alle gegevens van de gekozen periode."
+    },
+    "teacherQuestions": {
+      "es": "Preguntas para revisar tus conclusiones",
+      "nl": "Vragen bij je conclusies"
+    },
+    "teacherQuestionsText": {
+      "es": "¿Estoy confundiendo visitas con comprensión? ¿Qué estudiantes quedan fuera de estas cifras? ¿Una búsqueda sin resultados refleja una laguna de contenido o una forma distinta de nombrarlo? ¿Qué conversación con estudiantes ayudaría a comprobar mi interpretación?",
+      "nl": "Verwar ik bezoeken met begrip? Welke studenten ontbreken in deze cijfers? Ontbreekt er inhoud bij een zoekopdracht zonder resultaat, of gebruikt de student een ander woord? Welk gesprek met studenten helpt om mijn uitleg te controleren?"
+    },
+    "teacherRetention": {
+      "es": "Se conservan hasta 90 días de datos agregados. No se guardan perfiles, respuestas ni notas de estudiantes. Las consultas libres se agrupan sin conservar su texto.",
+      "nl": "Samengevoegde gegevens worden maximaal 90 dagen bewaard. Er worden geen profielen, antwoorden of aantekeningen van studenten opgeslagen. Vrije zoektekst wordt niet bewaard."
+    },
+    "analyticsConsentTitle": {
+      "es": "¿Nos ayudas a mejorar la biblioteca?",
+      "nl": "Help je de bibliotheek verbeteren?"
+    },
+    "analyticsConsentText": {
+      "es": "Si aceptas, contaremos las páginas que consultas, los términos reconocidos que buscas y las fuentes que abres. No guardamos tu identidad, tus notas ni el texto libre de tus búsquedas. Puedes cambiar tu elección en el pie de página.",
+      "nl": "Als je toestemming geeft, tellen we welke pagina’s je bekijkt, welke bekende begrippen je zoekt en welke bronnen je opent. Je identiteit, aantekeningen en vrije zoektekst worden niet bewaard. Je kunt je keuze onderaan de pagina wijzigen."
+    },
+    "analyticsAccept": {
+      "es": "Aceptar estadísticas",
+      "nl": "Statistieken toestaan"
+    },
+    "analyticsDecline": {
+      "es": "Seguir sin participar",
+      "nl": "Verder zonder statistieken"
+    },
+    "analyticsPreferences": {
+      "es": "Cambiar permiso de estadísticas",
+      "nl": "Toestemming voor statistieken wijzigen"
+    },
+    "analyticsStorageError": {
+      "es": "No se pudo guardar tu elección. No se enviarán estadísticas.",
+      "nl": "Je keuze kon niet worden bewaard. Er worden geen statistieken verstuurd."
     }
   },
   "source": {
@@ -2189,7 +2389,7 @@
       "category": "adquisicion",
       "title": {
         "es": "Adquisición de lenguas e interlengua",
-    "nl": "Taalverwerving en leerdertaal"
+        "nl": "Taalverwerving en leerdertaal"
       },
       "basis": "basisbegrippen taalleren en leerstrategieën",
       "summary": {

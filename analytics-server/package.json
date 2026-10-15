@@ -1,0 +1,7 @@
+{
+  "name": "biblioteca-teacher-analytics",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=24 <25" },
+  "scripts": { "start": "node server.mjs", "test": "node --test test.mjs client.test.mjs", "password": "node password.mjs" }
+}
