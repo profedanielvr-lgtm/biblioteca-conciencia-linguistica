@@ -9,6 +9,18 @@ const context={console,document:doc,window:win,location,localStorage:{getItem:k=
 vm.createContext(context);vm.runInContext(code,context);await new Promise(r=>setTimeout(r,5));const t=win.TEST;assert(t);assert.equal(content.topics.length,20);assert.equal(content.topics.slice(0,16).filter(x=>x.category===x.slug).length,16);t.validateContent(content);
 for(const lang of ['es','nl']){nodes.language.value=lang;nodes.language.onchange({target:nodes.language});for(const route of ['inicio','bok','indice','comparar','fuentes','estudio','corpus',...content.references.map(x=>'lectura/'+x.id),...content.topics.map(x=>'tema/'+x.slug),...['1','2','3'].flatMap(k=>[0,1,2,3,4,5].map(i=>'cuaderno/'+k+'/'+i)),...['topics','ui','refs','guide'].map(()=> 'admin')]){location.hash='#'+route;t.render(false);assert(!nodes.view.innerHTML.includes('[object Object]'),route);assert(!nodes.view.innerHTML.includes('undefined'),route);assert(nodes.view.innerHTML.length>0);}}
 assert(t.matches(content.topics.find(x=>x.slug==='se'),'se'));assert(t.matches(content.topics.find(x=>x.slug==='modo'),'subjuntivo'));assert(t.matches(content.topics.find(x=>x.slug==='adquisicion'),'interlanguage'));
+
+for(const language of ['es','nl']){
+  nodes.language.value=language;nodes.language.onchange({target:nodes.language});
+  const page=t.sourcesPage();
+  assert.equal((page.match(/class="source-tool"/g)||[]).length,9);
+  for(const href of ['https://scholar.google.es','https://www.refseek.com','https://consensus.app','https://elicit.com','https://www.redalyc.org','https://scielo.org','https://dialnet.unirioja.es','https://www.base-search.net','https://eric.ed.gov'])assert(page.includes('href="'+href+'/')||page.includes('href="'+href+'"'),href);
+  assert(page.includes(content.ui.trustedSourcesTitle[language]));
+  assert(page.includes(content.ui.searchTipTitle[language]));
+  assert(nodes.footer.innerHTML.includes('Daniel Valle Robles'));
+  assert(nodes.footer.innerHTML.includes('Versión'));
+  assert(nodes.footer.innerHTML.includes('Versie'));
+}
 const draft=t.blank();draft.fields.title='Borrador anterior';assert.equal(t.validateBook(draft).fields.title,'Borrador anterior');t.books[1].fields.title='Conservar';location.hash='#cuaderno/1/0';t.render(false);t.saveBooks(1);assert.equal(JSON.parse(storage.get('fontys-spaans-cuaderno-v1')).books[1].fields.title,'Conservar');
 const malicious=structuredClone(content.topics[0]);malicious.theory.es='<img src=x onerror=alert(1)>';nodes.language.value='es';nodes.language.onchange({target:nodes.language});assert(!t.topicPage(malicious).includes('<img src=x'));const bad=structuredClone(content);bad.references[0].url='javascript:alert(1)';assert.throws(()=>t.validateContent(bad));const broken=structuredClone(content);broken.topics[0].related.push({slug:'missing',reason:{es:'a',nl:'b'}});assert.throws(()=>t.validateContent(broken));location.hash='#admin';t.render(false);doc.getElementById('editor-token').value='invalid-test-credential';await assert.rejects(t.verifyEditor());assert.equal(writes,0);assert.equal(storage.has('editorToken'),false);
 console.log('PASS: 2 languages, 20 thematic routes, 18 notebook steps, catalogue/index/sources, draft schema and saving, XSS escaping, invalid URLs/relations rejected, unauthorized publishing blocked.');
