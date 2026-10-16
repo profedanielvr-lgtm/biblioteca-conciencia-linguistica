@@ -206,8 +206,8 @@
       "nl": "Handleiding voor het beheren van de bibliotheek"
     },
     "footer": {
-      "es": "Fontys Educatie · Master Leraar Spaans. Biblioteca de estudio. Consulta al equipo docente las instrucciones oficiales de evaluación.",
-      "nl": "Fontys Educatie · Master Leraar Spaans. Studiebibliotheek. Vraag het docententeam naar de officiële beoordelingsinstructies."
+      "es": "Consulta al equipo docente las instrucciones oficiales de evaluación.",
+      "nl": "Raadpleeg het docententeam voor de officiële beoordelingsinstructies."
     },
     "catalogue": {
       "es": "La biblioteca mantiene los 16 ámbitos y el orden del Base de conocimientos. Las fechas y los productos del documento no se presentan como instrucciones actuales.",
@@ -1583,7 +1583,7 @@
     },
     "footerCredit": {
       "es": "Herramienta de apoyo a la investigación desarrollada por Daniel Valle Robles. Uso no comercial y exclusivamente académico.",
-      "nl": "Ondersteunend onderzoeksinstrument, ontwikkeld door Daniel Valle Robles. Niet-commercieel en uitsluitend voor academisch gebruik."
+      "nl": "Onderzoeksondersteunende tool ontwikkeld door Daniel Valle Robles. Niet-commercieel en uitsluitend academisch gebruik."
     },
     "fontysAccessTitle": {
       "es": "Cómo localizar fuentes con acceso restringido",
@@ -1868,6 +1868,98 @@
     "analyticsStorageError": {
       "es": "No se pudo guardar tu elección. No se enviarán estadísticas.",
       "nl": "Je keuze kon niet worden bewaard. Er worden geen statistieken verstuurd."
+    },
+    "trustedSourcesTitle": {
+      "es": "Cómo encontrar fuentes confiables",
+      "nl": "Betrouwbare bronnen vinden"
+    },
+    "searchTipTitle": {
+      "es": "Tip de búsqueda",
+      "nl": "Zoektip"
+    },
+    "searchTipText": {
+      "es": "Empieza con palabras clave concretas. Prueba sinónimos en español, neerlandés e inglés. Comprueba si el artículo ha pasado una revisión por pares, quién lo publica y qué datos utiliza. Un resultado de búsqueda, incluso con IA, no garantiza la calidad de una fuente: consulta el texto original.",
+      "nl": "Zoek met duidelijke kernwoorden. Probeer ook synoniemen in het Spaans, Nederlands en Engels. Controleer of het artikel door vakgenoten is beoordeeld (peer review), wie het publiceert en welke gegevens zijn gebruikt. Ook bij AI-zoekmachines is een resultaat niet automatisch betrouwbaar: lees de oorspronkelijke bron."
+    },
+    "footerLibraryLabel": {
+      "es": "Biblioteca de estudio",
+      "nl": "Studiebibliotheek"
+    },
+    "versionStamp": {
+      "es": "Versión",
+      "nl": "Versie"
+    },
+    "sourceToolScholarName": {
+      "es": "Google Académico",
+      "nl": "Google Scholar"
+    },
+    "sourceToolScholarDescription": {
+      "es": "Buscador especializado en literatura académica, artículos arbitrados, tesis y libros.",
+      "nl": "Zoekmachine gespecialiseerd in academische literatuur, peer-reviewed artikelen, scripties en boeken."
+    },
+    "sourceToolRefSeekName": {
+      "es": "RefSeek",
+      "nl": "RefSeek"
+    },
+    "sourceToolRefSeekDescription": {
+      "es": "Buscador web para estudiantes que filtra contenido comercial para ofrecer fuentes académicas.",
+      "nl": "Zoekmachine voor studenten die commerciële inhoud filtert voor academische bronnen."
+    },
+    "sourceToolConsensusName": {
+      "es": "Consensus",
+      "nl": "Consensus"
+    },
+    "sourceToolConsensusDescription": {
+      "es": "Buscador con IA que permite hacer preguntas directas a la literatura científica (versión gratuita disponible).",
+      "nl": "AI-zoekmachine om direct vragen te stellen aan wetenschappelijke literatuur (gratis versie beschikbaar)."
+    },
+    "sourceToolElicitName": {
+      "es": "Elicit",
+      "nl": "Elicit"
+    },
+    "sourceToolElicitDescription": {
+      "es": "Asistente de investigación con IA que analiza papers y extrae datos y conclusiones en tablas (opción gratuita disponible).",
+      "nl": "AI-onderzoeksassistent die papers analyseert en gegevens in tabellen extraheert (gratis optie beschikbaar)."
+    },
+    "sourceToolRedalycName": {
+      "es": "Redalyc",
+      "nl": "Redalyc"
+    },
+    "sourceToolRedalycDescription": {
+      "es": "Red de revistas científicas de acceso abierto de Iberoamérica (sin fines de lucro).",
+      "nl": "Open-access netwerk van wetenschappelijke tijdschriften uit Ibero-Amerika (non-profit)."
+    },
+    "sourceToolSciELOName": {
+      "es": "SciELO",
+      "nl": "SciELO"
+    },
+    "sourceToolSciELODescription": {
+      "es": "Biblioteca virtual científica que recopila literatura de numerosos países en múltiples disciplinas.",
+      "nl": "Wetenschappelijke virtuele bibliotheek met literatuur uit tal van landen en disciplines."
+    },
+    "sourceToolDialnetName": {
+      "es": "Dialnet",
+      "nl": "Dialnet"
+    },
+    "sourceToolDialnetDescription": {
+      "es": "Portal bibliográfico en español, fundamental para ciencias humanas y sociales.",
+      "nl": "Bibliografisch portaal in het Spaans, essentieel voor geesteswetenschappen en sociale wetenschappen."
+    },
+    "sourceToolBASEName": {
+      "es": "BASE",
+      "nl": "BASE"
+    },
+    "sourceToolBASEDescription": {
+      "es": "Buscador de recursos web académicos enfocado en textos completos gratuitos.",
+      "nl": "Zoekmachine voor academische webbronnen gericht op gratis volledige teksten."
+    },
+    "sourceToolERICName": {
+      "es": "ERIC",
+      "nl": "ERIC"
+    },
+    "sourceToolERICDescription": {
+      "es": "Base de datos patrocinada por EE. UU. centrada exclusivamente en investigación educativa.",
+      "nl": "Door de VS gesponsorde database gericht op onderwijszoekwerk."
     }
   },
   "source": {
